@@ -1,0 +1,392 @@
+{
+  "ar": {
+    "meta": {
+      "title": "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا | منصة التعلّم",
+      "description": "منصة تفاعلية لحفظ القرآن الكريم والحديث الشريف وتعلّم اللغة العربية"
+    },
+    "accessibility": {
+      "skipToContent": "انتقل إلى المحتوى الرئيسي"
+    },
+    "brand": {
+      "name": "منصة القرآن والحديث واللغة العربية",
+      "subtitle": "رحلة تعليمية هادئة وتفاعلية للحفظ والفهم والتعلّم"
+    },
+    "language": {
+      "label": "لغة المنصة",
+      "help": "سيتم حفظ اختيارك وتطبيقه على صفحات المنصة."
+    },
+    "languages": {
+      "ar": "العربية",
+      "en": "الإنجليزية",
+      "fr": "الفرنسية",
+      "es": "الإسبانية",
+      "de": "الألمانية",
+      "it": "الإيطالية"
+    },
+    "home": {
+      "eyebrow": "ابدأ رحلتك التعليمية",
+      "title": "اختر القسم الذي تريد دراسته",
+      "description": "ثلاثة أقسام مترابطة تساعدك على الحفظ والمراجعة والفهم خطوة بخطوة.",
+      "sectionsLabel": "الأقسام الرئيسية",
+      "nextStepNotice": "الصفحات الداخلية ستُربط بهذه الأزرار في الخطوة التالية. الصفحة الرئيسية ونظام اللغات جاهزان الآن."
+    },
+    "sections": {
+      "quran": {
+        "title": "حفظ القرآن الكريم",
+        "description": "استمع إلى التلاوة، أخفِ الكلمات أو الآيات، وتابع القراءة بطريقة الكاراوكي.",
+        "feature1": "اختيار القارئ المفضّل",
+        "feature2": "تمارين إخفاء الكلمات والآيات",
+        "feature3": "تظليل متزامن مع الصوت",
+        "action": "دخول قسم القرآن"
+      },
+      "hadith": {
+        "title": "الحديث النبوي الشريف",
+        "description": "اقرأ الأحاديث واحفظها مع شرح موجز وترجمات سهلة الإضافة والتحديث.",
+        "feature1": "نص الحديث مضبوط وواضح",
+        "feature2": "ترجمات باللغات الست",
+        "feature3": "إضافة المحتوى من ملف JSON بسيط",
+        "action": "دخول قسم الحديث"
+      },
+      "arabic": {
+        "title": "تعلّم اللغة العربية",
+        "description": "دروس مبسطة في الحروف والمفردات والقواعد لفهم العربية تدريجياً.",
+        "feature1": "دروس قصيرة ومنظمة",
+        "feature2": "أمثلة وتمارين تطبيقية",
+        "feature3": "إضافة الدروس من ملف JSON بسيط",
+        "action": "دخول قسم اللغة العربية"
+      }
+    },
+    "help": {
+      "title": "واجهة بسيطة وقابلة للتوسّع",
+      "description": "ستقرأ المنصة الترجمات والأحاديث والدروس من ملفات JSON منفصلة، لذلك يمكنك تحديث المحتوى من GitHub دون تعديل الكود البرمجي."
+    },
+    "footer": {
+      "text": "منصة القرآن والحديث واللغة العربية"
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "Recite the Quran with measured recitation | Learning Platform",
+      "description": "An interactive platform for Quran memorization, Prophetic Hadith, and Arabic learning"
+    },
+    "accessibility": {
+      "skipToContent": "Skip to main content"
+    },
+    "brand": {
+      "name": "Quran, Hadith and Arabic Learning Platform",
+      "subtitle": "A calm, interactive journey for memorization, understanding and learning"
+    },
+    "language": {
+      "label": "Platform language",
+      "help": "Your choice will be saved and applied across the platform."
+    },
+    "languages": {
+      "ar": "Arabic",
+      "en": "English",
+      "fr": "French",
+      "es": "Spanish",
+      "de": "German",
+      "it": "Italian"
+    },
+    "home": {
+      "eyebrow": "Begin your learning journey",
+      "title": "Choose what you would like to study",
+      "description": "Three connected sections help you memorize, review and understand step by step.",
+      "sectionsLabel": "Main sections",
+      "nextStepNotice": "The internal pages will be connected to these buttons in the next step. The home page and language system are now ready."
+    },
+    "sections": {
+      "quran": {
+        "title": "Quran Memorization",
+        "description": "Listen to recitation, hide words or verses, and follow along with karaoke-style highlighting.",
+        "feature1": "Choose your preferred reciter",
+        "feature2": "Word and verse hiding exercises",
+        "feature3": "Audio-synchronized highlighting",
+        "action": "Open Quran Section"
+      },
+      "hadith": {
+        "title": "Prophetic Hadith",
+        "description": "Read and memorize hadiths with brief explanations and translations that are easy to update.",
+        "feature1": "Clear, carefully presented hadith text",
+        "feature2": "Translations in six languages",
+        "feature3": "Add content through a simple JSON file",
+        "action": "Open Hadith Section"
+      },
+      "arabic": {
+        "title": "Learn Arabic",
+        "description": "Simple lessons in letters, vocabulary and grammar to build your understanding gradually.",
+        "feature1": "Short, organized lessons",
+        "feature2": "Practical examples and exercises",
+        "feature3": "Add lessons through a simple JSON file",
+        "action": "Open Arabic Section"
+      }
+    },
+    "help": {
+      "title": "Simple and easy to expand",
+      "description": "The platform will read translations, hadiths and lessons from separate JSON files, so you can update content on GitHub without changing the program code."
+    },
+    "footer": {
+      "text": "Quran, Hadith and Arabic Learning Platform"
+    }
+  },
+  "fr": {
+    "meta": {
+      "title": "Récite le Coran avec soin | Plateforme d’apprentissage",
+      "description": "Une plateforme interactive pour mémoriser le Coran et les hadiths et apprendre l’arabe"
+    },
+    "accessibility": {
+      "skipToContent": "Aller au contenu principal"
+    },
+    "brand": {
+      "name": "Plateforme du Coran, des hadiths et de la langue arabe",
+      "subtitle": "Un parcours calme et interactif pour mémoriser, comprendre et apprendre"
+    },
+    "language": {
+      "label": "Langue de la plateforme",
+      "help": "Votre choix sera enregistré et appliqué à toute la plateforme."
+    },
+    "languages": {
+      "ar": "Arabe",
+      "en": "Anglais",
+      "fr": "Français",
+      "es": "Espagnol",
+      "de": "Allemand",
+      "it": "Italien"
+    },
+    "home": {
+      "eyebrow": "Commencez votre parcours d’apprentissage",
+      "title": "Choisissez ce que vous souhaitez étudier",
+      "description": "Trois sections complémentaires vous aident à mémoriser, réviser et comprendre pas à pas.",
+      "sectionsLabel": "Sections principales",
+      "nextStepNotice": "Les pages internes seront reliées à ces boutons à l’étape suivante. La page d’accueil et le système de langues sont maintenant prêts."
+    },
+    "sections": {
+      "quran": {
+        "title": "Mémorisation du Coran",
+        "description": "Écoutez la récitation, masquez des mots ou des versets et suivez la lecture grâce au surlignage karaoké.",
+        "feature1": "Choix du récitateur préféré",
+        "feature2": "Exercices de masquage de mots et de versets",
+        "feature3": "Surlignage synchronisé avec l’audio",
+        "action": "Ouvrir la section Coran"
+      },
+      "hadith": {
+        "title": "Hadith prophétique",
+        "description": "Lisez et mémorisez les hadiths avec de brèves explications et des traductions faciles à actualiser.",
+        "feature1": "Texte du hadith clair et soigné",
+        "feature2": "Traductions en six langues",
+        "feature3": "Ajout du contenu avec un simple fichier JSON",
+        "action": "Ouvrir la section Hadith"
+      },
+      "arabic": {
+        "title": "Apprendre l’arabe",
+        "description": "Des leçons simples sur les lettres, le vocabulaire et la grammaire pour progresser graduellement.",
+        "feature1": "Leçons courtes et organisées",
+        "feature2": "Exemples et exercices pratiques",
+        "feature3": "Ajout des leçons avec un simple fichier JSON",
+        "action": "Ouvrir la section Arabe"
+      }
+    },
+    "help": {
+      "title": "Simple et facile à enrichir",
+      "description": "La plateforme lira les traductions, les hadiths et les leçons depuis des fichiers JSON séparés. Vous pourrez donc actualiser le contenu sur GitHub sans modifier le code."
+    },
+    "footer": {
+      "text": "Plateforme du Coran, des hadiths et de la langue arabe"
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "Recita el Corán pausadamente | Plataforma de aprendizaje",
+      "description": "Una plataforma interactiva para memorizar el Corán y los hadices y aprender árabe"
+    },
+    "accessibility": {
+      "skipToContent": "Ir al contenido principal"
+    },
+    "brand": {
+      "name": "Plataforma del Corán, los hadices y la lengua árabe",
+      "subtitle": "Un recorrido tranquilo e interactivo para memorizar, comprender y aprender"
+    },
+    "language": {
+      "label": "Idioma de la plataforma",
+      "help": "Tu elección se guardará y se aplicará a toda la plataforma."
+    },
+    "languages": {
+      "ar": "Árabe",
+      "en": "Inglés",
+      "fr": "Francés",
+      "es": "Español",
+      "de": "Alemán",
+      "it": "Italiano"
+    },
+    "home": {
+      "eyebrow": "Comienza tu recorrido de aprendizaje",
+      "title": "Elige lo que deseas estudiar",
+      "description": "Tres secciones conectadas te ayudan a memorizar, repasar y comprender paso a paso.",
+      "sectionsLabel": "Secciones principales",
+      "nextStepNotice": "Las páginas internas se conectarán a estos botones en el siguiente paso. La página de inicio y el sistema de idiomas ya están listos."
+    },
+    "sections": {
+      "quran": {
+        "title": "Memorización del Corán",
+        "description": "Escucha la recitación, oculta palabras o aleyas y sigue la lectura con resaltado estilo karaoke.",
+        "feature1": "Elige tu recitador preferido",
+        "feature2": "Ejercicios para ocultar palabras y aleyas",
+        "feature3": "Resaltado sincronizado con el audio",
+        "action": "Abrir la sección del Corán"
+      },
+      "hadith": {
+        "title": "Hadiz profético",
+        "description": "Lee y memoriza hadices con explicaciones breves y traducciones fáciles de actualizar.",
+        "feature1": "Texto del hadiz claro y cuidado",
+        "feature2": "Traducciones en seis idiomas",
+        "feature3": "Añade contenido con un archivo JSON sencillo",
+        "action": "Abrir la sección de hadices"
+      },
+      "arabic": {
+        "title": "Aprender árabe",
+        "description": "Lecciones sencillas de letras, vocabulario y gramática para avanzar gradualmente.",
+        "feature1": "Lecciones cortas y organizadas",
+        "feature2": "Ejemplos y ejercicios prácticos",
+        "feature3": "Añade lecciones con un archivo JSON sencillo",
+        "action": "Abrir la sección de árabe"
+      }
+    },
+    "help": {
+      "title": "Sencilla y fácil de ampliar",
+      "description": "La plataforma leerá las traducciones, los hadices y las lecciones desde archivos JSON separados, para que puedas actualizar el contenido en GitHub sin modificar el código."
+    },
+    "footer": {
+      "text": "Plataforma del Corán, los hadices y la lengua árabe"
+    }
+  },
+  "de": {
+    "meta": {
+      "title": "Trage den Koran wohlgeordnet vor | Lernplattform",
+      "description": "Eine interaktive Plattform zum Auswendiglernen des Korans und der Hadithe sowie zum Arabischlernen"
+    },
+    "accessibility": {
+      "skipToContent": "Zum Hauptinhalt springen"
+    },
+    "brand": {
+      "name": "Lernplattform für Koran, Hadith und Arabisch",
+      "subtitle": "Eine ruhige und interaktive Reise zum Auswendiglernen, Verstehen und Lernen"
+    },
+    "language": {
+      "label": "Sprache der Plattform",
+      "help": "Deine Auswahl wird gespeichert und auf die gesamte Plattform angewendet."
+    },
+    "languages": {
+      "ar": "Arabisch",
+      "en": "Englisch",
+      "fr": "Französisch",
+      "es": "Spanisch",
+      "de": "Deutsch",
+      "it": "Italienisch"
+    },
+    "home": {
+      "eyebrow": "Beginne deine Lernreise",
+      "title": "Wähle aus, was du lernen möchtest",
+      "description": "Drei miteinander verbundene Bereiche helfen dir Schritt für Schritt beim Auswendiglernen, Wiederholen und Verstehen.",
+      "sectionsLabel": "Hauptbereiche",
+      "nextStepNotice": "Die Unterseiten werden im nächsten Schritt mit diesen Schaltflächen verknüpft. Die Startseite und das Sprachsystem sind jetzt fertig."
+    },
+    "sections": {
+      "quran": {
+        "title": "Koran auswendig lernen",
+        "description": "Höre die Rezitation, blende Wörter oder Verse aus und folge dem Text mit Karaoke-Hervorhebung.",
+        "feature1": "Bevorzugten Rezitator auswählen",
+        "feature2": "Übungen zum Ausblenden von Wörtern und Versen",
+        "feature3": "Mit dem Ton synchronisierte Hervorhebung",
+        "action": "Koranbereich öffnen"
+      },
+      "hadith": {
+        "title": "Prophetischer Hadith",
+        "description": "Lies und lerne Hadithe mit kurzen Erläuterungen und leicht aktualisierbaren Übersetzungen auswendig.",
+        "feature1": "Klarer und sorgfältig dargestellter Hadithtext",
+        "feature2": "Übersetzungen in sechs Sprachen",
+        "feature3": "Inhalte über eine einfache JSON-Datei ergänzen",
+        "action": "Hadithbereich öffnen"
+      },
+      "arabic": {
+        "title": "Arabisch lernen",
+        "description": "Einfache Lektionen zu Buchstaben, Wortschatz und Grammatik für schrittweise Fortschritte.",
+        "feature1": "Kurze und geordnete Lektionen",
+        "feature2": "Praktische Beispiele und Übungen",
+        "feature3": "Lektionen über eine einfache JSON-Datei ergänzen",
+        "action": "Arabischbereich öffnen"
+      }
+    },
+    "help": {
+      "title": "Einfach und leicht erweiterbar",
+      "description": "Die Plattform liest Übersetzungen, Hadithe und Lektionen aus getrennten JSON-Dateien. So kannst du Inhalte auf GitHub aktualisieren, ohne den Programmcode zu ändern."
+    },
+    "footer": {
+      "text": "Lernplattform für Koran, Hadith und Arabisch"
+    }
+  },
+  "it": {
+    "meta": {
+      "title": "Recita il Corano lentamente e chiaramente | Piattaforma didattica",
+      "description": "Una piattaforma interattiva per memorizzare il Corano e gli hadith e imparare l’arabo"
+    },
+    "accessibility": {
+      "skipToContent": "Vai al contenuto principale"
+    },
+    "brand": {
+      "name": "Piattaforma per il Corano, gli hadith e la lingua araba",
+      "subtitle": "Un percorso tranquillo e interattivo per memorizzare, comprendere e imparare"
+    },
+    "language": {
+      "label": "Lingua della piattaforma",
+      "help": "La tua scelta verrà salvata e applicata a tutta la piattaforma."
+    },
+    "languages": {
+      "ar": "Arabo",
+      "en": "Inglese",
+      "fr": "Francese",
+      "es": "Spagnolo",
+      "de": "Tedesco",
+      "it": "Italiano"
+    },
+    "home": {
+      "eyebrow": "Inizia il tuo percorso di apprendimento",
+      "title": "Scegli cosa desideri studiare",
+      "description": "Tre sezioni collegate ti aiutano a memorizzare, ripassare e comprendere passo dopo passo.",
+      "sectionsLabel": "Sezioni principali",
+      "nextStepNotice": "Le pagine interne saranno collegate a questi pulsanti nel prossimo passaggio. La pagina iniziale e il sistema linguistico sono ora pronti."
+    },
+    "sections": {
+      "quran": {
+        "title": "Memorizzazione del Corano",
+        "description": "Ascolta la recitazione, nascondi parole o versetti e segui il testo con l’evidenziazione in stile karaoke.",
+        "feature1": "Scegli il recitatore preferito",
+        "feature2": "Esercizi per nascondere parole e versetti",
+        "feature3": "Evidenziazione sincronizzata con l’audio",
+        "action": "Apri la sezione Corano"
+      },
+      "hadith": {
+        "title": "Hadith profetico",
+        "description": "Leggi e memorizza gli hadith con brevi spiegazioni e traduzioni facili da aggiornare.",
+        "feature1": "Testo dell’hadith chiaro e curato",
+        "feature2": "Traduzioni in sei lingue",
+        "feature3": "Aggiunta dei contenuti con un semplice file JSON",
+        "action": "Apri la sezione Hadith"
+      },
+      "arabic": {
+        "title": "Imparare l’arabo",
+        "description": "Semplici lezioni su lettere, vocabolario e grammatica per progredire gradualmente.",
+        "feature1": "Lezioni brevi e organizzate",
+        "feature2": "Esempi ed esercizi pratici",
+        "feature3": "Aggiunta delle lezioni con un semplice file JSON",
+        "action": "Apri la sezione Arabo"
+      }
+    },
+    "help": {
+      "title": "Semplice e facile da ampliare",
+      "description": "La piattaforma leggerà traduzioni, hadith e lezioni da file JSON separati, così potrai aggiornare i contenuti su GitHub senza modificare il codice."
+    },
+    "footer": {
+      "text": "Piattaforma per il Corano, gli hadith e la lingua araba"
+    }
+  }
+}
