@@ -1,43 +1,109 @@
-انتقل إلى المحتوى الرئيسي
-وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f5b4b">
+  <meta name="description" content="منصة تفاعلية لحفظ القرآن الكريم والحديث الشريف وتعلّم اللغة العربية">
+  <title>وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا | منصة التعلّم</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <noscript>
+    <p class="noscript-message">⚠️ يتطلب تفعيل JavaScript لتشغيل المنصة. أرجو تفعيل JavaScript في إعدادات المتصفح.</p>
+  </noscript>
+</head>
+<body>
+  <a href="#main-content" class="skip-link" data-i18n="accessibility.skipToContent">انتقل إلى المحتوى الرئيسي</a>
 
-منصة القرآن والحديث واللغة العربية
+  <header class="site-header">
+    <div class="header-pattern"></div>
+    <div class="header-content">
+      <p class="quranic-title" data-i18n="brand.name">وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا</p>
+      <h1 class="platform-name" data-i18n="brand.name">منصة القرآن والحديث واللغة العربية</h1>
+      <p class="platform-subtitle" data-i18n="brand.subtitle">رحلة تعليمية هادئة وتفاعلية للحفظ والفهم والتعلّم</p>
+      
+      <div class="language-picker">
+        <label for="language-select" data-i18n="language.label">لغة المنصة</label>
+        <select id="language-select" aria-label="اختر لغة المنصة">
+          <option value="ar" data-i18n="languages.ar">العربية</option>
+          <option value="en" data-i18n="languages.en">الإنجليزية</option>
+          <option value="fr" data-i18n="languages.fr">الفرنسية</option>
+          <option value="es" data-i18n="languages.es">الإسبانية</option>
+          <option value="de" data-i18n="languages.de">الألمانية</option>
+          <option value="it" data-i18n="languages.it">الإيطالية</option>
+        </select>
+        <small data-i18n="language.help">سيتم حفظ اختيارك وتطبيقه على صفحات المنصة.</small>
+      </div>
+    </div>
+  </header>
 
-رحلة تعليمية هادئة وتفاعلية للحفظ والفهم والتعلّم
+  <main id="main-content" class="main-content">
+    <section class="welcome">
+      <p class="eyebrow" data-i18n="home.eyebrow">ابدأ رحلتك التعليمية</p>
+      <h2 data-i18n="home.title">اختر القسم الذي تريد دراسته</h2>
+      <p data-i18n="home.description">ثلاثة أقسام مترابطة تساعدك على الحفظ والمراجعة والفهم خطوة بخطوة.</p>
+    </section>
 
-لغة المنصة 
-العربية
- سيتم حفظ اختيارك وتطبيقه على صفحات المنصة.
-ابدأ رحلتك التعليمية
-اختر القسم الذي تريد دراسته
-ثلاثة أقسام مترابطة تساعدك على الحفظ والمراجعة والفهم خطوة بخطوة.
+    <section class="section-grid" aria-label="الأقسام الرئيسية" data-i18n="home.sectionsLabel">
+      <!-- قسم القرآن -->
+      <article class="learning-card quran-card">
+        <div class="card-icon">📖</div>
+        <h3 data-i18n="sections.quran.title">حفظ القرآن الكريم</h3>
+        <p data-i18n="sections.quran.description">استمع إلى التلاوة، أخفِ الكلمات أو الآيات، وتابع القراءة بطريقة الكاراوكي.</p>
+        <ul class="feature-list">
+          <li data-i18n="sections.quran.feature1">اختيار القارئ المفضّل</li>
+          <li data-i18n="sections.quran.feature2">تمارين إخفاء الكلمات والآيات</li>
+          <li data-i18n="sections.quran.feature3">تظليل متزامن مع الصوت</li>
+        </ul>
+        <button class="card-action" data-i18n="sections.quran.action">دخول قسم القرآن</button>
+      </article>
 
-📖
-حفظ القرآن الكريم
-استمع إلى التلاوة، أخفِ الكلمات أو الآيات، وتابع القراءة بطريقة الكاراوكي.
+      <!-- قسم الحديث -->
+      <article class="learning-card hadith-card">
+        <div class="card-icon">🕌</div>
+        <h3 data-i18n="sections.hadith.title">الحديث النبوي الشريف</h3>
+        <p data-i18n="sections.hadith.description">اقرأ الأحاديث واحفظها مع شرح موجز وترجمات سهلة الإضافة والتحديث.</p>
+        <ul class="feature-list">
+          <li data-i18n="sections.hadith.feature1">نص الحديث مضبوط وواضح</li>
+          <li data-i18n="sections.hadith.feature2">ترجمات باللغات الست</li>
+          <li data-i18n="sections.hadith.feature3">إضافة المحتوى من ملف JSON بسيط</li>
+        </ul>
+        <button class="card-action" data-i18n="sections.hadith.action">دخول قسم الحديث</button>
+      </article>
 
-اختيار القارئ المفضّل
-تمارين إخفاء الكلمات والآيات
-تظليل متزامن مع الصوت
-دخول قسم القرآن
-🕌
-الحديث النبوي الشريف
-اقرأ الأحاديث واحفظها مع شرح موجز وترجمات سهلة الإضافة والتحديث.
+      <!-- قسم اللغة العربية -->
+      <article class="learning-card arabic-card">
+        <div class="card-icon">✍️</div>
+        <h3 data-i18n="sections.arabic.title">تعلّم اللغة العربية</h3>
+        <p data-i18n="sections.arabic.description">دروس مبسطة في الحروف والمفردات والقواعد لفهم العربية تدريجياً.</p>
+        <ul class="feature-list">
+          <li data-i18n="sections.arabic.feature1">دروس قصيرة ومنظمة</li>
+          <li data-i18n="sections.arabic.feature2">أمثلة وتمارين تطبيقية</li>
+          <li data-i18n="sections.arabic.feature3">إضافة الدروس من ملف JSON بسيط</li>
+        </ul>
+        <button class="card-action" data-i18n="sections.arabic.action">دخول قسم اللغة العربية</button>
+      </article>
+    </section>
 
-نص الحديث مضبوط وواضح
-ترجمات باللغات الست
-إضافة المحتوى من ملف JSON بسيط
-دخول قسم الحديث
-✍️
-تعلّم اللغة العربية
-دروس مبسطة في الحروف والمفردات والقواعد لفهم العربية تدريجياً.
+    <!-- إشعار الصفحات الداخلية -->
+    <div id="section-notice" hidden class="section-notice">
+      سيتم ربط الصفحات الداخلية قريباً
+    </div>
 
-دروس قصيرة ومنظمة
-أمثلة وتمارين تطبيقية
-إضافة الدروس من ملف JSON بسيط
-دخول قسم اللغة العربية
-💡
-واجهة بسيطة وقابلة للتوسّع
-ستقرأ المنصة الترجمات والأحاديث والدروس من ملفات JSON منفصلة، لذلك يمكنك تحديث المحتوى من GitHub دون تعديل الكود البرمجي.
+    <!-- صندوق المساعدة -->
+    <aside class="help-box">
+      <div class="help-icon">💡</div>
+      <div>
+        <h2 data-i18n="help.title">واجهة بسيطة وقابلة للتوسّع</h2>
+        <p data-i18n="help.description">ستقرأ المنصة الترجمات والأحاديث والدروس من ملفات JSON منفصلة، لذلك يمكنك تحديث المحتوى من GitHub دون تعديل الكود.</p>
+      </div>
+    </aside>
+  </main>
 
-© منصة القرآن والحديث واللغة العربية
+  <footer class="site-footer">
+    <p data-i18n="footer.text">منصة القرآن والحديث واللغة العربية</p>
+    <p>© <span id="current-year">2024</span> جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+</body>
+</html>

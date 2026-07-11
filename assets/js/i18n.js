@@ -23,6 +23,20 @@ const I18N_CONFIG = {
 let translations = {};
 let activeLanguage = I18N_CONFIG.defaultLanguage;
 
+/**
+ * تحقق من توفر localStorage
+ */
+function isLocalStorageAvailable() {
+  try {
+    const test = "__localStorage_test__";
+    localStorage.setItem(test, test);
+    localStorage.removeItem(test);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
 function getNestedValue(object, path) {
   return path.split(".").reduce((value, key) => value?.[key], object);
 }
@@ -67,7 +81,10 @@ function applyTranslations(language) {
     languageSelect.value = safeLanguage;
   }
 
-  localStorage.setItem(I18N_CONFIG.storageKey, safeLanguage);
+  // حفظ اللغة في localStorage فقط إذا كانت متاحة
+  if (isLocalStorageAvailable()) {
+    localStorage.setItem(I18N_CONFIG.storageKey, safeLanguage);
+  }
 
   // تستطيع الصفحات المستقبلية الاستماع إلى هذا الحدث لتحديث محتواها الخاص.
   document.dispatchEvent(
@@ -78,13 +95,25 @@ function applyTranslations(language) {
 }
 
 async function loadTranslations() {
-  const response = await fetch(I18N_CONFIG.translationsPath, { cache: "no-store" });
+  try {
+    const response = await fetch(I18N_CONFIG.translationsPath, { cache: "no-store" });
 
-  if (!response.ok) {
-    throw new Error(`تعذر تحميل ملف الترجمات: ${response.status}`);
+    if (!response.ok) {
+      throw new Error(`خطأ HTTP: ${response.status}`);
+    }
+
+    const data = await response.json();
+    
+    // تحقق من صحة البيانات
+    if (!data || typeof data !== "object" || Object.keys(data).length === 0) {
+      throw new Error("ملف الترجمات فارغ أو غير صحيح");
+    }
+
+    translations = data;
+  } catch (error) {
+    console.error("خطأ في تحميل ملف الترجمات:", error);
+    throw new Error(`تعذر تحميل ملف الترجمات: ${error.message}`);
   }
-
-  translations = await response.json();
 }
 
 function showSectionNotice() {
@@ -103,13 +132,23 @@ async function initializePlatform() {
   try {
     await loadTranslations();
 
-    const savedLanguage = localStorage.getItem(I18N_CONFIG.storageKey);
-    const browserLanguage = navigator.language.slice(0, 2).toLowerCase();
-    const initialLanguage = I18N_CONFIG.supportedLanguages.includes(savedLanguage)
-      ? savedLanguage
-      : I18N_CONFIG.supportedLanguages.includes(browserLanguage)
-        ? browserLanguage
-        : I18N_CONFIG.defaultLanguage;
+    let initialLanguage = I18N_CONFIG.defaultLanguage;
+
+    // حاول الحصول على اللغة المحفوظة من localStorage
+    if (isLocalStorageAvailable()) {
+      const savedLanguage = localStorage.getItem(I18N_CONFIG.storageKey);
+      if (I18N_CONFIG.supportedLanguages.includes(savedLanguage)) {
+        initialLanguage = savedLanguage;
+      }
+    }
+
+    // إذا لم تكن هناك لغة محفوظة، جرب لغة المتصفح
+    if (initialLanguage === I18N_CONFIG.defaultLanguage) {
+      const browserLanguage = navigator.language.slice(0, 2).toLowerCase();
+      if (I18N_CONFIG.supportedLanguages.includes(browserLanguage)) {
+        initialLanguage = browserLanguage;
+      }
+    }
 
     applyTranslations(initialLanguage);
 
@@ -127,13 +166,16 @@ async function initializePlatform() {
       button.addEventListener("click", showSectionNotice);
     });
   } catch (error) {
-    console.error(error);
+    console.error("خطأ في تهيئة المنصة:", error);
 
     // يبقى النص العربي الموجود داخل HTML ظاهراً إذا كان الملف مفقوداً.
     const notice = document.getElementById("section-notice");
     if (notice) {
-      notice.textContent = "تعذر تحميل ملف الترجمات. تأكد من وضع translations.json داخل مجلد data.";
+      notice.textContent = "⚠️ تعذر تحميل ملف الترجمات. تأكد من وضع translations.json داخل مجلد data.";
       notice.hidden = false;
+      notice.style.backgroundColor = "#fff3cd";
+      notice.style.borderColor = "#ffc107";
+      notice.style.color = "#856404";
     }
   }
 }
@@ -144,5 +186,6 @@ document.addEventListener("DOMContentLoaded", initializePlatform);
 window.PlatformI18n = {
   applyLanguage: applyTranslations,
   getLanguage: () => activeLanguage,
-  t: translate
+  t: translate,
+  isLocalStorageAvailable: isLocalStorageAvailable
 };
