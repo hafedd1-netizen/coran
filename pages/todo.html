@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="تطبيق قائمة المهام مع حفظ البيانات محليا">
+  <title>تطبيق المهام - To-Do List</title>
+  <link rel="stylesheet" href="../assets/css/todo-style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <!-- Header -->
+    <header class="todo-header">
+      <h1>📝 قائمة المهام</h1>
+      <p class="subtitle">تنظيم مهامك بسهولة وحفظها تلقائياً</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="todo-main">
+      <!-- Input Section -->
+      <section class="input-section">
+        <div class="input-group">
+          <input
+            type="text"
+            id="taskInput"
+            class="task-input"
+            placeholder="أضف مهمة جديدة..."
+            aria-label="حقل إدخال المهام"
+          />
+          <button id="addBtn" class="add-btn" aria-label="إضافة مهمة">
+            ➕ إضافة
+          </button>
+        </div>
+        
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            الكل <span class="count" id="count-all">0</span>
+          </button>
+          <button class="filter-btn" data-filter="active">
+            قيد الإنجاز <span class="count" id="count-active">0</span>
+          </button>
+          <button class="filter-btn" data-filter="completed">
+            مكتملة <span class="count" id="count-completed">0</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Tasks List -->
+      <section class="tasks-section">
+        <ul id="tasksList" class="tasks-list" role="list">
+          <!-- Tasks will be inserted here -->
+        </ul>
+        
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state">
+          <div class="empty-icon">📭</div>
+          <p>لا توجد مهام حالياً</p>
+          <p class="empty-hint">أضف مهمة جديدة لتبدأ</p>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section class="stats-section">
+        <div class="stat">
+          <span class="stat-label">إجمالي المهام:</span>
+          <span class="stat-value" id="total-tasks">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">المكتملة:</span>
+          <span class="stat-value" id="completed-tasks">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">نسبة الإنجاز:</span>
+          <span class="stat-value" id="progress-percent">0%</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="todo-footer">
+      <button id="clearBtn" class="clear-btn" title="حذف جميع المهام المكتملة">
+        🗑️ حذف المكتملة
+      </button>
+      <button id="resetBtn" class="reset-btn" title="حذف جميع المهام">
+        ⚠️ إعادة تعيين
+      </button>
+      <button id="exportBtn" class="export-btn" title="تصدير المهام">
+        📥 تصدير
+      </button>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../assets/js/todo-app.js"></script>
+</body>
+</html>
