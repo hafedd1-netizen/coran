@@ -279,6 +279,9 @@ html[dir="ltr"] .language-picker select {
 }
 
 .card-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   min-height: 46px;
   margin-block-start: auto;
@@ -288,6 +291,8 @@ html[dir="ltr"] .language-picker select {
   border: 0;
   border-radius: 12px;
   font-weight: 700;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
   transition: filter 160ms ease, transform 160ms ease;
 }
@@ -336,6 +341,38 @@ html[dir="ltr"] .language-picker select {
   margin: 0;
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-block-end: 1.1rem;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.single-column {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.status-badge {
+  display: inline-block;
+  margin: 0 0 0.6rem;
+  padding: 0.3rem 0.8rem;
+  color: var(--secondary);
+  background: #fbf1de;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .site-footer {
