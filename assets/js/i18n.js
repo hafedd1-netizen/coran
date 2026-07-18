@@ -1,3 +1,4 @@
+
 "use strict";
 
 /**
@@ -55,11 +56,16 @@ function applyTranslations(language) {
     element.setAttribute("aria-label", value);
   });
 
-  document.title = translate("meta.title", safeLanguage);
+  // تسمح كل صفحة بتخصيص عنوانها ووصفها عبر data-meta-title-key/data-meta-description-key
+  // على وسم body، وإلا سيُستخدم عنوان الصفحة الرئيسية كقيمة افتراضية.
+  const titleKey = document.body.dataset.metaTitleKey || "meta.title";
+  const descriptionKey = document.body.dataset.metaDescriptionKey || "meta.description";
+
+  document.title = translate(titleKey, safeLanguage);
 
   const description = document.querySelector('meta[name="description"]');
   if (description) {
-    description.setAttribute("content", translate("meta.description", safeLanguage));
+    description.setAttribute("content", translate(descriptionKey, safeLanguage));
   }
 
   const languageSelect = document.getElementById("language-select");
@@ -87,15 +93,6 @@ async function loadTranslations() {
   translations = await response.json();
 }
 
-function showSectionNotice() {
-  const notice = document.getElementById("section-notice");
-  if (!notice) return;
-
-  notice.textContent = translate("home.nextStepNotice");
-  notice.hidden = false;
-  notice.scrollIntoView({ behavior: "smooth", block: "nearest" });
-}
-
 async function initializePlatform() {
   const year = document.getElementById("current-year");
   if (year) year.textContent = new Date().getFullYear();
@@ -116,15 +113,6 @@ async function initializePlatform() {
     const languageSelect = document.getElementById("language-select");
     languageSelect?.addEventListener("change", (event) => {
       applyTranslations(event.target.value);
-
-      const notice = document.getElementById("section-notice");
-      if (notice && !notice.hidden) {
-        notice.textContent = translate("home.nextStepNotice");
-      }
-    });
-
-    document.querySelectorAll(".card-action").forEach((button) => {
-      button.addEventListener("click", showSectionNotice);
     });
   } catch (error) {
     console.error(error);
