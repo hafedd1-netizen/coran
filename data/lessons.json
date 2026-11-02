@@ -1,0 +1,1316 @@
+{
+ "units": [
+  {
+   "id": "greet",
+   "icon": "👋",
+   "title": {
+    "ar": "التحية والكلمة الطيبة",
+    "en": "Greetings and kind words",
+    "fr": "Salutations et mots gentils",
+    "es": "Saludos y palabras amables",
+    "de": "Grüße und nette Worte",
+    "it": "Saluti e parole gentili"
+   },
+   "value": {
+    "ar": "نبدأ لقاءنا بالسلام، ونشكر من يساعدنا.",
+    "en": "We begin by greeting with peace and we thank those who help us.",
+    "fr": "On commence par saluer avec la paix et on remercie ceux qui nous aident.",
+    "es": "Empezamos saludando con la paz y damos las gracias a quien nos ayuda.",
+    "de": "Wir grüßen mit dem Friedensgruß und danken denen, die uns helfen.",
+    "it": "Iniziamo salutando con la pace e ringraziamo chi ci aiuta."
+   },
+   "words": [
+    {
+     "ar": "السَّلامُ عَلَيْكُمْ",
+     "tr": "as-salāmu ʿalaykum",
+     "emoji": "🤝",
+     "m": {
+      "en": "Peace be upon you",
+      "fr": "Que la paix soit sur vous",
+      "es": "La paz sea contigo",
+      "de": "Friede sei mit dir",
+      "it": "La pace sia con te",
+      "ar": "تحية المسلم"
+     }
+    },
+    {
+     "ar": "وَعَلَيْكُمُ السَّلامُ",
+     "tr": "wa ʿalaykumu s-salām",
+     "emoji": "😊",
+     "m": {
+      "en": "And peace be upon you too",
+      "fr": "Et que la paix soit sur vous aussi",
+      "es": "Y contigo sea la paz",
+      "de": "Und auch mit dir sei Friede",
+      "it": "E con te sia la pace",
+      "ar": "رد التحية"
+     }
+    },
+    {
+     "ar": "شُكْرًا",
+     "tr": "shukran",
+     "emoji": "🙏",
+     "m": {
+      "en": "Thank you",
+      "fr": "Merci",
+      "es": "Gracias",
+      "de": "Danke",
+      "it": "Grazie",
+      "ar": "كلمة نقولها لمن ساعدنا"
+     }
+    },
+    {
+     "ar": "مِنْ فَضْلِكَ",
+     "tr": "min faḍlik",
+     "emoji": "🌷",
+     "m": {
+      "en": "Please",
+      "fr": "S'il te plaît",
+      "es": "Por favor",
+      "de": "Bitte",
+      "it": "Per favore",
+      "ar": "كلمة نقولها عند الطلب بأدب"
+     }
+    },
+    {
+     "ar": "صَباحُ الخَيْرِ",
+     "tr": "ṣabāḥu l-khayr",
+     "emoji": "🌅",
+     "m": {
+      "en": "Good morning",
+      "fr": "Bonjour (le matin)",
+      "es": "Buenos días",
+      "de": "Guten Morgen",
+      "it": "Buongiorno",
+      "ar": "تحية أول النهار"
+     }
+    },
+    {
+     "ar": "إِلى اللِّقاءِ",
+     "tr": "ilā l-liqāʾ",
+     "emoji": "👋",
+     "m": {
+      "en": "See you soon",
+      "fr": "Au revoir",
+      "es": "Hasta luego",
+      "de": "Auf Wiedersehen",
+      "it": "Arrivederci",
+      "ar": "كلمة نقولها عند الذهاب"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "السَّلامُ عَلَيْكُمْ يا جَدّي",
+     "tr": "as-salāmu ʿalaykum yā jaddī",
+     "emoji": "👴",
+     "m": {
+      "en": "Peace be upon you, grandfather",
+      "fr": "Que la paix soit sur toi, grand-père",
+      "es": "La paz sea contigo, abuelo",
+      "de": "Friede sei mit dir, Opa",
+      "it": "La pace sia con te, nonno",
+      "ar": "أحيّي جدّي"
+     }
+    },
+    {
+     "ar": "شُكْرًا يا أُمّي",
+     "tr": "shukran yā ummī",
+     "emoji": "🌹",
+     "m": {
+      "en": "Thank you, mother",
+      "fr": "Merci, maman",
+      "es": "Gracias, mamá",
+      "de": "Danke, Mama",
+      "it": "Grazie, mamma",
+      "ar": "أشكر أمّي"
+     }
+    },
+    {
+     "ar": "مِنْ فَضْلِكَ ساعِدْني",
+     "tr": "min faḍlik sāʿidnī",
+     "emoji": "🤲",
+     "m": {
+      "en": "Please help me",
+      "fr": "Aide-moi, s'il te plaît",
+      "es": "Ayúdame, por favor",
+      "de": "Hilf mir bitte",
+      "it": "Aiutami, per favore",
+      "ar": "أطلب المساعدة بأدب"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "أَفْشُوا السَّلامَ بَيْنَكُمْ",
+    "src": {
+     "ar": "رواه مسلم (54)",
+     "latin": "Sahih Muslim 54"
+    },
+    "m": {
+     "en": "Spread the greeting of peace among yourselves.",
+     "fr": "Répandez le salut de paix entre vous.",
+     "es": "Difundid el saludo de paz entre vosotros.",
+     "de": "Verbreitet den Friedensgruß untereinander.",
+     "it": "Diffondete il saluto di pace tra di voi.",
+     "ar": "أكثروا من إلقاء السلام على بعضكم."
+    },
+    "lesson": {
+     "ar": "نُلقي السلام على الناس فتزداد المحبّة بيننا.",
+     "en": "We greet people with peace, and love grows between us.",
+     "fr": "Nous saluons les gens avec la paix, et l'amour grandit entre nous.",
+     "es": "Saludamos a la gente con la paz y crece el cariño entre nosotros.",
+     "de": "Wir grüßen die Menschen mit Frieden, und die Liebe zwischen uns wächst.",
+     "it": "Salutiamo le persone con la pace e l'affetto tra noi cresce."
+    }
+   }
+  },
+  {
+   "id": "prayer",
+   "icon": "🕌",
+   "title": {
+    "ar": "الصلاة",
+    "en": "Prayer",
+    "fr": "La prière",
+    "es": "La oración",
+    "de": "Das Gebet",
+    "it": "La preghiera"
+   },
+   "value": {
+    "ar": "نستعدّ للصلاة بالوضوء ونحافظ عليها في وقتها.",
+    "en": "We prepare for prayer with wudu and keep it on time.",
+    "fr": "On se prépare à la prière par les ablutions et on la fait à l'heure.",
+    "es": "Nos preparamos para la oración con la ablución y la hacemos a su hora.",
+    "de": "Wir bereiten uns mit der Waschung auf das Gebet vor und beten pünktlich.",
+    "it": "Ci prepariamo alla preghiera con l'abluzione e la facciamo in orario."
+   },
+   "words": [
+    {
+     "ar": "صَلاةٌ",
+     "tr": "ṣalāh",
+     "emoji": "🤲",
+     "m": {
+      "en": "Prayer",
+      "fr": "Prière",
+      "es": "Oración",
+      "de": "Gebet",
+      "it": "Preghiera",
+      "ar": "عبادة نقوم بها خمس مرات كل يوم"
+     }
+    },
+    {
+     "ar": "وُضوءٌ",
+     "tr": "wuḍūʾ",
+     "emoji": "💧",
+     "m": {
+      "en": "Ablution (wudu)",
+      "fr": "Ablutions",
+      "es": "Ablución",
+      "de": "Gebetswaschung",
+      "it": "Abluzione",
+      "ar": "نغسل به أعضاءنا قبل الصلاة"
+     }
+    },
+    {
+     "ar": "مَسْجِدٌ",
+     "tr": "masjid",
+     "emoji": "🕌",
+     "m": {
+      "en": "Mosque",
+      "fr": "Mosquée",
+      "es": "Mezquita",
+      "de": "Moschee",
+      "it": "Moschea",
+      "ar": "بيت من بيوت الله"
+     }
+    },
+    {
+     "ar": "أَذانٌ",
+     "tr": "adhān",
+     "emoji": "📢",
+     "m": {
+      "en": "Call to prayer",
+      "fr": "Appel à la prière",
+      "es": "Llamada a la oración",
+      "de": "Gebetsruf",
+      "it": "Chiamata alla preghiera",
+      "ar": "نداء يعلن وقت الصلاة"
+     }
+    },
+    {
+     "ar": "سَجّادَةٌ",
+     "tr": "sajjādah",
+     "emoji": "🧎",
+     "m": {
+      "en": "Prayer rug",
+      "fr": "Tapis de prière",
+      "es": "Alfombra de oración",
+      "de": "Gebetsteppich",
+      "it": "Tappeto da preghiera",
+      "ar": "نصلّي عليها"
+     }
+    },
+    {
+     "ar": "قِبْلَةٌ",
+     "tr": "qiblah",
+     "emoji": "🧭",
+     "m": {
+      "en": "Direction of prayer",
+      "fr": "Direction de la prière",
+      "es": "Dirección de la oración",
+      "de": "Gebetsrichtung",
+      "it": "Direzione della preghiera",
+      "ar": "الجهة التي نتّجه إليها في الصلاة"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَتَوَضَّأُ قَبْلَ الصَّلاةِ",
+     "tr": "atawaḍḍaʾu qabla ṣ-ṣalāh",
+     "emoji": "💧",
+     "m": {
+      "en": "I make wudu before the prayer",
+      "fr": "Je fais mes ablutions avant la prière",
+      "es": "Hago la ablución antes de la oración",
+      "de": "Ich mache die Waschung vor dem Gebet",
+      "it": "Faccio l'abluzione prima della preghiera",
+      "ar": "الوضوء يكون أولًا ثم الصلاة"
+     }
+    },
+    {
+     "ar": "أُصَلّي في المَسْجِدِ",
+     "tr": "uṣallī fī l-masjid",
+     "emoji": "🕌",
+     "m": {
+      "en": "I pray in the mosque",
+      "fr": "Je prie à la mosquée",
+      "es": "Rezo en la mezquita",
+      "de": "Ich bete in der Moschee",
+      "it": "Prego nella moschea",
+      "ar": "أؤدّي صلاتي في بيت الله"
+     }
+    },
+    {
+     "ar": "أَسْمَعُ الأَذانَ فَأَقومُ لِلصَّلاةِ",
+     "tr": "asmaʿu l-adhāna fa-aqūmu li-ṣ-ṣalāh",
+     "emoji": "📢",
+     "m": {
+      "en": "I hear the call to prayer, so I get up to pray",
+      "fr": "J'entends l'appel et je me lève pour prier",
+      "es": "Oigo la llamada y me levanto para rezar",
+      "de": "Ich höre den Gebetsruf und stehe zum Beten auf",
+      "it": "Sento la chiamata e mi alzo per pregare",
+      "ar": "حين ينادي المؤذّن أذهب لأصلّي"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "بُنِيَ الإِسْلامُ عَلى خَمْسٍ: شَهادَةِ أَنْ لا إِلهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا رَسولُ اللهِ، وَإِقامِ الصَّلاةِ، وَإيتاءِ الزَّكاةِ، وَالحَجِّ، وَصَوْمِ رَمَضانَ",
+    "src": {
+     "ar": "رواه البخاري (8) ومسلم (16)",
+     "latin": "Sahih al-Bukhari 8, Sahih Muslim 16"
+    },
+    "m": {
+     "en": "Islam is built on five: bearing witness that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing prayer, giving zakat, Hajj, and fasting Ramadan.",
+     "fr": "L'islam est bâti sur cinq piliers : attester qu'il n'y a de dieu qu'Allah et que Muhammad est le Messager d'Allah, accomplir la prière, donner la zakat, le pèlerinage et le jeûne de Ramadan.",
+     "es": "El islam se basa en cinco: atestiguar que no hay más dios que Allah y que Muhammad es el Mensajero de Allah, establecer la oración, dar el zakat, la peregrinación y ayunar en Ramadán.",
+     "de": "Der Islam ist auf fünf Säulen gebaut: das Bezeugen, dass es keinen Gott außer Allah gibt und dass Muhammad der Gesandte Allahs ist, das Gebet, die Zakat, die Pilgerfahrt und das Fasten im Ramadan.",
+     "it": "L'Islam è costruito su cinque pilastri: testimoniare che non c'è dio all'infuori di Allah e che Muhammad è il Messaggero di Allah, compiere la preghiera, versare la zakat, il pellegrinaggio e il digiuno di Ramadan.",
+     "ar": "أركان الإسلام خمسة، منها الصلاة والزكاة."
+    },
+    "lesson": {
+     "ar": "الصلاة ركن عظيم من أركان الإسلام الخمسة.",
+     "en": "Prayer is a great pillar among the five pillars of Islam.",
+     "fr": "La prière est un grand pilier parmi les cinq piliers de l'islam.",
+     "es": "La oración es un gran pilar entre los cinco pilares del islam.",
+     "de": "Das Gebet ist eine wichtige der fünf Säulen des Islam.",
+     "it": "La preghiera è un grande pilastro tra i cinque pilastri dell'Islam."
+    }
+   }
+  },
+  {
+   "id": "zakat",
+   "icon": "🎁",
+   "title": {
+    "ar": "الزكاة والصدقة",
+    "en": "Zakat and charity",
+    "fr": "La zakat et l'aumône",
+    "es": "El zakat y la caridad",
+    "de": "Zakat und Spenden",
+    "it": "La zakat e la carità"
+   },
+   "value": {
+    "ar": "نُعين الفقير بالعطاء، وحتى الابتسامة صدقة.",
+    "en": "We help people in need by giving, and even a smile is charity.",
+    "fr": "On aide les personnes dans le besoin en donnant, et même un sourire est une aumône.",
+    "es": "Ayudamos a quien lo necesita dando, e incluso una sonrisa es caridad.",
+    "de": "Wir helfen Bedürftigen durch Geben, und sogar ein Lächeln ist eine Spende.",
+    "it": "Aiutiamo chi ha bisogno donando, e anche un sorriso è carità."
+   },
+   "words": [
+    {
+     "ar": "زَكاةٌ",
+     "tr": "zakāh",
+     "emoji": "🌾",
+     "m": {
+      "en": "Zakat (obligatory charity)",
+      "fr": "Zakat (aumône obligatoire)",
+      "es": "Zakat (caridad obligatoria)",
+      "de": "Zakat (Pflichtabgabe)",
+      "it": "Zakat (elemosina obbligatoria)",
+      "ar": "جزء من المال يُعطى للمحتاجين وجوبًا"
+     }
+    },
+    {
+     "ar": "صَدَقَةٌ",
+     "tr": "ṣadaqah",
+     "emoji": "🎁",
+     "m": {
+      "en": "Charity",
+      "fr": "Aumône",
+      "es": "Caridad",
+      "de": "Spende",
+      "it": "Carità",
+      "ar": "ما نعطيه تطوّعًا لوجه الله"
+     }
+    },
+    {
+     "ar": "مالٌ",
+     "tr": "māl",
+     "emoji": "🪙",
+     "m": {
+      "en": "Money",
+      "fr": "Argent",
+      "es": "Dinero",
+      "de": "Geld",
+      "it": "Denaro",
+      "ar": "ما نشتري به حاجاتنا"
+     }
+    },
+    {
+     "ar": "فَقيرٌ",
+     "tr": "faqīr",
+     "emoji": "🥣",
+     "m": {
+      "en": "Poor person",
+      "fr": "Personne pauvre",
+      "es": "Persona pobre",
+      "de": "Armer Mensch",
+      "it": "Persona povera",
+      "ar": "من لا يملك ما يكفيه"
+     }
+    },
+    {
+     "ar": "أُعْطي",
+     "tr": "uʿṭī",
+     "emoji": "🫴",
+     "m": {
+      "en": "I give",
+      "fr": "Je donne",
+      "es": "Doy",
+      "de": "Ich gebe",
+      "it": "Do",
+      "ar": "أقدّم شيئًا لغيري"
+     }
+    },
+    {
+     "ar": "ابْتِسامَةٌ",
+     "tr": "ibtisāmah",
+     "emoji": "😊",
+     "m": {
+      "en": "Smile",
+      "fr": "Sourire",
+      "es": "Sonrisa",
+      "de": "Lächeln",
+      "it": "Sorriso",
+      "ar": "تظهر على الوجه حين نفرح"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "الزَّكاةُ حَقُّ الفَقيرِ",
+     "tr": "az-zakātu ḥaqqu l-faqīr",
+     "emoji": "🌾",
+     "m": {
+      "en": "Zakat is the right of the poor",
+      "fr": "La zakat est le droit du pauvre",
+      "es": "El zakat es el derecho del pobre",
+      "de": "Die Zakat ist das Recht der Armen",
+      "it": "La zakat è il diritto del povero",
+      "ar": "للفقير نصيب من الزكاة"
+     }
+    },
+    {
+     "ar": "أُعْطي الفَقيرَ صَدَقَةً",
+     "tr": "uʿṭī l-faqīra ṣadaqah",
+     "emoji": "🎁",
+     "m": {
+      "en": "I give charity to the poor person",
+      "fr": "Je donne une aumône au pauvre",
+      "es": "Doy caridad al pobre",
+      "de": "Ich gebe dem Armen eine Spende",
+      "it": "Do la carità al povero",
+      "ar": "أتصدّق على المحتاج"
+     }
+    },
+    {
+     "ar": "الابْتِسامَةُ صَدَقَةٌ",
+     "tr": "al-ibtisāmatu ṣadaqah",
+     "emoji": "😊",
+     "m": {
+      "en": "A smile is charity",
+      "fr": "Un sourire est une aumône",
+      "es": "Una sonrisa es caridad",
+      "de": "Ein Lächeln ist eine Spende",
+      "it": "Un sorriso è carità",
+      "ar": "حتى الابتسامة نؤجر عليها"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "تَبَسُّمُكَ في وَجْهِ أَخيكَ لَكَ صَدَقَةٌ",
+    "src": {
+     "ar": "رواه الترمذي (1956)، وصحّحه الألباني",
+     "latin": "Jami' at-Tirmidhi 1956 (graded authentic by al-Albani)"
+    },
+    "m": {
+     "en": "Your smile in the face of your brother is charity for you.",
+     "fr": "Ton sourire au visage de ton frère est une aumône pour toi.",
+     "es": "Tu sonrisa en el rostro de tu hermano es una caridad para ti.",
+     "de": "Dein Lächeln im Gesicht deines Bruders ist eine Spende für dich.",
+     "it": "Il tuo sorriso rivolto a tuo fratello è per te una carità.",
+     "ar": "ابتسامتك لأخيك تُكتب لك صدقة."
+    },
+    "lesson": {
+     "ar": "يمكننا فعل الخير دون مال، بابتسامة صادقة.",
+     "en": "We can do good without money, with a sincere smile.",
+     "fr": "Nous pouvons faire le bien sans argent, avec un sourire sincère.",
+     "es": "Podemos hacer el bien sin dinero, con una sonrisa sincera.",
+     "de": "Wir können auch ohne Geld Gutes tun, mit einem ehrlichen Lächeln.",
+     "it": "Possiamo fare del bene senza denaro, con un sorriso sincero."
+    }
+   }
+  },
+  {
+   "id": "parents",
+   "icon": "💚",
+   "title": {
+    "ar": "برّ الوالدين",
+    "en": "Kindness to parents",
+    "fr": "Être bon envers ses parents",
+    "es": "Bondad con los padres",
+    "de": "Güte zu den Eltern",
+    "it": "Bontà verso i genitori"
+   },
+   "value": {
+    "ar": "نطيع والدينا ونساعدهما وندعو لهما.",
+    "en": "We obey our parents, help them and pray for them.",
+    "fr": "On obéit à ses parents, on les aide et on prie pour eux.",
+    "es": "Obedecemos a nuestros padres, los ayudamos y rezamos por ellos.",
+    "de": "Wir gehorchen unseren Eltern, helfen ihnen und beten für sie.",
+    "it": "Obbediamo ai genitori, li aiutiamo e preghiamo per loro."
+   },
+   "words": [
+    {
+     "ar": "أُمٌّ",
+     "tr": "umm",
+     "emoji": "🌸",
+     "m": {
+      "en": "Mother",
+      "fr": "Mère",
+      "es": "Madre",
+      "de": "Mutter",
+      "it": "Madre",
+      "ar": "هي التي ولدتني وربّتني"
+     }
+    },
+    {
+     "ar": "أَبٌ",
+     "tr": "ab",
+     "emoji": "🌳",
+     "m": {
+      "en": "Father",
+      "fr": "Père",
+      "es": "Padre",
+      "de": "Vater",
+      "it": "Padre",
+      "ar": "هو والدي"
+     }
+    },
+    {
+     "ar": "والِدانِ",
+     "tr": "wālidān",
+     "emoji": "🏡",
+     "m": {
+      "en": "Parents",
+      "fr": "Parents",
+      "es": "Padres",
+      "de": "Eltern",
+      "it": "Genitori",
+      "ar": "الأم والأب معًا"
+     }
+    },
+    {
+     "ar": "أُطيعُ",
+     "tr": "uṭīʿu",
+     "emoji": "✅",
+     "m": {
+      "en": "I obey",
+      "fr": "J'obéis",
+      "es": "Obedezco",
+      "de": "Ich gehorche",
+      "it": "Obbedisco",
+      "ar": "أفعل ما يُطلب مني من خير"
+     }
+    },
+    {
+     "ar": "أُساعِدُ",
+     "tr": "usāʿidu",
+     "emoji": "🧺",
+     "m": {
+      "en": "I help",
+      "fr": "J'aide",
+      "es": "Ayudo",
+      "de": "Ich helfe",
+      "it": "Aiuto",
+      "ar": "أُعين غيري"
+     }
+    },
+    {
+     "ar": "أَدْعو",
+     "tr": "adʿū",
+     "emoji": "🤲",
+     "m": {
+      "en": "I pray (ask Allah)",
+      "fr": "J'invoque Allah",
+      "es": "Suplico a Allah",
+      "de": "Ich bitte Allah",
+      "it": "Invoco Allah",
+      "ar": "أطلب من الله"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أُطيعُ أُمّي وَأَبي",
+     "tr": "uṭīʿu ummī wa abī",
+     "emoji": "💚",
+     "m": {
+      "en": "I obey my mother and my father",
+      "fr": "J'obéis à ma mère et à mon père",
+      "es": "Obedezco a mi madre y a mi padre",
+      "de": "Ich gehorche meiner Mutter und meinem Vater",
+      "it": "Obbedisco a mia madre e a mio padre",
+      "ar": "أسمع كلام والديّ"
+     }
+    },
+    {
+     "ar": "أُساعِدُ أُمّي في البَيْتِ",
+     "tr": "usāʿidu ummī fī l-bayt",
+     "emoji": "🧺",
+     "m": {
+      "en": "I help my mother at home",
+      "fr": "J'aide ma mère à la maison",
+      "es": "Ayudo a mi madre en casa",
+      "de": "Ich helfe meiner Mutter zu Hause",
+      "it": "Aiuto mia madre a casa",
+      "ar": "أقوم بأعمال المنزل مع أمّي"
+     }
+    },
+    {
+     "ar": "أَدْعو لِوالِدَيَّ",
+     "tr": "adʿū li-wālidayya",
+     "emoji": "🤲",
+     "m": {
+      "en": "I pray for my parents",
+      "fr": "Je prie pour mes parents",
+      "es": "Rezo por mis padres",
+      "de": "Ich bete für meine Eltern",
+      "it": "Prego per i miei genitori",
+      "ar": "أسأل الله الخير لأبي وأمّي"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "أَيُّ العَمَلِ أَحَبُّ إِلى اللهِ؟ قالَ: الصَّلاةُ عَلى وَقْتِها. قالَ: ثُمَّ أَيٌّ؟ قالَ: ثُمَّ بِرُّ الوالِدَيْنِ",
+    "src": {
+     "ar": "جزء من حديث رواه البخاري (527) ومسلم (85)",
+     "latin": "Part of a hadith in Sahih al-Bukhari 527, Sahih Muslim 85"
+    },
+    "m": {
+     "en": "“Which deed is most beloved to Allah?” He said: “Prayer on time.” “Then what?” He said: “Then kindness to parents.”",
+     "fr": "« Quelle œuvre Allah aime-t-il le plus ? » Il dit : « La prière à son heure. » « Et ensuite ? » Il dit : « Ensuite, la bonté envers les parents. »",
+     "es": "«¿Qué obra ama más Allah?» Dijo: «La oración a su hora». «¿Y después?» Dijo: «Después, la bondad con los padres».",
+     "de": "„Welche Tat liebt Allah am meisten?“ Er sagte: „Das Gebet zur rechten Zeit.“ „Und dann?“ Er sagte: „Dann die Güte zu den Eltern.“",
+     "it": "«Quale azione è più amata da Allah?» Disse: «La preghiera a suo tempo». «E poi?» Disse: «Poi la bontà verso i genitori».",
+     "ar": "من أحب الأعمال إلى الله الصلاة في وقتها ثم الإحسان إلى الوالدين."
+    },
+    "lesson": {
+     "ar": "الإحسان إلى الوالدين من أحبّ الأعمال إلى الله.",
+     "en": "Kindness to parents is among the deeds Allah loves most.",
+     "fr": "La bonté envers les parents fait partie des œuvres qu'Allah aime le plus.",
+     "es": "La bondad con los padres es una de las obras que Allah más ama.",
+     "de": "Güte zu den Eltern gehört zu den Taten, die Allah am meisten liebt.",
+     "it": "La bontà verso i genitori è tra le azioni più amate da Allah."
+    }
+   }
+  },
+  {
+   "id": "neighbor",
+   "icon": "🏘️",
+   "title": {
+    "ar": "حقّ الجار",
+    "en": "Our neighbours",
+    "fr": "Nos voisins",
+    "es": "Nuestros vecinos",
+    "de": "Unsere Nachbarn",
+    "it": "I nostri vicini"
+   },
+   "value": {
+    "ar": "نُحسن إلى جيراننا، مسلمين وغير مسلمين، ولا نزعجهم.",
+    "en": "We are kind to all our neighbours, Muslim or not, and we do not disturb them.",
+    "fr": "On est bon envers tous ses voisins, musulmans ou non, et on ne les dérange pas.",
+    "es": "Somos buenos con todos nuestros vecinos, musulmanes o no, y no los molestamos.",
+    "de": "Wir sind gut zu allen Nachbarn, ob Muslime oder nicht, und stören sie nicht.",
+    "it": "Siamo gentili con tutti i vicini, musulmani o no, e non li disturbiamo."
+   },
+   "words": [
+    {
+     "ar": "جارٌ",
+     "tr": "jār",
+     "emoji": "🏘️",
+     "m": {
+      "en": "Neighbour",
+      "fr": "Voisin",
+      "es": "Vecino",
+      "de": "Nachbar",
+      "it": "Vicino",
+      "ar": "من يسكن قرب بيتنا"
+     }
+    },
+    {
+     "ar": "بَيْتٌ",
+     "tr": "bayt",
+     "emoji": "🏠",
+     "m": {
+      "en": "House",
+      "fr": "Maison",
+      "es": "Casa",
+      "de": "Haus",
+      "it": "Casa",
+      "ar": "المكان الذي نسكن فيه"
+     }
+    },
+    {
+     "ar": "هَدِيَّةٌ",
+     "tr": "hadiyyah",
+     "emoji": "🎁",
+     "m": {
+      "en": "Gift",
+      "fr": "Cadeau",
+      "es": "Regalo",
+      "de": "Geschenk",
+      "it": "Regalo",
+      "ar": "شيء نقدّمه لغيرنا محبّةً"
+     }
+    },
+    {
+     "ar": "هُدوءٌ",
+     "tr": "hudūʾ",
+     "emoji": "🤫",
+     "m": {
+      "en": "Quiet",
+      "fr": "Calme",
+      "es": "Silencio",
+      "de": "Ruhe",
+      "it": "Silenzio",
+      "ar": "عدم إحداث الضجيج"
+     }
+    },
+    {
+     "ar": "أَزورُ",
+     "tr": "azūru",
+     "emoji": "🚶",
+     "m": {
+      "en": "I visit",
+      "fr": "Je rends visite",
+      "es": "Visito",
+      "de": "Ich besuche",
+      "it": "Visito",
+      "ar": "أذهب إلى شخص لأراه"
+     }
+    },
+    {
+     "ar": "أُحْسِنُ",
+     "tr": "uḥsinu",
+     "emoji": "💖",
+     "m": {
+      "en": "I am kind",
+      "fr": "Je fais le bien",
+      "es": "Hago el bien",
+      "de": "Ich bin gütig",
+      "it": "Faccio del bene",
+      "ar": "أعامل غيري معاملة طيبة"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أُسَلِّمُ عَلى جاري",
+     "tr": "usallimu ʿalā jārī",
+     "emoji": "👋",
+     "m": {
+      "en": "I greet my neighbour",
+      "fr": "Je salue mon voisin",
+      "es": "Saludo a mi vecino",
+      "de": "Ich grüße meinen Nachbarn",
+      "it": "Saluto il mio vicino",
+      "ar": "ألقي التحية على من يسكن قربي"
+     }
+    },
+    {
+     "ar": "لا أُزْعِجُ جاري",
+     "tr": "lā uzʿiju jārī",
+     "emoji": "🤫",
+     "m": {
+      "en": "I do not disturb my neighbour",
+      "fr": "Je ne dérange pas mon voisin",
+      "es": "No molesto a mi vecino",
+      "de": "Ich störe meinen Nachbarn nicht",
+      "it": "Non disturbo il mio vicino",
+      "ar": "ألتزم الهدوء من أجل من يسكن قربي"
+     }
+    },
+    {
+     "ar": "أُقَدِّمُ هَدِيَّةً لِجاري",
+     "tr": "uqaddimu hadiyyatan li-jārī",
+     "emoji": "🎁",
+     "m": {
+      "en": "I give a gift to my neighbour",
+      "fr": "J'offre un cadeau à mon voisin",
+      "es": "Doy un regalo a mi vecino",
+      "de": "Ich schenke meinem Nachbarn etwas",
+      "it": "Faccio un regalo al mio vicino",
+      "ar": "أُهدي شيئًا لمن يسكن قربي"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "مَنْ كانَ يُؤْمِنُ بِاللهِ وَاليَوْمِ الآخِرِ فَلْيُكْرِمْ جارَهُ",
+    "src": {
+     "ar": "رواه البخاري (6019) ومسلم (48)",
+     "latin": "Sahih al-Bukhari 6019, Sahih Muslim 48"
+    },
+    "m": {
+     "en": "Whoever believes in Allah and the Last Day, let him honour his neighbour.",
+     "fr": "Que celui qui croit en Allah et au Jour dernier honore son voisin.",
+     "es": "Quien crea en Allah y en el Último Día, que honre a su vecino.",
+     "de": "Wer an Allah und den Jüngsten Tag glaubt, soll seinen Nachbarn ehren.",
+     "it": "Chi crede in Allah e nell'Ultimo Giorno onori il suo vicino.",
+     "ar": "من علامات الإيمان إكرام الجار."
+    },
+    "lesson": {
+     "ar": "إكرام الجار والإحسان إليه من علامات الإيمان.",
+     "en": "Honouring our neighbour and being kind to them is a sign of faith.",
+     "fr": "Honorer son voisin et être bon envers lui est un signe de foi.",
+     "es": "Honrar al vecino y ser bueno con él es señal de fe.",
+     "de": "Den Nachbarn zu ehren und gut zu ihm zu sein, ist ein Zeichen des Glaubens.",
+     "it": "Onorare il vicino ed essere gentili con lui è un segno di fede."
+    }
+   }
+  },
+  {
+   "id": "clean",
+   "icon": "🧼",
+   "title": {
+    "ar": "النظافة",
+    "en": "Cleanliness",
+    "fr": "La propreté",
+    "es": "La limpieza",
+    "de": "Sauberkeit",
+    "it": "La pulizia"
+   },
+   "value": {
+    "ar": "نعتني بنظافة أجسامنا وثيابنا كل يوم.",
+    "en": "We take care of our bodies and clothes every day.",
+    "fr": "On prend soin de son corps et de ses vêtements chaque jour.",
+    "es": "Cuidamos cada día nuestro cuerpo y nuestra ropa.",
+    "de": "Wir achten jeden Tag auf saubere Körper und Kleidung.",
+    "it": "Ogni giorno ci prendiamo cura del corpo e dei vestiti."
+   },
+   "words": [
+    {
+     "ar": "ماءٌ",
+     "tr": "māʾ",
+     "emoji": "💧",
+     "m": {
+      "en": "Water",
+      "fr": "Eau",
+      "es": "Agua",
+      "de": "Wasser",
+      "it": "Acqua",
+      "ar": "نشربه ونغتسل به"
+     }
+    },
+    {
+     "ar": "صابونٌ",
+     "tr": "ṣābūn",
+     "emoji": "🧼",
+     "m": {
+      "en": "Soap",
+      "fr": "Savon",
+      "es": "Jabón",
+      "de": "Seife",
+      "it": "Sapone",
+      "ar": "نغسل به الأيدي"
+     }
+    },
+    {
+     "ar": "يَدٌ",
+     "tr": "yad",
+     "emoji": "✋",
+     "m": {
+      "en": "Hand",
+      "fr": "Main",
+      "es": "Mano",
+      "de": "Hand",
+      "it": "Mano",
+      "ar": "فيها خمسة أصابع"
+     }
+    },
+    {
+     "ar": "أَسْنانٌ",
+     "tr": "asnān",
+     "emoji": "🦷",
+     "m": {
+      "en": "Teeth",
+      "fr": "Dents",
+      "es": "Dientes",
+      "de": "Zähne",
+      "it": "Denti",
+      "ar": "نمضغ بها الطعام"
+     }
+    },
+    {
+     "ar": "نَظيفٌ",
+     "tr": "naẓīf",
+     "emoji": "✨",
+     "m": {
+      "en": "Clean",
+      "fr": "Propre",
+      "es": "Limpio",
+      "de": "Sauber",
+      "it": "Pulito",
+      "ar": "ليس فيه وسخ"
+     }
+    },
+    {
+     "ar": "أَغْسِلُ",
+     "tr": "aghsilu",
+     "emoji": "🚿",
+     "m": {
+      "en": "I wash",
+      "fr": "Je lave",
+      "es": "Lavo",
+      "de": "Ich wasche",
+      "it": "Lavo",
+      "ar": "أنظّف بالماء"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَغْسِلُ يَدَيَّ بِالماءِ وَالصّابونِ",
+     "tr": "aghsilu yadayya bi-l-māʾi wa-ṣ-ṣābūn",
+     "emoji": "🧼",
+     "m": {
+      "en": "I wash my hands with water and soap",
+      "fr": "Je lave mes mains avec de l'eau et du savon",
+      "es": "Me lavo las manos con agua y jabón",
+      "de": "Ich wasche meine Hände mit Wasser und Seife",
+      "it": "Lavo le mani con acqua e sapone",
+      "ar": "أنظّف يديّ جيدًا"
+     }
+    },
+    {
+     "ar": "أُنَظِّفُ أَسْناني كُلَّ يَوْمٍ",
+     "tr": "unaẓẓifu asnānī kulla yawm",
+     "emoji": "🦷",
+     "m": {
+      "en": "I clean my teeth every day",
+      "fr": "Je nettoie mes dents chaque jour",
+      "es": "Me limpio los dientes cada día",
+      "de": "Ich putze jeden Tag meine Zähne",
+      "it": "Pulisco i denti ogni giorno",
+      "ar": "لا أنسى تنظيف أسناني يوميًّا"
+     }
+    },
+    {
+     "ar": "ثِيابي نَظيفَةٌ",
+     "tr": "thiyābī naẓīfah",
+     "emoji": "👕",
+     "m": {
+      "en": "My clothes are clean",
+      "fr": "Mes vêtements sont propres",
+      "es": "Mi ropa está limpia",
+      "de": "Meine Kleidung ist sauber",
+      "it": "I miei vestiti sono puliti",
+      "ar": "ما ألبسه ليس فيه وسخ"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "الطُّهورُ شَطْرُ الإيمانِ",
+    "src": {
+     "ar": "جزء من حديث رواه مسلم (223)",
+     "latin": "Part of a hadith in Sahih Muslim 223"
+    },
+    "m": {
+     "en": "Purity is half of faith.",
+     "fr": "La purification est la moitié de la foi.",
+     "es": "La purificación es la mitad de la fe.",
+     "de": "Die Reinheit ist die Hälfte des Glaubens.",
+     "it": "La purificazione è metà della fede.",
+     "ar": "الطهارة جزء عظيم من الإيمان."
+    },
+    "lesson": {
+     "ar": "الطهارة والنظافة جزء عظيم من ديننا.",
+     "en": "Purity and cleanliness are a great part of our religion.",
+     "fr": "La pureté et la propreté sont une grande partie de notre religion.",
+     "es": "La pureza y la limpieza son una gran parte de nuestra religión.",
+     "de": "Reinheit und Sauberkeit sind ein wichtiger Teil unserer Religion.",
+     "it": "La purezza e la pulizia sono una parte importante della nostra religione."
+    }
+   }
+  },
+  {
+   "id": "order",
+   "icon": "🧹",
+   "title": {
+    "ar": "النظام",
+    "en": "Order and tidiness",
+    "fr": "L'ordre",
+    "es": "El orden",
+    "de": "Ordnung",
+    "it": "L'ordine"
+   },
+   "value": {
+    "ar": "نرتّب أشياءنا، ونحترم الدور، ونحافظ على نظافة الطريق.",
+    "en": "We tidy our things, wait our turn and keep the street clean.",
+    "fr": "On range ses affaires, on attend son tour et on garde la rue propre.",
+    "es": "Ordenamos nuestras cosas, esperamos nuestro turno y mantenemos limpia la calle.",
+    "de": "Wir räumen auf, warten, bis wir an der Reihe sind, und halten die Straße sauber.",
+    "it": "Mettiamo in ordine le nostre cose, aspettiamo il turno e teniamo pulita la strada."
+   },
+   "words": [
+    {
+     "ar": "غُرْفَةٌ",
+     "tr": "ghurfah",
+     "emoji": "🛏️",
+     "m": {
+      "en": "Room",
+      "fr": "Chambre",
+      "es": "Habitación",
+      "de": "Zimmer",
+      "it": "Stanza",
+      "ar": "جزء من البيت ننام فيه"
+     }
+    },
+    {
+     "ar": "كِتابٌ",
+     "tr": "kitāb",
+     "emoji": "📘",
+     "m": {
+      "en": "Book",
+      "fr": "Livre",
+      "es": "Libro",
+      "de": "Buch",
+      "it": "Libro",
+      "ar": "نقرأ فيه"
+     }
+    },
+    {
+     "ar": "قُمامَةٌ",
+     "tr": "qumāmah",
+     "emoji": "🗑️",
+     "m": {
+      "en": "Rubbish",
+      "fr": "Déchets",
+      "es": "Basura",
+      "de": "Müll",
+      "it": "Spazzatura",
+      "ar": "أشياء نرميها لأننا لا نحتاجها"
+     }
+    },
+    {
+     "ar": "طَريقٌ",
+     "tr": "ṭarīq",
+     "emoji": "🛣️",
+     "m": {
+      "en": "Road",
+      "fr": "Route",
+      "es": "Camino",
+      "de": "Straße",
+      "it": "Strada",
+      "ar": "نمشي فيه"
+     }
+    },
+    {
+     "ar": "صَفٌّ",
+     "tr": "ṣaff",
+     "emoji": "🧍",
+     "m": {
+      "en": "Queue, line",
+      "fr": "File, rang",
+      "es": "Fila",
+      "de": "Reihe",
+      "it": "Fila",
+      "ar": "يقف الناس فيه بعضهم وراء بعض"
+     }
+    },
+    {
+     "ar": "أُرَتِّبُ",
+     "tr": "urattibu",
+     "emoji": "🧹",
+     "m": {
+      "en": "I tidy",
+      "fr": "Je range",
+      "es": "Ordeno",
+      "de": "Ich räume auf",
+      "it": "Riordino",
+      "ar": "أضع كل شيء في مكانه"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أُرَتِّبُ غُرْفَتي كُلَّ صَباحٍ",
+     "tr": "urattibu ghurfatī kulla ṣabāḥ",
+     "emoji": "🛏️",
+     "m": {
+      "en": "I tidy my room every morning",
+      "fr": "Je range ma chambre chaque matin",
+      "es": "Ordeno mi habitación cada mañana",
+      "de": "Ich räume jeden Morgen mein Zimmer auf",
+      "it": "Riordino la mia stanza ogni mattina",
+      "ar": "تكون غرفتي مرتّبة عند الصباح"
+     }
+    },
+    {
+     "ar": "أَضَعُ القُمامَةَ في مَكانِها",
+     "tr": "aḍaʿu l-qumāmata fī makānihā",
+     "emoji": "🗑️",
+     "m": {
+      "en": "I put the rubbish in its place",
+      "fr": "Je mets les déchets à leur place",
+      "es": "Pongo la basura en su sitio",
+      "de": "Ich werfe den Müll an seinen Platz",
+      "it": "Metto la spazzatura al suo posto",
+      "ar": "لا أرمي الأوساخ في أي مكان"
+     }
+    },
+    {
+     "ar": "أَقِفُ في الصَّفِّ بِهُدوءٍ",
+     "tr": "aqifu fī ṣ-ṣaffi bi-hudūʾ",
+     "emoji": "🧍",
+     "m": {
+      "en": "I stand in line quietly",
+      "fr": "Je fais la queue calmement",
+      "es": "Hago la fila en silencio",
+      "de": "Ich stehe ruhig in der Reihe",
+      "it": "Sto in fila con calma",
+      "ar": "أنتظر دوري دون ضجيج"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "وَيُميطُ الأَذى عَنِ الطَّريقِ صَدَقَةٌ",
+    "src": {
+     "ar": "جزء من حديث رواه البخاري (2989) ومسلم (1009)",
+     "latin": "Part of a hadith in Sahih al-Bukhari 2989, Sahih Muslim 1009"
+    },
+    "m": {
+     "en": "And removing something harmful from the road is charity.",
+     "fr": "Et enlever ce qui est nuisible de la route est une aumône.",
+     "es": "Y quitar lo dañino del camino es una caridad.",
+     "de": "Und etwas Schädliches vom Weg zu entfernen, ist eine Spende.",
+     "it": "E togliere dalla strada ciò che è dannoso è una carità.",
+     "ar": "إبعاد ما يؤذي الناس عن الطريق عمل صالح."
+    },
+    "lesson": {
+     "ar": "الحفاظ على الطريق نظيفًا وآمنًا عمل صالح نُؤجر عليه.",
+     "en": "Keeping the road clean and safe is a good deed that earns reward.",
+     "fr": "Garder la route propre et sûre est une bonne action récompensée.",
+     "es": "Mantener el camino limpio y seguro es una buena obra con recompensa.",
+     "de": "Die Straße sauber und sicher zu halten, ist eine gute, belohnte Tat.",
+     "it": "Tenere la strada pulita e sicura è una buona azione ricompensata."
+    }
+   }
+  },
+  {
+   "id": "respect",
+   "icon": "🌟",
+   "title": {
+    "ar": "احترام الآخرين",
+    "en": "Respecting others",
+    "fr": "Respecter les autres",
+    "es": "Respetar a los demás",
+    "de": "Andere respektieren",
+    "it": "Rispettare gli altri"
+   },
+   "value": {
+    "ar": "نحترم كل الناس، نوقّر الكبير ونرحم الصغير ونقول الصدق.",
+    "en": "We respect everyone, honour elders, are gentle with the young and tell the truth.",
+    "fr": "On respecte tout le monde, on honore les aînés, on est doux avec les petits et on dit la vérité.",
+    "es": "Respetamos a todos, honramos a los mayores, somos tiernos con los pequeños y decimos la verdad.",
+    "de": "Wir respektieren alle, ehren die Älteren, sind sanft zu den Kleinen und sagen die Wahrheit.",
+    "it": "Rispettiamo tutti, onoriamo gli anziani, siamo dolci con i piccoli e diciamo la verità."
+   },
+   "words": [
+    {
+     "ar": "صَديقٌ",
+     "tr": "ṣadīq",
+     "emoji": "🧑‍🤝‍🧑",
+     "m": {
+      "en": "Friend",
+      "fr": "Ami",
+      "es": "Amigo",
+      "de": "Freund",
+      "it": "Amico",
+      "ar": "من نحبّه ونلعب معه"
+     }
+    },
+    {
+     "ar": "مُعَلِّمٌ",
+     "tr": "muʿallim",
+     "emoji": "🏫",
+     "m": {
+      "en": "Teacher",
+      "fr": "Enseignant",
+      "es": "Maestro",
+      "de": "Lehrer",
+      "it": "Insegnante",
+      "ar": "من يعلّمنا في المدرسة"
+     }
+    },
+    {
+     "ar": "صِدْقٌ",
+     "tr": "ṣidq",
+     "emoji": "💎",
+     "m": {
+      "en": "Truthfulness",
+      "fr": "Vérité, honnêteté",
+      "es": "Sinceridad",
+      "de": "Ehrlichkeit",
+      "it": "Sincerità",
+      "ar": "قول الحق وعدم الكذب"
+     }
+    },
+    {
+     "ar": "كَبيرٌ",
+     "tr": "kabīr",
+     "emoji": "🐘",
+     "m": {
+      "en": "Big, elder",
+      "fr": "Grand, aîné",
+      "es": "Grande, mayor",
+      "de": "Groß, älter",
+      "it": "Grande, anziano",
+      "ar": "عكس صغير"
+     }
+    },
+    {
+     "ar": "صَغيرٌ",
+     "tr": "ṣaghīr",
+     "emoji": "🐣",
+     "m": {
+      "en": "Small, young",
+      "fr": "Petit",
+      "es": "Pequeño",
+      "de": "Klein",
+      "it": "Piccolo",
+      "ar": "عكس كبير"
+     }
+    },
+    {
+     "ar": "أَحْتَرِمُ",
+     "tr": "aḥtarimu",
+     "emoji": "🌟",
+     "m": {
+      "en": "I respect",
+      "fr": "Je respecte",
+      "es": "Respeto",
+      "de": "Ich respektiere",
+      "it": "Rispetto",
+      "ar": "أعامل الناس بأدب وتقدير"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَحْتَرِمُ الكَبيرَ وَأَرْحَمُ الصَّغيرَ",
+     "tr": "aḥtarimu l-kabīra wa arḥamu ṣ-ṣaghīr",
+     "emoji": "🌟",
+     "m": {
+      "en": "I respect the elder and I am gentle with the young",
+      "fr": "Je respecte l'aîné et je suis doux avec le petit",
+      "es": "Respeto al mayor y soy tierno con el pequeño",
+      "de": "Ich respektiere die Älteren und bin sanft zu den Kleinen",
+      "it": "Rispetto chi è più grande e sono dolce con i piccoli",
+      "ar": "أقدّر الكبير وأعطف على الصغير"
+     }
+    },
+    {
+     "ar": "أَقولُ الصِّدْقَ دائِمًا",
+     "tr": "aqūlu ṣ-ṣidqa dāʾiman",
+     "emoji": "💎",
+     "m": {
+      "en": "I always tell the truth",
+      "fr": "Je dis toujours la vérité",
+      "es": "Siempre digo la verdad",
+      "de": "Ich sage immer die Wahrheit",
+      "it": "Dico sempre la verità",
+      "ar": "لا أكذب أبدًا"
+     }
+    },
+    {
+     "ar": "أَحْتَرِمُ مُعَلِّمي وَأَصْدِقائي",
+     "tr": "aḥtarimu muʿallimī wa aṣdiqāʾī",
+     "emoji": "🏫",
+     "m": {
+      "en": "I respect my teacher and my friends",
+      "fr": "Je respecte mon enseignant et mes amis",
+      "es": "Respeto a mi maestro y a mis amigos",
+      "de": "Ich respektiere meinen Lehrer und meine Freunde",
+      "it": "Rispetto il mio insegnante e i miei amici",
+      "ar": "أتعامل بأدب في المدرسة"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "لَيْسَ مِنّا مَنْ لَمْ يَرْحَمْ صَغيرَنا وَيَعْرِفْ شَرَفَ كَبيرِنا",
+    "src": {
+     "ar": "رواه الترمذي (1920) وقال: حسن صحيح",
+     "latin": "Jami' at-Tirmidhi 1920 (hasan sahih)"
+    },
+    "m": {
+     "en": "He is not one of us who does not show mercy to our young and recognize the honour of our elders.",
+     "fr": "N'est pas des nôtres celui qui n'est pas clément envers nos petits et ne reconnaît pas l'honneur de nos aînés.",
+     "es": "No es de los nuestros quien no tiene misericordia de nuestros pequeños ni reconoce el honor de nuestros mayores.",
+     "de": "Nicht zu uns gehört, wer nicht barmherzig zu unseren Kleinen ist und die Ehre unserer Älteren nicht anerkennt.",
+     "it": "Non è dei nostri chi non ha misericordia dei nostri piccoli e non riconosce l'onore dei nostri anziani.",
+     "ar": "علينا أن نرحم الصغير ونقدّر الكبير."
+    },
+    "lesson": {
+     "ar": "الرحمة بالصغير وتقدير الكبير من أخلاق المسلم.",
+     "en": "Mercy to the young and respect for elders are part of a Muslim's character.",
+     "fr": "La clémence envers les petits et le respect des aînés font partie du caractère du musulman.",
+     "es": "La misericordia con los pequeños y el respeto a los mayores forman parte del carácter del musulmán.",
+     "de": "Barmherzigkeit zu Kleinen und Respekt vor Älteren gehören zum Charakter eines Muslims.",
+     "it": "La misericordia verso i piccoli e il rispetto degli anziani fanno parte del carattere del musulmano."
+    }
+   }
+  }
+ ]
+}

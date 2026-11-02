@@ -1,136 +1,84 @@
-
 "use strict";
 
 /**
- * نظام الترجمة المشترك بين جميع صفحات المنصة.
- * لإضافة نص جديد:
- * 1) أضف مفتاحه إلى data/translations.json في اللغات الست.
- * 2) ضع data-i18n="اسم.المفتاح" على العنصر المطلوب.
+ * نظام الترجمة المشترك: اللغة التي يختارها المستخدم في أي صفحة
+ * تُحفظ وتُطبَّق على كل صفحات المنصة.
+ * لإضافة نص: أضف مفتاحه إلى data/translations.json في اللغات الست،
+ * ثم ضع data-i18n="اسم.المفتاح" على العنصر.
  */
+(function () {
+  const scriptUrl = document.currentScript && document.currentScript.src;
+  const SUPPORTED = ["ar", "en", "fr", "es", "de", "it"];
+  const STORAGE_KEY = "platform-language";
+  const FALLBACK = "en"; // جمهور المنصة خارج البلاد العربية
 
-const i18nScriptUrl = document.currentScript?.src;
+  let translations = {};
+  let active = "ar";
+  let resolveReady;
+  const ready = new Promise((resolve) => { resolveReady = resolve; });
 
-const I18N_CONFIG = {
-  // يُحسب المسار انطلاقاً من مكان ملف JavaScript، لذلك يعمل من الصفحة
-  // الرئيسية ومن الصفحات الداخلية أيضاً.
-  translationsPath: i18nScriptUrl
-    ? new URL("../../data/translations.json", i18nScriptUrl).href
-    : "data/translations.json",
-  defaultLanguage: "ar",
-  supportedLanguages: ["ar", "en", "fr", "es", "de", "it"],
-  storageKey: "platform-language"
-};
+  const readSaved = () => {
+    try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
+  };
+  const save = (lang) => {
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) { /* وضع التصفح الخاص */ }
+  };
+  const nested = (obj, path) => path.split(".").reduce((v, k) => (v == null ? v : v[k]), obj);
 
-let translations = {};
-let activeLanguage = I18N_CONFIG.defaultLanguage;
-
-function getNestedValue(object, path) {
-  return path.split(".").reduce((value, key) => value?.[key], object);
-}
-
-function translate(key, language = activeLanguage) {
-  return (
-    getNestedValue(translations[language], key) ??
-    getNestedValue(translations[I18N_CONFIG.defaultLanguage], key) ??
-    key
-  );
-}
-
-function applyTranslations(language) {
-  const safeLanguage = I18N_CONFIG.supportedLanguages.includes(language)
-    ? language
-    : I18N_CONFIG.defaultLanguage;
-
-  activeLanguage = safeLanguage;
-
-  document.documentElement.lang = safeLanguage;
-  document.documentElement.dir = safeLanguage === "ar" ? "rtl" : "ltr";
-
-  document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const value = translate(element.dataset.i18n, safeLanguage);
-    element.textContent = value;
-  });
-
-  document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
-    const value = translate(element.dataset.i18nAriaLabel, safeLanguage);
-    element.setAttribute("aria-label", value);
-  });
-
-  // تسمح كل صفحة بتخصيص عنوانها ووصفها عبر data-meta-title-key/data-meta-description-key
-  // على وسم body، وإلا سيُستخدم عنوان الصفحة الرئيسية كقيمة افتراضية.
-  const titleKey = document.body.dataset.metaTitleKey || "meta.title";
-  const descriptionKey = document.body.dataset.metaDescriptionKey || "meta.description";
-
-  document.title = translate(titleKey, safeLanguage);
-
-  const description = document.querySelector('meta[name="description"]');
-  if (description) {
-    description.setAttribute("content", translate(descriptionKey, safeLanguage));
+  function t(key, vars) {
+    let value = nested(translations[active], key);
+    if (value == null) value = nested(translations.ar, key);
+    if (value == null) value = key;
+    if (vars) Object.keys(vars).forEach((k) => { value = value.split("{" + k + "}").join(vars[k]); });
+    return value;
   }
 
-  const languageSelect = document.getElementById("language-select");
-  if (languageSelect) {
-    languageSelect.value = safeLanguage;
-  }
+  function apply(language) {
+    active = SUPPORTED.includes(language) ? language : FALLBACK;
+    const root = document.documentElement;
+    root.lang = active;
+    root.dir = active === "ar" ? "rtl" : "ltr";
 
-  localStorage.setItem(I18N_CONFIG.storageKey, safeLanguage);
-
-  // تستطيع الصفحات المستقبلية الاستماع إلى هذا الحدث لتحديث محتواها الخاص.
-  document.dispatchEvent(
-    new CustomEvent("platformLanguageChanged", {
-      detail: { language: safeLanguage, direction: document.documentElement.dir }
-    })
-  );
-}
-
-async function loadTranslations() {
-  const response = await fetch(I18N_CONFIG.translationsPath, { cache: "no-store" });
-
-  if (!response.ok) {
-    throw new Error(`تعذر تحميل ملف الترجمات: ${response.status}`);
-  }
-
-  translations = await response.json();
-}
-
-async function initializePlatform() {
-  const year = document.getElementById("current-year");
-  if (year) year.textContent = new Date().getFullYear();
-
-  try {
-    await loadTranslations();
-
-    const savedLanguage = localStorage.getItem(I18N_CONFIG.storageKey);
-    const browserLanguage = navigator.language.slice(0, 2).toLowerCase();
-    const initialLanguage = I18N_CONFIG.supportedLanguages.includes(savedLanguage)
-      ? savedLanguage
-      : I18N_CONFIG.supportedLanguages.includes(browserLanguage)
-        ? browserLanguage
-        : I18N_CONFIG.defaultLanguage;
-
-    applyTranslations(initialLanguage);
-
-    const languageSelect = document.getElementById("language-select");
-    languageSelect?.addEventListener("change", (event) => {
-      applyTranslations(event.target.value);
+    document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
+    document.querySelectorAll("[data-i18n-aria-label]").forEach((el) => { el.setAttribute("aria-label", t(el.dataset.i18nAriaLabel)); });
+    document.querySelectorAll("[data-i18n-title]").forEach((el) => {
+      el.setAttribute("title", t(el.dataset.i18nTitle));
+      el.setAttribute("aria-label", t(el.dataset.i18nTitle));
     });
-  } catch (error) {
-    console.error(error);
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => { el.setAttribute("placeholder", t(el.dataset.i18nPlaceholder)); });
 
-    // يبقى النص العربي الموجود داخل HTML ظاهراً إذا كان الملف مفقوداً.
-    const notice = document.getElementById("section-notice");
-    if (notice) {
-      notice.textContent = "تعذر تحميل ملف الترجمات. تأكد من وضع translations.json داخل مجلد data.";
-      notice.hidden = false;
-    }
+    document.title = t(document.body.dataset.metaTitleKey || "meta.title");
+    const description = document.querySelector('meta[name="description"]');
+    if (description) description.setAttribute("content", t("meta.description"));
+
+    document.querySelectorAll(".language-select").forEach((select) => { select.value = active; });
+    save(active);
+    root.classList.remove("i18n-pending");
+    document.dispatchEvent(new CustomEvent("platformLanguageChanged", { detail: { language: active } }));
   }
-}
 
-document.addEventListener("DOMContentLoaded", initializePlatform);
+  async function init() {
+    const year = document.getElementById("current-year");
+    if (year) year.textContent = new Date().getFullYear();
+    try {
+      const url = scriptUrl ? new URL("../../data/translations.json", scriptUrl).href : "data/translations.json";
+      const response = await fetch(url, { cache: "no-cache" });
+      if (!response.ok) throw new Error("translations " + response.status);
+      translations = await response.json();
+      const saved = readSaved();
+      const browser = (navigator.language || "").slice(0, 2).toLowerCase();
+      apply(SUPPORTED.includes(saved) ? saved : SUPPORTED.includes(browser) ? browser : FALLBACK);
+      document.querySelectorAll(".language-select").forEach((select) => {
+        select.addEventListener("change", (event) => apply(event.target.value));
+      });
+    } catch (error) {
+      // يبقى النص العربي الموجود داخل الصفحة ظاهرًا إذا تعذّر تحميل الترجمات.
+      console.error(error);
+      document.documentElement.classList.remove("i18n-pending");
+    }
+    resolveReady();
+  }
 
-// واجهة عامة سنستخدمها لاحقاً داخل صفحات القرآن والحديث واللغة.
-window.PlatformI18n = {
-  applyLanguage: applyTranslations,
-  getLanguage: () => activeLanguage,
-  t: translate
-};
+  document.addEventListener("DOMContentLoaded", init);
+  window.PlatformI18n = { t, ready, getLanguage: () => active, applyLanguage: apply };
+})();

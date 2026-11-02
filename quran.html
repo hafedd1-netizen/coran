@@ -4,68 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>حفظ القرآن الكريم | منصة التعلّم</title>
-  <meta name="description" content="استمع إلى التلاوة، أخفِ الكلمات أو الآيات، وتابع القراءة بطريقة الكاراوكي.">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <meta name="description" content="منصة ممتعة لأبناء المغتربين لحفظ القرآن الكريم وتعلّم اللغة العربية والقيم الإسلامية">
+  <meta name="theme-color" content="#0f5b4b">
+  <script>
+    // تطبيق اللغة المحفوظة قبل رسم الصفحة لتفادي وميض لغة أخرى.
+    (function () {
+      var l = null, r = document.documentElement;
+      try { l = localStorage.getItem("platform-language"); } catch (e) {}
+      if (!l) { l = (navigator.language || "").slice(0, 2).toLowerCase(); }
+      if (l !== "ar") { r.classList.add("i18n-pending"); r.dir = "ltr"; }
+    })();
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏮%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-meta-title-key="sections.quran.title" data-meta-description-key="sections.quran.description">
-
+<body data-meta-title-key="quran.title">
   <a href="#main-content" class="skip-link" data-i18n="accessibility.skipToContent">انتقل إلى المحتوى الرئيسي</a>
-
-  <header class="site-header">
-    <div class="header-pattern" aria-hidden="true"></div>
-    <div class="header-content">
-      <a href="../index.html" class="back-link" data-i18n="nav.backToHome">← العودة إلى الرئيسية</a>
-      <p class="platform-name" data-i18n="sections.quran.title">حفظ القرآن الكريم</p>
-      <p class="platform-subtitle" data-i18n="sections.quran.description">استمع إلى التلاوة، أخفِ الكلمات أو الآيات، وتابع القراءة بطريقة الكاراوكي.</p>
-
-      <div class="language-picker">
-        <label for="language-select" data-i18n="language.label">لغة المنصة</label>
-        <select id="language-select">
-          <option value="ar" data-i18n="languages.ar">العربية</option>
-          <option value="en" data-i18n="languages.en">الإنجليزية</option>
-          <option value="fr" data-i18n="languages.fr">الفرنسية</option>
-          <option value="es" data-i18n="languages.es">الإسبانية</option>
-          <option value="de" data-i18n="languages.de">الألمانية</option>
-          <option value="it" data-i18n="languages.it">الإيطالية</option>
-        </select>
-        <small data-i18n="language.help">سيتم حفظ اختيارك وتطبيقه على صفحات المنصة.</small>
-      </div>
+  <nav class="topbar">
+    <a class="logo" href="index.html"><span aria-hidden="true">🏮</span> <span data-i18n="brand.name">منصة القرآن واللغة العربية</span></a>
+    <div class="topnav">
+      <a href="quran.html" class="active" aria-current="page" data-i18n="nav.quran">القرآن</a>
+      <a href="arabic.html" data-i18n="nav.arabic">العربية</a>
     </div>
-  </header>
+    <label class="lang-chip"><span aria-hidden="true">🌐</span>
+      <span class="sr-only" data-i18n="language.label">اللغة</span>
+      <select class="language-select">
+        <option value="ar">العربية</option><option value="en">English</option><option value="fr">Français</option><option value="es">Español</option><option value="de">Deutsch</option><option value="it">Italiano</option>
+      </select>
+    </label>
+  </nav>
 
-  <main id="main-content" class="main-content">
-
-    <section class="section-grid single-column">
-      <article class="learning-card quran-card">
-        <div class="card-icon" aria-hidden="true">📖</div>
-        <h1 data-i18n="sections.quran.title">حفظ القرآن الكريم</h1>
-        <p data-i18n="sections.quran.description">استمع إلى التلاوة، أخفِ الكلمات أو الآيات، وتابع القراءة بطريقة الكاراوكي.</p>
-        <ul class="feature-list">
-          <li data-i18n="sections.quran.feature1">اختيار القارئ المفضّل</li>
-          <li data-i18n="sections.quran.feature2">تمارين إخفاء الكلمات والآيات</li>
-          <li data-i18n="sections.quran.feature3">تظليل متزامن مع الصوت</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="help-box">
-      <div class="help-icon" aria-hidden="true">🛠️</div>
-      <div>
-        <span class="status-badge" data-i18n="status.comingSoon">قيد الإعداد</span>
-        <p data-i18n="status.comingSoonDescription">هذا القسم قيد الإعداد حالياً. الميزات التفاعلية (الصوت، الإخفاء، التمارين) ستُضاف تباعاً من ملفات JSON وJavaScript الخاصة بهذا القسم.</p>
+  <main id="main-content" class="page">
+    <section id="picker">
+      <div class="section-head">
+        <h1 data-i18n="quran.title">حفظ القرآن الكريم</h1>
+        <p data-i18n="quran.pick">اختر سورة لتبدأ</p>
       </div>
+      <div class="picker-tools">
+        <div class="tabs" role="tablist">
+          <button type="button" class="tab-btn" role="tab" data-tab="short" aria-selected="true" data-i18n="quran.tabShort">جزء عمّ والفاتحة</button>
+          <button type="button" class="tab-btn" role="tab" data-tab="all" aria-selected="false" data-i18n="quran.tabAll">كل السور</button>
+        </div>
+        <input id="surah-search" class="search" type="search" data-i18n-placeholder="quran.search" data-i18n-aria-label="quran.search">
+      </div>
+      <div id="surah-grid" class="surah-grid"></div>
     </section>
 
+    <section id="reader" hidden>
+      <a class="back-pill" href="#"><span class="flip" aria-hidden="true">←</span> <span data-i18n="quran.back">كل السور</span></a>
+      <header class="reader-head">
+        <div>
+          <h1 id="surah-title" lang="ar" dir="rtl"></h1>
+          <p id="surah-subtitle"></p>
+        </div>
+        <div class="progress-card">
+          <div class="progress-top"><span data-i18n="quran.progress">تقدّمك في هذه السورة</span><strong id="progress-percent">0%</strong></div>
+          <div id="progress-bar" class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-i18n-aria-label="quran.progress"><span id="progress-fill"></span></div>
+          <div class="progress-bottom"><span id="progress-count"></span></div>
+          <small data-i18n="quran.progressHelp"></small>
+        </div>
+      </header>
+
+      <div class="reader-tools">
+        <label class="field"><span data-i18n="quran.reciter">القارئ</span><select id="reciter"></select></label>
+        <label id="translation-wrap" class="switch" hidden><input id="show-translation" type="checkbox"><span data-i18n="quran.translation">الترجمة</span></label>
+        <div class="hide-group" role="group" data-i18n-aria-label="quran.hide">
+          <span class="group-label" data-i18n="quran.hide">الإخفاء</span>
+          <div class="hide-options"><button type="button" class="hide-btn" data-hide="none" aria-pressed="false" data-i18n="quran.hideNone"></button><button type="button" class="hide-btn" data-hide="some" aria-pressed="false" data-i18n="quran.hideSome"></button><button type="button" class="hide-btn" data-hide="half" aria-pressed="false" data-i18n="quran.hideHalf"></button><button type="button" class="hide-btn" data-hide="hint" aria-pressed="false" data-i18n="quran.hideHint"></button><button type="button" class="hide-btn" data-hide="verse" aria-pressed="false" data-i18n="quran.hideVerse"></button></div>
+        </div>
+      </div>
+      <p id="hide-tip" class="tip" hidden data-i18n="quran.hideTip"></p>
+      <p id="translation-error" class="alert" hidden data-i18n="quran.translationOff"></p>
+      <div id="audio-error" class="alert" hidden><span data-i18n="quran.audioError"></span> <button type="button" id="audio-retry" class="link-btn" data-i18n="common.retry"></button></div>
+
+      <div id="verses" class="verses"></div>
+    </section>
   </main>
 
+  <div id="dock" class="dock" hidden>
+    <div class="dock-row">
+      <strong id="dock-verse" class="dock-verse"></strong>
+      <div class="transport" dir="ltr">
+        <button type="button" id="prev" class="round-btn" data-i18n-title="quran.prev">⏮</button>
+        <button type="button" id="play" class="round-btn play-btn" disabled><span id="play-icon">▶</span></button>
+        <button type="button" id="next" class="round-btn" data-i18n-title="quran.next">⏭</button>
+      </div>
+      <div class="dock-selects">
+        <label class="mini-field"><span data-i18n="quran.repeat"></span><select id="repeat"><option value="1">×1</option><option value="3">×3</option><option value="5">×5</option><option value="10">×10</option></select></label>
+        <label class="mini-field"><span data-i18n="quran.speed"></span><select id="speed"><option value="0.75">0.75</option><option value="1" selected>1</option><option value="1.25">1.25</option></select></label>
+      </div>
+    </div>
+    <div class="dock-row dock-actions">
+      <button type="button" id="record" class="pill-btn rec-btn"><span id="record-icon" aria-hidden="true">🎤</span> <span id="record-label"></span></button>
+      <span id="rec-tools" class="rec-tools" hidden>
+        <button type="button" id="listen-me" class="pill-btn"><span aria-hidden="true">🔊</span> <span data-i18n="quran.listenMe"></span></button>
+        <button type="button" id="compare" class="pill-btn"><span aria-hidden="true">🎧</span> <span data-i18n="quran.compare"></span></button>
+        <button type="button" id="delete-rec" class="pill-btn icon-only" data-i18n-title="quran.deleteRec">🗑</button>
+      </span>
+      <button type="button" id="mark-mem" class="pill-btn mem-btn"></button>
+    </div>
+    <p id="rec-message" class="dock-note alert" hidden></p>
+    <small class="dock-note" data-i18n="quran.recPrivacy"></small>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
   <footer class="site-footer">
-    <p><span data-i18n="footer.text">منصة القرآن والحديث واللغة العربية</span> © <span id="current-year"></span></p>
+    <p><span data-i18n="footer.text">منصة القرآن واللغة العربية</span> © <span id="current-year"></span></p>
   </footer>
-
-  <noscript>
-    <p class="noscript-message">هذه المنصة تحتاج إلى تفعيل JavaScript لعرض الترجمات وتبديل اللغة بشكل صحيح.</p>
-  </noscript>
-
-  <script src="../assets/js/i18n.js" defer></script>
+  <noscript><p class="noscript-message">هذه المنصة تحتاج إلى تفعيل JavaScript. / This platform needs JavaScript.</p></noscript>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/quran.js"></script>
 </body>
 </html>

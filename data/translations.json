@@ -1,428 +1,818 @@
 {
-  "ar": {
-    "meta": {
-      "title": "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا | منصة التعلّم",
-      "description": "منصة تفاعلية لحفظ القرآن الكريم والحديث الشريف وتعلّم اللغة العربية"
-    },
-    "accessibility": {
-      "skipToContent": "انتقل إلى المحتوى الرئيسي"
-    },
-    "brand": {
-      "name": "منصة القرآن والحديث واللغة العربية",
-      "subtitle": "رحلة تعليمية هادئة وتفاعلية للحفظ والفهم والتعلّم"
-    },
-    "language": {
-      "label": "لغة المنصة",
-      "help": "سيتم حفظ اختيارك وتطبيقه على صفحات المنصة."
-    },
-    "languages": {
-      "ar": "العربية",
-      "en": "الإنجليزية",
-      "fr": "الفرنسية",
-      "es": "الإسبانية",
-      "de": "الألمانية",
-      "it": "الإيطالية"
-    },
-    "home": {
-      "eyebrow": "ابدأ رحلتك التعليمية",
-      "title": "اختر القسم الذي تريد دراسته",
-      "description": "ثلاثة أقسام مترابطة تساعدك على الحفظ والمراجعة والفهم خطوة بخطوة.",
-      "sectionsLabel": "الأقسام الرئيسية"
-    },
-    "sections": {
-      "quran": {
-        "title": "حفظ القرآن الكريم",
-        "description": "استمع إلى التلاوة، أخفِ الكلمات أو الآيات، وتابع القراءة بطريقة الكاراوكي.",
-        "feature1": "اختيار القارئ المفضّل",
-        "feature2": "تمارين إخفاء الكلمات والآيات",
-        "feature3": "تظليل متزامن مع الصوت",
-        "action": "دخول قسم القرآن"
-      },
-      "hadith": {
-        "title": "الحديث النبوي الشريف",
-        "description": "اقرأ الأحاديث واحفظها مع شرح موجز وترجمات سهلة الإضافة والتحديث.",
-        "feature1": "نص الحديث مضبوط وواضح",
-        "feature2": "ترجمات باللغات الست",
-        "feature3": "إضافة المحتوى من ملف JSON بسيط",
-        "action": "دخول قسم الحديث"
-      },
-      "arabic": {
-        "title": "تعلّم اللغة العربية",
-        "description": "دروس مبسطة في الحروف والمفردات والقواعد لفهم العربية تدريجياً.",
-        "feature1": "دروس قصيرة ومنظمة",
-        "feature2": "أمثلة وتمارين تطبيقية",
-        "feature3": "إضافة الدروس من ملف JSON بسيط",
-        "action": "دخول قسم اللغة العربية"
-      }
-    },
-    "help": {
-      "title": "واجهة بسيطة وقابلة للتوسّع",
-      "description": "ستقرأ المنصة الترجمات والأحاديث والدروس من ملفات JSON منفصلة، لذلك يمكنك تحديث المحتوى من GitHub دون تعديل الكود."
-    },
-    "footer": {
-      "text": "منصة القرآن والحديث واللغة العربية"
-    },
-    "nav": {
-      "backToHome": "العودة إلى الرئيسية"
-    },
-    "status": {
-      "comingSoon": "قيد الإعداد",
-      "comingSoonDescription": "هذا القسم قيد الإعداد حالياً. الميزات التفاعلية (الصوت، الإخفاء، التمارين) ستُضاف تباعاً من ملفات JSON وJavaScript الخاصة بهذا القسم."
-    }
+ "ar": {
+  "meta": {
+   "title": "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا | منصة التعلّم",
+   "description": "منصة ممتعة لأبناء المغتربين لحفظ القرآن الكريم وتعلّم اللغة العربية والقيم الإسلامية"
   },
-  "en": {
-    "meta": {
-      "title": "Recite the Quran with measured recitation | Learning Platform",
-      "description": "An interactive platform for Quran memorization, Prophetic Hadith, and Arabic learning"
-    },
-    "accessibility": {
-      "skipToContent": "Skip to main content"
-    },
-    "brand": {
-      "name": "Quran, Hadith and Arabic Learning Platform",
-      "subtitle": "A calm, interactive journey for memorization, understanding and learning"
-    },
-    "language": {
-      "label": "Platform language",
-      "help": "Your choice will be saved and applied across the platform."
-    },
-    "languages": {
-      "ar": "Arabic",
-      "en": "English",
-      "fr": "French",
-      "es": "Spanish",
-      "de": "German",
-      "it": "Italian"
-    },
-    "home": {
-      "eyebrow": "Begin your learning journey",
-      "title": "Choose what you would like to study",
-      "description": "Three connected sections help you memorize, review and understand step by step.",
-      "sectionsLabel": "Main sections"
-    },
-    "sections": {
-      "quran": {
-        "title": "Quran Memorization",
-        "description": "Listen to recitation, hide words or verses, and follow along with karaoke-style highlighting.",
-        "feature1": "Choose your preferred reciter",
-        "feature2": "Word and verse hiding exercises",
-        "feature3": "Audio-synchronized highlighting",
-        "action": "Open Quran Section"
-      },
-      "hadith": {
-        "title": "Prophetic Hadith",
-        "description": "Read and memorize hadiths with brief explanations and translations that are easy to update.",
-        "feature1": "Clear, carefully presented hadith text",
-        "feature2": "Translations in six languages",
-        "feature3": "Add content through a simple JSON file",
-        "action": "Open Hadith Section"
-      },
-      "arabic": {
-        "title": "Learn Arabic",
-        "description": "Simple lessons in letters, vocabulary and grammar to build your understanding gradually.",
-        "feature1": "Short, organized lessons",
-        "feature2": "Practical examples and exercises",
-        "feature3": "Add lessons through a simple JSON file",
-        "action": "Open Arabic Section"
-      }
-    },
-    "help": {
-      "title": "Simple and easy to expand",
-      "description": "The platform will read translations, hadiths and lessons from separate JSON files, so you can update content on GitHub without changing the program code."
-    },
-    "footer": {
-      "text": "Quran, Hadith and Arabic Learning Platform"
-    },
-    "nav": {
-      "backToHome": "Back to home"
-    },
-    "status": {
-      "comingSoon": "In progress",
-      "comingSoonDescription": "This section is currently being built. Interactive features (audio, hiding exercises, lessons) will be added gradually through this section's own JSON and JavaScript files."
-    }
+  "accessibility": {
+   "skipToContent": "انتقل إلى المحتوى الرئيسي"
   },
-  "fr": {
-    "meta": {
-      "title": "Récite le Coran avec soin | Plateforme d'apprentissage",
-      "description": "Une plateforme interactive pour mémoriser le Coran et les hadiths et apprendre l'arabe"
-    },
-    "accessibility": {
-      "skipToContent": "Aller au contenu principal"
-    },
-    "brand": {
-      "name": "Plateforme du Coran, des hadiths et de la langue arabe",
-      "subtitle": "Un parcours calme et interactif pour mémoriser, comprendre et apprendre"
-    },
-    "language": {
-      "label": "Langue de la plateforme",
-      "help": "Votre choix sera enregistré et appliqué à toute la plateforme."
-    },
-    "languages": {
-      "ar": "Arabe",
-      "en": "Anglais",
-      "fr": "Français",
-      "es": "Espagnol",
-      "de": "Allemand",
-      "it": "Italien"
-    },
-    "home": {
-      "eyebrow": "Commencez votre parcours d'apprentissage",
-      "title": "Choisissez ce que vous souhaitez étudier",
-      "description": "Trois sections complémentaires vous aident à mémoriser, réviser et comprendre pas à pas.",
-      "sectionsLabel": "Sections principales"
-    },
-    "sections": {
-      "quran": {
-        "title": "Mémorisation du Coran",
-        "description": "Écoutez la récitation, masquez des mots ou des versets et suivez la lecture grâce au surlignage karaoké.",
-        "feature1": "Choix du récitateur préféré",
-        "feature2": "Exercices de masquage de mots et de versets",
-        "feature3": "Surlignage synchronisé avec l'audio",
-        "action": "Ouvrir la section Coran"
-      },
-      "hadith": {
-        "title": "Hadith prophétique",
-        "description": "Lisez et mémorisez les hadiths avec de brèves explications et des traductions faciles à actualiser.",
-        "feature1": "Texte du hadith clair et soigné",
-        "feature2": "Traductions en six langues",
-        "feature3": "Ajout du contenu avec un simple fichier JSON",
-        "action": "Ouvrir la section Hadith"
-      },
-      "arabic": {
-        "title": "Apprendre l'arabe",
-        "description": "Des leçons simples sur les lettres, le vocabulaire et la grammaire pour progresser graduellement.",
-        "feature1": "Leçons courtes et organisées",
-        "feature2": "Exemples et exercices pratiques",
-        "feature3": "Ajout des leçons avec un simple fichier JSON",
-        "action": "Ouvrir la section Arabe"
-      }
-    },
-    "help": {
-      "title": "Simple et facile à enrichir",
-      "description": "La plateforme lira les traductions, les hadiths et les leçons depuis des fichiers JSON séparés. Vous pourrez donc actualiser le contenu sur GitHub sans modifier le code."
-    },
-    "footer": {
-      "text": "Plateforme du Coran, des hadiths et de la langue arabe"
-    },
-    "nav": {
-      "backToHome": "Retour à l'accueil"
-    },
-    "status": {
-      "comingSoon": "En cours de construction",
-      "comingSoonDescription": "Cette section est actuellement en cours de construction. Les fonctionnalités interactives (audio, exercices de masquage, leçons) seront ajoutées progressivement via les fichiers JSON et JavaScript propres à cette section."
-    }
+  "brand": {
+   "name": "منصة القرآن واللغة العربية",
+   "subtitle": "لأبنائنا في بلاد المهجر: قرآنٌ ولغةٌ وأخلاق، خطوةً بخطوة"
   },
-  "es": {
-    "meta": {
-      "title": "Recita el Corán pausadamente | Plataforma de aprendizaje",
-      "description": "Una plataforma interactiva para memorizar el Corán y los hadices y aprender árabe"
-    },
-    "accessibility": {
-      "skipToContent": "Ir al contenido principal"
-    },
-    "brand": {
-      "name": "Plataforma del Corán, los hadices y la lengua árabe",
-      "subtitle": "Un recorrido tranquilo e interactivo para memorizar, comprender y aprender"
-    },
-    "language": {
-      "label": "Idioma de la plataforma",
-      "help": "Tu elección se guardará y se aplicará a toda la plataforma."
-    },
-    "languages": {
-      "ar": "Árabe",
-      "en": "Inglés",
-      "fr": "Francés",
-      "es": "Español",
-      "de": "Alemán",
-      "it": "Italiano"
-    },
-    "home": {
-      "eyebrow": "Comienza tu recorrido de aprendizaje",
-      "title": "Elige lo que deseas estudiar",
-      "description": "Tres secciones conectadas te ayudan a memorizar, repasar y comprender paso a paso.",
-      "sectionsLabel": "Secciones principales"
-    },
-    "sections": {
-      "quran": {
-        "title": "Memorización del Corán",
-        "description": "Escucha la recitación, oculta palabras o aleyas y sigue la lectura con resaltado estilo karaoke.",
-        "feature1": "Elige tu recitador preferido",
-        "feature2": "Ejercicios para ocultar palabras y aleyas",
-        "feature3": "Resaltado sincronizado con el audio",
-        "action": "Abrir la sección del Corán"
-      },
-      "hadith": {
-        "title": "Hadiz profético",
-        "description": "Lee y memoriza hadices con explicaciones breves y traducciones fáciles de actualizar.",
-        "feature1": "Texto del hadiz claro y cuidado",
-        "feature2": "Traducciones en seis idiomas",
-        "feature3": "Añade contenido con un archivo JSON sencillo",
-        "action": "Abrir la sección de hadices"
-      },
-      "arabic": {
-        "title": "Aprender árabe",
-        "description": "Lecciones sencillas de letras, vocabulario y gramática para avanzar gradualmente.",
-        "feature1": "Lecciones cortas y organizadas",
-        "feature2": "Ejemplos y ejercicios prácticos",
-        "feature3": "Añade lecciones con un archivo JSON sencillo",
-        "action": "Abrir la sección de árabe"
-      }
-    },
-    "help": {
-      "title": "Sencilla y fácil de ampliar",
-      "description": "La plataforma leerá las traducciones, los hadices y las lecciones desde archivos JSON separados, para que puedas actualizar el contenido en GitHub sin modificar el código."
-    },
-    "footer": {
-      "text": "Plataforma del Corán, los hadices y la lengua árabe"
-    },
-    "nav": {
-      "backToHome": "Volver al inicio"
-    },
-    "status": {
-      "comingSoon": "En construcción",
-      "comingSoonDescription": "Esta sección está actualmente en construcción. Las funciones interactivas (audio, ejercicios para ocultar, lecciones) se añadirán progresivamente mediante los archivos JSON y JavaScript propios de esta sección."
-    }
+  "language": {
+   "label": "اللغة"
   },
-  "de": {
-    "meta": {
-      "title": "Trage den Koran wohlgeordnet vor | Lernplattform",
-      "description": "Eine interaktive Plattform zum Auswendiglernen des Korans und der Hadithe sowie zum Arabischlernen"
-    },
-    "accessibility": {
-      "skipToContent": "Zum Hauptinhalt springen"
-    },
-    "brand": {
-      "name": "Lernplattform für Koran, Hadith und Arabisch",
-      "subtitle": "Eine ruhige und interaktive Reise zum Auswendiglernen, Verstehen und Lernen"
-    },
-    "language": {
-      "label": "Sprache der Plattform",
-      "help": "Deine Auswahl wird gespeichert und auf die gesamte Plattform angewendet."
-    },
-    "languages": {
-      "ar": "Arabisch",
-      "en": "Englisch",
-      "fr": "Französisch",
-      "es": "Spanisch",
-      "de": "Deutsch",
-      "it": "Italienisch"
-    },
-    "home": {
-      "eyebrow": "Beginne deine Lernreise",
-      "title": "Wähle aus, was du lernen möchtest",
-      "description": "Drei miteinander verbundene Bereiche helfen dir Schritt für Schritt beim Auswendiglernen, Wiederholen und Verstehen.",
-      "sectionsLabel": "Hauptbereiche"
-    },
-    "sections": {
-      "quran": {
-        "title": "Koran auswendig lernen",
-        "description": "Höre die Rezitation, blende Wörter oder Verse aus und folge dem Text mit Karaoke-Hervorhebung.",
-        "feature1": "Bevorzugten Rezitator auswählen",
-        "feature2": "Übungen zum Ausblenden von Wörtern und Versen",
-        "feature3": "Mit dem Ton synchronisierte Hervorhebung",
-        "action": "Koranbereich öffnen"
-      },
-      "hadith": {
-        "title": "Prophetischer Hadith",
-        "description": "Lies und lerne Hadithe mit kurzen Erläuterungen und leicht aktualisierbaren Übersetzungen auswendig.",
-        "feature1": "Klarer und sorgfältig dargestellter Hadithtext",
-        "feature2": "Übersetzungen in sechs Sprachen",
-        "feature3": "Inhalte über eine einfache JSON-Datei ergänzen",
-        "action": "Hadithbereich öffnen"
-      },
-      "arabic": {
-        "title": "Arabisch lernen",
-        "description": "Einfache Lektionen zu Buchstaben, Wortschatz und Grammatik für schrittweise Fortschritte.",
-        "feature1": "Kurze und geordnete Lektionen",
-        "feature2": "Praktische Beispiele und Übungen",
-        "feature3": "Lektionen über eine einfache JSON-Datei ergänzen",
-        "action": "Arabischbereich öffnen"
-      }
-    },
-    "help": {
-      "title": "Einfach und leicht erweiterbar",
-      "description": "Die Plattform liest Übersetzungen, Hadithe und Lektionen aus getrennten JSON-Dateien. So kannst du Inhalte auf GitHub aktualisieren, ohne den Programmcode zu ändern."
-    },
-    "footer": {
-      "text": "Lernplattform für Koran, Hadith und Arabisch"
-    },
-    "nav": {
-      "backToHome": "Zurück zur Startseite"
-    },
-    "status": {
-      "comingSoon": "Im Aufbau",
-      "comingSoonDescription": "Dieser Bereich befindet sich derzeit im Aufbau. Interaktive Funktionen (Audio, Ausblendübungen, Lektionen) werden nach und nach über die eigenen JSON- und JavaScript-Dateien dieses Bereichs ergänzt."
-    }
+  "languages": {
+   "ar": "العربية",
+   "en": "English",
+   "fr": "Français",
+   "es": "Español",
+   "de": "Deutsch",
+   "it": "Italiano"
   },
-  "it": {
-    "meta": {
-      "title": "Recita il Corano lentamente e chiaramente | Piattaforma didattica",
-      "description": "Una piattaforma interattiva per memorizzare il Corano e gli hadith e imparare l'arabo"
-    },
-    "accessibility": {
-      "skipToContent": "Vai al contenuto principale"
-    },
-    "brand": {
-      "name": "Piattaforma per il Corano, gli hadith e la lingua araba",
-      "subtitle": "Un percorso tranquillo e interattivo per memorizzare, comprendere e imparare"
-    },
-    "language": {
-      "label": "Lingua della piattaforma",
-      "help": "La tua scelta verrà salvata e applicata a tutta la piattaforma."
-    },
-    "languages": {
-      "ar": "Arabo",
-      "en": "Inglese",
-      "fr": "Francese",
-      "es": "Spagnolo",
-      "de": "Tedesco",
-      "it": "Italiano"
-    },
-    "home": {
-      "eyebrow": "Inizia il tuo percorso di apprendimento",
-      "title": "Scegli cosa desideri studiare",
-      "description": "Tre sezioni collegate ti aiutano a memorizzare, ripassare e comprendere passo dopo passo.",
-      "sectionsLabel": "Sezioni principali"
-    },
-    "sections": {
-      "quran": {
-        "title": "Memorizzazione del Corano",
-        "description": "Ascolta la recitazione, nascondi parole o versetti e segui il testo con l'evidenziazione in stile karaoke.",
-        "feature1": "Scegli il recitatore preferito",
-        "feature2": "Esercizi per nascondere parole e versetti",
-        "feature3": "Evidenziazione sincronizzata con l'audio",
-        "action": "Apri la sezione Corano"
-      },
-      "hadith": {
-        "title": "Hadith profetico",
-        "description": "Leggi e memorizza gli hadith con brevi spiegazioni e traduzioni facili da aggiornare.",
-        "feature1": "Testo dell'hadith chiaro e curato",
-        "feature2": "Traduzioni in sei lingue",
-        "feature3": "Aggiunta dei contenuti con un semplice file JSON",
-        "action": "Apri la sezione Hadith"
-      },
-      "arabic": {
-        "title": "Imparare l'arabo",
-        "description": "Semplici lezioni su lettere, vocabolario e grammatica per progredire gradualmente.",
-        "feature1": "Lezioni brevi e organizzate",
-        "feature2": "Esempi ed esercizi pratici",
-        "feature3": "Aggiunta delle lezioni con un semplice file JSON",
-        "action": "Apri la sezione Arabo"
-      }
-    },
-    "help": {
-      "title": "Semplice e facile da ampliare",
-      "description": "La piattaforma leggerà traduzioni, hadith e lezioni da file JSON separati, così potrai aggiornare i contenuti su GitHub senza modificare il codice."
-    },
-    "footer": {
-      "text": "Piattaforma per il Corano, gli hadith e la lingua araba"
-    },
-    "nav": {
-      "backToHome": "Torna alla home"
-    },
-    "status": {
-      "comingSoon": "In costruzione",
-      "comingSoonDescription": "Questa sezione è attualmente in costruzione. Le funzionalità interattive (audio, esercizi di occultamento, lezioni) verranno aggiunte gradualmente tramite i file JSON e JavaScript propri di questa sezione."
-    }
+  "nav": {
+   "home": "الرئيسية",
+   "quran": "القرآن",
+   "arabic": "العربية"
+  },
+  "home": {
+   "title": "ماذا سنتعلّم اليوم؟",
+   "description": "بضع دقائق كل يوم تكفي لتقترب من القرآن ولغته أينما كنت.",
+   "quranTitle": "حفظ القرآن الكريم",
+   "quranDesc": "استمع إلى ستة قرّاء، تابع الكلمات بالكاراوكي، أخفِها لتختبر حفظك، ثم سجّل صوتك واستمع إليه.",
+   "quranAction": "ابدأ الحفظ",
+   "arabicTitle": "العربية والحديث والأخلاق",
+   "arabicDesc": "دروس قصيرة كاللعبة: الصلاة والزكاة وبرّ الوالدين والجار والنظافة والنظام واحترام الآخرين.",
+   "arabicAction": "ابدأ الدرس",
+   "parentsTitle": "رسالة إلى الأولياء",
+   "parentsText": "صُمّمت المنصة لأطفال يعيشون خارج البلاد العربية، فتُشرح الدروس بلغة بلدهم. لا تحتاج إلى حساب: يبقى التقدّم والتسجيلات الصوتية على هذا الجهاز فقط ولا تُرسل إلى أي خادم."
+  },
+  "stats": {
+   "xp": "نقطة",
+   "streak": "أيام متتالية",
+   "verses": "آية محفوظة",
+   "lessons": "درس مكتمل"
+  },
+  "footer": {
+   "text": "منصة القرآن واللغة العربية"
+  },
+  "common": {
+   "loading": "جارٍ التحميل…",
+   "retry": "أعد المحاولة"
+  },
+  "quran": {
+   "title": "حفظ القرآن الكريم",
+   "pick": "اختر سورة لتبدأ",
+   "tabShort": "جزء عمّ والفاتحة",
+   "tabAll": "كل السور",
+   "search": "ابحث عن سورة",
+   "verses": "آيات",
+   "back": "كل السور",
+   "progress": "تقدّمك في هذه السورة",
+   "progressHelp": "الاستماع 20% • التسجيل 30% • الحفظ 50%",
+   "memorizedOf": "حُفظت {n} من {t} آية",
+   "reciter": "القارئ",
+   "hide": "الإخفاء",
+   "hideNone": "لا شيء",
+   "hideSome": "ثلث الكلمات",
+   "hideHalf": "نصف الكلمات",
+   "hideHint": "كل شيء إلا أول كلمة",
+   "hideVerse": "الآيات كاملة",
+   "hideTip": "انقر كلمة أو آية مخفية لإظهارها.",
+   "translation": "الترجمة",
+   "translationOff": "تعذّر تحميل الترجمة الآن.",
+   "speed": "السرعة",
+   "repeat": "تكرار الآية",
+   "play": "تشغيل",
+   "pause": "إيقاف مؤقت",
+   "prev": "الآية السابقة",
+   "next": "الآية التالية",
+   "verseN": "الآية {n}",
+   "record": "سجّل تلاوتي",
+   "stop": "أوقف التسجيل",
+   "listenMe": "استمع إلى تلاوتي",
+   "compare": "القارئ ثم أنا",
+   "deleteRec": "احذف التسجيل",
+   "markMem": "حفظتُ هذه الآية",
+   "unmarkMem": "محفوظة ✓ (إلغاء)",
+   "micDenied": "لم يُسمح باستعمال الميكروفون. فعّله من إعدادات المتصفح ثم أعد المحاولة.",
+   "micUnsupported": "هذا المتصفح لا يدعم التسجيل الصوتي.",
+   "recPrivacy": "يبقى تسجيلك على هذا الجهاز فقط.",
+   "audioError": "تعذّر تحميل التلاوة. تحقّق من الاتصال بالإنترنت ثم أعد المحاولة.",
+   "bravo": "أحسنت! بارك الله فيك 🌟"
+  },
+  "reciters": {
+   "7": "مشاري راشد العفاسي",
+   "12": "محمود خليل الحصري (المصحف المعلّم)",
+   "2": "عبد الباسط عبد الصمد",
+   "9": "محمد صديق المنشاوي",
+   "3": "عبد الرحمن السديس",
+   "10": "سعود الشريم"
+  },
+  "arabic": {
+   "title": "العربية والحديث والأخلاق",
+   "tabPath": "مسار الدروس",
+   "tabHadith": "الأحاديث",
+   "unit": "الوحدة {n}",
+   "lesson1": "كلمات جديدة",
+   "lesson2": "كلمات أخرى",
+   "lesson3": "جمل وحديث",
+   "locked": "أكمل الدرس السابق أولًا",
+   "hadithIntro": "قال رسول الله ﷺ",
+   "hadithLesson": "ماذا نتعلّم؟",
+   "translationNote": "الترجمة تقريبية لمعنى الحديث وليست نصًّا بديلًا عنه."
+  },
+  "ex": {
+   "new": "كلمة جديدة",
+   "meaning": "ما معنى هذا؟",
+   "chooseArabic": "اختر الكتابة العربية الصحيحة",
+   "listen": "استمع واختر ما سمعته",
+   "match": "صِل كل كلمة بمعناها",
+   "build": "رتّب الكلمات لتكوّن الجملة",
+   "hadith": "حديث شريف",
+   "hadithQ": "ماذا يعلّمنا هذا الحديث؟",
+   "check": "تحقّق",
+   "continue": "متابعة",
+   "correct": "أحسنت!",
+   "wrong": "الجواب الصحيح:",
+   "retryLater": "لا بأس، سنعود إليها بعد قليل.",
+   "speak": "استمع",
+   "close": "إغلاق الدرس",
+   "doneTitle": "ما شاء الله! أكملت الدرس",
+   "earned": "ربحت {n} نقطة",
+   "backPath": "العودة إلى المسار"
   }
+ },
+ "en": {
+  "meta": {
+   "title": "Quran & Arabic for children abroad",
+   "description": "A fun platform helping children living abroad memorize the Quran and learn Arabic and Islamic values"
+  },
+  "accessibility": {
+   "skipToContent": "Skip to main content"
+  },
+  "brand": {
+   "name": "Quran & Arabic Platform",
+   "subtitle": "For our children living abroad: Quran, language and good character, step by step"
+  },
+  "language": {
+   "label": "Language"
+  },
+  "languages": {
+   "ar": "العربية",
+   "en": "English",
+   "fr": "Français",
+   "es": "Español",
+   "de": "Deutsch",
+   "it": "Italiano"
+  },
+  "nav": {
+   "home": "Home",
+   "quran": "Quran",
+   "arabic": "Arabic"
+  },
+  "home": {
+   "title": "What shall we learn today?",
+   "description": "A few minutes a day bring you closer to the Quran and its language, wherever you live.",
+   "quranTitle": "Memorize the Quran",
+   "quranDesc": "Listen to six reciters, follow the words karaoke-style, hide them to test yourself, then record your voice and listen back.",
+   "quranAction": "Start memorizing",
+   "arabicTitle": "Arabic, Hadith and good manners",
+   "arabicDesc": "Short, game-like lessons: prayer, zakat, parents, neighbours, cleanliness, tidiness and respect for others.",
+   "arabicAction": "Start a lesson",
+   "parentsTitle": "A note for parents",
+   "parentsText": "This platform is designed for children growing up outside Arab countries, so lessons are explained in their everyday language. No account is needed: progress and voice recordings stay on this device and are never sent to a server."
+  },
+  "stats": {
+   "xp": "points",
+   "streak": "day streak",
+   "verses": "verses memorized",
+   "lessons": "lessons completed"
+  },
+  "footer": {
+   "text": "Quran & Arabic Platform"
+  },
+  "common": {
+   "loading": "Loading…",
+   "retry": "Try again"
+  },
+  "quran": {
+   "title": "Memorize the Quran",
+   "pick": "Choose a surah to begin",
+   "tabShort": "Juz Amma & Al-Fatiha",
+   "tabAll": "All surahs",
+   "search": "Search for a surah",
+   "verses": "verses",
+   "back": "All surahs",
+   "progress": "Your progress in this surah",
+   "progressHelp": "Listening 20% • Recording 30% • Memorizing 50%",
+   "memorizedOf": "{n} of {t} verses memorized",
+   "reciter": "Reciter",
+   "hide": "Hide",
+   "hideNone": "Nothing",
+   "hideSome": "A third of the words",
+   "hideHalf": "Half of the words",
+   "hideHint": "All but the first word",
+   "hideVerse": "Whole verses",
+   "hideTip": "Tap a hidden word or verse to reveal it.",
+   "translation": "Translation",
+   "translationOff": "The translation could not be loaded right now.",
+   "speed": "Speed",
+   "repeat": "Repeat verse",
+   "play": "Play",
+   "pause": "Pause",
+   "prev": "Previous verse",
+   "next": "Next verse",
+   "verseN": "Verse {n}",
+   "record": "Record me",
+   "stop": "Stop recording",
+   "listenMe": "Hear my recitation",
+   "compare": "Reciter, then me",
+   "deleteRec": "Delete recording",
+   "markMem": "I memorized this verse",
+   "unmarkMem": "Memorized ✓ (undo)",
+   "micDenied": "Microphone access was not allowed. Enable it in your browser settings and try again.",
+   "micUnsupported": "This browser does not support voice recording.",
+   "recPrivacy": "Your recording stays on this device only.",
+   "audioError": "The recitation could not be loaded. Check your internet connection and try again.",
+   "bravo": "Well done! May Allah bless you 🌟"
+  },
+  "reciters": {
+   "7": "Mishari Al-Afasy",
+   "12": "Mahmoud Al-Husary (teaching)",
+   "2": "Abdul Basit Abdul Samad",
+   "9": "Mohamed Siddiq Al-Minshawi",
+   "3": "Abdur-Rahman As-Sudais",
+   "10": "Saud Ash-Shuraym"
+  },
+  "arabic": {
+   "title": "Arabic, Hadith and good manners",
+   "tabPath": "Learning path",
+   "tabHadith": "Hadiths",
+   "unit": "Unit {n}",
+   "lesson1": "New words",
+   "lesson2": "More words",
+   "lesson3": "Sentences and hadith",
+   "locked": "Finish the previous lesson first",
+   "hadithIntro": "The Messenger of Allah ﷺ said",
+   "hadithLesson": "What do we learn?",
+   "translationNote": "This is an approximate translation of the meaning, not a replacement for the Arabic text."
+  },
+  "ex": {
+   "new": "New word",
+   "meaning": "What does this mean?",
+   "chooseArabic": "Choose the correct Arabic",
+   "listen": "Listen and choose what you hear",
+   "match": "Match each word to its meaning",
+   "build": "Put the words in order to build the sentence",
+   "hadith": "A hadith",
+   "hadithQ": "What does this hadith teach us?",
+   "check": "Check",
+   "continue": "Continue",
+   "correct": "Well done!",
+   "wrong": "Correct answer:",
+   "retryLater": "No problem, we'll come back to it soon.",
+   "speak": "Listen",
+   "close": "Close the lesson",
+   "doneTitle": "Great job! Lesson complete",
+   "earned": "You earned {n} points",
+   "backPath": "Back to the path"
+  }
+ },
+ "fr": {
+  "meta": {
+   "title": "Coran et arabe pour les enfants à l'étranger",
+   "description": "Une plateforme ludique pour aider les enfants vivant à l'étranger à mémoriser le Coran et à apprendre l'arabe et les valeurs islamiques"
+  },
+  "accessibility": {
+   "skipToContent": "Aller au contenu principal"
+  },
+  "brand": {
+   "name": "Plateforme Coran et arabe",
+   "subtitle": "Pour nos enfants à l'étranger : Coran, langue et bonnes manières, pas à pas"
+  },
+  "language": {
+   "label": "Langue"
+  },
+  "languages": {
+   "ar": "العربية",
+   "en": "English",
+   "fr": "Français",
+   "es": "Español",
+   "de": "Deutsch",
+   "it": "Italiano"
+  },
+  "nav": {
+   "home": "Accueil",
+   "quran": "Coran",
+   "arabic": "Arabe"
+  },
+  "home": {
+   "title": "Qu'allons-nous apprendre aujourd'hui ?",
+   "description": "Quelques minutes par jour suffisent pour te rapprocher du Coran et de sa langue, où que tu vives.",
+   "quranTitle": "Mémoriser le Coran",
+   "quranDesc": "Écoute six récitateurs, suis les mots en karaoké, cache-les pour te tester, puis enregistre ta voix et réécoute-la.",
+   "quranAction": "Commencer",
+   "arabicTitle": "Arabe, hadith et bonnes manières",
+   "arabicDesc": "Des leçons courtes comme un jeu : prière, zakat, parents, voisins, propreté, ordre et respect des autres.",
+   "arabicAction": "Commencer une leçon",
+   "parentsTitle": "Un mot pour les parents",
+   "parentsText": "Cette plateforme est conçue pour les enfants qui grandissent hors des pays arabes : les leçons sont expliquées dans leur langue de tous les jours. Aucun compte n'est nécessaire : la progression et les enregistrements restent sur cet appareil et ne sont jamais envoyés à un serveur."
+  },
+  "stats": {
+   "xp": "points",
+   "streak": "jours d'affilée",
+   "verses": "versets mémorisés",
+   "lessons": "leçons terminées"
+  },
+  "footer": {
+   "text": "Plateforme Coran et arabe"
+  },
+  "common": {
+   "loading": "Chargement…",
+   "retry": "Réessayer"
+  },
+  "quran": {
+   "title": "Mémoriser le Coran",
+   "pick": "Choisis une sourate pour commencer",
+   "tabShort": "Juz Amma et Al-Fatiha",
+   "tabAll": "Toutes les sourates",
+   "search": "Chercher une sourate",
+   "verses": "versets",
+   "back": "Toutes les sourates",
+   "progress": "Ta progression dans cette sourate",
+   "progressHelp": "Écoute 20 % • Enregistrement 30 % • Mémorisation 50 %",
+   "memorizedOf": "{n} versets mémorisés sur {t}",
+   "reciter": "Récitateur",
+   "hide": "Masquer",
+   "hideNone": "Rien",
+   "hideSome": "Un tiers des mots",
+   "hideHalf": "La moitié des mots",
+   "hideHint": "Tout sauf le premier mot",
+   "hideVerse": "Versets entiers",
+   "hideTip": "Touche un mot ou un verset caché pour le révéler.",
+   "translation": "Traduction",
+   "translationOff": "La traduction n'a pas pu être chargée.",
+   "speed": "Vitesse",
+   "repeat": "Répéter le verset",
+   "play": "Lecture",
+   "pause": "Pause",
+   "prev": "Verset précédent",
+   "next": "Verset suivant",
+   "verseN": "Verset {n}",
+   "record": "M'enregistrer",
+   "stop": "Arrêter",
+   "listenMe": "Écouter ma récitation",
+   "compare": "Le récitateur, puis moi",
+   "deleteRec": "Supprimer l'enregistrement",
+   "markMem": "J'ai mémorisé ce verset",
+   "unmarkMem": "Mémorisé ✓ (annuler)",
+   "micDenied": "L'accès au micro n'a pas été autorisé. Active-le dans les réglages du navigateur et réessaie.",
+   "micUnsupported": "Ce navigateur ne permet pas l'enregistrement vocal.",
+   "recPrivacy": "Ton enregistrement reste uniquement sur cet appareil.",
+   "audioError": "La récitation n'a pas pu être chargée. Vérifie ta connexion et réessaie.",
+   "bravo": "Bravo ! Qu'Allah te bénisse 🌟"
+  },
+  "reciters": {
+   "7": "Mishari Al-Afasy",
+   "12": "Mahmoud Al-Husary (enseignement)",
+   "2": "Abdul Basit Abdul Samad",
+   "9": "Mohamed Siddiq Al-Minshawi",
+   "3": "Abdur-Rahman As-Sudais",
+   "10": "Saoud Ash-Shuraym"
+  },
+  "arabic": {
+   "title": "Arabe, hadith et bonnes manières",
+   "tabPath": "Parcours",
+   "tabHadith": "Hadiths",
+   "unit": "Unité {n}",
+   "lesson1": "Nouveaux mots",
+   "lesson2": "Encore des mots",
+   "lesson3": "Phrases et hadith",
+   "locked": "Termine d'abord la leçon précédente",
+   "hadithIntro": "Le Messager d'Allah ﷺ a dit",
+   "hadithLesson": "Qu'apprenons-nous ?",
+   "translationNote": "Traduction approximative du sens, qui ne remplace pas le texte arabe."
+  },
+  "ex": {
+   "new": "Nouveau mot",
+   "meaning": "Que veut dire ceci ?",
+   "chooseArabic": "Choisis le bon mot en arabe",
+   "listen": "Écoute et choisis ce que tu entends",
+   "match": "Relie chaque mot à son sens",
+   "build": "Remets les mots dans l'ordre",
+   "hadith": "Un hadith",
+   "hadithQ": "Qu'est-ce que ce hadith nous apprend ?",
+   "check": "Vérifier",
+   "continue": "Continuer",
+   "correct": "Bravo !",
+   "wrong": "Bonne réponse :",
+   "retryLater": "Pas grave, on y reviendra bientôt.",
+   "speak": "Écouter",
+   "close": "Fermer la leçon",
+   "doneTitle": "Bravo ! Leçon terminée",
+   "earned": "Tu as gagné {n} points",
+   "backPath": "Retour au parcours"
+  }
+ },
+ "es": {
+  "meta": {
+   "title": "Corán y árabe para niños en el extranjero",
+   "description": "Una plataforma divertida para que los niños que viven en el extranjero memoricen el Corán y aprendan árabe y valores islámicos"
+  },
+  "accessibility": {
+   "skipToContent": "Ir al contenido principal"
+  },
+  "brand": {
+   "name": "Plataforma de Corán y árabe",
+   "subtitle": "Para nuestros hijos en el extranjero: Corán, lengua y buenos modales, paso a paso"
+  },
+  "language": {
+   "label": "Idioma"
+  },
+  "languages": {
+   "ar": "العربية",
+   "en": "English",
+   "fr": "Français",
+   "es": "Español",
+   "de": "Deutsch",
+   "it": "Italiano"
+  },
+  "nav": {
+   "home": "Inicio",
+   "quran": "Corán",
+   "arabic": "Árabe"
+  },
+  "home": {
+   "title": "¿Qué aprendemos hoy?",
+   "description": "Unos minutos al día te acercan al Corán y a su lengua, vivas donde vivas.",
+   "quranTitle": "Memorizar el Corán",
+   "quranDesc": "Escucha a seis recitadores, sigue las palabras como en un karaoke, ocúltalas para ponerte a prueba, graba tu voz y escúchala.",
+   "quranAction": "Empezar",
+   "arabicTitle": "Árabe, hadiz y buenos modales",
+   "arabicDesc": "Lecciones cortas como un juego: oración, zakat, padres, vecinos, limpieza, orden y respeto a los demás.",
+   "arabicAction": "Empezar una lección",
+   "parentsTitle": "Una nota para los padres",
+   "parentsText": "Esta plataforma está pensada para niños que crecen fuera de los países árabes, por eso las lecciones se explican en su idioma cotidiano. No hace falta una cuenta: el progreso y las grabaciones se quedan en este dispositivo y nunca se envían a un servidor."
+  },
+  "stats": {
+   "xp": "puntos",
+   "streak": "días seguidos",
+   "verses": "versículos memorizados",
+   "lessons": "lecciones completadas"
+  },
+  "footer": {
+   "text": "Plataforma de Corán y árabe"
+  },
+  "common": {
+   "loading": "Cargando…",
+   "retry": "Reintentar"
+  },
+  "quran": {
+   "title": "Memorizar el Corán",
+   "pick": "Elige una sura para empezar",
+   "tabShort": "Yuz Amma y Al-Fatiha",
+   "tabAll": "Todas las suras",
+   "search": "Buscar una sura",
+   "verses": "versículos",
+   "back": "Todas las suras",
+   "progress": "Tu progreso en esta sura",
+   "progressHelp": "Escuchar 20 % • Grabar 30 % • Memorizar 50 %",
+   "memorizedOf": "{n} de {t} versículos memorizados",
+   "reciter": "Recitador",
+   "hide": "Ocultar",
+   "hideNone": "Nada",
+   "hideSome": "Un tercio de las palabras",
+   "hideHalf": "La mitad de las palabras",
+   "hideHint": "Todo menos la primera palabra",
+   "hideVerse": "Versículos enteros",
+   "hideTip": "Toca una palabra o un versículo oculto para verlo.",
+   "translation": "Traducción",
+   "translationOff": "No se ha podido cargar la traducción.",
+   "speed": "Velocidad",
+   "repeat": "Repetir versículo",
+   "play": "Reproducir",
+   "pause": "Pausa",
+   "prev": "Versículo anterior",
+   "next": "Versículo siguiente",
+   "verseN": "Versículo {n}",
+   "record": "Grabarme",
+   "stop": "Detener",
+   "listenMe": "Escuchar mi recitación",
+   "compare": "El recitador y luego yo",
+   "deleteRec": "Borrar grabación",
+   "markMem": "He memorizado este versículo",
+   "unmarkMem": "Memorizado ✓ (deshacer)",
+   "micDenied": "No se ha permitido el micrófono. Actívalo en los ajustes del navegador e inténtalo de nuevo.",
+   "micUnsupported": "Este navegador no admite la grabación de voz.",
+   "recPrivacy": "Tu grabación se queda solo en este dispositivo.",
+   "audioError": "No se ha podido cargar la recitación. Comprueba tu conexión e inténtalo de nuevo.",
+   "bravo": "¡Muy bien! Que Allah te bendiga 🌟"
+  },
+  "reciters": {
+   "7": "Mishari Al-Afasy",
+   "12": "Mahmoud Al-Husary (enseñanza)",
+   "2": "Abdul Basit Abdul Samad",
+   "9": "Mohamed Siddiq Al-Minshawi",
+   "3": "Abdur-Rahman As-Sudais",
+   "10": "Saud Ash-Shuraym"
+  },
+  "arabic": {
+   "title": "Árabe, hadiz y buenos modales",
+   "tabPath": "Recorrido",
+   "tabHadith": "Hadices",
+   "unit": "Unidad {n}",
+   "lesson1": "Palabras nuevas",
+   "lesson2": "Más palabras",
+   "lesson3": "Frases y hadiz",
+   "locked": "Termina primero la lección anterior",
+   "hadithIntro": "El Mensajero de Allah ﷺ dijo",
+   "hadithLesson": "¿Qué aprendemos?",
+   "translationNote": "Traducción aproximada del significado, que no sustituye al texto árabe."
+  },
+  "ex": {
+   "new": "Palabra nueva",
+   "meaning": "¿Qué significa esto?",
+   "chooseArabic": "Elige el árabe correcto",
+   "listen": "Escucha y elige lo que oyes",
+   "match": "Une cada palabra con su significado",
+   "build": "Ordena las palabras para formar la frase",
+   "hadith": "Un hadiz",
+   "hadithQ": "¿Qué nos enseña este hadiz?",
+   "check": "Comprobar",
+   "continue": "Continuar",
+   "correct": "¡Muy bien!",
+   "wrong": "Respuesta correcta:",
+   "retryLater": "No pasa nada, volveremos a ella pronto.",
+   "speak": "Escuchar",
+   "close": "Cerrar la lección",
+   "doneTitle": "¡Genial! Lección completada",
+   "earned": "Has ganado {n} puntos",
+   "backPath": "Volver al recorrido"
+  }
+ },
+ "de": {
+  "meta": {
+   "title": "Koran und Arabisch für Kinder im Ausland",
+   "description": "Eine fröhliche Plattform, mit der Kinder im Ausland den Koran auswendig lernen und Arabisch sowie islamische Werte entdecken"
+  },
+  "accessibility": {
+   "skipToContent": "Zum Hauptinhalt springen"
+  },
+  "brand": {
+   "name": "Koran- und Arabisch-Plattform",
+   "subtitle": "Für unsere Kinder im Ausland: Koran, Sprache und gutes Benehmen, Schritt für Schritt"
+  },
+  "language": {
+   "label": "Sprache"
+  },
+  "languages": {
+   "ar": "العربية",
+   "en": "English",
+   "fr": "Français",
+   "es": "Español",
+   "de": "Deutsch",
+   "it": "Italiano"
+  },
+  "nav": {
+   "home": "Startseite",
+   "quran": "Koran",
+   "arabic": "Arabisch"
+  },
+  "home": {
+   "title": "Was lernen wir heute?",
+   "description": "Schon wenige Minuten am Tag bringen dich dem Koran und seiner Sprache näher, wo immer du lebst.",
+   "quranTitle": "Den Koran auswendig lernen",
+   "quranDesc": "Höre sechs Rezitatoren, folge den Wörtern wie beim Karaoke, verstecke sie zum Üben, nimm dann deine Stimme auf und höre sie dir an.",
+   "quranAction": "Loslegen",
+   "arabicTitle": "Arabisch, Hadith und gutes Benehmen",
+   "arabicDesc": "Kurze Lektionen wie ein Spiel: Gebet, Zakat, Eltern, Nachbarn, Sauberkeit, Ordnung und Respekt.",
+   "arabicAction": "Lektion starten",
+   "parentsTitle": "Ein Hinweis für Eltern",
+   "parentsText": "Diese Plattform ist für Kinder gedacht, die außerhalb arabischer Länder aufwachsen; die Lektionen werden daher in ihrer Alltagssprache erklärt. Kein Konto nötig: Fortschritt und Sprachaufnahmen bleiben auf diesem Gerät und werden nie an einen Server gesendet."
+  },
+  "stats": {
+   "xp": "Punkte",
+   "streak": "Tage in Folge",
+   "verses": "Verse gelernt",
+   "lessons": "Lektionen geschafft"
+  },
+  "footer": {
+   "text": "Koran- und Arabisch-Plattform"
+  },
+  "common": {
+   "loading": "Wird geladen…",
+   "retry": "Erneut versuchen"
+  },
+  "quran": {
+   "title": "Den Koran auswendig lernen",
+   "pick": "Wähle eine Sure aus",
+   "tabShort": "Dschuz Amma und Al-Fatiha",
+   "tabAll": "Alle Suren",
+   "search": "Sure suchen",
+   "verses": "Verse",
+   "back": "Alle Suren",
+   "progress": "Dein Fortschritt in dieser Sure",
+   "progressHelp": "Hören 20 % • Aufnehmen 30 % • Auswendig 50 %",
+   "memorizedOf": "{n} von {t} Versen gelernt",
+   "reciter": "Rezitator",
+   "hide": "Verstecken",
+   "hideNone": "Nichts",
+   "hideSome": "Ein Drittel der Wörter",
+   "hideHalf": "Die Hälfte der Wörter",
+   "hideHint": "Alles außer dem ersten Wort",
+   "hideVerse": "Ganze Verse",
+   "hideTip": "Tippe auf ein verstecktes Wort oder einen Vers, um es zu zeigen.",
+   "translation": "Übersetzung",
+   "translationOff": "Die Übersetzung konnte nicht geladen werden.",
+   "speed": "Tempo",
+   "repeat": "Vers wiederholen",
+   "play": "Abspielen",
+   "pause": "Pause",
+   "prev": "Vorheriger Vers",
+   "next": "Nächster Vers",
+   "verseN": "Vers {n}",
+   "record": "Mich aufnehmen",
+   "stop": "Aufnahme stoppen",
+   "listenMe": "Meine Rezitation hören",
+   "compare": "Erst Rezitator, dann ich",
+   "deleteRec": "Aufnahme löschen",
+   "markMem": "Ich kann diesen Vers auswendig",
+   "unmarkMem": "Gelernt ✓ (rückgängig)",
+   "micDenied": "Der Mikrofonzugriff wurde nicht erlaubt. Aktiviere ihn in den Browsereinstellungen und versuche es erneut.",
+   "micUnsupported": "Dieser Browser unterstützt keine Sprachaufnahme.",
+   "recPrivacy": "Deine Aufnahme bleibt nur auf diesem Gerät.",
+   "audioError": "Die Rezitation konnte nicht geladen werden. Prüfe deine Internetverbindung und versuche es erneut.",
+   "bravo": "Gut gemacht! Möge Allah dich segnen 🌟"
+  },
+  "reciters": {
+   "7": "Mishari Al-Afasy",
+   "12": "Mahmoud Al-Husary (Lehrfassung)",
+   "2": "Abdul Basit Abdul Samad",
+   "9": "Mohamed Siddiq Al-Minshawi",
+   "3": "Abdur-Rahman As-Sudais",
+   "10": "Saud Ash-Shuraim"
+  },
+  "arabic": {
+   "title": "Arabisch, Hadith und gutes Benehmen",
+   "tabPath": "Lernpfad",
+   "tabHadith": "Hadithe",
+   "unit": "Einheit {n}",
+   "lesson1": "Neue Wörter",
+   "lesson2": "Mehr Wörter",
+   "lesson3": "Sätze und Hadith",
+   "locked": "Beende zuerst die vorherige Lektion",
+   "hadithIntro": "Der Gesandte Allahs ﷺ sagte",
+   "hadithLesson": "Was lernen wir?",
+   "translationNote": "Ungefähre Sinnübersetzung, die den arabischen Text nicht ersetzt."
+  },
+  "ex": {
+   "new": "Neues Wort",
+   "meaning": "Was bedeutet das?",
+   "chooseArabic": "Wähle das richtige Arabisch",
+   "listen": "Höre zu und wähle, was du hörst",
+   "match": "Verbinde jedes Wort mit seiner Bedeutung",
+   "build": "Bringe die Wörter in die richtige Reihenfolge",
+   "hadith": "Ein Hadith",
+   "hadithQ": "Was lehrt uns dieser Hadith?",
+   "check": "Prüfen",
+   "continue": "Weiter",
+   "correct": "Super!",
+   "wrong": "Richtige Antwort:",
+   "retryLater": "Kein Problem, wir kommen gleich darauf zurück.",
+   "speak": "Anhören",
+   "close": "Lektion schließen",
+   "doneTitle": "Toll! Lektion geschafft",
+   "earned": "Du hast {n} Punkte verdient",
+   "backPath": "Zurück zum Lernpfad"
+  }
+ },
+ "it": {
+  "meta": {
+   "title": "Corano e arabo per bambini all'estero",
+   "description": "Una piattaforma divertente per aiutare i bambini che vivono all'estero a memorizzare il Corano e imparare l'arabo e i valori islamici"
+  },
+  "accessibility": {
+   "skipToContent": "Vai al contenuto principale"
+  },
+  "brand": {
+   "name": "Piattaforma Corano e arabo",
+   "subtitle": "Per i nostri figli all'estero: Corano, lingua e buone maniere, passo dopo passo"
+  },
+  "language": {
+   "label": "Lingua"
+  },
+  "languages": {
+   "ar": "العربية",
+   "en": "English",
+   "fr": "Français",
+   "es": "Español",
+   "de": "Deutsch",
+   "it": "Italiano"
+  },
+  "nav": {
+   "home": "Home",
+   "quran": "Corano",
+   "arabic": "Arabo"
+  },
+  "home": {
+   "title": "Cosa impariamo oggi?",
+   "description": "Bastano pochi minuti al giorno per avvicinarti al Corano e alla sua lingua, ovunque tu viva.",
+   "quranTitle": "Memorizzare il Corano",
+   "quranDesc": "Ascolta sei recitatori, segui le parole come al karaoke, nascondile per metterti alla prova, poi registra la tua voce e riascoltala.",
+   "quranAction": "Inizia",
+   "arabicTitle": "Arabo, hadith e buone maniere",
+   "arabicDesc": "Lezioni brevi come un gioco: preghiera, zakat, genitori, vicini, pulizia, ordine e rispetto per gli altri.",
+   "arabicAction": "Inizia una lezione",
+   "parentsTitle": "Una nota per i genitori",
+   "parentsText": "Questa piattaforma è pensata per i bambini che crescono fuori dai paesi arabi: le lezioni sono spiegate nella loro lingua di ogni giorno. Non serve un account: i progressi e le registrazioni restano su questo dispositivo e non vengono mai inviati a un server."
+  },
+  "stats": {
+   "xp": "punti",
+   "streak": "giorni di fila",
+   "verses": "versetti memorizzati",
+   "lessons": "lezioni completate"
+  },
+  "footer": {
+   "text": "Piattaforma Corano e arabo"
+  },
+  "common": {
+   "loading": "Caricamento…",
+   "retry": "Riprova"
+  },
+  "quran": {
+   "title": "Memorizzare il Corano",
+   "pick": "Scegli una sura per iniziare",
+   "tabShort": "Juz Amma e Al-Fatiha",
+   "tabAll": "Tutte le sure",
+   "search": "Cerca una sura",
+   "verses": "versetti",
+   "back": "Tutte le sure",
+   "progress": "I tuoi progressi in questa sura",
+   "progressHelp": "Ascolto 20% • Registrazione 30% • Memorizzazione 50%",
+   "memorizedOf": "{n} di {t} versetti memorizzati",
+   "reciter": "Recitatore",
+   "hide": "Nascondi",
+   "hideNone": "Niente",
+   "hideSome": "Un terzo delle parole",
+   "hideHalf": "Metà delle parole",
+   "hideHint": "Tutto tranne la prima parola",
+   "hideVerse": "Versetti interi",
+   "hideTip": "Tocca una parola o un versetto nascosto per mostrarlo.",
+   "translation": "Traduzione",
+   "translationOff": "Impossibile caricare la traduzione.",
+   "speed": "Velocità",
+   "repeat": "Ripeti versetto",
+   "play": "Riproduci",
+   "pause": "Pausa",
+   "prev": "Versetto precedente",
+   "next": "Versetto successivo",
+   "verseN": "Versetto {n}",
+   "record": "Registrami",
+   "stop": "Ferma",
+   "listenMe": "Ascolta la mia recitazione",
+   "compare": "Il recitatore, poi io",
+   "deleteRec": "Elimina registrazione",
+   "markMem": "Ho memorizzato questo versetto",
+   "unmarkMem": "Memorizzato ✓ (annulla)",
+   "micDenied": "L'accesso al microfono non è stato consentito. Attivalo nelle impostazioni del browser e riprova.",
+   "micUnsupported": "Questo browser non supporta la registrazione vocale.",
+   "recPrivacy": "La tua registrazione resta solo su questo dispositivo.",
+   "audioError": "Impossibile caricare la recitazione. Controlla la connessione e riprova.",
+   "bravo": "Bravo! Che Allah ti benedica 🌟"
+  },
+  "reciters": {
+   "7": "Mishari Al-Afasy",
+   "12": "Mahmoud Al-Husary (didattico)",
+   "2": "Abdul Basit Abdul Samad",
+   "9": "Mohamed Siddiq Al-Minshawi",
+   "3": "Abdur-Rahman As-Sudais",
+   "10": "Saud Ash-Shuraym"
+  },
+  "arabic": {
+   "title": "Arabo, hadith e buone maniere",
+   "tabPath": "Percorso",
+   "tabHadith": "Hadith",
+   "unit": "Unità {n}",
+   "lesson1": "Parole nuove",
+   "lesson2": "Altre parole",
+   "lesson3": "Frasi e hadith",
+   "locked": "Completa prima la lezione precedente",
+   "hadithIntro": "Il Messaggero di Allah ﷺ disse",
+   "hadithLesson": "Cosa impariamo?",
+   "translationNote": "Traduzione approssimativa del significato, che non sostituisce il testo arabo."
+  },
+  "ex": {
+   "new": "Parola nuova",
+   "meaning": "Cosa significa?",
+   "chooseArabic": "Scegli l'arabo corretto",
+   "listen": "Ascolta e scegli ciò che senti",
+   "match": "Abbina ogni parola al suo significato",
+   "build": "Metti le parole in ordine per formare la frase",
+   "hadith": "Un hadith",
+   "hadithQ": "Cosa ci insegna questo hadith?",
+   "check": "Controlla",
+   "continue": "Continua",
+   "correct": "Bravo!",
+   "wrong": "Risposta corretta:",
+   "retryLater": "Nessun problema, ci torneremo tra poco.",
+   "speak": "Ascolta",
+   "close": "Chiudi la lezione",
+   "doneTitle": "Ottimo! Lezione completata",
+   "earned": "Hai guadagnato {n} punti",
+   "backPath": "Torna al percorso"
+  }
+ }
 }
