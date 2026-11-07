@@ -67,10 +67,30 @@
 
       <div class="reader-tools">
         <label class="field"><span data-i18n="quran.reciter">القارئ</span><select id="reciter"></select></label>
-        <label id="translation-wrap" class="switch" hidden><input id="show-translation" type="checkbox"><span data-i18n="quran.translation">الترجمة</span></label>
+        <label id="translation-wrap" class="switch"><input id="show-translation" type="checkbox"><span data-i18n="quran.translation">المعنى</span></label>
+        <label id="translit-wrap" class="switch" hidden><input id="show-translit" type="checkbox"><span data-i18n="quran.translit">طريقة النطق</span></label>
+
+        <!-- عدد الآيات التي يحفظها التلميذ دفعة واحدة -->
+        <div class="hide-group" role="group" data-i18n-aria-label="quran.group">
+          <span class="group-label" data-i18n="quran.group">عدد الآيات في كل مرة</span>
+          <div class="hide-options">
+            <button type="button" class="hide-btn group-btn" data-group="1" aria-pressed="false">1</button>
+            <button type="button" class="hide-btn group-btn" data-group="2" aria-pressed="false">2</button>
+            <button type="button" class="hide-btn group-btn" data-group="3" aria-pressed="false">3</button>
+            <button type="button" class="hide-btn group-btn" data-group="0" aria-pressed="false" data-i18n="quran.groupAll">كل السورة</button>
+          </div>
+        </div>
+
+        <!-- الإخفاء التدريجي: من 10% إلى 100% بخطوة 10% -->
         <div class="hide-group" role="group" data-i18n-aria-label="quran.hide">
-          <span class="group-label" data-i18n="quran.hide">الإخفاء</span>
-          <div class="hide-options"><button type="button" class="hide-btn" data-hide="none" aria-pressed="false" data-i18n="quran.hideNone"></button><button type="button" class="hide-btn" data-hide="some" aria-pressed="false" data-i18n="quran.hideSome"></button><button type="button" class="hide-btn" data-hide="half" aria-pressed="false" data-i18n="quran.hideHalf"></button><button type="button" class="hide-btn" data-hide="hint" aria-pressed="false" data-i18n="quran.hideHint"></button><button type="button" class="hide-btn" data-hide="verse" aria-pressed="false" data-i18n="quran.hideVerse"></button></div>
+          <span class="group-label"><span data-i18n="quran.hide">نسبة الإخفاء</span>: <strong id="hide-value" class="hide-value"></strong></span>
+          <div class="hide-options hide-level">
+            <button type="button" class="hide-btn" id="hide-off" data-i18n="quran.hideNone">بدون إخفاء</button>
+            <button type="button" class="hide-btn hide-step" id="hide-less" dir="ltr">−10%</button>
+            <input type="range" id="hide-range" class="hide-range" min="0" max="100" step="10" value="0" data-i18n-aria-label="quran.hide">
+            <button type="button" class="hide-btn hide-step" id="hide-more" dir="ltr">+10%</button>
+            <button type="button" class="hide-btn" id="hide-shuffle" data-i18n="quran.reshuffle">إخفاء كلمات أخرى</button>
+          </div>
         </div>
       </div>
       <p id="hide-tip" class="tip" hidden data-i18n="quran.hideTip"></p>
@@ -90,7 +110,7 @@
         <button type="button" id="next" class="round-btn" data-i18n-title="quran.next">⏭</button>
       </div>
       <div class="dock-selects">
-        <label class="mini-field"><span data-i18n="quran.repeat"></span><select id="repeat"><option value="1">×1</option><option value="3">×3</option><option value="5">×5</option><option value="10">×10</option></select></label>
+        <label class="mini-field"><span id="repeat-label" data-i18n="quran.repeat"></span><select id="repeat"><option value="1">×1</option><option value="3">×3</option><option value="5">×5</option><option value="10">×10</option></select></label>
         <label class="mini-field"><span data-i18n="quran.speed"></span><select id="speed"><option value="0.75">0.75</option><option value="1" selected>1</option><option value="1.25">1.25</option></select></label>
       </div>
     </div>

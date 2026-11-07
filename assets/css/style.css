@@ -134,12 +134,23 @@ html[dir="rtl"] .progress-track span { background: linear-gradient(270deg, #36b3
 .verse-text { font-family: "Amiri Quran", "Traditional Arabic", serif; font-size: clamp(1.55rem, 5vw, 2.05rem); line-height: 2.5; text-align: right; word-spacing: 0.08em; }
 .word { padding: 0 3px; border-radius: 8px; transition: background 90ms linear, color 90ms linear; }
 .word.karaoke { color: #fff; background: var(--green); }
-.word.masked:not(.revealed):not(.karaoke) { color: transparent; background: #e6dec8; cursor: pointer; }
+.word.masked:not(.revealed):not(.karaoke) { color: transparent; -webkit-text-fill-color: transparent; background: #e6dec8; cursor: pointer; }
 .verse-masked:not(.verse-revealed) .verse-text { position: relative; min-height: 3.2em; color: transparent; background: repeating-linear-gradient(135deg, #efe9d6, #efe9d6 12px, #e6dec8 12px, #e6dec8 24px); border-radius: 12px; }
 .verse-masked:not(.verse-revealed) .word.karaoke { color: #fff; }
 .verse-masked:not(.verse-revealed) .verse-mark { color: var(--green-dark); }
 .verse-mark { display: inline-grid; place-items: center; min-width: 1.6em; height: 1.6em; margin-inline: 4px; color: var(--green-dark); border: 2px solid var(--gold); border-radius: 50%; font-family: "Baloo Bhaijaan 2", sans-serif; font-size: 0.55em; line-height: 1; vertical-align: 0.25em; }
 .verse-translation { padding: 2px 0 6px; color: var(--muted); border-top: 1px dashed var(--line); font-size: 0.95rem; }
+.verse-translit { padding: 0 0 4px; color: var(--green); font-size: 1.02rem; font-style: italic; line-height: 1.5; text-align: left; transition: filter 120ms ease; }
+.verse-translit.covered:not(.uncovered) { filter: blur(6px); user-select: none; }
+.verse-translation[dir="ltr"] { text-align: left; }
+
+/* الإخفاء التدريجي وعدد الآيات */
+.hide-level { align-items: center; }
+.hide-value { color: var(--gold-dark); direction: ltr; unicode-bidi: isolate; }
+.hide-step { min-width: 62px; color: var(--green-dark); background: var(--gold-soft); border-color: #f0d79f; }
+.hide-btn:disabled { opacity: 0.4; }
+.hide-range { flex: 1 1 140px; min-width: 120px; accent-color: var(--gold-dark); }
+.group-btn { min-width: 48px; }
 
 /* شريط التحكم */
 .dock { position: fixed; inset-inline: 0; bottom: 0; z-index: 25; padding: 8px 12px calc(6px + env(safe-area-inset-bottom)); background: #fff; border-top: 3px solid var(--green); box-shadow: 0 -8px 24px rgba(10, 79, 64, 0.14); }
@@ -261,7 +272,7 @@ html[dir="rtl"] .progress-track span { background: linear-gradient(270deg, #36b3
   .hero-inner { gap: 8px; }
   .verse { padding-inline: 10px; }
   .dock-note:not(.alert), .progress-card small { display: none; }
-  .hide-options { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+  .hide-options { flex-wrap: wrap; }
   .hide-btn { flex: none; }
   .reader-tools { gap: 8px; padding: 10px; }
   #surah-title { line-height: 1.6; }

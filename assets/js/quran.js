@@ -9,7 +9,9 @@
   const RECITERS = [7, 12, 2, 9, 3, 10];
   const API = "https://api.quran.com/api/v4/chapter_recitations/";
   const TRANSLATION_API = "https://api.alquran.cloud/v1/surah/";
-  const EDITIONS = { en: "en.sahih", fr: "fr.hamidullah", es: "es.garcia", de: "de.aburida", it: "it.piccardo" };
+  // ترجمة المعاني بلغة المنصة (وبالعربية: التفسير الميسّر).
+  const EDITIONS = { ar: "ar.muyassar", en: "en.sahih", fr: "fr.hamidullah", es: "es.garcia", de: "de.aburida", it: "it.piccardo" };
+  const TRANSLIT_EDITION = "en.transliteration";
   const SHORT = (id) => id === 1 || id >= 78;
   const pref = {
     get(k, d) { try { return localStorage.getItem("coran-" + k) || d; } catch (e) { return d; } },
@@ -24,7 +26,13 @@
   let current = 1;          // الآية المختارة
   let repeatLeft = 0;
   let singleVerse = null;   // دالة تُستدعى عند انتهاء آية واحدة
-  let hideMode = pref.get("hide", "none");
+  // نسبة الإخفاء: 0 = بدون إخفاء، ثم 10% → 100% بخطوة 10%.
+  let hideLevel = Math.min(100, Math.max(0, Math.round((+pref.get("hideLevel", "0") || 0) / 10) * 10));
+  let hideSeed = 1;
+  // عدد الآيات التي يحفظها التلميذ دفعة واحدة (0 = كل السورة).
+  let groupSize = [0, 1, 2, 3].includes(+pref.get("group", "0")) ? +pref.get("group", "0") : 0;
+  let shownGroup = 0;       // أول آية في المجموعة المعروضة حاليًا
+  const extrasCache = {};   // ترجمات وطريقة النطق المحمّلة
   let bismillah = "";
   let loadToken = 0;
 
@@ -169,6 +177,7 @@
     surah = meta;
     verses = data.verses.map((text) => ({ words: tokenize(text) }));
     current = 1;
+    shownGroup = 0;
     renderVerses();
     selectVerse(1, false);
     updateProgress();
@@ -176,14 +185,45 @@
     await loadAudio();
   }
 
-  function isWordHidden(i, n) {
-    switch (hideMode) {
-      case "some": return i % 3 === 2;
-      case "half": return i % 2 === 1;
-      case "hint": return i > 0;
-      case "all": return true;
-      default: return false;
+  /* ---------- الإخفاء التدريجي ---------- */
+  // ترتيب ثابت للكلمات في كل آية: عند رفع النسبة تبقى الكلمات المخفية مخفية وتُضاف إليها كلمات جديدة.
+  function hiddenSet(verseNumber, count) {
+    const hidden = new Set();
+    if (!hideLevel || !count) return hidden;
+    let seed = ((surah ? surah.id : 0) * 1000 + verseNumber) * 7919 + hideSeed * 104729;
+    const random = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
+    const order = Array.from({ length: count }, (_, i) => i);
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
     }
+    const n = Math.max(1, Math.round((count * hideLevel) / 100));
+    order.slice(0, n).forEach((i) => hidden.add(i));
+    return hidden;
+  }
+
+  /* ---------- مجموعات الآيات (1 أو 2 أو 3) ---------- */
+  const groupStart = (n) => (groupSize ? Math.floor((n - 1) / groupSize) * groupSize + 1 : 1);
+  const groupEnd = (n) => (groupSize ? Math.min(verses.length, groupStart(n) + groupSize - 1) : verses.length);
+
+  function applyGroup() {
+    document.querySelectorAll(".group-btn").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.group === groupSize)));
+    const start = groupStart(current);
+    const end = groupEnd(current);
+    shownGroup = start;
+    document.querySelectorAll(".verse").forEach((row) => {
+      const n = +row.dataset.verse;
+      row.hidden = n < start || n > end;
+    });
+    const b = document.querySelector(".bismillah");
+    if (b) b.hidden = start !== 1;
+    const label = $("repeat-label");
+    label.dataset.i18n = groupSize ? "quran.repeatGroup" : "quran.repeat";
+    label.textContent = I.t(label.dataset.i18n);
+    $("prev").title = I.t(groupSize ? "quran.prevGroup" : "quran.prev");
+    $("next").title = I.t(groupSize ? "quran.nextGroup" : "quran.next");
+    $("prev").setAttribute("aria-label", $("prev").title);
+    $("next").setAttribute("aria-label", $("next").title);
   }
 
   function renderVerses() {
@@ -217,28 +257,45 @@
       mark.className = "verse-mark";
       mark.textContent = arabicNumber(n);
       text.appendChild(mark);
+      const tl = document.createElement("p");
+      tl.className = "verse-translit";
+      tl.hidden = true;
       const tr = document.createElement("p");
       tr.className = "verse-translation";
       tr.hidden = true;
-      row.append(text, tr);
+      row.append(text, tl, tr);
       box.appendChild(row);
     });
     applyHide();
+    applyGroup();
     paintVerseStates();
   }
 
   function applyHide() {
-    document.querySelectorAll(".hide-btn").forEach((b) => b.setAttribute("aria-pressed", b.dataset.hide === hideMode));
-    $("hide-tip").hidden = hideMode === "none";
+    $("hide-off").setAttribute("aria-pressed", String(hideLevel === 0));
+    $("hide-range").value = hideLevel;
+    $("hide-value").textContent = hideLevel ? hideLevel + "%" : I.t("quran.hideNone");
+    $("hide-less").disabled = hideLevel === 0;
+    $("hide-more").disabled = hideLevel >= 100;
+    $("hide-shuffle").disabled = hideLevel === 0 || hideLevel === 100;
+    $("hide-tip").hidden = hideLevel === 0;
     document.querySelectorAll(".verse").forEach((row) => {
-      row.classList.toggle("verse-masked", hideMode === "verse");
-      row.classList.remove("verse-revealed");
       const words = row.querySelectorAll(".word");
+      const hidden = hiddenSet(+row.dataset.verse, words.length);
       words.forEach((w, i) => {
-        w.classList.toggle("masked", isWordHidden(i, words.length));
+        w.classList.toggle("masked", hidden.has(i));
         w.classList.remove("revealed");
       });
+      // طريقة النطق تكشف الكلمات المخفية، فتُغطّى أثناء الإخفاء (تظهر بالنقر).
+      const tl = row.querySelector(".verse-translit");
+      if (tl) tl.classList.toggle("covered", hideLevel > 0);
     });
+  }
+
+  function setHideLevel(value) {
+    hideLevel = Math.min(100, Math.max(0, value));
+    pref.set("hideLevel", String(hideLevel));
+    applyHide();
   }
 
   function paintVerseStates() {
@@ -260,6 +317,11 @@
 
   async function selectVerse(n, scroll) {
     current = Math.max(1, Math.min(verses.length, n));
+    if (groupSize && groupStart(current) !== shownGroup) {
+      // مجموعة جديدة: نعيد الإخفاء إلى 10% ليبدأ التلميذ الحفظ تدريجيًا.
+      if (hideLevel > 10) setHideLevel(10);
+      applyGroup();
+    }
     paintVerseStates();
     $("dock-verse").textContent = I.t("quran.verseN", { n: current });
     const row = document.querySelector('.verse[data-verse="' + current + '"]');
@@ -369,6 +431,20 @@
         done();
         return;
       }
+      if (groupSize) {
+        // في وضع المجموعة: نقرأ آيات المجموعة متتالية ثم نكرّر المجموعة كلها.
+        if (current < groupEnd(current)) { selectVerse(current + 1, true); return; }
+        const first = groupStart(current);
+        if (repeatLeft > 0 && timing[first]) {
+          repeatLeft--;
+          audio.currentTime = timing[first].from / 1000;
+          selectVerse(first, true);
+          return;
+        }
+        audio.pause();
+        clearWord();
+        return;
+      }
       if (repeatLeft > 0) {
         repeatLeft--;
         audio.currentTime = t.from / 1000;
@@ -384,7 +460,7 @@
       return;
     }
     const n = verseAt(ms);
-    if (n && n !== current) selectVerse(n, true);
+    if (n && n !== current && (!groupSize || groupStart(n) === shownGroup)) selectVerse(n, true);
     highlight(ms, n || current);
   }
 
@@ -482,26 +558,72 @@
     try { await audio.play(); } catch (e) { singleVerse = null; playMine(); }
   }
 
-  /* ---------- الترجمة ---------- */
+  /* ---------- المعنى وطريقة النطق ---------- */
+  // طريقة النطق مكتوبة أصلًا بحروف لاتينية على الطريقة الإنجليزية؛ نكيّفها مع قواعد قراءة كل لغة.
+  const SOUND_RULES = {
+    fr: { oo: "ou", ee: "i", sh: "ch", j: "dj" },
+    de: { oo: "u", ee: "i", sh: "sch", j: "dsch", y: "j" },
+    es: { oo: "u", ee: "i", kh: "j", j: "y" },
+    it: { oo: "u", ee: "i", sh: (next) => (/[ei]/i.test(next) ? "sc" : "sci"), j: (next) => (/[ei]/i.test(next) ? "g" : "gi") }
+  };
+  function adaptTranslit(text, lang) {
+    const clean = text.replace(/<[^>]*>/g, "");
+    const rules = SOUND_RULES[lang];
+    if (!rules) return clean;
+    const pattern = new RegExp(Object.keys(rules).sort((a, b) => b.length - a.length).join("|"), "gi");
+    return clean.replace(pattern, (m, offset, all) => {
+      const rule = rules[m.toLowerCase()];
+      let out = typeof rule === "function" ? rule(all.charAt(offset + m.length)) : rule;
+      if (m[0] !== m[0].toLowerCase()) out = out.charAt(0).toUpperCase() + out.slice(1);
+      return out;
+    });
+  }
+
+  async function fetchEditions(id, editions) {
+    const missing = editions.filter((e) => !extrasCache[id + "/" + e]);
+    if (missing.length) {
+      const json = await getJson(TRANSLATION_API + id + "/editions/" + missing.join(","));
+      const list = Array.isArray(json.data) ? json.data : [json.data];
+      list.forEach((ed, i) => { extrasCache[id + "/" + missing[i]] = ed.ayahs.map((a) => a.text); });
+    }
+    return editions.map((e) => extrasCache[id + "/" + e]);
+  }
+
   async function loadTranslation() {
     const lang = I.getLanguage();
-    const wrap = $("translation-wrap");
-    wrap.hidden = lang === "ar";
-    document.querySelectorAll(".verse-translation").forEach((p) => { p.hidden = true; p.textContent = ""; });
+    const showMeaning = $("show-translation").checked;
+    const showTranslit = lang !== "ar" && $("show-translit").checked;
+    $("translit-wrap").hidden = lang === "ar";
+    document.querySelectorAll(".verse-translation, .verse-translit").forEach((p) => { p.hidden = true; p.textContent = ""; });
     $("translation-error").hidden = true;
-    if (lang === "ar" || !$("show-translation").checked || !surah) return;
+    if (!surah || (!showMeaning && !showTranslit)) return;
     const token = loadToken;
+    const editions = [];
+    if (showTranslit) editions.push(TRANSLIT_EDITION);
+    if (showMeaning) editions.push(EDITIONS[lang] || EDITIONS.en);
     try {
-      const json = await getJson(TRANSLATION_API + surah.id + "/" + EDITIONS[lang]);
+      const results = await fetchEditions(surah.id, editions);
       if (token !== loadToken || I.getLanguage() !== lang) return;
-      json.data.ayahs.forEach((a) => {
-        const row = document.querySelector('.verse[data-verse="' + a.numberInSurah + '"] .verse-translation');
-        if (row) {
-          row.textContent = a.text;
-          row.dir = "auto";
-          row.hidden = false;
+      const translit = showTranslit ? results[0] : null;
+      const meaning = showMeaning ? results[results.length - 1] : null;
+      document.querySelectorAll(".verse").forEach((row) => {
+        const i = +row.dataset.verse - 1;
+        const tl = row.querySelector(".verse-translit");
+        const tr = row.querySelector(".verse-translation");
+        if (translit && translit[i]) {
+          tl.textContent = adaptTranslit(translit[i], lang);
+          tl.lang = lang + "-Latn";
+          tl.dir = "ltr";
+          tl.hidden = false;
+        }
+        if (meaning && meaning[i]) {
+          tr.textContent = meaning[i];
+          tr.lang = lang;
+          tr.dir = lang === "ar" ? "rtl" : "ltr";
+          tr.hidden = false;
         }
       });
+      applyHide();
     } catch (e) {
       console.error(e);
       $("translation-error").hidden = false;
@@ -543,23 +665,30 @@
         renderPicker();
       });
     });
-    document.querySelectorAll(".hide-btn").forEach((b) => {
+    $("hide-off").addEventListener("click", () => setHideLevel(0));
+    $("hide-less").addEventListener("click", () => setHideLevel(hideLevel - 10));
+    $("hide-more").addEventListener("click", () => setHideLevel(hideLevel + 10));
+    $("hide-range").addEventListener("input", (e) => setHideLevel(+e.target.value));
+    $("hide-shuffle").addEventListener("click", () => { hideSeed++; applyHide(); });
+    document.querySelectorAll(".group-btn").forEach((b) => {
       b.addEventListener("click", () => {
-        hideMode = b.dataset.hide;
-        pref.set("hide", hideMode);
-        applyHide();
+        groupSize = +b.dataset.group;
+        pref.set("group", String(groupSize));
+        if (!audio.paused) audio.pause();
+        shownGroup = 0;
+        if (groupSize && hideLevel > 10) setHideLevel(10);
+        applyGroup();
+        selectVerse(groupStart(current), true);
       });
     });
     $("verses").addEventListener("click", (e) => {
       const row = e.target.closest(".verse");
       if (!row) return;
       const n = +row.dataset.verse;
-      if (row.classList.contains("verse-masked") && !row.classList.contains("verse-revealed")) {
-        row.classList.add("verse-revealed");
-      } else {
-        const word = e.target.closest(".word.masked");
-        if (word && !word.classList.contains("revealed")) word.classList.add("revealed");
-      }
+      const word = e.target.closest(".word.masked");
+      if (word) word.classList.toggle("revealed");
+      const tl = e.target.closest(".verse-translit.covered");
+      if (tl) tl.classList.add("uncovered");
       if (n !== current) {
         if (!audio.paused) playVerse(n);
         else selectVerse(n, false);
@@ -575,8 +704,15 @@
         } else playVerse(current);
       } else audio.pause();
     });
-    $("prev").addEventListener("click", () => (audio.paused ? selectVerse(current - 1, true) : playVerse(Math.max(1, current - 1))));
-    $("next").addEventListener("click", () => (audio.paused ? selectVerse(current + 1, true) : playVerse(Math.min(verses.length, current + 1))));
+    const step = (dir) => {
+      let n;
+      if (groupSize) n = dir < 0 ? Math.max(1, groupStart(current) - groupSize) : Math.min(verses.length, groupStart(current) + groupSize);
+      else n = Math.max(1, Math.min(verses.length, current + dir));
+      if (groupSize && groupStart(n) === shownGroup && n !== current) n = groupStart(n);
+      return audio.paused ? selectVerse(n, true) : playVerse(n);
+    };
+    $("prev").addEventListener("click", () => step(-1));
+    $("next").addEventListener("click", () => step(1));
     audio.addEventListener("play", syncPlayButton);
     audio.addEventListener("pause", () => { syncPlayButton(); });
     audio.addEventListener("ended", () => { syncPlayButton(); clearWord(); if (surah) markListened(current); });
@@ -591,6 +727,10 @@
     $("audio-retry").addEventListener("click", () => { if (surah) loadAudio(); });
     $("show-translation").addEventListener("change", (e) => {
       pref.set("translation", e.target.checked ? "1" : "0");
+      loadTranslation();
+    });
+    $("show-translit").addEventListener("change", (e) => {
+      pref.set("translit", e.target.checked ? "1" : "0");
       loadTranslation();
     });
     $("record").addEventListener("click", toggleRecord);
@@ -613,6 +753,8 @@
     document.addEventListener("platformLanguageChanged", () => {
       fillReciters();
       if (surah) {
+        applyHide();
+        applyGroup();
         $("surah-subtitle").textContent = I.getLanguage() === "ar" ? "" : surah.tr;
         updateProgress();
         selectVerse(current, false);
@@ -627,6 +769,7 @@
     await I.ready;
     fillReciters();
     $("show-translation").checked = pref.get("translation", "1") === "1";
+    $("show-translit").checked = pref.get("translit", "1") === "1";
     bind();
     setRecordingUi(false);
     try {
