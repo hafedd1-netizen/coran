@@ -1,5 +1,1136 @@
 {
+ "version": 2,
+ "chars": {
+  "yusuf": {
+   "emoji": "👦",
+   "name": {
+    "ar": "يوسف",
+    "en": "Yusuf",
+    "fr": "Youssouf",
+    "es": "Yusuf",
+    "de": "Yusuf",
+    "it": "Yusuf"
+   }
+  },
+  "maryam": {
+   "emoji": "👧",
+   "name": {
+    "ar": "مريم",
+    "en": "Maryam",
+    "fr": "Maryam",
+    "es": "Maryam",
+    "de": "Maryam",
+    "it": "Maryam"
+   }
+  },
+  "mama": {
+   "emoji": "👩",
+   "name": {
+    "ar": "الأم",
+    "en": "Mum",
+    "fr": "Maman",
+    "es": "Mamá",
+    "de": "Mama",
+    "it": "Mamma"
+   }
+  },
+  "baba": {
+   "emoji": "👨",
+   "name": {
+    "ar": "الأب",
+    "en": "Dad",
+    "fr": "Papa",
+    "es": "Papá",
+    "de": "Papa",
+    "it": "Papà"
+   }
+  },
+  "grandpa": {
+   "emoji": "👴",
+   "name": {
+    "ar": "الجدّ",
+    "en": "Grandpa",
+    "fr": "Papi",
+    "es": "Abuelo",
+    "de": "Opa",
+    "it": "Nonno"
+   }
+  },
+  "grandma": {
+   "emoji": "👵",
+   "name": {
+    "ar": "الجدّة",
+    "en": "Grandma",
+    "fr": "Mamie",
+    "es": "Abuela",
+    "de": "Oma",
+    "it": "Nonna"
+   }
+  },
+  "friend": {
+   "emoji": "🧒",
+   "name": {
+    "ar": "سامي",
+    "en": "Sami",
+    "fr": "Sami",
+    "es": "Sami",
+    "de": "Sami",
+    "it": "Sami"
+   }
+  },
+  "guest": {
+   "emoji": "🧔",
+   "name": {
+    "ar": "الضيف",
+    "en": "The guest",
+    "fr": "L'invité",
+    "es": "El invitado",
+    "de": "Der Gast",
+    "it": "L'ospite"
+   }
+  },
+  "neighbor": {
+   "emoji": "🧓",
+   "name": {
+    "ar": "الجار",
+    "en": "The neighbour",
+    "fr": "Le voisin",
+    "es": "El vecino",
+    "de": "Der Nachbar",
+    "it": "Il vicino"
+   }
+  },
+  "teacher": {
+   "emoji": "👩‍🏫",
+   "name": {
+    "ar": "المعلّمة",
+    "en": "The teacher",
+    "fr": "La maîtresse",
+    "es": "La maestra",
+    "de": "Die Lehrerin",
+    "it": "La maestra"
+   }
+  }
+ },
+ "stages": [
+  {
+   "id": "letters",
+   "icon": "🔤",
+   "title": {
+    "ar": "المرحلة الأولى: الحروف والحركات",
+    "en": "Stage 1: Letters and vowels",
+    "fr": "Étape 1 : les lettres et les voyelles",
+    "es": "Etapa 1: letras y vocales",
+    "de": "Stufe 1: Buchstaben und Vokale",
+    "it": "Tappa 1: lettere e vocali"
+   },
+   "desc": {
+    "ar": "تعرّف على الحروف الثمانية والعشرين وأصواتها، ثم تعلّم كيف تقرأ.",
+    "en": "Meet the 28 letters and their sounds, then learn how to read.",
+    "fr": "Découvre les 28 lettres et leurs sons, puis apprends à lire.",
+    "es": "Conoce las 28 letras y sus sonidos y aprende a leer.",
+    "de": "Lerne die 28 Buchstaben und ihre Laute kennen – und dann das Lesen.",
+    "it": "Scopri le 28 lettere e i loro suoni, poi impara a leggere."
+   }
+  },
+  {
+   "id": "values",
+   "icon": "🌿",
+   "title": {
+    "ar": "المرحلة الثانية: كلمات وجمل وقيم",
+    "en": "Stage 2: Words, sentences and values",
+    "fr": "Étape 2 : mots, phrases et valeurs",
+    "es": "Etapa 2: palabras, frases y valores",
+    "de": "Stufe 2: Wörter, Sätze und Werte",
+    "it": "Tappa 2: parole, frasi e valori"
+   },
+   "desc": {
+    "ar": "كلمات وجمل وقصص وأحاديث عن أجمل أخلاق الإسلام.",
+    "en": "Words, sentences, stories and hadiths about the most beautiful Islamic manners.",
+    "fr": "Des mots, des phrases, des histoires et des hadiths sur les plus belles valeurs de l'islam.",
+    "es": "Palabras, frases, historias y hadices sobre los valores más bellos del islam.",
+    "de": "Wörter, Sätze, Geschichten und Hadithe über die schönsten Werte des Islam.",
+    "it": "Parole, frasi, storie e hadith sui valori più belli dell'islam."
+   }
+  }
+ ],
  "units": [
+  {
+   "id": "letters1",
+   "icon": "🔤",
+   "stage": "letters",
+   "kind": "letters",
+   "title": {
+    "ar": "الحروف ا ب ت ث",
+    "en": "Letters ا ب ت ث",
+    "fr": "Les lettres ا ب ت ث",
+    "es": "Letras ا ب ت ث",
+    "de": "Buchstaben ا ب ت ث",
+    "it": "Lettere ا ب ت ث"
+   },
+   "value": {
+    "ar": "نتعلّم شكل كل حرف وصوته وكلمة تبدأ به.",
+    "en": "We learn each letter's shape, its sound and a word that starts with it.",
+    "fr": "On apprend la forme de chaque lettre, son son et un mot qui commence par elle.",
+    "es": "Aprendemos la forma de cada letra, su sonido y una palabra que empieza por ella.",
+    "de": "Wir lernen Form und Laut jedes Buchstabens und ein Wort, das mit ihm beginnt.",
+    "it": "Impariamo la forma di ogni lettera, il suo suono e una parola che inizia con essa."
+   },
+   "letters": [
+    {
+     "ch": "ا",
+     "name": "أَلِف",
+     "tr": "a / ā",
+     "word": "أُمّ",
+     "wtr": "umm",
+     "emoji": "👩",
+     "m": {
+      "ar": "الأمّ",
+      "en": "mother",
+      "fr": "mère",
+      "es": "madre",
+      "de": "Mutter",
+      "it": "madre"
+     },
+     "join": false
+    },
+    {
+     "ch": "ب",
+     "name": "باء",
+     "tr": "b",
+     "word": "بَيْت",
+     "wtr": "bayt",
+     "emoji": "🏠",
+     "m": {
+      "ar": "المنزل",
+      "en": "house",
+      "fr": "maison",
+      "es": "casa",
+      "de": "Haus",
+      "it": "casa"
+     },
+     "join": true
+    },
+    {
+     "ch": "ت",
+     "name": "تاء",
+     "tr": "t",
+     "word": "تَمْر",
+     "wtr": "tamr",
+     "emoji": "🌴",
+     "m": {
+      "ar": "ثمر النخل",
+      "en": "dates (fruit)",
+      "fr": "dattes",
+      "es": "dátiles",
+      "de": "Datteln",
+      "it": "datteri"
+     },
+     "join": true
+    },
+    {
+     "ch": "ث",
+     "name": "ثاء",
+     "tr": "th",
+     "word": "ثَوْب",
+     "wtr": "thawb",
+     "emoji": "👘",
+     "m": {
+      "ar": "اللباس",
+      "en": "garment",
+      "fr": "vêtement",
+      "es": "prenda",
+      "de": "Gewand",
+      "it": "veste"
+     },
+     "join": true,
+     "tip": {
+      "ar": "طرف اللسان بين الأسنان",
+      "en": "tongue between the teeth, like 'th' in 'think'",
+      "fr": "langue entre les dents, comme le « th » anglais de « think »",
+      "es": "lengua entre los dientes, como la «z» de España",
+      "de": "Zunge zwischen den Zähnen, wie englisch „th“ in „think“",
+      "it": "lingua tra i denti, come il «th» inglese di «think»"
+     }
+    }
+   ]
+  },
+  {
+   "id": "letters2",
+   "icon": "🌙",
+   "stage": "letters",
+   "kind": "letters",
+   "title": {
+    "ar": "الحروف ج ح خ د",
+    "en": "Letters ج ح خ د",
+    "fr": "Les lettres ج ح خ د",
+    "es": "Letras ج ح خ د",
+    "de": "Buchstaben ج ح خ د",
+    "it": "Lettere ج ح خ د"
+   },
+   "value": {
+    "ar": "نتعلّم شكل كل حرف وصوته وكلمة تبدأ به.",
+    "en": "We learn each letter's shape, its sound and a word that starts with it.",
+    "fr": "On apprend la forme de chaque lettre, son son et un mot qui commence par elle.",
+    "es": "Aprendemos la forma de cada letra, su sonido y una palabra que empieza por ella.",
+    "de": "Wir lernen Form und Laut jedes Buchstabens und ein Wort, das mit ihm beginnt.",
+    "it": "Impariamo la forma di ogni lettera, il suo suono e una parola che inizia con essa."
+   },
+   "letters": [
+    {
+     "ch": "ج",
+     "name": "جيم",
+     "tr": "j",
+     "word": "جار",
+     "wtr": "jār",
+     "emoji": "🏘️",
+     "m": {
+      "ar": "الجار",
+      "en": "neighbour",
+      "fr": "voisin",
+      "es": "vecino",
+      "de": "Nachbar",
+      "it": "vicino"
+     },
+     "join": true,
+     "tip": {
+      "ar": "مثل dj",
+      "en": "like 'j' in 'jam'",
+      "fr": "comme « dj » dans « djinn »",
+      "es": "como «y» en «yo» (pronunciación fuerte)",
+      "de": "wie „dsch“ in „Dschungel“",
+      "it": "come «gi» in «gioco»"
+     }
+    },
+    {
+     "ch": "ح",
+     "name": "حاء",
+     "tr": "ḥ",
+     "word": "حُبّ",
+     "wtr": "ḥubb",
+     "emoji": "💚",
+     "m": {
+      "ar": "المحبّة",
+      "en": "love",
+      "fr": "amour",
+      "es": "amor",
+      "de": "Liebe",
+      "it": "amore"
+     },
+     "join": true,
+     "tip": {
+      "ar": "صوت هواء من وسط الحلق",
+      "en": "a breathy 'h' from the middle of the throat",
+      "fr": "un « h » soufflé du milieu de la gorge",
+      "es": "una «h» aspirada desde el centro de la garganta",
+      "de": "ein gehauchtes „h“ aus der Mitte der Kehle",
+      "it": "una «h» soffiata dal centro della gola"
+     }
+    },
+    {
+     "ch": "خ",
+     "name": "خاء",
+     "tr": "kh",
+     "word": "خُبْز",
+     "wtr": "khubz",
+     "emoji": "🍞",
+     "m": {
+      "ar": "الخبز",
+      "en": "bread",
+      "fr": "pain",
+      "es": "pan",
+      "de": "Brot",
+      "it": "pane"
+     },
+     "join": true,
+     "tip": {
+      "ar": "مثل صوت الشخير الخفيف",
+      "en": "like 'ch' in Scottish 'loch'",
+      "fr": "comme la « jota » espagnole",
+      "es": "como la «j» de «jamón»",
+      "de": "wie „ch“ in „Bach“",
+      "it": "come la «j» spagnola"
+     }
+    },
+    {
+     "ch": "د",
+     "name": "دال",
+     "tr": "d",
+     "word": "دُعاء",
+     "wtr": "duʿāʾ",
+     "emoji": "🤲",
+     "m": {
+      "ar": "الدعاء",
+      "en": "supplication (prayer)",
+      "fr": "invocation",
+      "es": "súplica",
+      "de": "Bittgebet",
+      "it": "invocazione"
+     },
+     "join": false
+    }
+   ]
+  },
+  {
+   "id": "letters3",
+   "icon": "⭐",
+   "stage": "letters",
+   "kind": "letters",
+   "title": {
+    "ar": "الحروف ذ ر ز س",
+    "en": "Letters ذ ر ز س",
+    "fr": "Les lettres ذ ر ز س",
+    "es": "Letras ذ ر ز س",
+    "de": "Buchstaben ذ ر ز س",
+    "it": "Lettere ذ ر ز س"
+   },
+   "value": {
+    "ar": "نتعلّم شكل كل حرف وصوته وكلمة تبدأ به.",
+    "en": "We learn each letter's shape, its sound and a word that starts with it.",
+    "fr": "On apprend la forme de chaque lettre, son son et un mot qui commence par elle.",
+    "es": "Aprendemos la forma de cada letra, su sonido y una palabra que empieza por ella.",
+    "de": "Wir lernen Form und Laut jedes Buchstabens und ein Wort, das mit ihm beginnt.",
+    "it": "Impariamo la forma di ogni lettera, il suo suono e una parola che inizia con essa."
+   },
+   "letters": [
+    {
+     "ch": "ذ",
+     "name": "ذال",
+     "tr": "dh",
+     "word": "ذَهَب",
+     "wtr": "dhahab",
+     "emoji": "🪙",
+     "m": {
+      "ar": "الذهب",
+      "en": "gold",
+      "fr": "or",
+      "es": "oro",
+      "de": "Gold",
+      "it": "oro"
+     },
+     "join": false,
+     "tip": {
+      "ar": "طرف اللسان بين الأسنان",
+      "en": "tongue between the teeth, like 'th' in 'this'",
+      "fr": "langue entre les dents, comme le « th » anglais de « this »",
+      "es": "lengua entre los dientes, como la «d» suave de «nada»",
+      "de": "Zunge zwischen den Zähnen, wie englisch „th“ in „this“",
+      "it": "lingua tra i denti, come il «th» inglese di «this»"
+     }
+    },
+    {
+     "ch": "ر",
+     "name": "راء",
+     "tr": "r",
+     "word": "رَحْمة",
+     "wtr": "raḥma",
+     "emoji": "🤍",
+     "m": {
+      "ar": "الرحمة",
+      "en": "mercy",
+      "fr": "miséricorde",
+      "es": "misericordia",
+      "de": "Barmherzigkeit",
+      "it": "misericordia"
+     },
+     "join": false,
+     "tip": {
+      "ar": "راء ملفوفة",
+      "en": "a rolled 'r'",
+      "fr": "un « r » roulé",
+      "es": "una «r» como en «pero»",
+      "de": "ein gerolltes „r“",
+      "it": "una «r» come in italiano"
+     }
+    },
+    {
+     "ch": "ز",
+     "name": "زاي",
+     "tr": "z",
+     "word": "زَيْتون",
+     "wtr": "zaytūn",
+     "emoji": "🫒",
+     "m": {
+      "ar": "الزيتون",
+      "en": "olives",
+      "fr": "olives",
+      "es": "aceitunas",
+      "de": "Oliven",
+      "it": "olive"
+     },
+     "join": false
+    },
+    {
+     "ch": "س",
+     "name": "سين",
+     "tr": "s",
+     "word": "سَلام",
+     "wtr": "salām",
+     "emoji": "🕊️",
+     "m": {
+      "ar": "السلام",
+      "en": "peace",
+      "fr": "paix",
+      "es": "paz",
+      "de": "Frieden",
+      "it": "pace"
+     },
+     "join": true
+    }
+   ]
+  },
+  {
+   "id": "letters4",
+   "icon": "☀️",
+   "stage": "letters",
+   "kind": "letters",
+   "title": {
+    "ar": "الحروف ش ص ض ط",
+    "en": "Letters ش ص ض ط",
+    "fr": "Les lettres ش ص ض ط",
+    "es": "Letras ش ص ض ط",
+    "de": "Buchstaben ش ص ض ط",
+    "it": "Lettere ش ص ض ط"
+   },
+   "value": {
+    "ar": "نتعلّم شكل كل حرف وصوته وكلمة تبدأ به.",
+    "en": "We learn each letter's shape, its sound and a word that starts with it.",
+    "fr": "On apprend la forme de chaque lettre, son son et un mot qui commence par elle.",
+    "es": "Aprendemos la forma de cada letra, su sonido y una palabra que empieza por ella.",
+    "de": "Wir lernen Form und Laut jedes Buchstabens und ein Wort, das mit ihm beginnt.",
+    "it": "Impariamo la forma di ogni lettera, il suo suono e una parola che inizia con essa."
+   },
+   "letters": [
+    {
+     "ch": "ش",
+     "name": "شين",
+     "tr": "sh",
+     "word": "شَمْس",
+     "wtr": "shams",
+     "emoji": "☀️",
+     "m": {
+      "ar": "الشمس",
+      "en": "sun",
+      "fr": "soleil",
+      "es": "sol",
+      "de": "Sonne",
+      "it": "sole"
+     },
+     "join": true
+    },
+    {
+     "ch": "ص",
+     "name": "صاد",
+     "tr": "ṣ",
+     "word": "صَديق",
+     "wtr": "ṣadīq",
+     "emoji": "🧒",
+     "m": {
+      "ar": "الصديق",
+      "en": "friend",
+      "fr": "ami",
+      "es": "amigo",
+      "de": "Freund",
+      "it": "amico"
+     },
+     "join": true,
+     "tip": {
+      "ar": "سين مفخّمة",
+      "en": "a heavy, deep 's'",
+      "fr": "un « s » épais et profond",
+      "es": "una «s» grave y profunda",
+      "de": "ein dunkles, schweres „s“",
+      "it": "una «s» scura e profonda"
+     }
+    },
+    {
+     "ch": "ض",
+     "name": "ضاد",
+     "tr": "ḍ",
+     "word": "ضَيْف",
+     "wtr": "ḍayf",
+     "emoji": "🧳",
+     "m": {
+      "ar": "الضيف",
+      "en": "guest",
+      "fr": "invité",
+      "es": "invitado",
+      "de": "Gast",
+      "it": "ospite"
+     },
+     "join": true,
+     "tip": {
+      "ar": "دال مفخّمة، حرف خاصّ بالعربية",
+      "en": "a heavy, deep 'd' — a letter special to Arabic",
+      "fr": "un « d » épais et profond — lettre propre à l'arabe",
+      "es": "una «d» grave y profunda, propia del árabe",
+      "de": "ein dunkles, schweres „d“ – typisch arabisch",
+      "it": "una «d» scura e profonda, tipica dell'arabo"
+     }
+    },
+    {
+     "ch": "ط",
+     "name": "طاء",
+     "tr": "ṭ",
+     "word": "طَعام",
+     "wtr": "ṭaʿām",
+     "emoji": "🍲",
+     "m": {
+      "ar": "الأكل",
+      "en": "food",
+      "fr": "nourriture",
+      "es": "comida",
+      "de": "Essen",
+      "it": "cibo"
+     },
+     "join": true,
+     "tip": {
+      "ar": "تاء مفخّمة",
+      "en": "a heavy, deep 't'",
+      "fr": "un « t » épais et profond",
+      "es": "una «t» grave y profunda",
+      "de": "ein dunkles, schweres „t“",
+      "it": "una «t» scura e profonda"
+     }
+    }
+   ]
+  },
+  {
+   "id": "letters5",
+   "icon": "🌈",
+   "stage": "letters",
+   "kind": "letters",
+   "title": {
+    "ar": "الحروف ظ ع غ ف",
+    "en": "Letters ظ ع غ ف",
+    "fr": "Les lettres ظ ع غ ف",
+    "es": "Letras ظ ع غ ف",
+    "de": "Buchstaben ظ ع غ ف",
+    "it": "Lettere ظ ع غ ف"
+   },
+   "value": {
+    "ar": "نتعلّم شكل كل حرف وصوته وكلمة تبدأ به.",
+    "en": "We learn each letter's shape, its sound and a word that starts with it.",
+    "fr": "On apprend la forme de chaque lettre, son son et un mot qui commence par elle.",
+    "es": "Aprendemos la forma de cada letra, su sonido y una palabra que empieza por ella.",
+    "de": "Wir lernen Form und Laut jedes Buchstabens und ein Wort, das mit ihm beginnt.",
+    "it": "Impariamo la forma di ogni lettera, il suo suono e una parola che inizia con essa."
+   },
+   "letters": [
+    {
+     "ch": "ظ",
+     "name": "ظاء",
+     "tr": "ẓ",
+     "word": "ظِلّ",
+     "wtr": "ẓill",
+     "emoji": "🌳",
+     "m": {
+      "ar": "الظلّ",
+      "en": "shade",
+      "fr": "ombre",
+      "es": "sombra",
+      "de": "Schatten",
+      "it": "ombra"
+     },
+     "join": true,
+     "tip": {
+      "ar": "ذال مفخّمة",
+      "en": "a heavy 'th' as in 'this'",
+      "fr": "un « th » de « this », épais",
+      "es": "una «z» suave y grave",
+      "de": "ein schweres englisches „th“ wie in „this“",
+      "it": "un «th» di «this», scuro"
+     }
+    },
+    {
+     "ch": "ع",
+     "name": "عين",
+     "tr": "ʿ",
+     "word": "عِلْم",
+     "wtr": "ʿilm",
+     "emoji": "📚",
+     "m": {
+      "ar": "العلم",
+      "en": "knowledge",
+      "fr": "savoir",
+      "es": "conocimiento",
+      "de": "Wissen",
+      "it": "sapere"
+     },
+     "join": true,
+     "tip": {
+      "ar": "صوت يخرج من وسط الحلق مع ضغط خفيف",
+      "en": "a squeezed sound from the middle of the throat",
+      "fr": "un son serré du milieu de la gorge",
+      "es": "un sonido apretado del centro de la garganta",
+      "de": "ein gepresster Laut aus der Mitte der Kehle",
+      "it": "un suono stretto dal centro della gola"
+     }
+    },
+    {
+     "ch": "غ",
+     "name": "غين",
+     "tr": "gh",
+     "word": "غَيْمة",
+     "wtr": "ghayma",
+     "emoji": "☁️",
+     "m": {
+      "ar": "السحابة",
+      "en": "cloud",
+      "fr": "nuage",
+      "es": "nube",
+      "de": "Wolke",
+      "it": "nuvola"
+     },
+     "join": true,
+     "tip": {
+      "ar": "مثل الغرغرة الخفيفة",
+      "en": "like a soft gargle",
+      "fr": "comme le « r » français grasseyé",
+      "es": "como hacer gárgaras suavemente",
+      "de": "wie ein weiches Gurgeln (Rachen-r)",
+      "it": "come un leggero gargarismo"
+     }
+    },
+    {
+     "ch": "ف",
+     "name": "فاء",
+     "tr": "f",
+     "word": "فَرَح",
+     "wtr": "faraḥ",
+     "emoji": "🎉",
+     "m": {
+      "ar": "الفرح",
+      "en": "joy",
+      "fr": "joie",
+      "es": "alegría",
+      "de": "Freude",
+      "it": "gioia"
+     },
+     "join": true
+    }
+   ]
+  },
+  {
+   "id": "letters6",
+   "icon": "💎",
+   "stage": "letters",
+   "kind": "letters",
+   "title": {
+    "ar": "الحروف ق ك ل م",
+    "en": "Letters ق ك ل م",
+    "fr": "Les lettres ق ك ل م",
+    "es": "Letras ق ك ل م",
+    "de": "Buchstaben ق ك ل م",
+    "it": "Lettere ق ك ل م"
+   },
+   "value": {
+    "ar": "نتعلّم شكل كل حرف وصوته وكلمة تبدأ به.",
+    "en": "We learn each letter's shape, its sound and a word that starts with it.",
+    "fr": "On apprend la forme de chaque lettre, son son et un mot qui commence par elle.",
+    "es": "Aprendemos la forma de cada letra, su sonido y una palabra que empieza por ella.",
+    "de": "Wir lernen Form und Laut jedes Buchstabens und ein Wort, das mit ihm beginnt.",
+    "it": "Impariamo la forma di ogni lettera, il suo suono e una parola che inizia con essa."
+   },
+   "letters": [
+    {
+     "ch": "ق",
+     "name": "قاف",
+     "tr": "q",
+     "word": "قَلْب",
+     "wtr": "qalb",
+     "emoji": "❤️",
+     "m": {
+      "ar": "القلب",
+      "en": "heart",
+      "fr": "cœur",
+      "es": "corazón",
+      "de": "Herz",
+      "it": "cuore"
+     },
+     "join": true,
+     "tip": {
+      "ar": "كاف من أقصى الحلق",
+      "en": "a 'k' from deep in the throat",
+      "fr": "un « k » prononcé au fond de la gorge",
+      "es": "una «k» muy al fondo de la garganta",
+      "de": "ein „k“ tief hinten im Rachen",
+      "it": "una «k» dal fondo della gola"
+     }
+    },
+    {
+     "ch": "ك",
+     "name": "كاف",
+     "tr": "k",
+     "word": "كِتاب",
+     "wtr": "kitāb",
+     "emoji": "📖",
+     "m": {
+      "ar": "الكتاب",
+      "en": "book",
+      "fr": "livre",
+      "es": "libro",
+      "de": "Buch",
+      "it": "libro"
+     },
+     "join": true
+    },
+    {
+     "ch": "ل",
+     "name": "لام",
+     "tr": "l",
+     "word": "لُطْف",
+     "wtr": "luṭf",
+     "emoji": "🌸",
+     "m": {
+      "ar": "اللطف",
+      "en": "kindness",
+      "fr": "gentillesse",
+      "es": "amabilidad",
+      "de": "Freundlichkeit",
+      "it": "gentilezza"
+     },
+     "join": true
+    },
+    {
+     "ch": "م",
+     "name": "ميم",
+     "tr": "m",
+     "word": "مَسْجِد",
+     "wtr": "masjid",
+     "emoji": "🕌",
+     "m": {
+      "ar": "المسجد",
+      "en": "mosque",
+      "fr": "mosquée",
+      "es": "mezquita",
+      "de": "Moschee",
+      "it": "moschea"
+     },
+     "join": true
+    }
+   ]
+  },
+  {
+   "id": "letters7",
+   "icon": "🏆",
+   "stage": "letters",
+   "kind": "letters",
+   "title": {
+    "ar": "الحروف ن ه و ي",
+    "en": "Letters ن ه و ي",
+    "fr": "Les lettres ن ه و ي",
+    "es": "Letras ن ه و ي",
+    "de": "Buchstaben ن ه و ي",
+    "it": "Lettere ن ه و ي"
+   },
+   "value": {
+    "ar": "نتعلّم شكل كل حرف وصوته وكلمة تبدأ به.",
+    "en": "We learn each letter's shape, its sound and a word that starts with it.",
+    "fr": "On apprend la forme de chaque lettre, son son et un mot qui commence par elle.",
+    "es": "Aprendemos la forma de cada letra, su sonido y una palabra que empieza por ella.",
+    "de": "Wir lernen Form und Laut jedes Buchstabens und ein Wort, das mit ihm beginnt.",
+    "it": "Impariamo la forma di ogni lettera, il suo suono e una parola che inizia con essa."
+   },
+   "letters": [
+    {
+     "ch": "ن",
+     "name": "نون",
+     "tr": "n",
+     "word": "نُور",
+     "wtr": "nūr",
+     "emoji": "💡",
+     "m": {
+      "ar": "النور",
+      "en": "light",
+      "fr": "lumière",
+      "es": "luz",
+      "de": "Licht",
+      "it": "luce"
+     },
+     "join": true
+    },
+    {
+     "ch": "ه",
+     "name": "هاء",
+     "tr": "h",
+     "word": "هَدِيّة",
+     "wtr": "hadiyya",
+     "emoji": "🎁",
+     "m": {
+      "ar": "الهدية",
+      "en": "gift",
+      "fr": "cadeau",
+      "es": "regalo",
+      "de": "Geschenk",
+      "it": "regalo"
+     },
+     "join": true,
+     "tip": {
+      "ar": "هاء خفيفة واضحة",
+      "en": "a light, clear 'h'",
+      "fr": "un « h » léger mais bien soufflé",
+      "es": "una «h» suave como en inglés «hello»",
+      "de": "ein leichtes „h“ wie in „Haus“",
+      "it": "una «h» leggera ma udibile"
+     }
+    },
+    {
+     "ch": "و",
+     "name": "واو",
+     "tr": "w / ū",
+     "word": "وَرْدة",
+     "wtr": "warda",
+     "emoji": "🌹",
+     "m": {
+      "ar": "الوردة",
+      "en": "rose",
+      "fr": "rose",
+      "es": "rosa",
+      "de": "Rose",
+      "it": "rosa"
+     },
+     "join": false
+    },
+    {
+     "ch": "ي",
+     "name": "ياء",
+     "tr": "y / ī",
+     "word": "يَد",
+     "wtr": "yad",
+     "emoji": "✋",
+     "m": {
+      "ar": "اليد",
+      "en": "hand",
+      "fr": "main",
+      "es": "mano",
+      "de": "Hand",
+      "it": "mano"
+     },
+     "join": true
+    }
+   ]
+  },
+  {
+   "id": "harakat",
+   "icon": "🎵",
+   "stage": "letters",
+   "title": {
+    "ar": "الحركات: كيف نقرأ",
+    "en": "Vowel marks: how we read",
+    "fr": "Les voyelles : comment on lit",
+    "es": "Las vocales: cómo leemos",
+    "de": "Vokalzeichen: so lesen wir",
+    "it": "Le vocali: come si legge"
+   },
+   "value": {
+    "ar": "الحركات الصغيرة فوق الحروف وتحتها تعلّمنا كيف ننطقها.",
+    "en": "The little marks above and below the letters tell us how to say them.",
+    "fr": "Les petits signes au-dessus et au-dessous des lettres nous disent comment les prononcer.",
+    "es": "Las marcas pequeñas encima y debajo de las letras nos dicen cómo pronunciarlas.",
+    "de": "Die kleinen Zeichen über und unter den Buchstaben zeigen, wie man sie ausspricht.",
+    "it": "I piccoli segni sopra e sotto le lettere ci dicono come pronunciarle."
+   },
+   "words": [
+    {
+     "ar": "بَ",
+     "tr": "ba",
+     "emoji": "⬆️",
+     "m": {
+      "ar": "الفتحة: صوت a قصير",
+      "en": "fatḥa (line above): short 'a'",
+      "fr": "fatḥa (trait au-dessus) : « a » court",
+      "es": "fatḥa (raya encima): «a» corta",
+      "de": "Fatḥa (Strich oben): kurzes „a“",
+      "it": "fatḥa (trattino sopra): «a» breve"
+     }
+    },
+    {
+     "ar": "بِ",
+     "tr": "bi",
+     "emoji": "⬇️",
+     "m": {
+      "ar": "الكسرة: صوت i قصير",
+      "en": "kasra (line below): short 'i'",
+      "fr": "kasra (trait au-dessous) : « i » court",
+      "es": "kasra (raya debajo): «i» corta",
+      "de": "Kasra (Strich unten): kurzes „i“",
+      "it": "kasra (trattino sotto): «i» breve"
+     }
+    },
+    {
+     "ar": "بُ",
+     "tr": "bu",
+     "emoji": "➰",
+     "m": {
+      "ar": "الضمة: صوت u قصير",
+      "en": "ḍamma (small wāw above): short 'u'",
+      "fr": "ḍamma (petit wāw au-dessus) : « ou » court",
+      "es": "ḍamma (pequeña wāw encima): «u» corta",
+      "de": "Ḍamma (kleines Wāw oben): kurzes „u“",
+      "it": "ḍamma (piccola wāw sopra): «u» breve"
+     }
+    },
+    {
+     "ar": "با",
+     "tr": "bā",
+     "emoji": "↔️",
+     "m": {
+      "ar": "مدّ بالألف: aa طويلة",
+      "en": "long 'aa' with alif",
+      "fr": "« aa » long avec alif",
+      "es": "«aa» larga con alif",
+      "de": "langes „aa“ mit Alif",
+      "it": "«aa» lunga con alif"
+     }
+    },
+    {
+     "ar": "بي",
+     "tr": "bī",
+     "emoji": "↔️",
+     "m": {
+      "ar": "مدّ بالياء: ii طويلة",
+      "en": "long 'ii' with yāʾ",
+      "fr": "« ii » long avec yāʾ",
+      "es": "«ii» larga con yāʾ",
+      "de": "langes „ii“ mit Yāʾ",
+      "it": "«ii» lunga con yāʾ"
+     }
+    },
+    {
+     "ar": "بو",
+     "tr": "bū",
+     "emoji": "↔️",
+     "m": {
+      "ar": "مدّ بالواو: uu طويلة",
+      "en": "long 'uu' with wāw",
+      "fr": "« ou » long avec wāw",
+      "es": "«uu» larga con wāw",
+      "de": "langes „uu“ mit Wāw",
+      "it": "«uu» lunga con wāw"
+     }
+    },
+    {
+     "ar": "مِنْ",
+     "tr": "min",
+     "emoji": "⭕",
+     "m": {
+      "ar": "السكون: الحرف بلا حركة (من)",
+      "en": "sukūn (small circle): no vowel — min, 'from'",
+      "fr": "sukūn (petit rond) : pas de voyelle — min, « de »",
+      "es": "sukūn (circulito): sin vocal — min, «de»",
+      "de": "Sukūn (kleiner Kreis): kein Vokal — min, „von“",
+      "it": "sukūn (cerchietto): nessuna vocale — min, «da»"
+     }
+    },
+    {
+     "ar": "أُمّ",
+     "tr": "umm",
+     "emoji": "🔁",
+     "m": {
+      "ar": "الشدّة: الحرف مرّتين (أمّ)",
+      "en": "shadda (small w): the letter is doubled — umm, 'mother'",
+      "fr": "shadda (petit w) : la lettre est doublée — umm, « mère »",
+      "es": "shadda (pequeña w): la letra se duplica — umm, «madre»",
+      "de": "Schadda (kleines w): Buchstabe doppelt — umm, „Mutter“",
+      "it": "shadda (piccola w): la lettera è doppia — umm, «madre»"
+     }
+    },
+    {
+     "ar": "بابٌ",
+     "tr": "bābun",
+     "emoji": "🚪",
+     "m": {
+      "ar": "تنوين الضمّ: un في آخر الكلمة (باب)",
+      "en": "tanwīn ḍamm: '-un' at the end — bābun, 'a door'",
+      "fr": "tanwīn ḍamm : « -oun » à la fin — bābun, « une porte »",
+      "es": "tanwīn ḍamm: «-un» al final — bābun, «una puerta»",
+      "de": "Tanwīn Ḍamm: „-un“ am Ende — bābun, „eine Tür“",
+      "it": "tanwīn ḍamm: «-un» alla fine — bābun, «una porta»"
+     }
+    },
+    {
+     "ar": "كِتابًا",
+     "tr": "kitāban",
+     "emoji": "📖",
+     "m": {
+      "ar": "تنوين الفتح: an في آخر الكلمة (كتابًا)",
+      "en": "tanwīn fatḥ: '-an' at the end — kitāban, 'a book'",
+      "fr": "tanwīn fatḥ : « -an » à la fin — kitāban, « un livre »",
+      "es": "tanwīn fatḥ: «-an» al final — kitāban, «un libro»",
+      "de": "Tanwīn Fatḥ: „-an“ am Ende — kitāban, „ein Buch“",
+      "it": "tanwīn fatḥ: «-an» alla fine — kitāban, «un libro»"
+     }
+    },
+    {
+     "ar": "بَيْتٍ",
+     "tr": "baytin",
+     "emoji": "🏠",
+     "m": {
+      "ar": "تنوين الكسر: in في آخر الكلمة (بيتٍ)",
+      "en": "tanwīn kasr: '-in' at the end — baytin, 'a house'",
+      "fr": "tanwīn kasr : « -in » à la fin — baytin, « une maison »",
+      "es": "tanwīn kasr: «-in» al final — baytin, «una casa»",
+      "de": "Tanwīn Kasr: „-in“ am Ende — baytin, „ein Haus“",
+      "it": "tanwīn kasr: «-in» alla fine — baytin, «una casa»"
+     }
+    },
+    {
+     "ar": "نُورٌ",
+     "tr": "nūrun",
+     "emoji": "💡",
+     "m": {
+      "ar": "مدّ وتنوين معًا (نور)",
+      "en": "long vowel + tanwīn — nūrun, 'a light'",
+      "fr": "voyelle longue + tanwīn — nūrun, « une lumière »",
+      "es": "vocal larga + tanwīn — nūrun, «una luz»",
+      "de": "langer Vokal + Tanwīn — nūrun, „ein Licht“",
+      "it": "vocale lunga + tanwīn — nūrun, «una luce»"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "بابٌ كَبيرٌ",
+     "tr": "bābun kabīrun",
+     "emoji": "🚪",
+     "m": {
+      "ar": "باب كبير",
+      "en": "a big door",
+      "fr": "une grande porte",
+      "es": "una puerta grande",
+      "de": "eine große Tür",
+      "it": "una porta grande"
+     }
+    },
+    {
+     "ar": "بَيْتٌ جَميلٌ",
+     "tr": "baytun jamīlun",
+     "emoji": "🏡",
+     "m": {
+      "ar": "بيت جميل",
+      "en": "a beautiful house",
+      "fr": "une belle maison",
+      "es": "una casa bonita",
+      "de": "ein schönes Haus",
+      "it": "una bella casa"
+     }
+    },
+    {
+     "ar": "كِتابٌ مُفيدٌ",
+     "tr": "kitābun mufīdun",
+     "emoji": "📚",
+     "m": {
+      "ar": "كتاب نافع",
+      "en": "a useful book",
+      "fr": "un livre utile",
+      "es": "un libro útil",
+      "de": "ein nützliches Buch",
+      "it": "un libro utile"
+     }
+    }
+   ]
+  },
   {
    "id": "greet",
    "icon": "👋",
@@ -162,335 +1293,102 @@
      "de": "Wir grüßen die Menschen mit Frieden, und die Liebe zwischen uns wächst.",
      "it": "Salutiamo le persone con la pace e l'affetto tra noi cresce."
     }
-   }
-  },
-  {
-   "id": "prayer",
-   "icon": "🕌",
-   "title": {
-    "ar": "الصلاة",
-    "en": "Prayer",
-    "fr": "La prière",
-    "es": "La oración",
-    "de": "Das Gebet",
-    "it": "La preghiera"
    },
-   "value": {
-    "ar": "نستعدّ للصلاة بالوضوء ونحافظ عليها في وقتها.",
-    "en": "We prepare for prayer with wudu and keep it on time.",
-    "fr": "On se prépare à la prière par les ablutions et on la fait à l'heure.",
-    "es": "Nos preparamos para la oración con la ablución y la hacemos a su hora.",
-    "de": "Wir bereiten uns mit der Waschung auf das Gebet vor und beten pünktlich.",
-    "it": "Ci prepariamo alla preghiera con l'abluzione e la facciamo in orario."
+   "story": {
+    "lines": [
+     {
+      "who": "yusuf",
+      "ar": "السَّلامُ عَلَيْكُمْ يا جَدّي!",
+      "tr": "as-salāmu ʿalaykum yā jaddī!",
+      "m": {
+       "en": "Peace be upon you, Grandpa!",
+       "fr": "Que la paix soit sur toi, papi !",
+       "es": "¡La paz sea contigo, abuelo!",
+       "de": "Friede sei mit dir, Opa!",
+       "it": "La pace sia con te, nonno!"
+      }
+     },
+     {
+      "who": "grandpa",
+      "ar": "وَعَلَيْكُمُ السَّلامُ يا يوسُفُ.",
+      "tr": "wa ʿalaykumu s-salām yā yūsuf.",
+      "m": {
+       "en": "And peace be upon you, Yusuf.",
+       "fr": "Et que la paix soit sur toi, Youssouf.",
+       "es": "Y contigo sea la paz, Yusuf.",
+       "de": "Und Friede sei mit dir, Yusuf.",
+       "it": "E con te sia la pace, Yusuf."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "مِنْ فَضْلِكَ، ساعِدْني في الدَّرْسِ.",
+      "tr": "min faḍlik, sāʿidnī fī d-dars.",
+      "m": {
+       "en": "Please help me with my lesson.",
+       "fr": "S'il te plaît, aide-moi pour ma leçon.",
+       "es": "Por favor, ayúdame con la lección.",
+       "de": "Bitte hilf mir bei meiner Lektion.",
+       "it": "Per favore, aiutami con la lezione."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "شُكْرًا يا جَدّي!",
+      "tr": "shukran yā jaddī!",
+      "m": {
+       "en": "Thank you, Grandpa!",
+       "fr": "Merci, papi !",
+       "es": "¡Gracias, abuelo!",
+       "de": "Danke, Opa!",
+       "it": "Grazie, nonno!"
+      }
+     }
+    ],
+    "q": {
+     "ar": "بماذا بدأ يوسف كلامه؟",
+     "en": "How did Yusuf start talking?",
+     "fr": "Comment Youssouf a-t-il commencé à parler ?",
+     "es": "¿Cómo empezó a hablar Yusuf?",
+     "de": "Womit hat Yusuf das Gespräch begonnen?",
+     "it": "Come ha iniziato a parlare Yusuf?"
+    },
+    "options": [
+     {
+      "ar": "بالسلام",
+      "en": "With the greeting of peace",
+      "fr": "Par le salut de paix",
+      "es": "Con el saludo de paz",
+      "de": "Mit dem Friedensgruß",
+      "it": "Con il saluto di pace"
+     },
+     {
+      "ar": "بالصراخ",
+      "en": "By shouting",
+      "fr": "En criant",
+      "es": "Gritando",
+      "de": "Mit Schreien",
+      "it": "Urlando"
+     },
+     {
+      "ar": "بالبكاء",
+      "en": "By crying",
+      "fr": "En pleurant",
+      "es": "Llorando",
+      "de": "Mit Weinen",
+      "it": "Piangendo"
+     }
+    ]
    },
-   "words": [
-    {
-     "ar": "صَلاةٌ",
-     "tr": "ṣalāh",
-     "emoji": "🤲",
-     "m": {
-      "en": "Prayer",
-      "fr": "Prière",
-      "es": "Oración",
-      "de": "Gebet",
-      "it": "Preghiera",
-      "ar": "عبادة نقوم بها خمس مرات كل يوم"
-     }
-    },
-    {
-     "ar": "وُضوءٌ",
-     "tr": "wuḍūʾ",
-     "emoji": "💧",
-     "m": {
-      "en": "Ablution (wudu)",
-      "fr": "Ablutions",
-      "es": "Ablución",
-      "de": "Gebetswaschung",
-      "it": "Abluzione",
-      "ar": "نغسل به أعضاءنا قبل الصلاة"
-     }
-    },
-    {
-     "ar": "مَسْجِدٌ",
-     "tr": "masjid",
-     "emoji": "🕌",
-     "m": {
-      "en": "Mosque",
-      "fr": "Mosquée",
-      "es": "Mezquita",
-      "de": "Moschee",
-      "it": "Moschea",
-      "ar": "بيت من بيوت الله"
-     }
-    },
-    {
-     "ar": "أَذانٌ",
-     "tr": "adhān",
-     "emoji": "📢",
-     "m": {
-      "en": "Call to prayer",
-      "fr": "Appel à la prière",
-      "es": "Llamada a la oración",
-      "de": "Gebetsruf",
-      "it": "Chiamata alla preghiera",
-      "ar": "نداء يعلن وقت الصلاة"
-     }
-    },
-    {
-     "ar": "سَجّادَةٌ",
-     "tr": "sajjādah",
-     "emoji": "🧎",
-     "m": {
-      "en": "Prayer rug",
-      "fr": "Tapis de prière",
-      "es": "Alfombra de oración",
-      "de": "Gebetsteppich",
-      "it": "Tappeto da preghiera",
-      "ar": "نصلّي عليها"
-     }
-    },
-    {
-     "ar": "قِبْلَةٌ",
-     "tr": "qiblah",
-     "emoji": "🧭",
-     "m": {
-      "en": "Direction of prayer",
-      "fr": "Direction de la prière",
-      "es": "Dirección de la oración",
-      "de": "Gebetsrichtung",
-      "it": "Direzione della preghiera",
-      "ar": "الجهة التي نتّجه إليها في الصلاة"
-     }
-    }
-   ],
-   "sentences": [
-    {
-     "ar": "أَتَوَضَّأُ قَبْلَ الصَّلاةِ",
-     "tr": "atawaḍḍaʾu qabla ṣ-ṣalāh",
-     "emoji": "💧",
-     "m": {
-      "en": "I make wudu before the prayer",
-      "fr": "Je fais mes ablutions avant la prière",
-      "es": "Hago la ablución antes de la oración",
-      "de": "Ich mache die Waschung vor dem Gebet",
-      "it": "Faccio l'abluzione prima della preghiera",
-      "ar": "الوضوء يكون أولًا ثم الصلاة"
-     }
-    },
-    {
-     "ar": "أُصَلّي في المَسْجِدِ",
-     "tr": "uṣallī fī l-masjid",
-     "emoji": "🕌",
-     "m": {
-      "en": "I pray in the mosque",
-      "fr": "Je prie à la mosquée",
-      "es": "Rezo en la mezquita",
-      "de": "Ich bete in der Moschee",
-      "it": "Prego nella moschea",
-      "ar": "أؤدّي صلاتي في بيت الله"
-     }
-    },
-    {
-     "ar": "أَسْمَعُ الأَذانَ فَأَقومُ لِلصَّلاةِ",
-     "tr": "asmaʿu l-adhāna fa-aqūmu li-ṣ-ṣalāh",
-     "emoji": "📢",
-     "m": {
-      "en": "I hear the call to prayer, so I get up to pray",
-      "fr": "J'entends l'appel et je me lève pour prier",
-      "es": "Oigo la llamada y me levanto para rezar",
-      "de": "Ich höre den Gebetsruf und stehe zum Beten auf",
-      "it": "Sento la chiamata e mi alzo per pregare",
-      "ar": "حين ينادي المؤذّن أذهب لأصلّي"
-     }
-    }
-   ],
-   "hadith": {
-    "ar": "بُنِيَ الإِسْلامُ عَلى خَمْسٍ: شَهادَةِ أَنْ لا إِلهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا رَسولُ اللهِ، وَإِقامِ الصَّلاةِ، وَإيتاءِ الزَّكاةِ، وَالحَجِّ، وَصَوْمِ رَمَضانَ",
-    "src": {
-     "ar": "رواه البخاري (8) ومسلم (16)",
-     "latin": "Sahih al-Bukhari 8, Sahih Muslim 16"
-    },
-    "m": {
-     "en": "Islam is built on five: bearing witness that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing prayer, giving zakat, Hajj, and fasting Ramadan.",
-     "fr": "L'islam est bâti sur cinq piliers : attester qu'il n'y a de dieu qu'Allah et que Muhammad est le Messager d'Allah, accomplir la prière, donner la zakat, le pèlerinage et le jeûne de Ramadan.",
-     "es": "El islam se basa en cinco: atestiguar que no hay más dios que Allah y que Muhammad es el Mensajero de Allah, establecer la oración, dar el zakat, la peregrinación y ayunar en Ramadán.",
-     "de": "Der Islam ist auf fünf Säulen gebaut: das Bezeugen, dass es keinen Gott außer Allah gibt und dass Muhammad der Gesandte Allahs ist, das Gebet, die Zakat, die Pilgerfahrt und das Fasten im Ramadan.",
-     "it": "L'Islam è costruito su cinque pilastri: testimoniare che non c'è dio all'infuori di Allah e che Muhammad è il Messaggero di Allah, compiere la preghiera, versare la zakat, il pellegrinaggio e il digiuno di Ramadan.",
-     "ar": "أركان الإسلام خمسة، منها الصلاة والزكاة."
-    },
-    "lesson": {
-     "ar": "الصلاة ركن عظيم من أركان الإسلام الخمسة.",
-     "en": "Prayer is a great pillar among the five pillars of Islam.",
-     "fr": "La prière est un grand pilier parmi les cinq piliers de l'islam.",
-     "es": "La oración es un gran pilar entre los cinco pilares del islam.",
-     "de": "Das Gebet ist eine wichtige der fünf Säulen des Islam.",
-     "it": "La preghiera è un grande pilastro tra i cinque pilastri dell'Islam."
-    }
-   }
-  },
-  {
-   "id": "zakat",
-   "icon": "🎁",
-   "title": {
-    "ar": "الزكاة والصدقة",
-    "en": "Zakat and charity",
-    "fr": "La zakat et l'aumône",
-    "es": "El zakat y la caridad",
-    "de": "Zakat und Spenden",
-    "it": "La zakat e la carità"
+   "challenge": {
+    "ar": "قل اليوم «السَّلامُ عَلَيْكُمْ» لكل فرد من عائلتك عندما تراه أوّل مرّة.",
+    "en": "Today, say “as-salāmu ʿalaykum” to everyone in your family the first time you see them.",
+    "fr": "Aujourd'hui, dis « as-salāmu ʿalaykum » à chaque membre de ta famille la première fois que tu le vois.",
+    "es": "Hoy di «as-salāmu ʿalaykum» a cada persona de tu familia la primera vez que la veas.",
+    "de": "Sag heute jedem in deiner Familie „as-salāmu ʿalaykum“, wenn du ihn zum ersten Mal siehst.",
+    "it": "Oggi di' «as-salāmu ʿalaykum» a ogni persona della tua famiglia la prima volta che la vedi."
    },
-   "value": {
-    "ar": "نُعين الفقير بالعطاء، وحتى الابتسامة صدقة.",
-    "en": "We help people in need by giving, and even a smile is charity.",
-    "fr": "On aide les personnes dans le besoin en donnant, et même un sourire est une aumône.",
-    "es": "Ayudamos a quien lo necesita dando, e incluso una sonrisa es caridad.",
-    "de": "Wir helfen Bedürftigen durch Geben, und sogar ein Lächeln ist eine Spende.",
-    "it": "Aiutiamo chi ha bisogno donando, e anche un sorriso è carità."
-   },
-   "words": [
-    {
-     "ar": "زَكاةٌ",
-     "tr": "zakāh",
-     "emoji": "🌾",
-     "m": {
-      "en": "Zakat (obligatory charity)",
-      "fr": "Zakat (aumône obligatoire)",
-      "es": "Zakat (caridad obligatoria)",
-      "de": "Zakat (Pflichtabgabe)",
-      "it": "Zakat (elemosina obbligatoria)",
-      "ar": "جزء من المال يُعطى للمحتاجين وجوبًا"
-     }
-    },
-    {
-     "ar": "صَدَقَةٌ",
-     "tr": "ṣadaqah",
-     "emoji": "🎁",
-     "m": {
-      "en": "Charity",
-      "fr": "Aumône",
-      "es": "Caridad",
-      "de": "Spende",
-      "it": "Carità",
-      "ar": "ما نعطيه تطوّعًا لوجه الله"
-     }
-    },
-    {
-     "ar": "مالٌ",
-     "tr": "māl",
-     "emoji": "🪙",
-     "m": {
-      "en": "Money",
-      "fr": "Argent",
-      "es": "Dinero",
-      "de": "Geld",
-      "it": "Denaro",
-      "ar": "ما نشتري به حاجاتنا"
-     }
-    },
-    {
-     "ar": "فَقيرٌ",
-     "tr": "faqīr",
-     "emoji": "🥣",
-     "m": {
-      "en": "Poor person",
-      "fr": "Personne pauvre",
-      "es": "Persona pobre",
-      "de": "Armer Mensch",
-      "it": "Persona povera",
-      "ar": "من لا يملك ما يكفيه"
-     }
-    },
-    {
-     "ar": "أُعْطي",
-     "tr": "uʿṭī",
-     "emoji": "🫴",
-     "m": {
-      "en": "I give",
-      "fr": "Je donne",
-      "es": "Doy",
-      "de": "Ich gebe",
-      "it": "Do",
-      "ar": "أقدّم شيئًا لغيري"
-     }
-    },
-    {
-     "ar": "ابْتِسامَةٌ",
-     "tr": "ibtisāmah",
-     "emoji": "😊",
-     "m": {
-      "en": "Smile",
-      "fr": "Sourire",
-      "es": "Sonrisa",
-      "de": "Lächeln",
-      "it": "Sorriso",
-      "ar": "تظهر على الوجه حين نفرح"
-     }
-    }
-   ],
-   "sentences": [
-    {
-     "ar": "الزَّكاةُ حَقُّ الفَقيرِ",
-     "tr": "az-zakātu ḥaqqu l-faqīr",
-     "emoji": "🌾",
-     "m": {
-      "en": "Zakat is the right of the poor",
-      "fr": "La zakat est le droit du pauvre",
-      "es": "El zakat es el derecho del pobre",
-      "de": "Die Zakat ist das Recht der Armen",
-      "it": "La zakat è il diritto del povero",
-      "ar": "للفقير نصيب من الزكاة"
-     }
-    },
-    {
-     "ar": "أُعْطي الفَقيرَ صَدَقَةً",
-     "tr": "uʿṭī l-faqīra ṣadaqah",
-     "emoji": "🎁",
-     "m": {
-      "en": "I give charity to the poor person",
-      "fr": "Je donne une aumône au pauvre",
-      "es": "Doy caridad al pobre",
-      "de": "Ich gebe dem Armen eine Spende",
-      "it": "Do la carità al povero",
-      "ar": "أتصدّق على المحتاج"
-     }
-    },
-    {
-     "ar": "الابْتِسامَةُ صَدَقَةٌ",
-     "tr": "al-ibtisāmatu ṣadaqah",
-     "emoji": "😊",
-     "m": {
-      "en": "A smile is charity",
-      "fr": "Un sourire est une aumône",
-      "es": "Una sonrisa es caridad",
-      "de": "Ein Lächeln ist eine Spende",
-      "it": "Un sorriso è carità",
-      "ar": "حتى الابتسامة نؤجر عليها"
-     }
-    }
-   ],
-   "hadith": {
-    "ar": "تَبَسُّمُكَ في وَجْهِ أَخيكَ لَكَ صَدَقَةٌ",
-    "src": {
-     "ar": "رواه الترمذي (1956)، وصحّحه الألباني",
-     "latin": "Jami' at-Tirmidhi 1956 (graded authentic by al-Albani)"
-    },
-    "m": {
-     "en": "Your smile in the face of your brother is charity for you.",
-     "fr": "Ton sourire au visage de ton frère est une aumône pour toi.",
-     "es": "Tu sonrisa en el rostro de tu hermano es una caridad para ti.",
-     "de": "Dein Lächeln im Gesicht deines Bruders ist eine Spende für dich.",
-     "it": "Il tuo sorriso rivolto a tuo fratello è per te una carità.",
-     "ar": "ابتسامتك لأخيك تُكتب لك صدقة."
-    },
-    "lesson": {
-     "ar": "يمكننا فعل الخير دون مال، بابتسامة صادقة.",
-     "en": "We can do good without money, with a sincere smile.",
-     "fr": "Nous pouvons faire le bien sans argent, avec un sourire sincère.",
-     "es": "Podemos hacer el bien sin dinero, con una sonrisa sincera.",
-     "de": "Wir können auch ohne Geld Gutes tun, mit einem ehrlichen Lächeln.",
-     "it": "Possiamo fare del bene senza denaro, con un sorriso sincero."
-    }
-   }
+   "stage": "values"
   },
   {
    "id": "parents",
@@ -654,171 +1552,620 @@
      "de": "Güte zu den Eltern gehört zu den Taten, die Allah am meisten liebt.",
      "it": "La bontà verso i genitori è tra le azioni più amate da Allah."
     }
-   }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "mama",
+      "ar": "يا يوسُفُ، مِنْ فَضْلِكَ رَتِّبِ المائِدَةَ.",
+      "tr": "yā yūsuf, min faḍlika rattibi l-māʾida.",
+      "m": {
+       "en": "Yusuf, please set the table.",
+       "fr": "Youssouf, s'il te plaît, mets la table.",
+       "es": "Yusuf, por favor, pon la mesa.",
+       "de": "Yusuf, bitte deck den Tisch.",
+       "it": "Yusuf, per favore, apparecchia la tavola."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "حاضِرٌ يا أُمّي!",
+      "tr": "ḥāḍirun yā ummī!",
+      "m": {
+       "en": "Right away, Mum!",
+       "fr": "Tout de suite, maman !",
+       "es": "¡Enseguida, mamá!",
+       "de": "Sofort, Mama!",
+       "it": "Subito, mamma!"
+      }
+     },
+     {
+      "who": "mama",
+      "ar": "بارَكَ اللهُ فيكَ يا بُنَيَّ.",
+      "tr": "bāraka llāhu fīka yā bunayya.",
+      "m": {
+       "en": "May Allah bless you, my son.",
+       "fr": "Qu'Allah te bénisse, mon fils.",
+       "es": "Que Allah te bendiga, hijo mío.",
+       "de": "Allah segne dich, mein Sohn.",
+       "it": "Che Allah ti benedica, figlio mio."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "رَبِّ ارْحَمْهُما كَما رَبَّياني صَغيرًا.",
+      "tr": "rabbi rḥamhumā kamā rabbayānī ṣaghīran.",
+      "m": {
+       "en": "My Lord, have mercy on them as they raised me when I was small.",
+       "fr": "Seigneur, fais-leur miséricorde comme ils m'ont élevé tout petit.",
+       "es": "Señor mío, ten misericordia de ellos como me criaron de pequeño.",
+       "de": "Mein Herr, erbarme dich ihrer, wie sie mich als Kind aufgezogen haben.",
+       "it": "Signore, abbi misericordia di loro come mi hanno cresciuto da piccolo."
+      }
+     }
+    ],
+    "q": {
+     "ar": "بماذا أجاب يوسف أمّه؟",
+     "en": "How did Yusuf answer his mum?",
+     "fr": "Qu'a répondu Youssouf à sa mère ?",
+     "es": "¿Qué le respondió Yusuf a su madre?",
+     "de": "Was antwortete Yusuf seiner Mutter?",
+     "it": "Che cosa ha risposto Yusuf alla mamma?"
+    },
+    "options": [
+     {
+      "ar": "حاضر يا أمّي!",
+      "en": "Right away, Mum!",
+      "fr": "Tout de suite, maman !",
+      "es": "¡Enseguida, mamá!",
+      "de": "Sofort, Mama!",
+      "it": "Subito, mamma!"
+     },
+     {
+      "ar": "لا أريد",
+      "en": "I don't want to",
+      "fr": "Je ne veux pas",
+      "es": "No quiero",
+      "de": "Ich will nicht",
+      "it": "Non voglio"
+     },
+     {
+      "ar": "بعد قليل",
+      "en": "In a while",
+      "fr": "Tout à l'heure",
+      "es": "Luego",
+      "de": "Später",
+      "it": "Fra un po'"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "عندما يطلب منك أحد والديك شيئًا اليوم، قل: «حاضِر» وافعله فورًا، ثم ادعُ لهما.",
+    "en": "When a parent asks you for something today, say “ḥāḍir” (right away), do it at once, then make duʿāʾ for them.",
+    "fr": "Quand un parent te demande quelque chose aujourd'hui, dis « ḥāḍir » (tout de suite), fais-le aussitôt, puis invoque Allah pour eux.",
+    "es": "Cuando hoy tu padre o tu madre te pida algo, di «ḥāḍir» (enseguida), hazlo al momento y luego pide a Allah por ellos.",
+    "de": "Wenn deine Eltern dich heute um etwas bitten, sag „ḥāḍir“ (sofort), tu es gleich und sprich danach ein Bittgebet für sie.",
+    "it": "Quando oggi un genitore ti chiede qualcosa, di' «ḥāḍir» (subito), fallo subito, poi prega Allah per loro."
+   },
+   "stage": "values"
   },
   {
-   "id": "neighbor",
-   "icon": "🏘️",
+   "id": "kindword",
+   "icon": "😊",
    "title": {
-    "ar": "حقّ الجار",
-    "en": "Our neighbours",
-    "fr": "Nos voisins",
-    "es": "Nuestros vecinos",
-    "de": "Unsere Nachbarn",
-    "it": "I nostri vicini"
+    "ar": "الكلمة الطيبة والابتسامة",
+    "en": "Kind words and smiles",
+    "fr": "La bonne parole et le sourire",
+    "es": "La palabra amable y la sonrisa",
+    "de": "Freundliche Worte und Lächeln",
+    "it": "La parola gentile e il sorriso"
    },
    "value": {
-    "ar": "نُحسن إلى جيراننا، مسلمين وغير مسلمين، ولا نزعجهم.",
-    "en": "We are kind to all our neighbours, Muslim or not, and we do not disturb them.",
-    "fr": "On est bon envers tous ses voisins, musulmans ou non, et on ne les dérange pas.",
-    "es": "Somos buenos con todos nuestros vecinos, musulmanes o no, y no los molestamos.",
-    "de": "Wir sind gut zu allen Nachbarn, ob Muslime oder nicht, und stören sie nicht.",
-    "it": "Siamo gentili con tutti i vicini, musulmani o no, e non li disturbiamo."
+    "ar": "نبتسم في وجوه الناس ونختار أجمل الكلام.",
+    "en": "We smile at people and choose the nicest words.",
+    "fr": "On sourit aux gens et on choisit les plus belles paroles.",
+    "es": "Sonreímos a la gente y elegimos las palabras más bonitas.",
+    "de": "Wir lächeln Menschen an und wählen die schönsten Worte.",
+    "it": "Sorridiamo alle persone e scegliamo le parole più belle."
    },
    "words": [
     {
-     "ar": "جارٌ",
-     "tr": "jār",
-     "emoji": "🏘️",
+     "ar": "اِبْتِسامة",
+     "tr": "ibtisāma",
+     "emoji": "😊",
      "m": {
-      "en": "Neighbour",
-      "fr": "Voisin",
-      "es": "Vecino",
-      "de": "Nachbar",
-      "it": "Vicino",
-      "ar": "من يسكن قرب بيتنا"
+      "ar": "علامة الفرح على الوجه",
+      "en": "smile",
+      "fr": "sourire",
+      "es": "sonrisa",
+      "de": "Lächeln",
+      "it": "sorriso"
      }
     },
     {
-     "ar": "بَيْتٌ",
-     "tr": "bayt",
-     "emoji": "🏠",
+     "ar": "كَلِمة",
+     "tr": "kalima",
+     "emoji": "💬",
      "m": {
-      "en": "House",
-      "fr": "Maison",
-      "es": "Casa",
-      "de": "Haus",
-      "it": "Casa",
-      "ar": "المكان الذي نسكن فيه"
+      "ar": "ما نقوله",
+      "en": "word",
+      "fr": "mot",
+      "es": "palabra",
+      "de": "Wort",
+      "it": "parola"
      }
     },
     {
-     "ar": "هَدِيَّةٌ",
-     "tr": "hadiyyah",
+     "ar": "طَيِّب",
+     "tr": "ṭayyib",
+     "emoji": "🌷",
+     "m": {
+      "ar": "حسن وجميل",
+      "en": "good, kind",
+      "fr": "bon, gentil",
+      "es": "bueno, amable",
+      "de": "gut, freundlich",
+      "it": "buono, gentile"
+     }
+    },
+    {
+     "ar": "جَميل",
+     "tr": "jamīl",
+     "emoji": "✨",
+     "m": {
+      "ar": "حسن المنظر",
+      "en": "beautiful",
+      "fr": "beau",
+      "es": "bonito",
+      "de": "schön",
+      "it": "bello"
+     }
+    },
+    {
+     "ar": "صَدَقة",
+     "tr": "ṣadaqa",
      "emoji": "🎁",
      "m": {
-      "en": "Gift",
-      "fr": "Cadeau",
-      "es": "Regalo",
-      "de": "Geschenk",
-      "it": "Regalo",
-      "ar": "شيء نقدّمه لغيرنا محبّةً"
+      "ar": "عمل خير نعطيه",
+      "en": "charity, good deed",
+      "fr": "aumône, bonne action",
+      "es": "caridad, buena obra",
+      "de": "Almosen, gute Tat",
+      "it": "elemosina, buona azione"
      }
     },
     {
-     "ar": "هُدوءٌ",
-     "tr": "hudūʾ",
-     "emoji": "🤫",
+     "ar": "وَجْه",
+     "tr": "wajh",
+     "emoji": "🙂",
      "m": {
-      "en": "Quiet",
-      "fr": "Calme",
-      "es": "Silencio",
-      "de": "Ruhe",
-      "it": "Silenzio",
-      "ar": "عدم إحداث الضجيج"
-     }
-    },
-    {
-     "ar": "أَزورُ",
-     "tr": "azūru",
-     "emoji": "🚶",
-     "m": {
-      "en": "I visit",
-      "fr": "Je rends visite",
-      "es": "Visito",
-      "de": "Ich besuche",
-      "it": "Visito",
-      "ar": "أذهب إلى شخص لأراه"
-     }
-    },
-    {
-     "ar": "أُحْسِنُ",
-     "tr": "uḥsinu",
-     "emoji": "💖",
-     "m": {
-      "en": "I am kind",
-      "fr": "Je fais le bien",
-      "es": "Hago el bien",
-      "de": "Ich bin gütig",
-      "it": "Faccio del bene",
-      "ar": "أعامل غيري معاملة طيبة"
+      "ar": "الوجه",
+      "en": "face",
+      "fr": "visage",
+      "es": "cara",
+      "de": "Gesicht",
+      "it": "viso"
      }
     }
    ],
    "sentences": [
     {
-     "ar": "أُسَلِّمُ عَلى جاري",
-     "tr": "usallimu ʿalā jārī",
-     "emoji": "👋",
+     "ar": "الكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ",
+     "tr": "al-kalimatu ṭ-ṭayyibatu ṣadaqa",
+     "emoji": "💬",
      "m": {
-      "en": "I greet my neighbour",
-      "fr": "Je salue mon voisin",
-      "es": "Saludo a mi vecino",
-      "de": "Ich grüße meinen Nachbarn",
-      "it": "Saluto il mio vicino",
-      "ar": "ألقي التحية على من يسكن قربي"
+      "ar": "الكلام الحسن عمل خير",
+      "en": "A kind word is charity",
+      "fr": "La bonne parole est une aumône",
+      "es": "La palabra amable es caridad",
+      "de": "Ein gutes Wort ist ein Almosen",
+      "it": "La parola buona è elemosina"
      }
     },
     {
-     "ar": "لا أُزْعِجُ جاري",
-     "tr": "lā uzʿiju jārī",
-     "emoji": "🤫",
+     "ar": "وَجْهُكَ جَميلٌ",
+     "tr": "wajhuka jamīlun",
+     "emoji": "🙂",
      "m": {
-      "en": "I do not disturb my neighbour",
-      "fr": "Je ne dérange pas mon voisin",
-      "es": "No molesto a mi vecino",
-      "de": "Ich störe meinen Nachbarn nicht",
-      "it": "Non disturbo il mio vicino",
-      "ar": "ألتزم الهدوء من أجل من يسكن قربي"
+      "ar": "أقولها بلطف",
+      "en": "Your face is lovely",
+      "fr": "Ton visage est beau",
+      "es": "Tu cara es bonita",
+      "de": "Dein Gesicht ist schön",
+      "it": "Il tuo viso è bello"
      }
     },
     {
-     "ar": "أُقَدِّمُ هَدِيَّةً لِجاري",
-     "tr": "uqaddimu hadiyyatan li-jārī",
-     "emoji": "🎁",
+     "ar": "أَبْتَسِمُ لِصَديقي",
+     "tr": "abtasimu li-ṣadīqī",
+     "emoji": "😊",
      "m": {
-      "en": "I give a gift to my neighbour",
-      "fr": "J'offre un cadeau à mon voisin",
-      "es": "Doy un regalo a mi vecino",
-      "de": "Ich schenke meinem Nachbarn etwas",
-      "it": "Faccio un regalo al mio vicino",
-      "ar": "أُهدي شيئًا لمن يسكن قربي"
+      "ar": "أبتسم لصديقي",
+      "en": "I smile at my friend",
+      "fr": "Je souris à mon ami",
+      "es": "Le sonrío a mi amigo",
+      "de": "Ich lächle meinen Freund an",
+      "it": "Sorrido al mio amico"
      }
     }
    ],
    "hadith": {
-    "ar": "مَنْ كانَ يُؤْمِنُ بِاللهِ وَاليَوْمِ الآخِرِ فَلْيُكْرِمْ جارَهُ",
+    "ar": "وَالكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ",
     "src": {
-     "ar": "رواه البخاري (6019) ومسلم (48)",
-     "latin": "Sahih al-Bukhari 6019, Sahih Muslim 48"
+     "ar": "رواه البخاري (2989) ومسلم (1009)",
+     "latin": "Sahih al-Bukhari 2989, Sahih Muslim 1009"
     },
     "m": {
-     "en": "Whoever believes in Allah and the Last Day, let him honour his neighbour.",
-     "fr": "Que celui qui croit en Allah et au Jour dernier honore son voisin.",
-     "es": "Quien crea en Allah y en el Último Día, que honre a su vecino.",
-     "de": "Wer an Allah und den Jüngsten Tag glaubt, soll seinen Nachbarn ehren.",
-     "it": "Chi crede in Allah e nell'Ultimo Giorno onori il suo vicino.",
-     "ar": "من علامات الإيمان إكرام الجار."
+     "ar": "الكلام الحسن عمل خير نُؤجر عليه.",
+     "en": "And a good word is charity.",
+     "fr": "Et la bonne parole est une aumône.",
+     "es": "Y la buena palabra es caridad.",
+     "de": "Und ein gutes Wort ist ein Almosen.",
+     "it": "E la parola buona è elemosina."
     },
     "lesson": {
-     "ar": "إكرام الجار والإحسان إليه من علامات الإيمان.",
-     "en": "Honouring our neighbour and being kind to them is a sign of faith.",
-     "fr": "Honorer son voisin et être bon envers lui est un signe de foi.",
-     "es": "Honrar al vecino y ser bueno con él es señal de fe.",
-     "de": "Den Nachbarn zu ehren und gut zu ihm zu sein, ist ein Zeichen des Glaubens.",
-     "it": "Onorare il vicino ed essere gentili con lui è un segno di fede."
+     "ar": "كل كلمة لطيفة نقولها صدقة، فلنختر أجمل الكلام.",
+     "en": "Every kind word we say is charity, so let's choose the nicest words.",
+     "fr": "Chaque parole gentille est une aumône : choisissons les plus belles paroles.",
+     "es": "Cada palabra amable es caridad: elijamos las palabras más bonitas.",
+     "de": "Jedes liebe Wort ist ein Almosen – wählen wir die schönsten Worte.",
+     "it": "Ogni parola gentile è elemosina: scegliamo le parole più belle."
     }
-   }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "friend",
+      "ar": "أَنا حَزينٌ اليَوْمَ.",
+      "tr": "anā ḥazīnun al-yawm.",
+      "m": {
+       "en": "I'm sad today.",
+       "fr": "Je suis triste aujourd'hui.",
+       "es": "Hoy estoy triste.",
+       "de": "Ich bin heute traurig.",
+       "it": "Oggi sono triste."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "لا تَحْزَنْ يا سامي، أَنْتَ صَديقي.",
+      "tr": "lā taḥzan yā sāmī, anta ṣadīqī.",
+      "m": {
+       "en": "Don't be sad, Sami, you're my friend.",
+       "fr": "Ne sois pas triste, Sami, tu es mon ami.",
+       "es": "No estés triste, Sami, eres mi amigo.",
+       "de": "Sei nicht traurig, Sami, du bist mein Freund.",
+       "it": "Non essere triste, Sami, sei mio amico."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "تَعالَ نَلْعَبُ مَعًا!",
+      "tr": "taʿāla nalʿabu maʿan!",
+      "m": {
+       "en": "Come, let's play together!",
+       "fr": "Viens, on joue ensemble !",
+       "es": "¡Ven, juguemos juntos!",
+       "de": "Komm, lass uns zusammen spielen!",
+       "it": "Vieni, giochiamo insieme!"
+      }
+     },
+     {
+      "who": "friend",
+      "ar": "شُكْرًا، كَلامُكُما طَيِّبٌ.",
+      "tr": "shukran, kalāmukumā ṭayyib.",
+      "m": {
+       "en": "Thank you, your words are kind.",
+       "fr": "Merci, vos paroles sont gentilles.",
+       "es": "Gracias, vuestras palabras son amables.",
+       "de": "Danke, eure Worte sind lieb.",
+       "it": "Grazie, le vostre parole sono gentili."
+      }
+     }
+    ],
+    "q": {
+     "ar": "كيف ساعد الطفلان سامي؟",
+     "en": "How did the children help Sami?",
+     "fr": "Comment les enfants ont-ils aidé Sami ?",
+     "es": "¿Cómo ayudaron los niños a Sami?",
+     "de": "Wie haben die Kinder Sami geholfen?",
+     "it": "Come hanno aiutato Sami i bambini?"
+    },
+    "options": [
+     {
+      "ar": "بكلام طيّب ودعوة إلى اللعب",
+      "en": "With kind words and an invitation to play",
+      "fr": "Avec des mots gentils et une invitation à jouer",
+      "es": "Con palabras amables y una invitación a jugar",
+      "de": "Mit lieben Worten und einer Einladung zum Spielen",
+      "it": "Con parole gentili e un invito a giocare"
+     },
+     {
+      "ar": "بإعطائه نقودًا",
+      "en": "By giving him money",
+      "fr": "En lui donnant de l'argent",
+      "es": "Dándole dinero",
+      "de": "Indem sie ihm Geld gaben",
+      "it": "Dandogli dei soldi"
+     },
+     {
+      "ar": "بتركه وحده",
+      "en": "By leaving him alone",
+      "fr": "En le laissant seul",
+      "es": "Dejándolo solo",
+      "de": "Indem sie ihn allein ließen",
+      "it": "Lasciandolo solo"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "ابتسم اليوم لثلاثة أشخاص، وقل كلمة طيّبة لواحد منهم.",
+    "en": "Smile at three people today and say a kind word to one of them.",
+    "fr": "Souris à trois personnes aujourd'hui et dis une gentille parole à l'une d'elles.",
+    "es": "Sonríe hoy a tres personas y dile una palabra amable a una de ellas.",
+    "de": "Lächle heute drei Menschen an und sag einem von ihnen ein liebes Wort.",
+    "it": "Sorridi oggi a tre persone e di' una parola gentile a una di loro."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "table",
+   "icon": "🍽️",
+   "title": {
+    "ar": "آداب الطعام",
+    "en": "Table manners",
+    "fr": "Les bonnes manières à table",
+    "es": "Modales en la mesa",
+    "de": "Tischmanieren",
+    "it": "Le buone maniere a tavola"
+   },
+   "value": {
+    "ar": "نسمّي الله، ونأكل بيميننا، ونحمد الله بعد الأكل.",
+    "en": "We say Bismillah, eat with our right hand and thank Allah after eating.",
+    "fr": "On dit Bismillah, on mange de la main droite et on remercie Allah après le repas.",
+    "es": "Decimos Bismillah, comemos con la mano derecha y agradecemos a Allah después.",
+    "de": "Wir sagen Bismillah, essen mit der rechten Hand und danken Allah nach dem Essen.",
+    "it": "Diciamo Bismillah, mangiamo con la mano destra e ringraziamo Allah dopo il pasto."
+   },
+   "words": [
+    {
+     "ar": "بِسْمِ اللهِ",
+     "tr": "bismi llāh",
+     "emoji": "🤲",
+     "m": {
+      "ar": "نقولها قبل الأكل",
+      "en": "in the name of Allah",
+      "fr": "au nom d'Allah",
+      "es": "en el nombre de Allah",
+      "de": "im Namen Allahs",
+      "it": "nel nome di Allah"
+     }
+    },
+    {
+     "ar": "الحَمْدُ لِلّٰهِ",
+     "tr": "al-ḥamdu lillāh",
+     "emoji": "🙏",
+     "m": {
+      "ar": "نقولها بعد الأكل",
+      "en": "praise be to Allah",
+      "fr": "louange à Allah",
+      "es": "alabado sea Allah",
+      "de": "Lob sei Allah",
+      "it": "lode ad Allah"
+     }
+    },
+    {
+     "ar": "يَمين",
+     "tr": "yamīn",
+     "emoji": "🫱",
+     "m": {
+      "ar": "اليد اليمنى",
+      "en": "right (hand)",
+      "fr": "droite",
+      "es": "derecha",
+      "de": "rechts",
+      "it": "destra"
+     }
+    },
+    {
+     "ar": "مائِدة",
+     "tr": "māʾida",
+     "emoji": "🍽️",
+     "m": {
+      "ar": "نجلس حولها للأكل",
+      "en": "dining table",
+      "fr": "table (du repas)",
+      "es": "mesa",
+      "de": "Esstisch",
+      "it": "tavola"
+     }
+    },
+    {
+     "ar": "أَكَلَ",
+     "tr": "akala",
+     "emoji": "😋",
+     "m": {
+      "ar": "تناول الطعام",
+      "en": "he ate",
+      "fr": "il a mangé",
+      "es": "comió",
+      "de": "er hat gegessen",
+      "it": "ha mangiato"
+     }
+    },
+    {
+     "ar": "لَذيذ",
+     "tr": "ladhīdh",
+     "emoji": "🤤",
+     "m": {
+      "ar": "طعمه طيّب",
+      "en": "delicious",
+      "fr": "délicieux",
+      "es": "delicioso",
+      "de": "lecker",
+      "it": "delizioso"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "بِسْمِ اللهِ نَأْكُلُ",
+     "tr": "bismi llāhi naʾkul",
+     "emoji": "🍽️",
+     "m": {
+      "ar": "نبدأ الأكل باسم الله",
+      "en": "In the name of Allah we eat",
+      "fr": "Au nom d'Allah, nous mangeons",
+      "es": "En el nombre de Allah comemos",
+      "de": "Im Namen Allahs essen wir",
+      "it": "Nel nome di Allah mangiamo"
+     }
+    },
+    {
+     "ar": "آكُلُ بِيَميني",
+     "tr": "ākulu bi-yamīnī",
+     "emoji": "🫱",
+     "m": {
+      "ar": "آكل باليد اليمنى",
+      "en": "I eat with my right hand",
+      "fr": "Je mange de la main droite",
+      "es": "Como con la mano derecha",
+      "de": "Ich esse mit der rechten Hand",
+      "it": "Mangio con la mano destra"
+     }
+    },
+    {
+     "ar": "الطَّعامُ لَذيذٌ يا أُمّي",
+     "tr": "aṭ-ṭaʿāmu ladhīdhun yā ummī",
+     "emoji": "🤤",
+     "m": {
+      "ar": "أمدح طعام أمّي",
+      "en": "The food is delicious, Mum",
+      "fr": "C'est délicieux, maman",
+      "es": "La comida está deliciosa, mamá",
+      "de": "Das Essen ist lecker, Mama",
+      "it": "Il cibo è delizioso, mamma"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "يا غُلامُ، سَمِّ اللهَ، وَكُلْ بِيَمِينِكَ، وَكُلْ مِمّا يَلِيكَ",
+    "src": {
+     "ar": "رواه البخاري (5376) ومسلم (2022)",
+     "latin": "Sahih al-Bukhari 5376, Sahih Muslim 2022"
+    },
+    "m": {
+     "ar": "قل بسم الله، وكل باليمين، ومن الطعام القريب منك.",
+     "en": "Young boy, mention Allah's name, eat with your right hand, and eat from what is in front of you.",
+     "fr": "Ô jeune garçon, mentionne le nom d'Allah, mange de ta main droite et mange de ce qui est devant toi.",
+     "es": "Muchacho, menciona el nombre de Allah, come con tu mano derecha y come de lo que tienes delante.",
+     "de": "Junge, sprich den Namen Allahs, iss mit deiner rechten Hand und iss von dem, was vor dir ist.",
+     "it": "Ragazzo, menziona il nome di Allah, mangia con la mano destra e mangia ciò che ti sta davanti."
+    },
+    "lesson": {
+     "ar": "للأكل آداب جميلة: التسمية، واليد اليمنى، والأكل ممّا أمامنا.",
+     "en": "Eating has beautiful manners: Bismillah, the right hand, and eating from what's in front of us.",
+     "fr": "Le repas a de belles manières : Bismillah, la main droite, et manger ce qui est devant nous.",
+     "es": "Comer tiene bonitos modales: Bismillah, la mano derecha y comer de lo que está delante.",
+     "de": "Essen hat schöne Regeln: Bismillah, die rechte Hand und von dem essen, was vor uns liegt.",
+     "it": "Il pasto ha belle maniere: Bismillah, la mano destra e mangiare ciò che è davanti a noi."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "mama",
+      "ar": "الطَّعامُ جاهِزٌ، تَعالَوْا!",
+      "tr": "aṭ-ṭaʿāmu jāhizun, taʿālaw!",
+      "m": {
+       "en": "Dinner is ready, come!",
+       "fr": "Le repas est prêt, venez !",
+       "es": "¡La comida está lista, venid!",
+       "de": "Das Essen ist fertig, kommt!",
+       "it": "Il pranzo è pronto, venite!"
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "بِسْمِ اللهِ.",
+      "tr": "bismi llāh.",
+      "m": {
+       "en": "In the name of Allah.",
+       "fr": "Au nom d'Allah.",
+       "es": "En el nombre de Allah.",
+       "de": "Im Namen Allahs.",
+       "it": "Nel nome di Allah."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "الطَّعامُ لَذيذٌ جِدًّا يا أُمّي!",
+      "tr": "aṭ-ṭaʿāmu ladhīdhun jiddan yā ummī!",
+      "m": {
+       "en": "The food is really delicious, Mum!",
+       "fr": "C'est vraiment délicieux, maman !",
+       "es": "¡La comida está buenísima, mamá!",
+       "de": "Das Essen ist echt lecker, Mama!",
+       "it": "Il cibo è buonissimo, mamma!"
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "الحَمْدُ لِلّٰهِ، شُكْرًا يا أُمّي.",
+      "tr": "al-ḥamdu lillāh, shukran yā ummī.",
+      "m": {
+       "en": "Praise be to Allah. Thank you, Mum.",
+       "fr": "Louange à Allah. Merci, maman.",
+       "es": "Alabado sea Allah. Gracias, mamá.",
+       "de": "Lob sei Allah. Danke, Mama.",
+       "it": "Lode ad Allah. Grazie, mamma."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا قال يوسف بعد الأكل؟",
+     "en": "What did Yusuf say after eating?",
+     "fr": "Qu'a dit Youssouf après le repas ?",
+     "es": "¿Qué dijo Yusuf después de comer?",
+     "de": "Was sagte Yusuf nach dem Essen?",
+     "it": "Che cosa ha detto Yusuf dopo aver mangiato?"
+    },
+    "options": [
+     {
+      "ar": "الحمد لله، شكرًا يا أمّي",
+      "en": "Al-ḥamdu lillāh, thank you Mum",
+      "fr": "Al-ḥamdu lillāh, merci maman",
+      "es": "Al-ḥamdu lillāh, gracias mamá",
+      "de": "Al-ḥamdu lillāh, danke Mama",
+      "it": "Al-ḥamdu lillāh, grazie mamma"
+     },
+     {
+      "ar": "لا أحبّ هذا",
+      "en": "I don't like this",
+      "fr": "Je n'aime pas ça",
+      "es": "No me gusta esto",
+      "de": "Das mag ich nicht",
+      "it": "Non mi piace"
+     },
+     {
+      "ar": "إلى اللقاء",
+      "en": "Goodbye",
+      "fr": "Au revoir",
+      "es": "Adiós",
+      "de": "Tschüss",
+      "it": "Arrivederci"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "في وجبتك القادمة: قل «بِسْمِ اللهِ»، كُل بيمينك، ثم قل «الحَمْدُ لِلّٰهِ» واشكر من طبخ.",
+    "en": "At your next meal: say “Bismillah”, eat with your right hand, then say “al-ḥamdu lillāh” and thank the cook.",
+    "fr": "À ton prochain repas : dis « Bismillah », mange de la main droite, puis dis « al-ḥamdu lillāh » et remercie celui qui a cuisiné.",
+    "es": "En tu próxima comida: di «Bismillah», come con la derecha y luego di «al-ḥamdu lillāh» y da las gracias a quien cocinó.",
+    "de": "Bei deiner nächsten Mahlzeit: sag „Bismillah“, iss mit rechts, sag danach „al-ḥamdu lillāh“ und bedanke dich beim Koch.",
+    "it": "Al prossimo pasto: di' «Bismillah», mangia con la destra, poi di' «al-ḥamdu lillāh» e ringrazia chi ha cucinato."
+   },
+   "stage": "values"
   },
   {
    "id": "clean",
@@ -982,7 +2329,1915 @@
      "de": "Reinheit und Sauberkeit sind ein wichtiger Teil unserer Religion.",
      "it": "La purezza e la pulizia sono una parte importante della nostra religione."
     }
-   }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "mama",
+      "ar": "يا مَرْيَمُ، اِغْسِلي يَدَيْكِ قَبْلَ الأَكْلِ.",
+      "tr": "yā maryam, ighsilī yadayki qabla l-akl.",
+      "m": {
+       "en": "Maryam, wash your hands before eating.",
+       "fr": "Maryam, lave-toi les mains avant de manger.",
+       "es": "Maryam, lávate las manos antes de comer.",
+       "de": "Maryam, wasch dir vor dem Essen die Hände.",
+       "it": "Maryam, lavati le mani prima di mangiare."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "أَغْسِلُهُما بِالماءِ وَالصّابونِ.",
+      "tr": "aghsiluhumā bi-l-māʾi wa ṣ-ṣābūn.",
+      "m": {
+       "en": "I wash them with water and soap.",
+       "fr": "Je les lave avec de l'eau et du savon.",
+       "es": "Me las lavo con agua y jabón.",
+       "de": "Ich wasche sie mit Wasser und Seife.",
+       "it": "Le lavo con acqua e sapone."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "انْظُري، يَدايَ نَظيفَتانِ!",
+      "tr": "unẓurī, yadāya naẓīfatān!",
+      "m": {
+       "en": "Look, my hands are clean!",
+       "fr": "Regarde, mes mains sont propres !",
+       "es": "¡Mira, tengo las manos limpias!",
+       "de": "Schau, meine Hände sind sauber!",
+       "it": "Guarda, le mie mani sono pulite!"
+      }
+     },
+     {
+      "who": "mama",
+      "ar": "أَحْسَنْتِ! النَّظافَةُ مِنَ الإيمانِ.",
+      "tr": "aḥsanti! an-naẓāfatu mina l-īmān.",
+      "m": {
+       "en": "Well done! Cleanliness is part of faith.",
+       "fr": "Bravo ! La propreté fait partie de la foi.",
+       "es": "¡Muy bien! La limpieza es parte de la fe.",
+       "de": "Gut gemacht! Sauberkeit gehört zum Glauben.",
+       "it": "Brava! La pulizia fa parte della fede."
+      }
+     }
+    ],
+    "q": {
+     "ar": "بماذا غسلت مريم يديها؟",
+     "en": "What did Maryam wash her hands with?",
+     "fr": "Avec quoi Maryam s'est-elle lavé les mains ?",
+     "es": "¿Con qué se lavó Maryam las manos?",
+     "de": "Womit hat Maryam ihre Hände gewaschen?",
+     "it": "Con che cosa si è lavata le mani Maryam?"
+    },
+    "options": [
+     {
+      "ar": "بالماء والصابون",
+      "en": "Water and soap",
+      "fr": "De l'eau et du savon",
+      "es": "Agua y jabón",
+      "de": "Wasser und Seife",
+      "it": "Acqua e sapone"
+     },
+     {
+      "ar": "بالحليب",
+      "en": "Milk",
+      "fr": "Du lait",
+      "es": "Leche",
+      "de": "Milch",
+      "it": "Latte"
+     },
+     {
+      "ar": "لم تغسلهما",
+      "en": "She didn't wash them",
+      "fr": "Elle ne les a pas lavées",
+      "es": "No se las lavó",
+      "de": "Sie hat sie nicht gewaschen",
+      "it": "Non le ha lavate"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "اغسل يديك بالماء والصابون قبل كل وجبة اليوم، ونظّف أسنانك قبل النوم.",
+    "en": "Wash your hands with soap before every meal today, and brush your teeth before bed.",
+    "fr": "Lave-toi les mains au savon avant chaque repas aujourd'hui, et brosse-toi les dents avant de dormir.",
+    "es": "Lávate las manos con jabón antes de cada comida hoy y cepíllate los dientes antes de dormir.",
+    "de": "Wasch dir heute vor jeder Mahlzeit die Hände mit Seife und putz vor dem Schlafen die Zähne.",
+    "it": "Lavati le mani con il sapone prima di ogni pasto oggi, e lavati i denti prima di dormire."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "prayer",
+   "icon": "🕌",
+   "title": {
+    "ar": "الصلاة",
+    "en": "Prayer",
+    "fr": "La prière",
+    "es": "La oración",
+    "de": "Das Gebet",
+    "it": "La preghiera"
+   },
+   "value": {
+    "ar": "نستعدّ للصلاة بالوضوء ونحافظ عليها في وقتها.",
+    "en": "We prepare for prayer with wudu and keep it on time.",
+    "fr": "On se prépare à la prière par les ablutions et on la fait à l'heure.",
+    "es": "Nos preparamos para la oración con la ablución y la hacemos a su hora.",
+    "de": "Wir bereiten uns mit der Waschung auf das Gebet vor und beten pünktlich.",
+    "it": "Ci prepariamo alla preghiera con l'abluzione e la facciamo in orario."
+   },
+   "words": [
+    {
+     "ar": "صَلاةٌ",
+     "tr": "ṣalāh",
+     "emoji": "🤲",
+     "m": {
+      "en": "Prayer",
+      "fr": "Prière",
+      "es": "Oración",
+      "de": "Gebet",
+      "it": "Preghiera",
+      "ar": "عبادة نقوم بها خمس مرات كل يوم"
+     }
+    },
+    {
+     "ar": "وُضوءٌ",
+     "tr": "wuḍūʾ",
+     "emoji": "💧",
+     "m": {
+      "en": "Ablution (wudu)",
+      "fr": "Ablutions",
+      "es": "Ablución",
+      "de": "Gebetswaschung",
+      "it": "Abluzione",
+      "ar": "نغسل به أعضاءنا قبل الصلاة"
+     }
+    },
+    {
+     "ar": "مَسْجِدٌ",
+     "tr": "masjid",
+     "emoji": "🕌",
+     "m": {
+      "en": "Mosque",
+      "fr": "Mosquée",
+      "es": "Mezquita",
+      "de": "Moschee",
+      "it": "Moschea",
+      "ar": "بيت من بيوت الله"
+     }
+    },
+    {
+     "ar": "أَذانٌ",
+     "tr": "adhān",
+     "emoji": "📢",
+     "m": {
+      "en": "Call to prayer",
+      "fr": "Appel à la prière",
+      "es": "Llamada a la oración",
+      "de": "Gebetsruf",
+      "it": "Chiamata alla preghiera",
+      "ar": "نداء يعلن وقت الصلاة"
+     }
+    },
+    {
+     "ar": "سَجّادَةٌ",
+     "tr": "sajjādah",
+     "emoji": "🧎",
+     "m": {
+      "en": "Prayer rug",
+      "fr": "Tapis de prière",
+      "es": "Alfombra de oración",
+      "de": "Gebetsteppich",
+      "it": "Tappeto da preghiera",
+      "ar": "نصلّي عليها"
+     }
+    },
+    {
+     "ar": "قِبْلَةٌ",
+     "tr": "qiblah",
+     "emoji": "🧭",
+     "m": {
+      "en": "Direction of prayer",
+      "fr": "Direction de la prière",
+      "es": "Dirección de la oración",
+      "de": "Gebetsrichtung",
+      "it": "Direzione della preghiera",
+      "ar": "الجهة التي نتّجه إليها في الصلاة"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَتَوَضَّأُ قَبْلَ الصَّلاةِ",
+     "tr": "atawaḍḍaʾu qabla ṣ-ṣalāh",
+     "emoji": "💧",
+     "m": {
+      "en": "I make wudu before the prayer",
+      "fr": "Je fais mes ablutions avant la prière",
+      "es": "Hago la ablución antes de la oración",
+      "de": "Ich mache die Waschung vor dem Gebet",
+      "it": "Faccio l'abluzione prima della preghiera",
+      "ar": "الوضوء يكون أولًا ثم الصلاة"
+     }
+    },
+    {
+     "ar": "أُصَلّي في المَسْجِدِ",
+     "tr": "uṣallī fī l-masjid",
+     "emoji": "🕌",
+     "m": {
+      "en": "I pray in the mosque",
+      "fr": "Je prie à la mosquée",
+      "es": "Rezo en la mezquita",
+      "de": "Ich bete in der Moschee",
+      "it": "Prego nella moschea",
+      "ar": "أؤدّي صلاتي في بيت الله"
+     }
+    },
+    {
+     "ar": "أَسْمَعُ الأَذانَ فَأَقومُ لِلصَّلاةِ",
+     "tr": "asmaʿu l-adhāna fa-aqūmu li-ṣ-ṣalāh",
+     "emoji": "📢",
+     "m": {
+      "en": "I hear the call to prayer, so I get up to pray",
+      "fr": "J'entends l'appel et je me lève pour prier",
+      "es": "Oigo la llamada y me levanto para rezar",
+      "de": "Ich höre den Gebetsruf und stehe zum Beten auf",
+      "it": "Sento la chiamata e mi alzo per pregare",
+      "ar": "حين ينادي المؤذّن أذهب لأصلّي"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "بُنِيَ الإِسْلامُ عَلى خَمْسٍ: شَهادَةِ أَنْ لا إِلهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا رَسولُ اللهِ، وَإِقامِ الصَّلاةِ، وَإيتاءِ الزَّكاةِ، وَالحَجِّ، وَصَوْمِ رَمَضانَ",
+    "src": {
+     "ar": "رواه البخاري (8) ومسلم (16)",
+     "latin": "Sahih al-Bukhari 8, Sahih Muslim 16"
+    },
+    "m": {
+     "en": "Islam is built on five: bearing witness that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing prayer, giving zakat, Hajj, and fasting Ramadan.",
+     "fr": "L'islam est bâti sur cinq piliers : attester qu'il n'y a de dieu qu'Allah et que Muhammad est le Messager d'Allah, accomplir la prière, donner la zakat, le pèlerinage et le jeûne de Ramadan.",
+     "es": "El islam se basa en cinco: atestiguar que no hay más dios que Allah y que Muhammad es el Mensajero de Allah, establecer la oración, dar el zakat, la peregrinación y ayunar en Ramadán.",
+     "de": "Der Islam ist auf fünf Säulen gebaut: das Bezeugen, dass es keinen Gott außer Allah gibt und dass Muhammad der Gesandte Allahs ist, das Gebet, die Zakat, die Pilgerfahrt und das Fasten im Ramadan.",
+     "it": "L'Islam è costruito su cinque pilastri: testimoniare che non c'è dio all'infuori di Allah e che Muhammad è il Messaggero di Allah, compiere la preghiera, versare la zakat, il pellegrinaggio e il digiuno di Ramadan.",
+     "ar": "أركان الإسلام خمسة، منها الصلاة والزكاة."
+    },
+    "lesson": {
+     "ar": "الصلاة ركن عظيم من أركان الإسلام الخمسة.",
+     "en": "Prayer is a great pillar among the five pillars of Islam.",
+     "fr": "La prière est un grand pilier parmi les cinq piliers de l'islam.",
+     "es": "La oración es un gran pilar entre los cinco pilares del islam.",
+     "de": "Das Gebet ist eine wichtige der fünf Säulen des Islam.",
+     "it": "La preghiera è un grande pilastro tra i cinque pilastri dell'Islam."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "maryam",
+      "ar": "أَسْمَعُ الأَذانَ يا أَبي!",
+      "tr": "asmaʿu l-adhāna yā abī!",
+      "m": {
+       "en": "I can hear the call to prayer, Dad!",
+       "fr": "J'entends l'appel à la prière, papa !",
+       "es": "¡Oigo la llamada a la oración, papá!",
+       "de": "Ich höre den Gebetsruf, Papa!",
+       "it": "Sento la chiamata alla preghiera, papà!"
+      }
+     },
+     {
+      "who": "baba",
+      "ar": "هَيّا نَتَوَضَّأُ.",
+      "tr": "hayyā natawaḍḍaʾ.",
+      "m": {
+       "en": "Come on, let's do wudu.",
+       "fr": "Allez, faisons nos ablutions.",
+       "es": "Vamos a hacer la ablución.",
+       "de": "Komm, wir machen die Gebetswaschung.",
+       "it": "Dai, facciamo l'abluzione."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "أَيْنَ السَّجّادَةُ؟",
+      "tr": "ayna s-sajjāda?",
+      "m": {
+       "en": "Where is the prayer rug?",
+       "fr": "Où est le tapis de prière ?",
+       "es": "¿Dónde está la alfombra de oración?",
+       "de": "Wo ist der Gebetsteppich?",
+       "it": "Dov'è il tappeto da preghiera?"
+      }
+     },
+     {
+      "who": "baba",
+      "ar": "هُنا، نَحْوَ القِبْلَةِ.",
+      "tr": "hunā, naḥwa l-qibla.",
+      "m": {
+       "en": "Here, facing the qibla.",
+       "fr": "Ici, vers la qibla.",
+       "es": "Aquí, hacia la qibla.",
+       "de": "Hier, in Richtung Qibla.",
+       "it": "Qui, verso la qibla."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا فعلا قبل الصلاة؟",
+     "en": "What did they do before praying?",
+     "fr": "Qu'ont-ils fait avant la prière ?",
+     "es": "¿Qué hicieron antes de rezar?",
+     "de": "Was haben sie vor dem Gebet gemacht?",
+     "it": "Che cosa hanno fatto prima di pregare?"
+    },
+    "options": [
+     {
+      "ar": "توضّآ",
+      "en": "They did wudu",
+      "fr": "Ils ont fait leurs ablutions",
+      "es": "Hicieron la ablución",
+      "de": "Sie machten die Gebetswaschung",
+      "it": "Hanno fatto l'abluzione"
+     },
+     {
+      "ar": "أكلا",
+      "en": "They ate",
+      "fr": "Ils ont mangé",
+      "es": "Comieron",
+      "de": "Sie aßen",
+      "it": "Hanno mangiato"
+     },
+     {
+      "ar": "ناما",
+      "en": "They slept",
+      "fr": "Ils ont dormi",
+      "es": "Durmieron",
+      "de": "Sie schliefen",
+      "it": "Hanno dormito"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "عندما تسمع الأذان أو يحين وقت الصلاة اليوم، اترك ما بيدك وتوضّأ مع أحد والديك.",
+    "en": "When it's prayer time today, stop what you're doing and do wudu with a parent.",
+    "fr": "Quand vient l'heure de la prière aujourd'hui, arrête ce que tu fais et fais tes ablutions avec un parent.",
+    "es": "Cuando hoy llegue la hora de la oración, deja lo que haces y haz la ablución con tu padre o madre.",
+    "de": "Wenn heute Gebetszeit ist, hör auf mit dem, was du tust, und mach mit deinen Eltern die Waschung.",
+    "it": "Quando oggi arriva l'ora della preghiera, lascia ciò che fai e fai l'abluzione con un genitore."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "guest",
+   "icon": "🫖",
+   "title": {
+    "ar": "إكرام الضيف",
+    "en": "Honouring guests",
+    "fr": "Honorer l'invité",
+    "es": "Honrar al invitado",
+    "de": "Gäste ehren",
+    "it": "Onorare l'ospite"
+   },
+   "value": {
+    "ar": "نستقبل الضيف بفرح ونقدّم له أفضل ما عندنا.",
+    "en": "We welcome guests with joy and offer them our best.",
+    "fr": "On accueille l'invité avec joie et on lui offre le meilleur.",
+    "es": "Recibimos al invitado con alegría y le ofrecemos lo mejor.",
+    "de": "Wir empfangen Gäste mit Freude und bieten ihnen das Beste an.",
+    "it": "Accogliamo l'ospite con gioia e gli offriamo il meglio."
+   },
+   "words": [
+    {
+     "ar": "ضَيْف",
+     "tr": "ḍayf",
+     "emoji": "🧳",
+     "m": {
+      "ar": "من يزورنا في بيتنا",
+      "en": "guest",
+      "fr": "invité",
+      "es": "invitado",
+      "de": "Gast",
+      "it": "ospite"
+     }
+    },
+    {
+     "ar": "أَهْلًا وَسَهْلًا",
+     "tr": "ahlan wa sahlan",
+     "emoji": "🤗",
+     "m": {
+      "ar": "كلمة نرحّب بها",
+      "en": "welcome",
+      "fr": "bienvenue",
+      "es": "bienvenido",
+      "de": "willkommen",
+      "it": "benvenuto"
+     }
+    },
+    {
+     "ar": "تَفَضَّلْ",
+     "tr": "tafaḍḍal",
+     "emoji": "🚪",
+     "m": {
+      "ar": "ندعو بها الضيف بلطف",
+      "en": "please, come in",
+      "fr": "je t'en prie, entre",
+      "es": "adelante, pasa",
+      "de": "bitte, komm herein",
+      "it": "prego, accomodati"
+     }
+    },
+    {
+     "ar": "شاي",
+     "tr": "shāy",
+     "emoji": "🍵",
+     "m": {
+      "ar": "مشروب نقدّمه للضيف",
+      "en": "tea",
+      "fr": "thé",
+      "es": "té",
+      "de": "Tee",
+      "it": "tè"
+     }
+    },
+    {
+     "ar": "ماء",
+     "tr": "māʾ",
+     "emoji": "💧",
+     "m": {
+      "ar": "نشربه كل يوم",
+      "en": "water",
+      "fr": "eau",
+      "es": "agua",
+      "de": "Wasser",
+      "it": "acqua"
+     }
+    },
+    {
+     "ar": "كَرَم",
+     "tr": "karam",
+     "emoji": "🎁",
+     "m": {
+      "ar": "أن نعطي بسخاء وفرح",
+      "en": "generosity",
+      "fr": "générosité",
+      "es": "generosidad",
+      "de": "Großzügigkeit",
+      "it": "generosità"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَهْلًا وَسَهْلًا يا خالي",
+     "tr": "ahlan wa sahlan yā khālī",
+     "emoji": "👨",
+     "m": {
+      "ar": "أرحّب بخالي",
+      "en": "Welcome, uncle",
+      "fr": "Bienvenue, tonton",
+      "es": "Bienvenido, tío",
+      "de": "Willkommen, Onkel",
+      "it": "Benvenuto, zio"
+     }
+    },
+    {
+     "ar": "تَفَضَّلْ هذا شاي",
+     "tr": "tafaḍḍal hādhā shāy",
+     "emoji": "🍵",
+     "m": {
+      "ar": "أقدّم الشاي للضيف",
+      "en": "Here you are, this is tea",
+      "fr": "Je t'en prie, voici du thé",
+      "es": "Toma, aquí tienes té",
+      "de": "Bitte, hier ist Tee",
+      "it": "Prego, ecco il tè"
+     }
+    },
+    {
+     "ar": "أُحِبُّ الضَّيْفَ",
+     "tr": "uḥibbu ḍ-ḍayf",
+     "emoji": "❤️",
+     "m": {
+      "ar": "أفرح بالضيف",
+      "en": "I love having guests",
+      "fr": "J'aime recevoir des invités",
+      "es": "Me encanta tener invitados",
+      "de": "Ich habe gern Gäste",
+      "it": "Mi piace avere ospiti"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "مَنْ كانَ يُؤْمِنُ بِاللهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ",
+    "src": {
+     "ar": "رواه البخاري (6018) ومسلم (47)",
+     "latin": "Sahih al-Bukhari 6018, Sahih Muslim 47"
+    },
+    "m": {
+     "ar": "إكرام الضيف من علامات الإيمان.",
+     "en": "Whoever believes in Allah and the Last Day, let him honour his guest.",
+     "fr": "Que celui qui croit en Allah et au Jour dernier honore son invité.",
+     "es": "Quien crea en Allah y en el Último Día, que honre a su invitado.",
+     "de": "Wer an Allah und den Jüngsten Tag glaubt, soll seinen Gast ehren.",
+     "it": "Chi crede in Allah e nell'Ultimo Giorno onori il suo ospite."
+    },
+    "lesson": {
+     "ar": "نستقبل الضيف بابتسامة ونقدّم له أفضل ما عندنا.",
+     "en": "We welcome guests with a smile and offer them the best we have.",
+     "fr": "Nous accueillons l'invité avec le sourire et lui offrons le meilleur de ce que nous avons.",
+     "es": "Recibimos al invitado con una sonrisa y le ofrecemos lo mejor que tenemos.",
+     "de": "Wir empfangen Gäste mit einem Lächeln und bieten ihnen das Beste an, was wir haben.",
+     "it": "Accogliamo l'ospite con un sorriso e gli offriamo il meglio che abbiamo."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "maryam",
+      "ar": "جاءَ ضَيْفٌ يا أُمّي!",
+      "tr": "jāʾa ḍayfun yā ummī!",
+      "m": {
+       "en": "A guest has come, Mum!",
+       "fr": "Un invité est arrivé, maman !",
+       "es": "¡Ha venido un invitado, mamá!",
+       "de": "Ein Gast ist da, Mama!",
+       "it": "È arrivato un ospite, mamma!"
+      }
+     },
+     {
+      "who": "mama",
+      "ar": "أَهْلًا وَسَهْلًا، تَفَضَّلْ.",
+      "tr": "ahlan wa sahlan, tafaḍḍal.",
+      "m": {
+       "en": "Welcome, please come in.",
+       "fr": "Bienvenue, entre je t'en prie.",
+       "es": "Bienvenido, pasa por favor.",
+       "de": "Willkommen, komm bitte herein.",
+       "it": "Benvenuto, accomodati."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "هذا ماءٌ وَشايٌ لَكَ.",
+      "tr": "hādhā māʾun wa shāyun lak.",
+      "m": {
+       "en": "Here is water and tea for you.",
+       "fr": "Voici de l'eau et du thé pour toi.",
+       "es": "Aquí tienes agua y té.",
+       "de": "Hier sind Wasser und Tee für dich.",
+       "it": "Ecco acqua e tè per te."
+      }
+     },
+     {
+      "who": "guest",
+      "ar": "شُكْرًا يا مَرْيَمُ، بارَكَ اللهُ فيكِ.",
+      "tr": "shukran yā maryam, bāraka llāhu fīki.",
+      "m": {
+       "en": "Thank you, Maryam, may Allah bless you.",
+       "fr": "Merci Maryam, qu'Allah te bénisse.",
+       "es": "Gracias, Maryam, que Allah te bendiga.",
+       "de": "Danke, Maryam, Allah segne dich.",
+       "it": "Grazie, Maryam, che Allah ti benedica."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا قدّمت مريم للضيف؟",
+     "en": "What did Maryam give the guest?",
+     "fr": "Qu'a offert Maryam à l'invité ?",
+     "es": "¿Qué le dio Maryam al invitado?",
+     "de": "Was hat Maryam dem Gast gegeben?",
+     "it": "Che cosa ha offerto Maryam all'ospite?"
+    },
+    "options": [
+     {
+      "ar": "ماء وشاي",
+      "en": "Water and tea",
+      "fr": "De l'eau et du thé",
+      "es": "Agua y té",
+      "de": "Wasser und Tee",
+      "it": "Acqua e tè"
+     },
+     {
+      "ar": "خبز وحليب",
+      "en": "Bread and milk",
+      "fr": "Du pain et du lait",
+      "es": "Pan y leche",
+      "de": "Brot und Milch",
+      "it": "Pane e latte"
+     },
+     {
+      "ar": "كتابًا",
+      "en": "A book",
+      "fr": "Un livre",
+      "es": "Un libro",
+      "de": "Ein Buch",
+      "it": "Un libro"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "عندما يزوركم ضيف، قدّم له كأس ماء بنفسك وقل: «تَفَضَّلْ».",
+    "en": "Next time a guest visits, serve them a glass of water yourself and say “tafaḍḍal”.",
+    "fr": "La prochaine fois qu'un invité vient, sers-lui toi-même un verre d'eau et dis « tafaḍḍal ».",
+    "es": "La próxima vez que venga un invitado, sírvele tú un vaso de agua y di «tafaḍḍal».",
+    "de": "Wenn das nächste Mal ein Gast kommt, bring ihm selbst ein Glas Wasser und sag „tafaḍḍal“.",
+    "it": "La prossima volta che arriva un ospite, servigli tu un bicchiere d'acqua e di' «tafaḍḍal»."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "neighbor",
+   "icon": "🏘️",
+   "title": {
+    "ar": "حقّ الجار",
+    "en": "Our neighbours",
+    "fr": "Nos voisins",
+    "es": "Nuestros vecinos",
+    "de": "Unsere Nachbarn",
+    "it": "I nostri vicini"
+   },
+   "value": {
+    "ar": "نُحسن إلى جيراننا، مسلمين وغير مسلمين، ولا نزعجهم.",
+    "en": "We are kind to all our neighbours, Muslim or not, and we do not disturb them.",
+    "fr": "On est bon envers tous ses voisins, musulmans ou non, et on ne les dérange pas.",
+    "es": "Somos buenos con todos nuestros vecinos, musulmanes o no, y no los molestamos.",
+    "de": "Wir sind gut zu allen Nachbarn, ob Muslime oder nicht, und stören sie nicht.",
+    "it": "Siamo gentili con tutti i vicini, musulmani o no, e non li disturbiamo."
+   },
+   "words": [
+    {
+     "ar": "جارٌ",
+     "tr": "jār",
+     "emoji": "🏘️",
+     "m": {
+      "en": "Neighbour",
+      "fr": "Voisin",
+      "es": "Vecino",
+      "de": "Nachbar",
+      "it": "Vicino",
+      "ar": "من يسكن قرب بيتنا"
+     }
+    },
+    {
+     "ar": "بَيْتٌ",
+     "tr": "bayt",
+     "emoji": "🏠",
+     "m": {
+      "en": "House",
+      "fr": "Maison",
+      "es": "Casa",
+      "de": "Haus",
+      "it": "Casa",
+      "ar": "المكان الذي نسكن فيه"
+     }
+    },
+    {
+     "ar": "هَدِيَّةٌ",
+     "tr": "hadiyyah",
+     "emoji": "🎁",
+     "m": {
+      "en": "Gift",
+      "fr": "Cadeau",
+      "es": "Regalo",
+      "de": "Geschenk",
+      "it": "Regalo",
+      "ar": "شيء نقدّمه لغيرنا محبّةً"
+     }
+    },
+    {
+     "ar": "هُدوءٌ",
+     "tr": "hudūʾ",
+     "emoji": "🤫",
+     "m": {
+      "en": "Quiet",
+      "fr": "Calme",
+      "es": "Silencio",
+      "de": "Ruhe",
+      "it": "Silenzio",
+      "ar": "عدم إحداث الضجيج"
+     }
+    },
+    {
+     "ar": "أَزورُ",
+     "tr": "azūru",
+     "emoji": "🚶",
+     "m": {
+      "en": "I visit",
+      "fr": "Je rends visite",
+      "es": "Visito",
+      "de": "Ich besuche",
+      "it": "Visito",
+      "ar": "أذهب إلى شخص لأراه"
+     }
+    },
+    {
+     "ar": "أُحْسِنُ",
+     "tr": "uḥsinu",
+     "emoji": "💖",
+     "m": {
+      "en": "I am kind",
+      "fr": "Je fais le bien",
+      "es": "Hago el bien",
+      "de": "Ich bin gütig",
+      "it": "Faccio del bene",
+      "ar": "أعامل غيري معاملة طيبة"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أُسَلِّمُ عَلى جاري",
+     "tr": "usallimu ʿalā jārī",
+     "emoji": "👋",
+     "m": {
+      "en": "I greet my neighbour",
+      "fr": "Je salue mon voisin",
+      "es": "Saludo a mi vecino",
+      "de": "Ich grüße meinen Nachbarn",
+      "it": "Saluto il mio vicino",
+      "ar": "ألقي التحية على من يسكن قربي"
+     }
+    },
+    {
+     "ar": "لا أُزْعِجُ جاري",
+     "tr": "lā uzʿiju jārī",
+     "emoji": "🤫",
+     "m": {
+      "en": "I do not disturb my neighbour",
+      "fr": "Je ne dérange pas mon voisin",
+      "es": "No molesto a mi vecino",
+      "de": "Ich störe meinen Nachbarn nicht",
+      "it": "Non disturbo il mio vicino",
+      "ar": "ألتزم الهدوء من أجل من يسكن قربي"
+     }
+    },
+    {
+     "ar": "أُقَدِّمُ هَدِيَّةً لِجاري",
+     "tr": "uqaddimu hadiyyatan li-jārī",
+     "emoji": "🎁",
+     "m": {
+      "en": "I give a gift to my neighbour",
+      "fr": "J'offre un cadeau à mon voisin",
+      "es": "Doy un regalo a mi vecino",
+      "de": "Ich schenke meinem Nachbarn etwas",
+      "it": "Faccio un regalo al mio vicino",
+      "ar": "أُهدي شيئًا لمن يسكن قربي"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "مَنْ كانَ يُؤْمِنُ بِاللهِ وَاليَوْمِ الآخِرِ فَلْيُكْرِمْ جارَهُ",
+    "src": {
+     "ar": "رواه البخاري (6019) ومسلم (48)",
+     "latin": "Sahih al-Bukhari 6019, Sahih Muslim 48"
+    },
+    "m": {
+     "en": "Whoever believes in Allah and the Last Day, let him honour his neighbour.",
+     "fr": "Que celui qui croit en Allah et au Jour dernier honore son voisin.",
+     "es": "Quien crea en Allah y en el Último Día, que honre a su vecino.",
+     "de": "Wer an Allah und den Jüngsten Tag glaubt, soll seinen Nachbarn ehren.",
+     "it": "Chi crede in Allah e nell'Ultimo Giorno onori il suo vicino.",
+     "ar": "من علامات الإيمان إكرام الجار."
+    },
+    "lesson": {
+     "ar": "إكرام الجار والإحسان إليه من علامات الإيمان.",
+     "en": "Honouring our neighbour and being kind to them is a sign of faith.",
+     "fr": "Honorer son voisin et être bon envers lui est un signe de foi.",
+     "es": "Honrar al vecino y ser bueno con él es señal de fe.",
+     "de": "Den Nachbarn zu ehren und gut zu ihm zu sein, ist ein Zeichen des Glaubens.",
+     "it": "Onorare il vicino ed essere gentili con lui è un segno di fede."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "mama",
+      "ar": "طَبَخْتُ كَعْكًا، خُذْ صَحْنًا لِجارِنا.",
+      "tr": "ṭabakhtu kaʿkan, khudh ṣaḥnan li-jārinā.",
+      "m": {
+       "en": "I baked cake; take a plate to our neighbour.",
+       "fr": "J'ai fait des gâteaux ; apporte une assiette à notre voisin.",
+       "es": "He hecho pasteles; lleva un plato al vecino.",
+       "de": "Ich habe Kuchen gebacken; bring einen Teller zum Nachbarn.",
+       "it": "Ho fatto dei dolci; porta un piatto al vicino."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "السَّلامُ عَلَيْكُمْ يا جارَنا، هذِهِ هَدِيَّةٌ.",
+      "tr": "as-salāmu ʿalaykum yā jāranā, hādhihi hadiyya.",
+      "m": {
+       "en": "Peace be upon you, neighbour, this is a gift.",
+       "fr": "Que la paix soit sur vous, voisin, c'est un cadeau.",
+       "es": "La paz sea con usted, vecino, esto es un regalo.",
+       "de": "Friede sei mit Ihnen, Nachbar, das ist ein Geschenk.",
+       "it": "La pace sia con lei, vicino, questo è un regalo."
+      }
+     },
+     {
+      "who": "neighbor",
+      "ar": "وَعَلَيْكُمُ السَّلامُ! شُكْرًا يا يوسُفُ.",
+      "tr": "wa ʿalaykumu s-salām! shukran yā yūsuf.",
+      "m": {
+       "en": "And peace be upon you! Thank you, Yusuf.",
+       "fr": "Et que la paix soit sur toi ! Merci, Youssouf.",
+       "es": "¡Y contigo sea la paz! Gracias, Yusuf.",
+       "de": "Und Friede sei mit dir! Danke, Yusuf.",
+       "it": "E con te sia la pace! Grazie, Yusuf."
+      }
+     },
+     {
+      "who": "neighbor",
+      "ar": "أَنْتُمْ جيرانٌ طَيِّبونَ.",
+      "tr": "antum jīrānun ṭayyibūn.",
+      "m": {
+       "en": "You are good neighbours.",
+       "fr": "Vous êtes de bons voisins.",
+       "es": "Sois buenos vecinos.",
+       "de": "Ihr seid gute Nachbarn.",
+       "it": "Siete dei buoni vicini."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا أخذ يوسف إلى الجار؟",
+     "en": "What did Yusuf take to the neighbour?",
+     "fr": "Qu'a apporté Youssouf au voisin ?",
+     "es": "¿Qué le llevó Yusuf al vecino?",
+     "de": "Was hat Yusuf dem Nachbarn gebracht?",
+     "it": "Che cosa ha portato Yusuf al vicino?"
+    },
+    "options": [
+     {
+      "ar": "صحنًا من الكعك",
+      "en": "A plate of cake",
+      "fr": "Une assiette de gâteaux",
+      "es": "Un plato de pasteles",
+      "de": "Einen Teller Kuchen",
+      "it": "Un piatto di dolci"
+     },
+     {
+      "ar": "كرة",
+      "en": "A ball",
+      "fr": "Un ballon",
+      "es": "Una pelota",
+      "de": "Einen Ball",
+      "it": "Un pallone"
+     },
+     {
+      "ar": "رسالة",
+      "en": "A letter",
+      "fr": "Une lettre",
+      "es": "Una carta",
+      "de": "Einen Brief",
+      "it": "Una lettera"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "حيِّ جارك اليوم بابتسامة، أو اصنع له بطاقة صغيرة مع أحد والديك.",
+    "en": "Greet your neighbour with a smile today, or make a little card for them with a parent.",
+    "fr": "Salue ton voisin avec un sourire aujourd'hui, ou fabrique-lui une petite carte avec un parent.",
+    "es": "Saluda hoy a tu vecino con una sonrisa o hazle una tarjetita con tu padre o madre.",
+    "de": "Grüß heute deinen Nachbarn mit einem Lächeln oder bastle mit deinen Eltern eine kleine Karte für ihn.",
+    "it": "Saluta oggi il tuo vicino con un sorriso, o preparagli un bigliettino con un genitore."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "help",
+   "icon": "🤝",
+   "title": {
+    "ar": "التعاون ومساعدة الآخرين",
+    "en": "Cooperation and helping others",
+    "fr": "Coopérer et aider les autres",
+    "es": "Cooperar y ayudar a los demás",
+    "de": "Zusammenarbeit und anderen helfen",
+    "it": "Collaborare e aiutare gli altri"
+   },
+   "value": {
+    "ar": "نتعاون في البيت والمدرسة ونساعد من يحتاج.",
+    "en": "We cooperate at home and at school and help those in need.",
+    "fr": "On coopère à la maison et à l'école, et on aide ceux qui en ont besoin.",
+    "es": "Cooperamos en casa y en la escuela y ayudamos a quien lo necesita.",
+    "de": "Wir arbeiten zu Hause und in der Schule zusammen und helfen Bedürftigen.",
+    "it": "Collaboriamo a casa e a scuola e aiutiamo chi ha bisogno."
+   },
+   "words": [
+    {
+     "ar": "ساعَدَ",
+     "tr": "sāʿada",
+     "emoji": "🤲",
+     "m": {
+      "ar": "قدّم العون",
+      "en": "he helped",
+      "fr": "il a aidé",
+      "es": "ayudó",
+      "de": "er hat geholfen",
+      "it": "ha aiutato"
+     }
+    },
+    {
+     "ar": "مَعًا",
+     "tr": "maʿan",
+     "emoji": "👫",
+     "m": {
+      "ar": "مع بعض",
+      "en": "together",
+      "fr": "ensemble",
+      "es": "juntos",
+      "de": "zusammen",
+      "it": "insieme"
+     }
+    },
+    {
+     "ar": "ثَقيل",
+     "tr": "thaqīl",
+     "emoji": "🏋️",
+     "m": {
+      "ar": "صعب الحمل",
+      "en": "heavy",
+      "fr": "lourd",
+      "es": "pesado",
+      "de": "schwer",
+      "it": "pesante"
+     }
+    },
+    {
+     "ar": "حَقيبة",
+     "tr": "ḥaqība",
+     "emoji": "🎒",
+     "m": {
+      "ar": "نحمل فيها الأشياء",
+      "en": "bag",
+      "fr": "sac",
+      "es": "bolsa",
+      "de": "Tasche",
+      "it": "borsa"
+     }
+    },
+    {
+     "ar": "فَريق",
+     "tr": "farīq",
+     "emoji": "⚽",
+     "m": {
+      "ar": "مجموعة تعمل معًا",
+      "en": "team",
+      "fr": "équipe",
+      "es": "equipo",
+      "de": "Mannschaft",
+      "it": "squadra"
+     }
+    },
+    {
+     "ar": "هَلْ أُساعِدُكَ؟",
+     "tr": "hal usāʿiduk?",
+     "emoji": "🙋",
+     "m": {
+      "ar": "سؤال لطيف لمن يحتاج",
+      "en": "Can I help you?",
+      "fr": "Je peux t'aider ?",
+      "es": "¿Te ayudo?",
+      "de": "Kann ich dir helfen?",
+      "it": "Posso aiutarti?"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "هَلْ أُساعِدُكِ يا جَدَّتي؟",
+     "tr": "hal usāʿiduki yā jaddatī?",
+     "emoji": "👵",
+     "m": {
+      "ar": "أعرض المساعدة على جدّتي",
+      "en": "Can I help you, Grandma?",
+      "fr": "Je peux t'aider, mamie ?",
+      "es": "¿Te ayudo, abuela?",
+      "de": "Kann ich dir helfen, Oma?",
+      "it": "Posso aiutarti, nonna?"
+     }
+    },
+    {
+     "ar": "الحَقيبَةُ ثَقيلَةٌ",
+     "tr": "al-ḥaqībatu thaqīla",
+     "emoji": "🎒",
+     "m": {
+      "ar": "الحقيبة صعبة الحمل",
+      "en": "The bag is heavy",
+      "fr": "Le sac est lourd",
+      "es": "La bolsa pesa",
+      "de": "Die Tasche ist schwer",
+      "it": "La borsa è pesante"
+     }
+    },
+    {
+     "ar": "نَعْمَلُ مَعًا",
+     "tr": "naʿmalu maʿan",
+     "emoji": "👫",
+     "m": {
+      "ar": "نعمل مع بعض",
+      "en": "We work together",
+      "fr": "Nous travaillons ensemble",
+      "es": "Trabajamos juntos",
+      "de": "Wir arbeiten zusammen",
+      "it": "Lavoriamo insieme"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "المُؤْمِنُ لِلْمُؤْمِنِ كَالبُنْيانِ يَشُدُّ بَعْضُهُ بَعْضًا",
+    "src": {
+     "ar": "رواه البخاري (481) ومسلم (2585)",
+     "latin": "Sahih al-Bukhari 481, Sahih Muslim 2585"
+    },
+    "m": {
+     "ar": "المؤمنون يقوّي بعضهم بعضًا مثل حجارة البناء.",
+     "en": "Believers are to one another like a building whose parts support each other.",
+     "fr": "Le croyant est pour le croyant comme un édifice dont les parties se soutiennent.",
+     "es": "El creyente es para el creyente como un edificio cuyas partes se sostienen.",
+     "de": "Der Gläubige ist für den Gläubigen wie ein Gebäude, dessen Teile einander stützen.",
+     "it": "Il credente per il credente è come un edificio le cui parti si sostengono."
+    },
+    "lesson": {
+     "ar": "عندما نتعاون نصبح أقوى، مثل الحجارة في الجدار.",
+     "en": "When we cooperate we become stronger, like the bricks in a wall.",
+     "fr": "Quand nous coopérons, nous devenons plus forts, comme les briques d'un mur.",
+     "es": "Cuando cooperamos somos más fuertes, como los ladrillos de un muro.",
+     "de": "Wenn wir zusammenhalten, werden wir stärker, wie die Steine einer Mauer.",
+     "it": "Quando collaboriamo diventiamo più forti, come i mattoni di un muro."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "yusuf",
+      "ar": "جَدَّتي، الحَقيبَةُ ثَقيلَةٌ!",
+      "tr": "jaddatī, al-ḥaqībatu thaqīla!",
+      "m": {
+       "en": "Grandma, the bag is heavy!",
+       "fr": "Mamie, le sac est lourd !",
+       "es": "¡Abuela, la bolsa pesa!",
+       "de": "Oma, die Tasche ist schwer!",
+       "it": "Nonna, la borsa è pesante!"
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "هَلْ أُساعِدُكِ؟",
+      "tr": "hal usāʿiduki?",
+      "m": {
+       "en": "Can I help you?",
+       "fr": "Je peux t'aider ?",
+       "es": "¿Te ayudo?",
+       "de": "Kann ich dir helfen?",
+       "it": "Posso aiutarti?"
+      }
+     },
+     {
+      "who": "grandma",
+      "ar": "نَعَمْ يا حَبيبي، بارَكَ اللهُ فيكَ.",
+      "tr": "naʿam yā ḥabībī, bāraka llāhu fīk.",
+      "m": {
+       "en": "Yes, my dear, may Allah bless you.",
+       "fr": "Oui, mon chéri, qu'Allah te bénisse.",
+       "es": "Sí, cariño, que Allah te bendiga.",
+       "de": "Ja, mein Schatz, Allah segne dich.",
+       "it": "Sì, tesoro, che Allah ti benedica."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "وَأَنا أَحْمِلُ الحَقيبَةَ الصَّغيرَةَ!",
+      "tr": "wa anā aḥmilu l-ḥaqībata ṣ-ṣaghīra!",
+      "m": {
+       "en": "And I'll carry the small bag!",
+       "fr": "Et moi, je porte le petit sac !",
+       "es": "¡Y yo llevo la bolsa pequeña!",
+       "de": "Und ich trage die kleine Tasche!",
+       "it": "E io porto la borsa piccola!"
+      }
+     }
+    ],
+    "q": {
+     "ar": "من ساعد الجدّة؟",
+     "en": "Who helped Grandma?",
+     "fr": "Qui a aidé mamie ?",
+     "es": "¿Quién ayudó a la abuela?",
+     "de": "Wer hat Oma geholfen?",
+     "it": "Chi ha aiutato la nonna?"
+    },
+    "options": [
+     {
+      "ar": "يوسف ومريم معًا",
+      "en": "Yusuf and Maryam together",
+      "fr": "Youssouf et Maryam ensemble",
+      "es": "Yusuf y Maryam juntos",
+      "de": "Yusuf und Maryam zusammen",
+      "it": "Yusuf e Maryam insieme"
+     },
+     {
+      "ar": "لا أحد",
+      "en": "Nobody",
+      "fr": "Personne",
+      "es": "Nadie",
+      "de": "Niemand",
+      "it": "Nessuno"
+     },
+     {
+      "ar": "الجار فقط",
+      "en": "Only the neighbour",
+      "fr": "Seulement le voisin",
+      "es": "Solo el vecino",
+      "de": "Nur der Nachbar",
+      "it": "Solo il vicino"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "اسأل اليوم أحد أفراد عائلتك: «هَلْ أُساعِدُكَ؟» وساعده في عمل البيت.",
+    "en": "Ask someone in your family today “hal usāʿiduk?” (can I help you?) and help with a chore.",
+    "fr": "Demande aujourd'hui à quelqu'un de ta famille « hal usāʿiduk ? » (je peux t'aider ?) et aide-le à une tâche.",
+    "es": "Pregunta hoy a alguien de tu familia «hal usāʿiduk?» (¿te ayudo?) y ayúdale con una tarea.",
+    "de": "Frag heute jemanden in deiner Familie „hal usāʿiduk?“ (kann ich helfen?) und hilf im Haushalt.",
+    "it": "Chiedi oggi a qualcuno della tua famiglia «hal usāʿiduk?» (posso aiutarti?) e aiutalo in una faccenda."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "knowledge",
+   "icon": "📚",
+   "title": {
+    "ar": "طلب العلم",
+    "en": "Seeking knowledge",
+    "fr": "La quête du savoir",
+    "es": "Buscar el conocimiento",
+    "de": "Nach Wissen streben",
+    "it": "Cercare il sapere"
+   },
+   "value": {
+    "ar": "نتعلّم كل يوم شيئًا جديدًا ونحترم معلّمينا.",
+    "en": "We learn something new every day and respect our teachers.",
+    "fr": "On apprend chaque jour quelque chose de nouveau et on respecte nos enseignants.",
+    "es": "Aprendemos algo nuevo cada día y respetamos a nuestros maestros.",
+    "de": "Wir lernen jeden Tag etwas Neues und respektieren unsere Lehrer.",
+    "it": "Impariamo ogni giorno qualcosa di nuovo e rispettiamo i nostri insegnanti."
+   },
+   "words": [
+    {
+     "ar": "عِلْم",
+     "tr": "ʿilm",
+     "emoji": "💡",
+     "m": {
+      "ar": "ما نتعلّمه ونعرفه",
+      "en": "knowledge",
+      "fr": "savoir",
+      "es": "conocimiento",
+      "de": "Wissen",
+      "it": "sapere"
+     }
+    },
+    {
+     "ar": "مَدْرَسة",
+     "tr": "madrasa",
+     "emoji": "🏫",
+     "m": {
+      "ar": "مكان التعلّم",
+      "en": "school",
+      "fr": "école",
+      "es": "escuela",
+      "de": "Schule",
+      "it": "scuola"
+     }
+    },
+    {
+     "ar": "مُعَلِّم",
+     "tr": "muʿallim",
+     "emoji": "🧑‍🏫",
+     "m": {
+      "ar": "من يعلّمنا",
+      "en": "teacher",
+      "fr": "enseignant",
+      "es": "maestro",
+      "de": "Lehrer",
+      "it": "insegnante"
+     }
+    },
+    {
+     "ar": "قَلَم",
+     "tr": "qalam",
+     "emoji": "✏️",
+     "m": {
+      "ar": "نكتب به",
+      "en": "pen",
+      "fr": "stylo",
+      "es": "bolígrafo",
+      "de": "Stift",
+      "it": "penna"
+     }
+    },
+    {
+     "ar": "كِتاب",
+     "tr": "kitāb",
+     "emoji": "📖",
+     "m": {
+      "ar": "نقرأ فيه",
+      "en": "book",
+      "fr": "livre",
+      "es": "libro",
+      "de": "Buch",
+      "it": "libro"
+     }
+    },
+    {
+     "ar": "أَقْرَأُ",
+     "tr": "aqraʾu",
+     "emoji": "👀",
+     "m": {
+      "ar": "أنظر في الكتاب وأفهم",
+      "en": "I read",
+      "fr": "je lis",
+      "es": "leo",
+      "de": "ich lese",
+      "it": "leggo"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَقْرَأُ كِتابًا",
+     "tr": "aqraʾu kitāban",
+     "emoji": "📖",
+     "m": {
+      "ar": "أقرأ كتابًا",
+      "en": "I am reading a book",
+      "fr": "Je lis un livre",
+      "es": "Leo un libro",
+      "de": "Ich lese ein Buch",
+      "it": "Leggo un libro"
+     }
+    },
+    {
+     "ar": "أُحِبُّ مَدْرَسَتي",
+     "tr": "uḥibbu madrasatī",
+     "emoji": "🏫",
+     "m": {
+      "ar": "أحبّ مدرستي",
+      "en": "I love my school",
+      "fr": "J'aime mon école",
+      "es": "Me gusta mi escuela",
+      "de": "Ich mag meine Schule",
+      "it": "Amo la mia scuola"
+     }
+    },
+    {
+     "ar": "شُكْرًا يا مُعَلِّمي",
+     "tr": "shukran yā muʿallimī",
+     "emoji": "🧑‍🏫",
+     "m": {
+      "ar": "أشكر معلّمي",
+      "en": "Thank you, my teacher",
+      "fr": "Merci, mon maître",
+      "es": "Gracias, mi maestro",
+      "de": "Danke, mein Lehrer",
+      "it": "Grazie, mio maestro"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللهُ لَهُ بِهِ طَرِيقًا إِلَى الجَنَّةِ",
+    "src": {
+     "ar": "رواه مسلم (2699)",
+     "latin": "Sahih Muslim 2699"
+    },
+    "m": {
+     "ar": "من سعى إلى التعلّم سهّل الله له طريق الجنة.",
+     "en": "Whoever takes a path seeking knowledge, Allah makes easy for him a path to Paradise.",
+     "fr": "Celui qui emprunte un chemin à la recherche du savoir, Allah lui facilite un chemin vers le Paradis.",
+     "es": "Quien emprende un camino buscando conocimiento, Allah le facilita un camino al Paraíso.",
+     "de": "Wer einen Weg geht, um Wissen zu suchen, dem erleichtert Allah einen Weg ins Paradies.",
+     "it": "Chi percorre una via in cerca di sapere, Allah gli rende facile una via verso il Paradiso."
+    },
+    "lesson": {
+     "ar": "التعلّم عبادة، وكل درس نتعلّمه خطوة نحو الخير.",
+     "en": "Learning is worship, and every lesson is a step towards good.",
+     "fr": "Apprendre est une adoration, et chaque leçon est un pas vers le bien.",
+     "es": "Aprender es adoración, y cada lección es un paso hacia el bien.",
+     "de": "Lernen ist Gottesdienst, und jede Lektion ist ein Schritt zum Guten.",
+     "it": "Imparare è adorazione, e ogni lezione è un passo verso il bene."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "yusuf",
+      "ar": "أَنا أَقْرَأُ كِتابًا جَديدًا.",
+      "tr": "anā aqraʾu kitāban jadīdan.",
+      "m": {
+       "en": "I'm reading a new book.",
+       "fr": "Je lis un nouveau livre.",
+       "es": "Estoy leyendo un libro nuevo.",
+       "de": "Ich lese ein neues Buch.",
+       "it": "Sto leggendo un libro nuovo."
+      }
+     },
+     {
+      "who": "grandpa",
+      "ar": "ما شاءَ اللهُ! العِلْمُ نُورٌ يا يوسُفُ.",
+      "tr": "mā shāʾa llāh! al-ʿilmu nūrun yā yūsuf.",
+      "m": {
+       "en": "Mā shāʾ Allāh! Knowledge is light, Yusuf.",
+       "fr": "Mā shāʾ Allāh ! Le savoir est une lumière, Youssouf.",
+       "es": "¡Mā shāʾ Allāh! El conocimiento es luz, Yusuf.",
+       "de": "Mā schāʾ Allāh! Wissen ist Licht, Yusuf.",
+       "it": "Mā shāʾ Allāh! Il sapere è luce, Yusuf."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "غَدًا أَسْأَلُ مُعَلِّمي عَنْ كَلِمَةٍ صَعْبَةٍ.",
+      "tr": "ghadan asʾalu muʿallimī ʿan kalimatin ṣaʿba.",
+      "m": {
+       "en": "Tomorrow I'll ask my teacher about a hard word.",
+       "fr": "Demain, je demanderai à mon maître un mot difficile.",
+       "es": "Mañana preguntaré a mi maestro una palabra difícil.",
+       "de": "Morgen frage ich meinen Lehrer nach einem schweren Wort.",
+       "it": "Domani chiederò al mio maestro una parola difficile."
+      }
+     },
+     {
+      "who": "grandpa",
+      "ar": "أَحْسَنْتَ، السُّؤالُ مِفْتاحُ العِلْمِ.",
+      "tr": "aḥsanta, as-suʾālu miftāḥu l-ʿilm.",
+      "m": {
+       "en": "Well done — asking is the key to knowledge.",
+       "fr": "Bravo, la question est la clé du savoir.",
+       "es": "Muy bien, preguntar es la llave del saber.",
+       "de": "Gut gemacht, Fragen ist der Schlüssel zum Wissen.",
+       "it": "Bravo, la domanda è la chiave del sapere."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا سيفعل يوسف غدًا؟",
+     "en": "What will Yusuf do tomorrow?",
+     "fr": "Que fera Youssouf demain ?",
+     "es": "¿Qué hará Yusuf mañana?",
+     "de": "Was macht Yusuf morgen?",
+     "it": "Che cosa farà Yusuf domani?"
+    },
+    "options": [
+     {
+      "ar": "يسأل معلّمه عن كلمة صعبة",
+      "en": "Ask his teacher about a hard word",
+      "fr": "Demander un mot difficile à son maître",
+      "es": "Preguntar a su maestro una palabra difícil",
+      "de": "Seinen Lehrer nach einem schweren Wort fragen",
+      "it": "Chiedere al maestro una parola difficile"
+     },
+     {
+      "ar": "يلعب الكرة",
+      "en": "Play football",
+      "fr": "Jouer au foot",
+      "es": "Jugar al fútbol",
+      "de": "Fußball spielen",
+      "it": "Giocare a calcio"
+     },
+     {
+      "ar": "يشتري قلمًا",
+      "en": "Buy a pen",
+      "fr": "Acheter un stylo",
+      "es": "Comprar un bolígrafo",
+      "de": "Einen Stift kaufen",
+      "it": "Comprare una penna"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "اقرأ اليوم صفحة من كتاب، ثم أخبر أحد والديك بشيء جديد تعلّمته.",
+    "en": "Read one page of a book today, then tell a parent one new thing you learned.",
+    "fr": "Lis une page d'un livre aujourd'hui, puis raconte à un parent une chose nouvelle que tu as apprise.",
+    "es": "Lee hoy una página de un libro y cuéntale a tu padre o madre algo nuevo que aprendiste.",
+    "de": "Lies heute eine Seite in einem Buch und erzähl deinen Eltern etwas Neues, das du gelernt hast.",
+    "it": "Leggi oggi una pagina di un libro, poi racconta a un genitore una cosa nuova che hai imparato."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "truth",
+   "icon": "🗣️",
+   "title": {
+    "ar": "الصدق",
+    "en": "Truthfulness",
+    "fr": "La sincérité",
+    "es": "La sinceridad",
+    "de": "Ehrlichkeit",
+    "it": "La sincerità"
+   },
+   "value": {
+    "ar": "نقول الحقّ دائمًا حتى عندما نخطئ.",
+    "en": "We always tell the truth, even when we make a mistake.",
+    "fr": "On dit toujours la vérité, même quand on se trompe.",
+    "es": "Siempre decimos la verdad, incluso cuando nos equivocamos.",
+    "de": "Wir sagen immer die Wahrheit, auch wenn wir einen Fehler machen.",
+    "it": "Diciamo sempre la verità, anche quando sbagliamo."
+   },
+   "words": [
+    {
+     "ar": "صِدْق",
+     "tr": "ṣidq",
+     "emoji": "✅",
+     "m": {
+      "ar": "قول الحقيقة",
+      "en": "truthfulness",
+      "fr": "sincérité",
+      "es": "sinceridad",
+      "de": "Ehrlichkeit",
+      "it": "sincerità"
+     }
+    },
+    {
+     "ar": "صادِق",
+     "tr": "ṣādiq",
+     "emoji": "😇",
+     "m": {
+      "ar": "من يقول الحقيقة",
+      "en": "truthful",
+      "fr": "sincère",
+      "es": "sincero",
+      "de": "ehrlich",
+      "it": "sincero"
+     }
+    },
+    {
+     "ar": "كَذِب",
+     "tr": "kadhib",
+     "emoji": "🚫",
+     "m": {
+      "ar": "قول غير الحقيقة",
+      "en": "lying",
+      "fr": "mensonge",
+      "es": "mentira",
+      "de": "Lüge",
+      "it": "bugia"
+     }
+    },
+    {
+     "ar": "خَطَأ",
+     "tr": "khaṭaʾ",
+     "emoji": "❌",
+     "m": {
+      "ar": "شيء غير صحيح",
+      "en": "mistake",
+      "fr": "erreur",
+      "es": "error",
+      "de": "Fehler",
+      "it": "errore"
+     }
+    },
+    {
+     "ar": "آسِف",
+     "tr": "āsif",
+     "emoji": "🙇",
+     "m": {
+      "ar": "أقولها عندما أخطئ",
+      "en": "sorry",
+      "fr": "désolé",
+      "es": "lo siento",
+      "de": "Entschuldigung",
+      "it": "scusa"
+     }
+    },
+    {
+     "ar": "الحَقّ",
+     "tr": "al-ḥaqq",
+     "emoji": "⚖️",
+     "m": {
+      "ar": "الصواب والحقيقة",
+      "en": "the truth",
+      "fr": "la vérité",
+      "es": "la verdad",
+      "de": "die Wahrheit",
+      "it": "la verità"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَنا صادِقٌ",
+     "tr": "anā ṣādiqun",
+     "emoji": "😇",
+     "m": {
+      "ar": "أقول الحقيقة",
+      "en": "I am truthful",
+      "fr": "Je suis sincère",
+      "es": "Soy sincero",
+      "de": "Ich bin ehrlich",
+      "it": "Sono sincero"
+     }
+    },
+    {
+     "ar": "آسِفٌ هذا خَطَئي",
+     "tr": "āsifun hādhā khaṭaʾī",
+     "emoji": "🙇",
+     "m": {
+      "ar": "أعترف بخطئي",
+      "en": "Sorry, this is my mistake",
+      "fr": "Désolé, c'est mon erreur",
+      "es": "Lo siento, es mi error",
+      "de": "Entschuldigung, das ist mein Fehler",
+      "it": "Scusa, è un mio errore"
+     }
+    },
+    {
+     "ar": "الصِّدْقُ جَميلٌ",
+     "tr": "aṣ-ṣidqu jamīlun",
+     "emoji": "🌟",
+     "m": {
+      "ar": "الصدق خلق جميل",
+      "en": "Truthfulness is beautiful",
+      "fr": "La sincérité est belle",
+      "es": "La sinceridad es bonita",
+      "de": "Ehrlichkeit ist schön",
+      "it": "La sincerità è bella"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "عَلَيْكُمْ بِالصِّدْقِ، فَإِنَّ الصِّدْقَ يَهْدِي إِلَى البِرِّ",
+    "src": {
+     "ar": "رواه مسلم (2607)",
+     "latin": "Sahih Muslim 2607"
+    },
+    "m": {
+     "ar": "الزموا الصدق لأنه يقود إلى كل خير.",
+     "en": "Hold on to truthfulness, for truthfulness leads to righteousness.",
+     "fr": "Attachez-vous à la sincérité, car la sincérité mène à la bonté.",
+     "es": "Aferraos a la sinceridad, pues la sinceridad conduce a la bondad.",
+     "de": "Haltet euch an die Wahrhaftigkeit, denn sie führt zur Güte.",
+     "it": "Attenetevi alla sincerità, perché la sincerità conduce alla bontà."
+    },
+    "lesson": {
+     "ar": "قول الحقيقة يجعل الناس يثقون بنا ويقرّبنا من الله.",
+     "en": "Telling the truth makes people trust us and brings us closer to Allah.",
+     "fr": "Dire la vérité donne confiance aux autres et nous rapproche d'Allah.",
+     "es": "Decir la verdad hace que confíen en nosotros y nos acerca a Allah.",
+     "de": "Die Wahrheit zu sagen schafft Vertrauen und bringt uns Allah näher.",
+     "it": "Dire la verità fa sì che gli altri si fidino e ci avvicina ad Allah."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "mama",
+      "ar": "مَنْ كَسَرَ الكَأْسَ؟",
+      "tr": "man kasara l-kaʾs?",
+      "m": {
+       "en": "Who broke the glass?",
+       "fr": "Qui a cassé le verre ?",
+       "es": "¿Quién rompió el vaso?",
+       "de": "Wer hat das Glas zerbrochen?",
+       "it": "Chi ha rotto il bicchiere?"
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "أَنا يا أُمّي، آسِفٌ.",
+      "tr": "anā yā ummī, āsifun.",
+      "m": {
+       "en": "It was me, Mum. I'm sorry.",
+       "fr": "C'est moi, maman. Désolé.",
+       "es": "Fui yo, mamá. Lo siento.",
+       "de": "Ich war es, Mama. Es tut mir leid.",
+       "it": "Sono stato io, mamma. Scusa."
+      }
+     },
+     {
+      "who": "mama",
+      "ar": "شُكْرًا لِأَنَّكَ قُلْتَ الحَقَّ.",
+      "tr": "shukran li-annaka qulta l-ḥaqq.",
+      "m": {
+       "en": "Thank you for telling the truth.",
+       "fr": "Merci d'avoir dit la vérité.",
+       "es": "Gracias por decir la verdad.",
+       "de": "Danke, dass du die Wahrheit gesagt hast.",
+       "it": "Grazie per aver detto la verità."
+      }
+     },
+     {
+      "who": "mama",
+      "ar": "الصّادِقُ يُحِبُّهُ اللهُ وَالنّاسُ.",
+      "tr": "aṣ-ṣādiqu yuḥibbuhu llāhu wa n-nās.",
+      "m": {
+       "en": "Allah and people love the truthful.",
+       "fr": "Allah et les gens aiment celui qui est sincère.",
+       "es": "Allah y la gente aman al sincero.",
+       "de": "Allah und die Menschen lieben den Ehrlichen.",
+       "it": "Allah e le persone amano chi è sincero."
+      }
+     }
+    ],
+    "q": {
+     "ar": "لماذا شكرت الأمّ يوسف؟",
+     "en": "Why did Mum thank Yusuf?",
+     "fr": "Pourquoi maman a-t-elle remercié Youssouf ?",
+     "es": "¿Por qué mamá dio las gracias a Yusuf?",
+     "de": "Warum hat Mama Yusuf gedankt?",
+     "it": "Perché la mamma ha ringraziato Yusuf?"
+    },
+    "options": [
+     {
+      "ar": "لأنه قال الحقيقة",
+      "en": "Because he told the truth",
+      "fr": "Parce qu'il a dit la vérité",
+      "es": "Porque dijo la verdad",
+      "de": "Weil er die Wahrheit gesagt hat",
+      "it": "Perché ha detto la verità"
+     },
+     {
+      "ar": "لأنه اشترى كأسًا",
+      "en": "Because he bought a glass",
+      "fr": "Parce qu'il a acheté un verre",
+      "es": "Porque compró un vaso",
+      "de": "Weil er ein Glas gekauft hat",
+      "it": "Perché ha comprato un bicchiere"
+     },
+     {
+      "ar": "لأنه نام مبكّرًا",
+      "en": "Because he went to bed early",
+      "fr": "Parce qu'il s'est couché tôt",
+      "es": "Porque se acostó temprano",
+      "de": "Weil er früh geschlafen hat",
+      "it": "Perché è andato a letto presto"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "إذا أخطأت اليوم في شيء، اعترف بخطئك وقل: «آسِف».",
+    "en": "If you make a mistake today, own it and say “āsif” (sorry).",
+    "fr": "Si tu fais une erreur aujourd'hui, reconnais-la et dis « āsif » (désolé).",
+    "es": "Si hoy te equivocas en algo, reconócelo y di «āsif» (lo siento).",
+    "de": "Wenn dir heute ein Fehler passiert, gib ihn zu und sag „āsif“ (Entschuldigung).",
+    "it": "Se oggi sbagli qualcosa, ammettilo e di' «āsif» (scusa)."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "trust",
+   "icon": "🔐",
+   "title": {
+    "ar": "الأمانة والوفاء بالوعد",
+    "en": "Trustworthiness and keeping promises",
+    "fr": "L'honnêteté et tenir ses promesses",
+    "es": "Honradez y cumplir las promesas",
+    "de": "Vertrauenswürdigkeit und Versprechen halten",
+    "it": "Affidabilità e mantenere le promesse"
+   },
+   "value": {
+    "ar": "نحفظ ما يُعطى لنا، ونفي بما نعد به.",
+    "en": "We look after what is entrusted to us and keep our promises.",
+    "fr": "On prend soin de ce qu'on nous confie et on tient nos promesses.",
+    "es": "Cuidamos lo que nos confían y cumplimos lo que prometemos.",
+    "de": "Wir passen auf Anvertrautes auf und halten unsere Versprechen.",
+    "it": "Custodiamo ciò che ci viene affidato e manteniamo le promesse."
+   },
+   "words": [
+    {
+     "ar": "أَمانة",
+     "tr": "amāna",
+     "emoji": "🔐",
+     "m": {
+      "ar": "شيء نحفظه لغيرنا",
+      "en": "trust (something entrusted)",
+      "fr": "dépôt confié",
+      "es": "depósito confiado",
+      "de": "anvertrautes Gut",
+      "it": "deposito affidato"
+     }
+    },
+    {
+     "ar": "أَمين",
+     "tr": "amīn",
+     "emoji": "🛡️",
+     "m": {
+      "ar": "من نثق به",
+      "en": "trustworthy",
+      "fr": "digne de confiance",
+      "es": "de confianza",
+      "de": "vertrauenswürdig",
+      "it": "affidabile"
+     }
+    },
+    {
+     "ar": "وَعْد",
+     "tr": "waʿd",
+     "emoji": "🤞",
+     "m": {
+      "ar": "كلام نلتزم به",
+      "en": "promise",
+      "fr": "promesse",
+      "es": "promesa",
+      "de": "Versprechen",
+      "it": "promessa"
+     }
+    },
+    {
+     "ar": "أَعِدُكَ",
+     "tr": "aʿiduka",
+     "emoji": "🙌",
+     "m": {
+      "ar": "أقولها عندما أعد",
+      "en": "I promise you",
+      "fr": "je te promets",
+      "es": "te lo prometo",
+      "de": "ich verspreche dir",
+      "it": "te lo prometto"
+     }
+    },
+    {
+     "ar": "أَرْجَعَ",
+     "tr": "arjaʿa",
+     "emoji": "↩️",
+     "m": {
+      "ar": "ردّ الشيء إلى صاحبه",
+      "en": "he gave back",
+      "fr": "il a rendu",
+      "es": "devolvió",
+      "de": "er gab zurück",
+      "it": "ha restituito"
+     }
+    },
+    {
+     "ar": "مِحْفَظة",
+     "tr": "miḥfaẓa",
+     "emoji": "👛",
+     "m": {
+      "ar": "نضع فيها النقود",
+      "en": "wallet",
+      "fr": "porte-monnaie",
+      "es": "cartera",
+      "de": "Geldbörse",
+      "it": "portafoglio"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَعِدُكَ يا أَبي",
+     "tr": "aʿiduka yā abī",
+     "emoji": "🙌",
+     "m": {
+      "ar": "أعد أبي",
+      "en": "I promise you, Dad",
+      "fr": "Je te le promets, papa",
+      "es": "Te lo prometo, papá",
+      "de": "Ich verspreche es dir, Papa",
+      "it": "Te lo prometto, papà"
+     }
+    },
+    {
+     "ar": "أَنا أَمينٌ",
+     "tr": "anā amīnun",
+     "emoji": "🛡️",
+     "m": {
+      "ar": "يمكن الوثوق بي",
+      "en": "I am trustworthy",
+      "fr": "On peut me faire confiance",
+      "es": "Soy de confianza",
+      "de": "Man kann mir vertrauen",
+      "it": "Sono affidabile"
+     }
+    },
+    {
+     "ar": "هذِهِ مِحْفَظَتُكَ",
+     "tr": "hādhihi miḥfaẓatuk",
+     "emoji": "👛",
+     "m": {
+      "ar": "أردّ المحفظة لصاحبها",
+      "en": "This is your wallet",
+      "fr": "Voici ton porte-monnaie",
+      "es": "Esta es tu cartera",
+      "de": "Das ist deine Geldbörse",
+      "it": "Questo è il tuo portafoglio"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "أَدِّ الأَمانَةَ إِلى مَنِ ائْتَمَنَكَ",
+    "src": {
+     "ar": "رواه أبو داود (3535) والترمذي (1264)",
+     "latin": "Sunan Abi Dawud 3535, Jami' at-Tirmidhi 1264"
+    },
+    "m": {
+     "ar": "ردّ الأمانة إلى صاحبها.",
+     "en": "Give back what is entrusted to you to the one who entrusted it.",
+     "fr": "Rends le dépôt à celui qui te l'a confié.",
+     "es": "Devuelve lo confiado a quien te lo confió.",
+     "de": "Gib das Anvertraute dem zurück, der es dir anvertraut hat.",
+     "it": "Restituisci il deposito a chi te lo ha affidato."
+    },
+    "lesson": {
+     "ar": "نحافظ على أشياء الآخرين ونعيدها كما هي.",
+     "en": "We look after other people's things and give them back as they were.",
+     "fr": "Nous prenons soin des affaires des autres et les rendons intactes.",
+     "es": "Cuidamos las cosas de los demás y las devolvemos tal como estaban.",
+     "de": "Wir passen auf die Sachen anderer auf und geben sie unversehrt zurück.",
+     "it": "Abbiamo cura delle cose degli altri e le restituiamo come erano."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "yusuf",
+      "ar": "وَجَدْتُ مِحْفَظَةً في الطَّريقِ.",
+      "tr": "wajadtu miḥfaẓatan fī ṭ-ṭarīq.",
+      "m": {
+       "en": "I found a wallet in the street.",
+       "fr": "J'ai trouvé un porte-monnaie dans la rue.",
+       "es": "Encontré una cartera en la calle.",
+       "de": "Ich habe auf der Straße eine Geldbörse gefunden.",
+       "it": "Ho trovato un portafoglio per strada."
+      }
+     },
+     {
+      "who": "baba",
+      "ar": "هِيَ أَمانَةٌ، نُرْجِعُها إِلى صاحِبِها.",
+      "tr": "hiya amānatun, nurjiʿuhā ilā ṣāḥibihā.",
+      "m": {
+       "en": "It is a trust; we give it back to its owner.",
+       "fr": "C'est un dépôt ; on le rend à son propriétaire.",
+       "es": "Es algo confiado; se lo devolvemos a su dueño.",
+       "de": "Sie ist anvertraut; wir geben sie dem Besitzer zurück.",
+       "it": "È un deposito; lo restituiamo al proprietario."
+      }
+     },
+     {
+      "who": "neighbor",
+      "ar": "مِحْفَظَتي! شُكْرًا يا يوسُفُ.",
+      "tr": "miḥfaẓatī! shukran yā yūsuf.",
+      "m": {
+       "en": "My wallet! Thank you, Yusuf.",
+       "fr": "Mon porte-monnaie ! Merci, Youssouf.",
+       "es": "¡Mi cartera! Gracias, Yusuf.",
+       "de": "Meine Geldbörse! Danke, Yusuf.",
+       "it": "Il mio portafoglio! Grazie, Yusuf."
+      }
+     },
+     {
+      "who": "neighbor",
+      "ar": "أَنْتَ وَلَدٌ أَمينٌ.",
+      "tr": "anta waladun amīn.",
+      "m": {
+       "en": "You are a trustworthy boy.",
+       "fr": "Tu es un garçon honnête.",
+       "es": "Eres un chico honrado.",
+       "de": "Du bist ein ehrlicher Junge.",
+       "it": "Sei un ragazzo onesto."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا فعل يوسف بالمحفظة؟",
+     "en": "What did Yusuf do with the wallet?",
+     "fr": "Qu'a fait Youssouf du porte-monnaie ?",
+     "es": "¿Qué hizo Yusuf con la cartera?",
+     "de": "Was hat Yusuf mit der Geldbörse gemacht?",
+     "it": "Che cosa ha fatto Yusuf con il portafoglio?"
+    },
+    "options": [
+     {
+      "ar": "أرجعها إلى صاحبها",
+      "en": "He gave it back to its owner",
+      "fr": "Il l'a rendu à son propriétaire",
+      "es": "Se la devolvió a su dueño",
+      "de": "Er gab sie dem Besitzer zurück",
+      "it": "L'ha restituito al proprietario"
+     },
+     {
+      "ar": "اشترى بها حلوى",
+      "en": "He bought sweets with it",
+      "fr": "Il a acheté des bonbons",
+      "es": "Compró caramelos",
+      "de": "Er kaufte Süßigkeiten",
+      "it": "Ha comprato dei dolci"
+     },
+     {
+      "ar": "رماها",
+      "en": "He threw it away",
+      "fr": "Il l'a jeté",
+      "es": "La tiró",
+      "de": "Er warf sie weg",
+      "it": "L'ha buttato via"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "عِدْ أحد والديك بشيء صغير اليوم (ترتيب سريرك مثلًا) وأوفِ بوعدك.",
+    "en": "Promise a parent something small today (like making your bed) and keep your promise.",
+    "fr": "Promets quelque chose de simple à un parent aujourd'hui (faire ton lit, par exemple) et tiens ta promesse.",
+    "es": "Promete hoy algo pequeño a tu padre o madre (como hacer la cama) y cumple tu promesa.",
+    "de": "Versprich heute deinen Eltern etwas Kleines (z. B. dein Bett zu machen) und halte dein Versprechen.",
+    "it": "Prometti oggi qualcosa di piccolo a un genitore (rifare il letto, per esempio) e mantieni la promessa."
+   },
+   "stage": "values"
   },
   {
    "id": "order",
@@ -1146,7 +4401,102 @@
      "de": "Die Straße sauber und sicher zu halten, ist eine gute, belohnte Tat.",
      "it": "Tenere la strada pulita e sicura è una buona azione ricompensata."
     }
-   }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "baba",
+      "ar": "يا يوسُفُ، غُرْفَتُكَ غَيْرُ مُرَتَّبَةٍ.",
+      "tr": "yā yūsuf, ghurfatuka ghayru murattaba.",
+      "m": {
+       "en": "Yusuf, your room isn't tidy.",
+       "fr": "Youssouf, ta chambre n'est pas rangée.",
+       "es": "Yusuf, tu habitación no está ordenada.",
+       "de": "Yusuf, dein Zimmer ist nicht aufgeräumt.",
+       "it": "Yusuf, la tua camera non è in ordine."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "سَأُرَتِّبُها الآنَ يا أَبي.",
+      "tr": "sa-urattibuhā l-āna yā abī.",
+      "m": {
+       "en": "I'll tidy it now, Dad.",
+       "fr": "Je vais la ranger maintenant, papa.",
+       "es": "La ordenaré ahora, papá.",
+       "de": "Ich räume es jetzt auf, Papa.",
+       "it": "La metto in ordine adesso, papà."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "الكُتُبُ في مَكانِها، وَالقُمامَةُ في السَّلَّةِ.",
+      "tr": "al-kutubu fī makānihā, wa l-qumāmatu fī s-salla.",
+      "m": {
+       "en": "The books are in their place and the rubbish is in the bin.",
+       "fr": "Les livres sont à leur place et les déchets dans la poubelle.",
+       "es": "Los libros están en su sitio y la basura en la papelera.",
+       "de": "Die Bücher sind an ihrem Platz und der Müll im Eimer.",
+       "it": "I libri sono al loro posto e la spazzatura nel cestino."
+      }
+     },
+     {
+      "who": "baba",
+      "ar": "ما أَجْمَلَ غُرْفَتَكَ الآنَ!",
+      "tr": "mā ajmala ghurfataka l-ān!",
+      "m": {
+       "en": "How lovely your room is now!",
+       "fr": "Comme ta chambre est belle maintenant !",
+       "es": "¡Qué bonita está ahora tu habitación!",
+       "de": "Wie schön dein Zimmer jetzt ist!",
+       "it": "Com'è bella ora la tua camera!"
+      }
+     }
+    ],
+    "q": {
+     "ar": "أين وضع يوسف القمامة؟",
+     "en": "Where did Yusuf put the rubbish?",
+     "fr": "Où Youssouf a-t-il mis les déchets ?",
+     "es": "¿Dónde puso Yusuf la basura?",
+     "de": "Wohin hat Yusuf den Müll getan?",
+     "it": "Dove ha messo la spazzatura Yusuf?"
+    },
+    "options": [
+     {
+      "ar": "في السلّة",
+      "en": "In the bin",
+      "fr": "Dans la poubelle",
+      "es": "En la papelera",
+      "de": "In den Eimer",
+      "it": "Nel cestino"
+     },
+     {
+      "ar": "تحت السرير",
+      "en": "Under the bed",
+      "fr": "Sous le lit",
+      "es": "Debajo de la cama",
+      "de": "Unters Bett",
+      "it": "Sotto il letto"
+     },
+     {
+      "ar": "في الطريق",
+      "en": "In the street",
+      "fr": "Dans la rue",
+      "es": "En la calle",
+      "de": "Auf die Straße",
+      "it": "Per strada"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "رتّب غرفتك اليوم وحدك، وضع كل شيء في مكانه.",
+    "en": "Tidy your room by yourself today and put everything in its place.",
+    "fr": "Range ta chambre tout seul aujourd'hui et mets chaque chose à sa place.",
+    "es": "Ordena hoy tu habitación tú solo y pon cada cosa en su sitio.",
+    "de": "Räum heute allein dein Zimmer auf und leg alles an seinen Platz.",
+    "it": "Metti in ordine la tua camera da solo oggi e metti ogni cosa al suo posto."
+   },
+   "stage": "values"
   },
   {
    "id": "respect",
@@ -1310,7 +4660,1915 @@
      "de": "Barmherzigkeit zu Kleinen und Respekt vor Älteren gehören zum Charakter eines Muslims.",
      "it": "La misericordia verso i piccoli e il rispetto degli anziani fanno parte del carattere del musulmano."
     }
-   }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "teacher",
+      "ar": "صَباحُ الخَيْرِ يا أَوْلادُ.",
+      "tr": "ṣabāḥu l-khayri yā awlād.",
+      "m": {
+       "en": "Good morning, children.",
+       "fr": "Bonjour, les enfants.",
+       "es": "Buenos días, niños.",
+       "de": "Guten Morgen, Kinder.",
+       "it": "Buongiorno, bambini."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "صَباحُ النّورِ يا مُعَلِّمَتي.",
+      "tr": "ṣabāḥu n-nūri yā muʿallimatī.",
+      "m": {
+       "en": "Good morning, teacher.",
+       "fr": "Bonjour, maîtresse.",
+       "es": "Buenos días, maestra.",
+       "de": "Guten Morgen, Frau Lehrerin.",
+       "it": "Buongiorno, maestra."
+      }
+     },
+     {
+      "who": "teacher",
+      "ar": "مَنْ يُساعِدُ زَميلَهُ الصَّغيرَ؟",
+      "tr": "man yusāʿidu zamīlahu ṣ-ṣaghīr?",
+      "m": {
+       "en": "Who will help their younger classmate?",
+       "fr": "Qui va aider son petit camarade ?",
+       "es": "¿Quién ayuda a su compañero pequeño?",
+       "de": "Wer hilft dem jüngeren Mitschüler?",
+       "it": "Chi aiuta il compagno più piccolo?"
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "أَنا! أَحْتَرِمُ الكَبيرَ وَأَرْحَمُ الصَّغيرَ.",
+      "tr": "anā! aḥtarimu l-kabīra wa arḥamu ṣ-ṣaghīr.",
+      "m": {
+       "en": "Me! I respect the old and am kind to the young.",
+       "fr": "Moi ! Je respecte les grands et je suis tendre avec les petits.",
+       "es": "¡Yo! Respeto a los mayores y soy tierna con los pequeños.",
+       "de": "Ich! Ich achte die Großen und bin lieb zu den Kleinen.",
+       "it": "Io! Rispetto i grandi e sono tenera con i piccoli."
+      }
+     }
+    ],
+    "q": {
+     "ar": "من أرادت مريم أن تساعد؟",
+     "en": "Who did Maryam want to help?",
+     "fr": "Qui Maryam voulait-elle aider ?",
+     "es": "¿A quién quería ayudar Maryam?",
+     "de": "Wem wollte Maryam helfen?",
+     "it": "Chi voleva aiutare Maryam?"
+    },
+    "options": [
+     {
+      "ar": "زميلها الصغير",
+      "en": "A younger classmate",
+      "fr": "Un petit camarade",
+      "es": "A un compañero pequeño",
+      "de": "Einem jüngeren Mitschüler",
+      "it": "Un compagno più piccolo"
+     },
+     {
+      "ar": "المدير",
+      "en": "The headteacher",
+      "fr": "Le directeur",
+      "es": "Al director",
+      "de": "Dem Schulleiter",
+      "it": "Il preside"
+     },
+     {
+      "ar": "لا أحد",
+      "en": "Nobody",
+      "fr": "Personne",
+      "es": "A nadie",
+      "de": "Niemandem",
+      "it": "Nessuno"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "ساعد اليوم طفلًا أصغر منك، وقل «شُكْرًا» لمعلّمك أو لشخص كبير.",
+    "en": "Help a younger child today and say “shukran” to your teacher or an older person.",
+    "fr": "Aide un enfant plus petit aujourd'hui et dis « shukran » à ton enseignant ou à une personne âgée.",
+    "es": "Ayuda hoy a un niño más pequeño y di «shukran» a tu maestro o a una persona mayor.",
+    "de": "Hilf heute einem jüngeren Kind und sag „shukran“ zu deinem Lehrer oder einem älteren Menschen.",
+    "it": "Aiuta oggi un bambino più piccolo e di' «shukran» al tuo insegnante o a una persona anziana."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "mercy",
+   "icon": "🐈",
+   "title": {
+    "ar": "الرحمة بالحيوان والضعيف",
+    "en": "Mercy to animals and the weak",
+    "fr": "La miséricorde envers les animaux et les faibles",
+    "es": "Misericordia con los animales y los débiles",
+    "de": "Barmherzigkeit mit Tieren und Schwachen",
+    "it": "Misericordia verso animali e deboli"
+   },
+   "value": {
+    "ar": "نرحم الحيوانات والصغار ومن يحتاج إلى مساعدة.",
+    "en": "We show mercy to animals, little ones and anyone who needs help.",
+    "fr": "On est miséricordieux envers les animaux, les petits et ceux qui ont besoin d'aide.",
+    "es": "Somos misericordiosos con los animales, los pequeños y quien necesita ayuda.",
+    "de": "Wir sind barmherzig zu Tieren, Kleinen und allen, die Hilfe brauchen.",
+    "it": "Siamo misericordiosi con gli animali, i piccoli e chi ha bisogno di aiuto."
+   },
+   "words": [
+    {
+     "ar": "قِطّة",
+     "tr": "qiṭṭa",
+     "emoji": "🐈",
+     "m": {
+      "ar": "حيوان أليف",
+      "en": "cat",
+      "fr": "chat",
+      "es": "gato",
+      "de": "Katze",
+      "it": "gatto"
+     }
+    },
+    {
+     "ar": "عُصْفور",
+     "tr": "ʿuṣfūr",
+     "emoji": "🐦",
+     "m": {
+      "ar": "طائر صغير",
+      "en": "little bird",
+      "fr": "petit oiseau",
+      "es": "pajarito",
+      "de": "Vögelchen",
+      "it": "uccellino"
+     }
+    },
+    {
+     "ar": "رَحْمة",
+     "tr": "raḥma",
+     "emoji": "🤍",
+     "m": {
+      "ar": "الحنان والشفقة",
+      "en": "mercy",
+      "fr": "miséricorde",
+      "es": "misericordia",
+      "de": "Barmherzigkeit",
+      "it": "misericordia"
+     }
+    },
+    {
+     "ar": "عَطْشان",
+     "tr": "ʿaṭshān",
+     "emoji": "🥵",
+     "m": {
+      "ar": "يحتاج إلى الماء",
+      "en": "thirsty",
+      "fr": "assoiffé",
+      "es": "sediento",
+      "de": "durstig",
+      "it": "assetato"
+     }
+    },
+    {
+     "ar": "جائِع",
+     "tr": "jāʾiʿ",
+     "emoji": "🍽️",
+     "m": {
+      "ar": "يحتاج إلى الأكل",
+      "en": "hungry",
+      "fr": "affamé",
+      "es": "hambriento",
+      "de": "hungrig",
+      "it": "affamato"
+     }
+    },
+    {
+     "ar": "صَغير",
+     "tr": "ṣaghīr",
+     "emoji": "🐣",
+     "m": {
+      "ar": "ليس كبيرًا",
+      "en": "small, little",
+      "fr": "petit",
+      "es": "pequeño",
+      "de": "klein",
+      "it": "piccolo"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "القِطَّةُ عَطْشانَةٌ",
+     "tr": "al-qiṭṭatu ʿaṭshāna",
+     "emoji": "🐈",
+     "m": {
+      "ar": "القطة تحتاج ماء",
+      "en": "The cat is thirsty",
+      "fr": "Le chat a soif",
+      "es": "El gato tiene sed",
+      "de": "Die Katze hat Durst",
+      "it": "Il gatto ha sete"
+     }
+    },
+    {
+     "ar": "أُعْطي العُصْفورَ ماءً",
+     "tr": "uʿṭī l-ʿuṣfūra māʾan",
+     "emoji": "🐦",
+     "m": {
+      "ar": "أسقي العصفور",
+      "en": "I give the bird water",
+      "fr": "Je donne de l'eau à l'oiseau",
+      "es": "Le doy agua al pájaro",
+      "de": "Ich gebe dem Vogel Wasser",
+      "it": "Do dell'acqua all'uccellino"
+     }
+    },
+    {
+     "ar": "أَرْحَمُ الصَّغيرَ",
+     "tr": "arḥamu ṣ-ṣaghīr",
+     "emoji": "🐣",
+     "m": {
+      "ar": "أعطف على الصغير",
+      "en": "I am gentle with the little one",
+      "fr": "Je suis tendre avec le petit",
+      "es": "Soy tierno con el pequeño",
+      "de": "Ich bin lieb zu dem Kleinen",
+      "it": "Sono tenero con il piccolo"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "الرّاحِمونَ يَرْحَمُهُمُ الرَّحْمٰنُ",
+    "src": {
+     "ar": "رواه أبو داود (4941) والترمذي (1924)",
+     "latin": "Sunan Abi Dawud 4941, Jami' at-Tirmidhi 1924"
+    },
+    "m": {
+     "ar": "من يرحم غيره يرحمه الله.",
+     "en": "The merciful are shown mercy by the Most Merciful.",
+     "fr": "Les miséricordieux, le Tout Miséricordieux leur fait miséricorde.",
+     "es": "A los misericordiosos, el Misericordioso les tiene misericordia.",
+     "de": "Den Barmherzigen erweist der Allerbarmer Barmherzigkeit.",
+     "it": "Ai misericordiosi il Misericordioso usa misericordia."
+    },
+    "lesson": {
+     "ar": "عندما نرحم الحيوان والإنسان، يرحمنا الله.",
+     "en": "When we are merciful to animals and people, Allah is merciful to us.",
+     "fr": "Quand nous sommes miséricordieux envers les animaux et les gens, Allah nous fait miséricorde.",
+     "es": "Cuando somos misericordiosos con animales y personas, Allah es misericordioso con nosotros.",
+     "de": "Wenn wir zu Tieren und Menschen barmherzig sind, ist Allah barmherzig zu uns.",
+     "it": "Quando siamo misericordiosi con animali e persone, Allah è misericordioso con noi."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "maryam",
+      "ar": "انْظُرْ يا يوسُفُ، قِطَّةٌ صَغيرَةٌ!",
+      "tr": "unẓur yā yūsuf, qiṭṭatun ṣaghīra!",
+      "m": {
+       "en": "Look, Yusuf, a little cat!",
+       "fr": "Regarde, Youssouf, un petit chat !",
+       "es": "¡Mira, Yusuf, un gatito!",
+       "de": "Schau, Yusuf, eine kleine Katze!",
+       "it": "Guarda, Yusuf, un gattino!"
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "أَظُنُّها جائِعَةً وَعَطْشانَةً.",
+      "tr": "aẓunnuhā jāʾiʿatan wa ʿaṭshāna.",
+      "m": {
+       "en": "I think she's hungry and thirsty.",
+       "fr": "Je crois qu'il a faim et soif.",
+       "es": "Creo que tiene hambre y sed.",
+       "de": "Ich glaube, sie hat Hunger und Durst.",
+       "it": "Penso che abbia fame e sete."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "هذا ماءٌ وَقَليلٌ مِنَ الطَّعامِ.",
+      "tr": "hādhā māʾun wa qalīlun mina ṭ-ṭaʿām.",
+      "m": {
+       "en": "Here's some water and a little food.",
+       "fr": "Voici de l'eau et un peu de nourriture.",
+       "es": "Aquí hay agua y un poco de comida.",
+       "de": "Hier ist Wasser und ein bisschen Futter.",
+       "it": "Ecco dell'acqua e un po' di cibo."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "الحَمْدُ لِلّٰهِ، القِطَّةُ سَعيدَةٌ الآنَ.",
+      "tr": "al-ḥamdu lillāh, al-qiṭṭatu saʿīdatun al-ān.",
+      "m": {
+       "en": "Praise be to Allah, the cat is happy now.",
+       "fr": "Louange à Allah, le chat est content maintenant.",
+       "es": "Alabado sea Allah, el gato está feliz ahora.",
+       "de": "Gott sei Dank, die Katze ist jetzt glücklich.",
+       "it": "Lode ad Allah, ora il gatto è felice."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا أعطى الطفلان القطة؟",
+     "en": "What did the children give the cat?",
+     "fr": "Qu'ont donné les enfants au chat ?",
+     "es": "¿Qué le dieron los niños al gato?",
+     "de": "Was gaben die Kinder der Katze?",
+     "it": "Che cosa hanno dato i bambini al gatto?"
+    },
+    "options": [
+     {
+      "ar": "ماء وقليلًا من الطعام",
+      "en": "Water and a little food",
+      "fr": "De l'eau et un peu de nourriture",
+      "es": "Agua y un poco de comida",
+      "de": "Wasser und ein bisschen Futter",
+      "it": "Acqua e un po' di cibo"
+     },
+     {
+      "ar": "لعبة",
+      "en": "A toy",
+      "fr": "Un jouet",
+      "es": "Un juguete",
+      "de": "Ein Spielzeug",
+      "it": "Un giocattolo"
+     },
+     {
+      "ar": "لا شيء",
+      "en": "Nothing",
+      "fr": "Rien",
+      "es": "Nada",
+      "de": "Nichts",
+      "it": "Niente"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "ضع اليوم صحنًا صغيرًا من الماء للطيور في الشرفة أو الحديقة.",
+    "en": "Today, put a small dish of water out for the birds on a balcony or in the garden.",
+    "fr": "Aujourd'hui, pose une petite coupelle d'eau pour les oiseaux sur le balcon ou dans le jardin.",
+    "es": "Hoy pon un platito de agua para los pájaros en el balcón o en el jardín.",
+    "de": "Stell heute ein kleines Schälchen Wasser für die Vögel auf den Balkon oder in den Garten.",
+    "it": "Oggi metti una ciotolina d'acqua per gli uccelli sul balcone o in giardino."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "zakat",
+   "icon": "🎁",
+   "title": {
+    "ar": "الزكاة والصدقة",
+    "en": "Zakat and charity",
+    "fr": "La zakat et l'aumône",
+    "es": "El zakat y la caridad",
+    "de": "Zakat und Spenden",
+    "it": "La zakat e la carità"
+   },
+   "value": {
+    "ar": "نُعين الفقير بالعطاء، وحتى الابتسامة صدقة.",
+    "en": "We help people in need by giving, and even a smile is charity.",
+    "fr": "On aide les personnes dans le besoin en donnant, et même un sourire est une aumône.",
+    "es": "Ayudamos a quien lo necesita dando, e incluso una sonrisa es caridad.",
+    "de": "Wir helfen Bedürftigen durch Geben, und sogar ein Lächeln ist eine Spende.",
+    "it": "Aiutiamo chi ha bisogno donando, e anche un sorriso è carità."
+   },
+   "words": [
+    {
+     "ar": "زَكاةٌ",
+     "tr": "zakāh",
+     "emoji": "🌾",
+     "m": {
+      "en": "Zakat (obligatory charity)",
+      "fr": "Zakat (aumône obligatoire)",
+      "es": "Zakat (caridad obligatoria)",
+      "de": "Zakat (Pflichtabgabe)",
+      "it": "Zakat (elemosina obbligatoria)",
+      "ar": "جزء من المال يُعطى للمحتاجين وجوبًا"
+     }
+    },
+    {
+     "ar": "صَدَقَةٌ",
+     "tr": "ṣadaqah",
+     "emoji": "🎁",
+     "m": {
+      "en": "Charity",
+      "fr": "Aumône",
+      "es": "Caridad",
+      "de": "Spende",
+      "it": "Carità",
+      "ar": "ما نعطيه تطوّعًا لوجه الله"
+     }
+    },
+    {
+     "ar": "مالٌ",
+     "tr": "māl",
+     "emoji": "🪙",
+     "m": {
+      "en": "Money",
+      "fr": "Argent",
+      "es": "Dinero",
+      "de": "Geld",
+      "it": "Denaro",
+      "ar": "ما نشتري به حاجاتنا"
+     }
+    },
+    {
+     "ar": "فَقيرٌ",
+     "tr": "faqīr",
+     "emoji": "🥣",
+     "m": {
+      "en": "Poor person",
+      "fr": "Personne pauvre",
+      "es": "Persona pobre",
+      "de": "Armer Mensch",
+      "it": "Persona povera",
+      "ar": "من لا يملك ما يكفيه"
+     }
+    },
+    {
+     "ar": "أُعْطي",
+     "tr": "uʿṭī",
+     "emoji": "🫴",
+     "m": {
+      "en": "I give",
+      "fr": "Je donne",
+      "es": "Doy",
+      "de": "Ich gebe",
+      "it": "Do",
+      "ar": "أقدّم شيئًا لغيري"
+     }
+    },
+    {
+     "ar": "ابْتِسامَةٌ",
+     "tr": "ibtisāmah",
+     "emoji": "😊",
+     "m": {
+      "en": "Smile",
+      "fr": "Sourire",
+      "es": "Sonrisa",
+      "de": "Lächeln",
+      "it": "Sorriso",
+      "ar": "تظهر على الوجه حين نفرح"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "الزَّكاةُ حَقُّ الفَقيرِ",
+     "tr": "az-zakātu ḥaqqu l-faqīr",
+     "emoji": "🌾",
+     "m": {
+      "en": "Zakat is the right of the poor",
+      "fr": "La zakat est le droit du pauvre",
+      "es": "El zakat es el derecho del pobre",
+      "de": "Die Zakat ist das Recht der Armen",
+      "it": "La zakat è il diritto del povero",
+      "ar": "للفقير نصيب من الزكاة"
+     }
+    },
+    {
+     "ar": "أُعْطي الفَقيرَ صَدَقَةً",
+     "tr": "uʿṭī l-faqīra ṣadaqah",
+     "emoji": "🎁",
+     "m": {
+      "en": "I give charity to the poor person",
+      "fr": "Je donne une aumône au pauvre",
+      "es": "Doy caridad al pobre",
+      "de": "Ich gebe dem Armen eine Spende",
+      "it": "Do la carità al povero",
+      "ar": "أتصدّق على المحتاج"
+     }
+    },
+    {
+     "ar": "الابْتِسامَةُ صَدَقَةٌ",
+     "tr": "al-ibtisāmatu ṣadaqah",
+     "emoji": "😊",
+     "m": {
+      "en": "A smile is charity",
+      "fr": "Un sourire est une aumône",
+      "es": "Una sonrisa es caridad",
+      "de": "Ein Lächeln ist eine Spende",
+      "it": "Un sorriso è carità",
+      "ar": "حتى الابتسامة نؤجر عليها"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "تَبَسُّمُكَ في وَجْهِ أَخيكَ لَكَ صَدَقَةٌ",
+    "src": {
+     "ar": "رواه الترمذي (1956)، وصحّحه الألباني",
+     "latin": "Jami' at-Tirmidhi 1956 (graded authentic by al-Albani)"
+    },
+    "m": {
+     "en": "Your smile in the face of your brother is charity for you.",
+     "fr": "Ton sourire au visage de ton frère est une aumône pour toi.",
+     "es": "Tu sonrisa en el rostro de tu hermano es una caridad para ti.",
+     "de": "Dein Lächeln im Gesicht deines Bruders ist eine Spende für dich.",
+     "it": "Il tuo sorriso rivolto a tuo fratello è per te una carità.",
+     "ar": "ابتسامتك لأخيك تُكتب لك صدقة."
+    },
+    "lesson": {
+     "ar": "يمكننا فعل الخير دون مال، بابتسامة صادقة.",
+     "en": "We can do good without money, with a sincere smile.",
+     "fr": "Nous pouvons faire le bien sans argent, avec un sourire sincère.",
+     "es": "Podemos hacer el bien sin dinero, con una sonrisa sincera.",
+     "de": "Wir können auch ohne Geld Gutes tun, mit einem ehrlichen Lächeln.",
+     "it": "Possiamo fare del bene senza denaro, con un sorriso sincero."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "maryam",
+      "ar": "هذا مالٌ مِنْ حَصّالَتي.",
+      "tr": "hādhā mālun min ḥaṣṣālatī.",
+      "m": {
+       "en": "This is money from my piggy bank.",
+       "fr": "C'est de l'argent de ma tirelire.",
+       "es": "Este es dinero de mi hucha.",
+       "de": "Das ist Geld aus meiner Spardose.",
+       "it": "Questi sono soldi del mio salvadanaio."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "أُعْطيهِ لِلْفَقيرِ صَدَقَةً.",
+      "tr": "uʿṭīhi li-l-faqīri ṣadaqa.",
+      "m": {
+       "en": "I'm giving it to a poor person as charity.",
+       "fr": "Je le donne au pauvre en aumône.",
+       "es": "Se lo doy al pobre como caridad.",
+       "de": "Ich gebe es einem Armen als Almosen.",
+       "it": "Lo do al povero come elemosina."
+      }
+     },
+     {
+      "who": "mama",
+      "ar": "ما شاءَ اللهُ! اللهُ يُحِبُّ الكَرَمَ.",
+      "tr": "mā shāʾa llāh! allāhu yuḥibbu l-karam.",
+      "m": {
+       "en": "Mā shāʾ Allāh! Allah loves generosity.",
+       "fr": "Mā shāʾ Allāh ! Allah aime la générosité.",
+       "es": "¡Mā shāʾ Allāh! Allah ama la generosidad.",
+       "de": "Mā schāʾ Allāh! Allah liebt Großzügigkeit.",
+       "it": "Mā shāʾ Allāh! Allah ama la generosità."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "وَأُعْطيهِ ابْتِسامَةً أَيْضًا!",
+      "tr": "wa uʿṭīhi btisāmatan ayḍan!",
+      "m": {
+       "en": "And I'll give him a smile too!",
+       "fr": "Et je lui donne aussi un sourire !",
+       "es": "¡Y también le doy una sonrisa!",
+       "de": "Und ich schenke ihm auch ein Lächeln!",
+       "it": "E gli do anche un sorriso!"
+      }
+     }
+    ],
+    "q": {
+     "ar": "من أين جاء مال مريم؟",
+     "en": "Where did Maryam's money come from?",
+     "fr": "D'où vient l'argent de Maryam ?",
+     "es": "¿De dónde salió el dinero de Maryam?",
+     "de": "Woher kam Maryams Geld?",
+     "it": "Da dove venivano i soldi di Maryam?"
+    },
+    "options": [
+     {
+      "ar": "من حصّالتها",
+      "en": "From her piggy bank",
+      "fr": "De sa tirelire",
+      "es": "De su hucha",
+      "de": "Aus ihrer Spardose",
+      "it": "Dal suo salvadanaio"
+     },
+     {
+      "ar": "من الطريق",
+      "en": "From the street",
+      "fr": "De la rue",
+      "es": "De la calle",
+      "de": "Von der Straße",
+      "it": "Dalla strada"
+     },
+     {
+      "ar": "من صديقتها",
+      "en": "From her friend",
+      "fr": "De son amie",
+      "es": "De su amiga",
+      "de": "Von ihrer Freundin",
+      "it": "Dalla sua amica"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "اختر مع أحد والديك شيئًا تتصدّق به اليوم: قطعة نقدية، لعبة لم تعد تستعملها، أو طعامًا.",
+    "en": "With a parent, choose something to give in charity today: a coin, a toy you no longer use, or some food.",
+    "fr": "Choisis avec un parent quelque chose à donner en aumône aujourd'hui : une pièce, un jouet que tu n'utilises plus ou de la nourriture.",
+    "es": "Elige con tu padre o madre algo para dar en caridad hoy: una moneda, un juguete que ya no usas o comida.",
+    "de": "Such mit deinen Eltern heute etwas als Spende aus: eine Münze, ein Spielzeug, das du nicht mehr brauchst, oder Essen.",
+    "it": "Scegli con un genitore qualcosa da donare oggi: una moneta, un gioco che non usi più o del cibo."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "forgive",
+   "icon": "🕊️",
+   "title": {
+    "ar": "التسامح والعفو",
+    "en": "Tolerance and forgiveness",
+    "fr": "Tolérance et pardon",
+    "es": "Tolerancia y perdón",
+    "de": "Nachsicht und Vergebung",
+    "it": "Tolleranza e perdono"
+   },
+   "value": {
+    "ar": "نسامح من أخطأ في حقّنا ونتعامل مع الناس بقلب طيّب.",
+    "en": "We forgive those who wrong us and treat people with a kind heart.",
+    "fr": "On pardonne à ceux qui nous font du tort et on traite les gens avec un bon cœur.",
+    "es": "Perdonamos a quien nos hace daño y tratamos a la gente con buen corazón.",
+    "de": "Wir vergeben denen, die uns Unrecht tun, und begegnen Menschen mit gutem Herzen.",
+    "it": "Perdoniamo chi ci fa un torto e trattiamo le persone con cuore buono."
+   },
+   "words": [
+    {
+     "ar": "عَفْو",
+     "tr": "ʿafw",
+     "emoji": "🕊️",
+     "m": {
+      "ar": "ترك العقاب والمسامحة",
+      "en": "forgiveness",
+      "fr": "pardon",
+      "es": "perdón",
+      "de": "Vergebung",
+      "it": "perdono"
+     }
+    },
+    {
+     "ar": "سامَحْتُكَ",
+     "tr": "sāmaḥtuka",
+     "emoji": "🤝",
+     "m": {
+      "ar": "أقولها لمن اعتذر",
+      "en": "I forgive you",
+      "fr": "je te pardonne",
+      "es": "te perdono",
+      "de": "ich verzeihe dir",
+      "it": "ti perdono"
+     }
+    },
+    {
+     "ar": "غَضْبان",
+     "tr": "ghaḍbān",
+     "emoji": "😠",
+     "m": {
+      "ar": "من يشعر بالغضب",
+      "en": "angry",
+      "fr": "en colère",
+      "es": "enfadado",
+      "de": "wütend",
+      "it": "arrabbiato"
+     }
+    },
+    {
+     "ar": "قَلْب",
+     "tr": "qalb",
+     "emoji": "❤️",
+     "m": {
+      "ar": "مكان المشاعر",
+      "en": "heart",
+      "fr": "cœur",
+      "es": "corazón",
+      "de": "Herz",
+      "it": "cuore"
+     }
+    },
+    {
+     "ar": "أَخ",
+     "tr": "akh",
+     "emoji": "👦",
+     "m": {
+      "ar": "ابن أبي وأمّي",
+      "en": "brother",
+      "fr": "frère",
+      "es": "hermano",
+      "de": "Bruder",
+      "it": "fratello"
+     }
+    },
+    {
+     "ar": "سَمْح",
+     "tr": "samḥ",
+     "emoji": "😌",
+     "m": {
+      "ar": "سهل الطبع لطيف",
+      "en": "easy-going, generous",
+      "fr": "indulgent, généreux",
+      "es": "tolerante, generoso",
+      "de": "nachsichtig, großzügig",
+      "it": "indulgente, generoso"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "سامَحْتُكَ يا أَخي",
+     "tr": "sāmaḥtuka yā akhī",
+     "emoji": "🤝",
+     "m": {
+      "ar": "أسامح أخي",
+      "en": "I forgive you, my brother",
+      "fr": "Je te pardonne, mon frère",
+      "es": "Te perdono, hermano",
+      "de": "Ich verzeihe dir, mein Bruder",
+      "it": "Ti perdono, fratello"
+     }
+    },
+    {
+     "ar": "لا تَغْضَبْ",
+     "tr": "lā taghḍab",
+     "emoji": "😌",
+     "m": {
+      "ar": "لا تغضب",
+      "en": "Don't get angry",
+      "fr": "Ne te mets pas en colère",
+      "es": "No te enfades",
+      "de": "Werde nicht wütend",
+      "it": "Non arrabbiarti"
+     }
+    },
+    {
+     "ar": "قَلْبي سَعيدٌ",
+     "tr": "qalbī saʿīdun",
+     "emoji": "😊",
+     "m": {
+      "ar": "أنا مرتاح",
+      "en": "My heart is happy",
+      "fr": "Mon cœur est heureux",
+      "es": "Mi corazón está feliz",
+      "de": "Mein Herz ist froh",
+      "it": "Il mio cuore è felice"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "رَحِمَ اللهُ رَجُلًا سَمْحًا إِذا باعَ، وَإِذا اشْتَرى، وَإِذا اقْتَضى",
+    "src": {
+     "ar": "رواه البخاري (2076)",
+     "latin": "Sahih al-Bukhari 2076"
+    },
+    "m": {
+     "ar": "يرحم الله من كان لطيفًا سهلًا في تعامله مع الناس.",
+     "en": "May Allah have mercy on a person who is easy-going when he sells, when he buys and when he asks for what he is owed.",
+     "fr": "Qu'Allah fasse miséricorde à l'homme indulgent quand il vend, quand il achète et quand il réclame son dû.",
+     "es": "Que Allah tenga misericordia del hombre generoso cuando vende, cuando compra y cuando reclama lo que se le debe.",
+     "de": "Allah erbarme sich eines Menschen, der nachsichtig ist, wenn er verkauft, kauft und seine Schuld einfordert.",
+     "it": "Allah abbia misericordia dell'uomo indulgente quando vende, quando compra e quando chiede ciò che gli spetta."
+    },
+    "lesson": {
+     "ar": "نكون لطفاء وسهلين مع الناس، فيحبّنا الله.",
+     "en": "We are gentle and easy with people, and Allah loves us for it.",
+     "fr": "Nous sommes doux et faciles avec les gens, et Allah nous aime pour cela.",
+     "es": "Somos amables y fáciles con la gente, y Allah nos ama por ello.",
+     "de": "Wir sind sanft und unkompliziert mit Menschen, und Allah liebt uns dafür.",
+     "it": "Siamo gentili e accomodanti con gli altri, e Allah ci ama per questo."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "friend",
+      "ar": "يا يوسُفُ، آسِفٌ، كَسَرْتُ قَلَمَكَ.",
+      "tr": "yā yūsuf, āsifun, kasartu qalamak.",
+      "m": {
+       "en": "Yusuf, I'm sorry, I broke your pen.",
+       "fr": "Youssouf, désolé, j'ai cassé ton stylo.",
+       "es": "Yusuf, lo siento, rompí tu bolígrafo.",
+       "de": "Yusuf, es tut mir leid, ich habe deinen Stift kaputt gemacht.",
+       "it": "Yusuf, scusa, ho rotto la tua penna."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "لا بَأْسَ يا سامي، سامَحْتُكَ.",
+      "tr": "lā baʾsa yā sāmī, sāmaḥtuk.",
+      "m": {
+       "en": "It's OK, Sami, I forgive you.",
+       "fr": "Ce n'est pas grave, Sami, je te pardonne.",
+       "es": "No pasa nada, Sami, te perdono.",
+       "de": "Schon gut, Sami, ich verzeihe dir.",
+       "it": "Non fa niente, Sami, ti perdono."
+      }
+     },
+     {
+      "who": "friend",
+      "ar": "شُكْرًا! أَنْتَ صَديقٌ طَيِّبٌ.",
+      "tr": "shukran! anta ṣadīqun ṭayyib.",
+      "m": {
+       "en": "Thanks! You're a good friend.",
+       "fr": "Merci ! Tu es un bon ami.",
+       "es": "¡Gracias! Eres un buen amigo.",
+       "de": "Danke! Du bist ein guter Freund.",
+       "it": "Grazie! Sei un buon amico."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "خُذْ، عِنْدي قَلَمٌ آخَرُ لَكَ.",
+      "tr": "khudh, ʿindī qalamun ākharu lak.",
+      "m": {
+       "en": "Here, I have another pen for you.",
+       "fr": "Tiens, j'ai un autre stylo pour toi.",
+       "es": "Toma, tengo otro bolígrafo para ti.",
+       "de": "Hier, ich habe noch einen Stift für dich.",
+       "it": "Tieni, ho un'altra penna per te."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا فعل يوسف عندما اعتذر سامي؟",
+     "en": "What did Yusuf do when Sami said sorry?",
+     "fr": "Qu'a fait Youssouf quand Sami s'est excusé ?",
+     "es": "¿Qué hizo Yusuf cuando Sami se disculpó?",
+     "de": "Was tat Yusuf, als Sami sich entschuldigte?",
+     "it": "Che cosa ha fatto Yusuf quando Sami si è scusato?"
+    },
+    "options": [
+     {
+      "ar": "سامحه وأعطاه قلمًا آخر",
+      "en": "He forgave him and gave him another pen",
+      "fr": "Il lui a pardonné et lui a donné un autre stylo",
+      "es": "Lo perdonó y le dio otro bolígrafo",
+      "de": "Er verzieh ihm und gab ihm einen anderen Stift",
+      "it": "Lo ha perdonato e gli ha dato un'altra penna"
+     },
+     {
+      "ar": "غضب وذهب",
+      "en": "He got angry and left",
+      "fr": "Il s'est fâché et il est parti",
+      "es": "Se enfadó y se fue",
+      "de": "Er wurde wütend und ging",
+      "it": "Si è arrabbiato ed è andato via"
+     },
+     {
+      "ar": "بكى كثيرًا",
+      "en": "He cried a lot",
+      "fr": "Il a beaucoup pleuré",
+      "es": "Lloró mucho",
+      "de": "Er weinte viel",
+      "it": "Ha pianto molto"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "إذا أزعجك أحد اليوم ثم اعتذر، قل له بابتسامة: «سامَحْتُكَ».",
+    "en": "If someone upsets you today and says sorry, smile and tell them “sāmaḥtuk” (I forgive you).",
+    "fr": "Si quelqu'un t'embête aujourd'hui puis s'excuse, dis-lui avec le sourire « sāmaḥtuk » (je te pardonne).",
+    "es": "Si alguien te molesta hoy y se disculpa, dile con una sonrisa «sāmaḥtuk» (te perdono).",
+    "de": "Wenn dich heute jemand ärgert und sich entschuldigt, sag lächelnd „sāmaḥtuk“ (ich verzeihe dir).",
+    "it": "Se oggi qualcuno ti infastidisce e poi si scusa, digli sorridendo «sāmaḥtuk» (ti perdono)."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "goodthought",
+   "icon": "💭",
+   "title": {
+    "ar": "حسن الظنّ بالناس",
+    "en": "Thinking well of others",
+    "fr": "Penser du bien des autres",
+    "es": "Pensar bien de los demás",
+    "de": "Gut von anderen denken",
+    "it": "Pensare bene degli altri"
+   },
+   "value": {
+    "ar": "نفكّر في الناس بالخير ولا نتّهمهم بلا دليل.",
+    "en": "We think good of people and don't accuse them without proof.",
+    "fr": "On pense du bien des gens et on ne les accuse pas sans preuve.",
+    "es": "Pensamos bien de la gente y no la acusamos sin pruebas.",
+    "de": "Wir denken Gutes über Menschen und beschuldigen niemanden ohne Beweis.",
+    "it": "Pensiamo bene delle persone e non le accusiamo senza prove."
+   },
+   "words": [
+    {
+     "ar": "خَيْر",
+     "tr": "khayr",
+     "emoji": "🌟",
+     "m": {
+      "ar": "كل شيء حسن",
+      "en": "good",
+      "fr": "bien",
+      "es": "bien",
+      "de": "das Gute",
+      "it": "bene"
+     }
+    },
+    {
+     "ar": "رُبَّما",
+     "tr": "rubbamā",
+     "emoji": "🤔",
+     "m": {
+      "ar": "من الممكن",
+      "en": "maybe",
+      "fr": "peut-être",
+      "es": "quizás",
+      "de": "vielleicht",
+      "it": "forse"
+     }
+    },
+    {
+     "ar": "نَسِيَ",
+     "tr": "nasiya",
+     "emoji": "💭",
+     "m": {
+      "ar": "لم يتذكّر",
+      "en": "he forgot",
+      "fr": "il a oublié",
+      "es": "olvidó",
+      "de": "er hat vergessen",
+      "it": "ha dimenticato"
+     }
+    },
+    {
+     "ar": "مَشْغول",
+     "tr": "mashghūl",
+     "emoji": "⏳",
+     "m": {
+      "ar": "عنده عمل كثير",
+      "en": "busy",
+      "fr": "occupé",
+      "es": "ocupado",
+      "de": "beschäftigt",
+      "it": "occupato"
+     }
+    },
+    {
+     "ar": "أَظُنُّ",
+     "tr": "aẓunnu",
+     "emoji": "🧠",
+     "m": {
+      "ar": "أفكّر أنّ",
+      "en": "I think",
+      "fr": "je pense",
+      "es": "creo",
+      "de": "ich glaube",
+      "it": "penso"
+     }
+    },
+    {
+     "ar": "لَطيف",
+     "tr": "laṭīf",
+     "emoji": "🌸",
+     "m": {
+      "ar": "رقيق ومهذّب",
+      "en": "kind, nice",
+      "fr": "gentil",
+      "es": "amable",
+      "de": "nett",
+      "it": "gentile"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "رُبَّما نَسِيَ",
+     "tr": "rubbamā nasiya",
+     "emoji": "💭",
+     "m": {
+      "ar": "لعلّه نسي",
+      "en": "Maybe he forgot",
+      "fr": "Il a peut-être oublié",
+      "es": "Quizás lo olvidó",
+      "de": "Vielleicht hat er es vergessen",
+      "it": "Forse ha dimenticato"
+     }
+    },
+    {
+     "ar": "أَظُنُّ بِكَ خَيْرًا",
+     "tr": "aẓunnu bika khayran",
+     "emoji": "🌟",
+     "m": {
+      "ar": "أفكّر فيك بالخير",
+      "en": "I think well of you",
+      "fr": "Je pense du bien de toi",
+      "es": "Pienso bien de ti",
+      "de": "Ich denke gut von dir",
+      "it": "Penso bene di te"
+     }
+    },
+    {
+     "ar": "هُوَ مَشْغولٌ الآنَ",
+     "tr": "huwa mashghūlun al-ān",
+     "emoji": "⏳",
+     "m": {
+      "ar": "عنده عمل الآن",
+      "en": "He is busy now",
+      "fr": "Il est occupé maintenant",
+      "es": "Ahora está ocupado",
+      "de": "Er ist gerade beschäftigt",
+      "it": "Adesso è occupato"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "إِيّاكُمْ وَالظَّنَّ، فَإِنَّ الظَّنَّ أَكْذَبُ الحَدِيثِ",
+    "src": {
+     "ar": "رواه البخاري (6066) ومسلم (2563)",
+     "latin": "Sahih al-Bukhari 6066, Sahih Muslim 2563"
+    },
+    "m": {
+     "ar": "احذروا سوء الظن فهو كثيرًا ما يكون كذبًا.",
+     "en": "Beware of suspicion, for suspicion is the most untruthful of speech.",
+     "fr": "Méfiez-vous de la suspicion, car la suspicion est le plus mensonger des propos.",
+     "es": "Cuidado con la sospecha, pues la sospecha es la más falsa de las palabras.",
+     "de": "Hütet euch vor Argwohn, denn Argwohn ist die lügenhafteste Rede.",
+     "it": "Guardatevi dal sospetto, perché il sospetto è il più falso dei discorsi."
+    },
+    "lesson": {
+     "ar": "قبل أن نحكم على أحد نقول: ربّما له عذر.",
+     "en": "Before judging someone, we say: maybe they have an excuse.",
+     "fr": "Avant de juger quelqu'un, on se dit : il a peut-être une excuse.",
+     "es": "Antes de juzgar a alguien decimos: quizás tenga una excusa.",
+     "de": "Bevor wir jemanden verurteilen, sagen wir: Vielleicht hat er einen Grund.",
+     "it": "Prima di giudicare qualcuno diciamo: forse ha una scusa."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "maryam",
+      "ar": "سامي لَمْ يُسَلِّمْ عَلَيَّ اليَوْمَ!",
+      "tr": "sāmī lam yusallim ʿalayya l-yawm!",
+      "m": {
+       "en": "Sami didn't say hello to me today!",
+       "fr": "Sami ne m'a pas dit bonjour aujourd'hui !",
+       "es": "¡Sami no me saludó hoy!",
+       "de": "Sami hat mich heute nicht gegrüßt!",
+       "it": "Sami oggi non mi ha salutato!"
+      }
+     },
+     {
+      "who": "baba",
+      "ar": "رُبَّما لَمْ يَرَكِ يا مَرْيَمُ.",
+      "tr": "rubbamā lam yaraki yā maryam.",
+      "m": {
+       "en": "Maybe he didn't see you, Maryam.",
+       "fr": "Il ne t'a peut-être pas vue, Maryam.",
+       "es": "Quizás no te vio, Maryam.",
+       "de": "Vielleicht hat er dich nicht gesehen, Maryam.",
+       "it": "Forse non ti ha vista, Maryam."
+      }
+     },
+     {
+      "who": "baba",
+      "ar": "أَوْ رُبَّما كانَ مَشْغولًا.",
+      "tr": "aw rubbamā kāna mashghūlan.",
+      "m": {
+       "en": "Or maybe he was busy.",
+       "fr": "Ou peut-être qu'il était occupé.",
+       "es": "O quizás estaba ocupado.",
+       "de": "Oder vielleicht war er beschäftigt.",
+       "it": "O forse era occupato."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "صَحيحٌ، سَأُسَلِّمُ عَلَيْهِ أَنا غَدًا.",
+      "tr": "ṣaḥīḥun, sa-usallimu ʿalayhi anā ghadan.",
+      "m": {
+       "en": "That's true, I'll greet him first tomorrow.",
+       "fr": "C'est vrai, demain c'est moi qui le saluerai.",
+       "es": "Es verdad, mañana lo saludaré yo.",
+       "de": "Stimmt, morgen grüße ich ihn zuerst.",
+       "it": "È vero, domani lo saluterò io."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا قرّرت مريم في النهاية؟",
+     "en": "What did Maryam decide in the end?",
+     "fr": "Qu'a décidé Maryam à la fin ?",
+     "es": "¿Qué decidió Maryam al final?",
+     "de": "Was hat Maryam am Ende beschlossen?",
+     "it": "Che cosa ha deciso Maryam alla fine?"
+    },
+    "options": [
+     {
+      "ar": "أن تسلّم عليه هي غدًا",
+      "en": "To greet him herself tomorrow",
+      "fr": "Le saluer elle-même demain",
+      "es": "Saludarlo ella mañana",
+      "de": "Ihn morgen selbst zu grüßen",
+      "it": "Salutarlo lei domani"
+     },
+     {
+      "ar": "ألّا تكلّمه أبدًا",
+      "en": "Never to speak to him again",
+      "fr": "Ne plus jamais lui parler",
+      "es": "No hablarle nunca más",
+      "de": "Nie wieder mit ihm zu reden",
+      "it": "Non parlargli mai più"
+     },
+     {
+      "ar": "أن تشتكيه للمعلّم",
+      "en": "To complain to the teacher",
+      "fr": "Se plaindre au maître",
+      "es": "Quejarse al maestro",
+      "de": "Sich beim Lehrer zu beschweren",
+      "it": "Lamentarsi con il maestro"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "عندما يضايقك تصرّف أحد اليوم، ابحث له عن عذر وقل: «رُبَّما…».",
+    "en": "When someone's behaviour bothers you today, find an excuse for them and say “rubbamā…” (maybe…).",
+    "fr": "Quand le comportement de quelqu'un te dérange aujourd'hui, trouve-lui une excuse et dis « rubbamā… » (peut-être…).",
+    "es": "Cuando hoy te moleste lo que hace alguien, búscale una excusa y di «rubbamā…» (quizás…).",
+    "de": "Wenn dich heute jemandes Verhalten stört, such eine Entschuldigung für ihn und sag „rubbamā…“ (vielleicht…).",
+    "it": "Quando oggi il comportamento di qualcuno ti dà fastidio, trovagli una scusa e di' «rubbamā…» (forse…)."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "gentle",
+   "icon": "🌿",
+   "title": {
+    "ar": "الرفق وترك الغضب",
+    "en": "Gentleness and controlling anger",
+    "fr": "La douceur et maîtriser sa colère",
+    "es": "La amabilidad y controlar el enfado",
+    "de": "Sanftmut und Wut beherrschen",
+    "it": "La dolcezza e controllare la rabbia"
+   },
+   "value": {
+    "ar": "نتكلّم بهدوء، ونتعامل برفق، ونهدأ عند الغضب.",
+    "en": "We speak calmly, act gently and calm down when we're angry.",
+    "fr": "On parle calmement, on agit avec douceur et on se calme quand on est en colère.",
+    "es": "Hablamos con calma, actuamos con suavidad y nos calmamos al enfadarnos.",
+    "de": "Wir sprechen ruhig, handeln sanft und beruhigen uns, wenn wir wütend sind.",
+    "it": "Parliamo con calma, agiamo con dolcezza e ci calmiamo quando siamo arrabbiati."
+   },
+   "words": [
+    {
+     "ar": "رِفْق",
+     "tr": "rifq",
+     "emoji": "🌿",
+     "m": {
+      "ar": "اللين واللطف",
+      "en": "gentleness",
+      "fr": "douceur",
+      "es": "suavidad",
+      "de": "Sanftmut",
+      "it": "dolcezza"
+     }
+    },
+    {
+     "ar": "هادِئ",
+     "tr": "hādiʾ",
+     "emoji": "😌",
+     "m": {
+      "ar": "ليس غاضبًا",
+      "en": "calm",
+      "fr": "calme",
+      "es": "tranquilo",
+      "de": "ruhig",
+      "it": "calmo"
+     }
+    },
+    {
+     "ar": "غَضَب",
+     "tr": "ghaḍab",
+     "emoji": "😡",
+     "m": {
+      "ar": "شعور قويّ عند الانزعاج",
+      "en": "anger",
+      "fr": "colère",
+      "es": "enfado",
+      "de": "Wut",
+      "it": "rabbia"
+     }
+    },
+    {
+     "ar": "صَوْت",
+     "tr": "ṣawt",
+     "emoji": "🔊",
+     "m": {
+      "ar": "ما نسمعه",
+      "en": "voice, sound",
+      "fr": "voix",
+      "es": "voz",
+      "de": "Stimme",
+      "it": "voce"
+     }
+    },
+    {
+     "ar": "بِهُدوء",
+     "tr": "bi-hudūʾ",
+     "emoji": "🤫",
+     "m": {
+      "ar": "بلا صراخ",
+      "en": "calmly",
+      "fr": "calmement",
+      "es": "con calma",
+      "de": "ruhig",
+      "it": "con calma"
+     }
+    },
+    {
+     "ar": "أَتَوَضَّأُ",
+     "tr": "atawaḍḍaʾu",
+     "emoji": "💧",
+     "m": {
+      "ar": "أغسل أعضاء الوضوء",
+      "en": "I do wudu (ablution)",
+      "fr": "je fais mes ablutions",
+      "es": "hago la ablución",
+      "de": "ich mache die Gebetswaschung",
+      "it": "faccio l'abluzione"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "أَتَكَلَّمُ بِهُدوءٍ",
+     "tr": "atakallamu bi-hudūʾ",
+     "emoji": "🤫",
+     "m": {
+      "ar": "أتكلّم بلا صراخ",
+      "en": "I speak calmly",
+      "fr": "Je parle calmement",
+      "es": "Hablo con calma",
+      "de": "Ich spreche ruhig",
+      "it": "Parlo con calma"
+     }
+    },
+    {
+     "ar": "أَنا هادِئٌ الآنَ",
+     "tr": "anā hādiʾun al-ān",
+     "emoji": "😌",
+     "m": {
+      "ar": "هدأت",
+      "en": "I'm calm now",
+      "fr": "Je suis calme maintenant",
+      "es": "Ahora estoy tranquilo",
+      "de": "Jetzt bin ich ruhig",
+      "it": "Ora sono calmo"
+     }
+    },
+    {
+     "ar": "الرِّفْقُ جَميلٌ",
+     "tr": "ar-rifqu jamīlun",
+     "emoji": "🌿",
+     "m": {
+      "ar": "اللطف جميل",
+      "en": "Gentleness is beautiful",
+      "fr": "La douceur est belle",
+      "es": "La suavidad es bonita",
+      "de": "Sanftmut ist schön",
+      "it": "La dolcezza è bella"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "إِنَّ اللهَ رَفِيقٌ يُحِبُّ الرِّفْقَ فِي الأَمْرِ كُلِّهِ",
+    "src": {
+     "ar": "رواه البخاري (6927) ومسلم (2165)",
+     "latin": "Sahih al-Bukhari 6927, Sahih Muslim 2165"
+    },
+    "m": {
+     "ar": "الله يحب اللين واللطف في كل الأمور.",
+     "en": "Allah is gentle and loves gentleness in all matters.",
+     "fr": "Allah est doux et aime la douceur en toute chose.",
+     "es": "Allah es amable y ama la amabilidad en todos los asuntos.",
+     "de": "Allah ist sanft und liebt Sanftmut in allen Dingen.",
+     "it": "Allah è dolce e ama la dolcezza in ogni cosa."
+    },
+    "lesson": {
+     "ar": "نختار الكلام الهادئ والتصرّف اللطيف حتى عندما نغضب.",
+     "en": "We choose calm words and gentle actions, even when we're angry.",
+     "fr": "Nous choisissons des mots calmes et des gestes doux, même en colère.",
+     "es": "Elegimos palabras tranquilas y gestos suaves, incluso enfadados.",
+     "de": "Wir wählen ruhige Worte und sanfte Taten, auch wenn wir wütend sind.",
+     "it": "Scegliamo parole calme e gesti gentili, anche quando siamo arrabbiati."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "yusuf",
+      "ar": "أَخَذَ أَخي لُعْبَتي! أَنا غَضْبانُ!",
+      "tr": "akhadha akhī luʿbatī! anā ghaḍbān!",
+      "m": {
+       "en": "My brother took my toy! I'm angry!",
+       "fr": "Mon frère a pris mon jouet ! Je suis en colère !",
+       "es": "¡Mi hermano cogió mi juguete! ¡Estoy enfadado!",
+       "de": "Mein Bruder hat mein Spielzeug genommen! Ich bin wütend!",
+       "it": "Mio fratello ha preso il mio giocattolo! Sono arrabbiato!"
+      }
+     },
+     {
+      "who": "baba",
+      "ar": "اِجْلِسْ يا يوسُفُ، وَتَنَفَّسْ بِهُدوءٍ.",
+      "tr": "ijlis yā yūsuf, wa tanaffas bi-hudūʾ.",
+      "m": {
+       "en": "Sit down, Yusuf, and breathe calmly.",
+       "fr": "Assieds-toi, Youssouf, et respire calmement.",
+       "es": "Siéntate, Yusuf, y respira con calma.",
+       "de": "Setz dich, Yusuf, und atme ruhig.",
+       "it": "Siediti, Yusuf, e respira con calma."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "أَنا هادِئٌ الآنَ.",
+      "tr": "anā hādiʾun al-ān.",
+      "m": {
+       "en": "I'm calm now.",
+       "fr": "Je suis calme maintenant.",
+       "es": "Ahora estoy tranquilo.",
+       "de": "Jetzt bin ich ruhig.",
+       "it": "Ora sono calmo."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "يا أَخي، مِنْ فَضْلِكَ، نَلْعَبُ مَعًا.",
+      "tr": "yā akhī, min faḍlik, nalʿabu maʿan.",
+      "m": {
+       "en": "Brother, please, let's play together.",
+       "fr": "Mon frère, s'il te plaît, jouons ensemble.",
+       "es": "Hermano, por favor, juguemos juntos.",
+       "de": "Bruder, bitte, lass uns zusammen spielen.",
+       "it": "Fratello, per favore, giochiamo insieme."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا فعل يوسف ليهدأ؟",
+     "en": "What did Yusuf do to calm down?",
+     "fr": "Qu'a fait Youssouf pour se calmer ?",
+     "es": "¿Qué hizo Yusuf para calmarse?",
+     "de": "Was tat Yusuf, um sich zu beruhigen?",
+     "it": "Che cosa ha fatto Yusuf per calmarsi?"
+    },
+    "options": [
+     {
+      "ar": "جلس وتنفّس بهدوء",
+      "en": "He sat down and breathed calmly",
+      "fr": "Il s'est assis et a respiré calmement",
+      "es": "Se sentó y respiró con calma",
+      "de": "Er setzte sich und atmete ruhig",
+      "it": "Si è seduto e ha respirato con calma"
+     },
+     {
+      "ar": "صرخ بصوت عالٍ",
+      "en": "He shouted loudly",
+      "fr": "Il a crié très fort",
+      "es": "Gritó muy fuerte",
+      "de": "Er schrie laut",
+      "it": "Ha urlato forte"
+     },
+     {
+      "ar": "كسر اللعبة",
+      "en": "He broke the toy",
+      "fr": "Il a cassé le jouet",
+      "es": "Rompió el juguete",
+      "de": "Er machte das Spielzeug kaputt",
+      "it": "Ha rotto il giocattolo"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "إذا غضبت اليوم: اجلس، تنفّس ثلاث مرّات ببطء، ثم تكلّم بهدوء.",
+    "en": "If you get angry today: sit down, take three slow breaths, then speak calmly.",
+    "fr": "Si tu te fâches aujourd'hui : assieds-toi, respire lentement trois fois, puis parle calmement.",
+    "es": "Si hoy te enfadas: siéntate, respira despacio tres veces y luego habla con calma.",
+    "de": "Wenn du heute wütend wirst: setz dich, atme dreimal langsam und sprich dann ruhig.",
+    "it": "Se oggi ti arrabbi: siediti, respira lentamente tre volte, poi parla con calma."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "sick",
+   "icon": "🩺",
+   "title": {
+    "ar": "عيادة المريض",
+    "en": "Visiting the sick",
+    "fr": "Rendre visite au malade",
+    "es": "Visitar al enfermo",
+    "de": "Kranke besuchen",
+    "it": "Visitare il malato"
+   },
+   "value": {
+    "ar": "نزور المريض وندعو له بالشفاء ونُدخل عليه السرور.",
+    "en": "We visit the sick, pray for their recovery and cheer them up.",
+    "fr": "On rend visite au malade, on prie pour sa guérison et on lui apporte de la joie.",
+    "es": "Visitamos al enfermo, pedimos por su curación y lo alegramos.",
+    "de": "Wir besuchen Kranke, beten für ihre Genesung und muntern sie auf.",
+    "it": "Visitiamo il malato, preghiamo per la sua guarigione e lo rallegriamo."
+   },
+   "words": [
+    {
+     "ar": "مَريض",
+     "tr": "marīḍ",
+     "emoji": "🤒",
+     "m": {
+      "ar": "من به مرض",
+      "en": "sick, ill",
+      "fr": "malade",
+      "es": "enfermo",
+      "de": "krank",
+      "it": "malato"
+     }
+    },
+    {
+     "ar": "زِيارة",
+     "tr": "ziyāra",
+     "emoji": "🚶",
+     "m": {
+      "ar": "الذهاب إلى شخص لرؤيته",
+      "en": "visit",
+      "fr": "visite",
+      "es": "visita",
+      "de": "Besuch",
+      "it": "visita"
+     }
+    },
+    {
+     "ar": "شِفاء",
+     "tr": "shifāʾ",
+     "emoji": "💊",
+     "m": {
+      "ar": "زوال المرض",
+      "en": "recovery, healing",
+      "fr": "guérison",
+      "es": "curación",
+      "de": "Genesung",
+      "it": "guarigione"
+     }
+    },
+    {
+     "ar": "شَفاكَ اللهُ",
+     "tr": "shafāka llāh",
+     "emoji": "🤲",
+     "m": {
+      "ar": "دعاء للمريض",
+      "en": "may Allah heal you",
+      "fr": "qu'Allah te guérisse",
+      "es": "que Allah te cure",
+      "de": "möge Allah dich heilen",
+      "it": "che Allah ti guarisca"
+     }
+    },
+    {
+     "ar": "كَيْفَ حالُكَ؟",
+     "tr": "kayfa ḥāluk?",
+     "emoji": "❓",
+     "m": {
+      "ar": "سؤال عن الحال",
+      "en": "How are you?",
+      "fr": "Comment vas-tu ?",
+      "es": "¿Cómo estás?",
+      "de": "Wie geht es dir?",
+      "it": "Come stai?"
+     }
+    },
+    {
+     "ar": "بِخَيْر",
+     "tr": "bi-khayr",
+     "emoji": "👍",
+     "m": {
+      "ar": "جواب: أنا بخير",
+      "en": "fine, well",
+      "fr": "bien",
+      "es": "bien",
+      "de": "gut",
+      "it": "bene"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "كَيْفَ حالُكَ يا جَدّي؟",
+     "tr": "kayfa ḥāluka yā jaddī?",
+     "emoji": "👴",
+     "m": {
+      "ar": "أسأل عن حال جدّي",
+      "en": "How are you, Grandpa?",
+      "fr": "Comment vas-tu, papi ?",
+      "es": "¿Cómo estás, abuelo?",
+      "de": "Wie geht es dir, Opa?",
+      "it": "Come stai, nonno?"
+     }
+    },
+    {
+     "ar": "أَنا بِخَيْرٍ الحَمْدُ لِلّٰهِ",
+     "tr": "anā bi-khayrin al-ḥamdu lillāh",
+     "emoji": "👍",
+     "m": {
+      "ar": "أنا بخير",
+      "en": "I'm fine, praise be to Allah",
+      "fr": "Je vais bien, louange à Allah",
+      "es": "Estoy bien, alabado sea Allah",
+      "de": "Mir geht es gut, Gott sei Dank",
+      "it": "Sto bene, lode ad Allah"
+     }
+    },
+    {
+     "ar": "شَفاكَ اللهُ يا صَديقي",
+     "tr": "shafāka llāhu yā ṣadīqī",
+     "emoji": "🤲",
+     "m": {
+      "ar": "أدعو لصديقي",
+      "en": "May Allah heal you, my friend",
+      "fr": "Qu'Allah te guérisse, mon ami",
+      "es": "Que Allah te cure, amigo",
+      "de": "Möge Allah dich heilen, mein Freund",
+      "it": "Che Allah ti guarisca, amico mio"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "حَقُّ المُسْلِمِ عَلَى المُسْلِمِ خَمْسٌ: رَدُّ السَّلامِ، وَعِيادَةُ المَرِيضِ، وَاتِّباعُ الجَنائِزِ، وَإِجابَةُ الدَّعْوَةِ، وَتَشْمِيتُ العاطِسِ",
+    "src": {
+     "ar": "رواه البخاري (1240) ومسلم (2162)",
+     "latin": "Sahih al-Bukhari 1240, Sahih Muslim 2162"
+    },
+    "m": {
+     "ar": "للمسلم على أخيه خمسة حقوق، منها زيارة المريض.",
+     "en": "The Muslim has five rights over another Muslim: returning the greeting, visiting the sick, following funerals, accepting invitations and blessing one who sneezes.",
+     "fr": "Le musulman a cinq droits sur le musulman : rendre le salut, visiter le malade, suivre les funérailles, répondre à l'invitation et répondre à celui qui éternue.",
+     "es": "El musulmán tiene cinco derechos sobre el musulmán: devolver el saludo, visitar al enfermo, acompañar los funerales, aceptar la invitación y bendecir a quien estornuda.",
+     "de": "Der Muslim hat fünf Rechte gegenüber dem Muslim: den Gruß erwidern, Kranke besuchen, Begräbnisse begleiten, Einladungen annehmen und dem Niesenden Segen wünschen.",
+     "it": "Il musulmano ha cinque diritti sul musulmano: rispondere al saluto, visitare il malato, seguire i funerali, accettare l'invito e benedire chi starnutisce."
+    },
+    "lesson": {
+     "ar": "زيارة المريض حقّ له علينا، وهي تُفرحه وتخفّف عنه.",
+     "en": "Visiting the sick is their right over us; it cheers them and eases their pain.",
+     "fr": "Visiter le malade est son droit sur nous ; cela le réjouit et le soulage.",
+     "es": "Visitar al enfermo es un derecho suyo sobre nosotros; lo alegra y lo alivia.",
+     "de": "Kranke zu besuchen ist ihr Recht; es freut sie und erleichtert ihr Leiden.",
+     "it": "Visitare il malato è un suo diritto; lo rallegra e lo solleva."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "mama",
+      "ar": "جَدُّكُما مَريضٌ، سَنَزورُهُ اليَوْمَ.",
+      "tr": "jaddukumā marīḍun, sa-nazūruhu l-yawm.",
+      "m": {
+       "en": "Your grandpa is ill; we'll visit him today.",
+       "fr": "Votre papi est malade ; nous allons lui rendre visite aujourd'hui.",
+       "es": "Vuestro abuelo está enfermo; hoy lo visitaremos.",
+       "de": "Euer Opa ist krank; wir besuchen ihn heute.",
+       "it": "Il nonno è malato; oggi andiamo a trovarlo."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "كَيْفَ حالُكَ يا جَدّي؟",
+      "tr": "kayfa ḥāluka yā jaddī?",
+      "m": {
+       "en": "How are you, Grandpa?",
+       "fr": "Comment vas-tu, papi ?",
+       "es": "¿Cómo estás, abuelo?",
+       "de": "Wie geht es dir, Opa?",
+       "it": "Come stai, nonno?"
+      }
+     },
+     {
+      "who": "grandpa",
+      "ar": "أَنا أَحْسَنُ الآنَ لِأَنَّكُمْ هُنا.",
+      "tr": "anā aḥsanu l-āna li-annakum hunā.",
+      "m": {
+       "en": "I'm better now because you're here.",
+       "fr": "Je vais mieux maintenant que vous êtes là.",
+       "es": "Estoy mejor ahora porque estáis aquí.",
+       "de": "Mir geht es besser, weil ihr da seid.",
+       "it": "Sto meglio ora perché siete qui."
+      }
+     },
+     {
+      "who": "yusuf",
+      "ar": "شَفاكَ اللهُ يا جَدّي.",
+      "tr": "shafāka llāhu yā jaddī.",
+      "m": {
+       "en": "May Allah heal you, Grandpa.",
+       "fr": "Qu'Allah te guérisse, papi.",
+       "es": "Que Allah te cure, abuelo.",
+       "de": "Möge Allah dich heilen, Opa.",
+       "it": "Che Allah ti guarisca, nonno."
+      }
+     }
+    ],
+    "q": {
+     "ar": "لماذا أصبح الجدّ أحسن؟",
+     "en": "Why did Grandpa feel better?",
+     "fr": "Pourquoi papi va-t-il mieux ?",
+     "es": "¿Por qué el abuelo se sintió mejor?",
+     "de": "Warum ging es Opa besser?",
+     "it": "Perché il nonno si è sentito meglio?"
+    },
+    "options": [
+     {
+      "ar": "لأنّ أحفاده زاروه",
+      "en": "Because his grandchildren visited him",
+      "fr": "Parce que ses petits-enfants lui ont rendu visite",
+      "es": "Porque sus nietos lo visitaron",
+      "de": "Weil seine Enkel ihn besucht haben",
+      "it": "Perché i nipoti sono andati a trovarlo"
+     },
+     {
+      "ar": "لأنه أكل حلوى",
+      "en": "Because he ate sweets",
+      "fr": "Parce qu'il a mangé des bonbons",
+      "es": "Porque comió dulces",
+      "de": "Weil er Süßigkeiten gegessen hat",
+      "it": "Perché ha mangiato dei dolci"
+     },
+     {
+      "ar": "لأنه نام كثيرًا",
+      "en": "Because he slept a lot",
+      "fr": "Parce qu'il a beaucoup dormi",
+      "es": "Porque durmió mucho",
+      "de": "Weil er viel geschlafen hat",
+      "it": "Perché ha dormito molto"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "اتّصل اليوم بجدّك أو جدّتك أو قريب مريض واسأله: «كَيْفَ حالُكَ؟».",
+    "en": "Call a grandparent or a sick relative today and ask “kayfa ḥāluk?” (how are you?).",
+    "fr": "Appelle aujourd'hui un grand-parent ou un proche malade et demande-lui « kayfa ḥāluk ? » (comment vas-tu ?).",
+    "es": "Llama hoy a un abuelo o a un familiar enfermo y pregúntale «kayfa ḥāluk?» (¿cómo estás?).",
+    "de": "Ruf heute Oma, Opa oder einen kranken Verwandten an und frag „kayfa ḥāluk?“ (wie geht's?).",
+    "it": "Chiama oggi un nonno o un parente malato e chiedigli «kayfa ḥāluk?» (come stai?)."
+   },
+   "stage": "values"
+  },
+  {
+   "id": "brother",
+   "icon": "🌍",
+   "title": {
+    "ar": "حبّ الخير للآخرين",
+    "en": "Wanting good for others",
+    "fr": "Vouloir le bien pour les autres",
+    "es": "Querer el bien para los demás",
+    "de": "Anderen Gutes wünschen",
+    "it": "Volere il bene degli altri"
+   },
+   "value": {
+    "ar": "نحبّ لغيرنا ما نحبّ لأنفسنا، ونحترم كل الناس.",
+    "en": "We want for others what we want for ourselves, and respect everyone.",
+    "fr": "On aime pour les autres ce qu'on aime pour soi, et on respecte tout le monde.",
+    "es": "Queremos para los demás lo que queremos para nosotros y respetamos a todos.",
+    "de": "Wir wünschen anderen, was wir uns selbst wünschen, und respektieren alle.",
+    "it": "Vogliamo per gli altri ciò che vogliamo per noi stessi e rispettiamo tutti."
+   },
+   "words": [
+    {
+     "ar": "أُحِبُّ",
+     "tr": "uḥibbu",
+     "emoji": "💚",
+     "m": {
+      "ar": "أشعر بالمحبّة",
+      "en": "I love",
+      "fr": "j'aime",
+      "es": "quiero, amo",
+      "de": "ich liebe",
+      "it": "amo"
+     }
+    },
+    {
+     "ar": "النّاس",
+     "tr": "an-nās",
+     "emoji": "👨‍👩‍👧‍👦",
+     "m": {
+      "ar": "كل البشر",
+      "en": "people",
+      "fr": "les gens",
+      "es": "la gente",
+      "de": "die Menschen",
+      "it": "le persone"
+     }
+    },
+    {
+     "ar": "نَفْسي",
+     "tr": "nafsī",
+     "emoji": "🙋",
+     "m": {
+      "ar": "أنا",
+      "en": "myself",
+      "fr": "moi-même",
+      "es": "yo mismo",
+      "de": "mich selbst",
+      "it": "me stesso"
+     }
+    },
+    {
+     "ar": "هَدِيّة",
+     "tr": "hadiyya",
+     "emoji": "🎁",
+     "m": {
+      "ar": "شيء نعطيه بمحبّة",
+      "en": "gift",
+      "fr": "cadeau",
+      "es": "regalo",
+      "de": "Geschenk",
+      "it": "regalo"
+     }
+    },
+    {
+     "ar": "نَتَشارَكُ",
+     "tr": "natashāraku",
+     "emoji": "🍪",
+     "m": {
+      "ar": "نقسم معًا",
+      "en": "we share",
+      "fr": "nous partageons",
+      "es": "compartimos",
+      "de": "wir teilen",
+      "it": "condividiamo"
+     }
+    },
+    {
+     "ar": "سَعيد",
+     "tr": "saʿīd",
+     "emoji": "😄",
+     "m": {
+      "ar": "فرحان",
+      "en": "happy",
+      "fr": "heureux",
+      "es": "feliz",
+      "de": "glücklich",
+      "it": "felice"
+     }
+    }
+   ],
+   "sentences": [
+    {
+     "ar": "نَتَشارَكُ الحَلْوى",
+     "tr": "natashāraku l-ḥalwā",
+     "emoji": "🍪",
+     "m": {
+      "ar": "نقسم الحلوى معًا",
+      "en": "We share the sweets",
+      "fr": "Nous partageons les bonbons",
+      "es": "Compartimos los dulces",
+      "de": "Wir teilen die Süßigkeiten",
+      "it": "Condividiamo i dolci"
+     }
+    },
+    {
+     "ar": "هذِهِ هَدِيَّةٌ لَكَ",
+     "tr": "hādhihi hadiyyatun lak",
+     "emoji": "🎁",
+     "m": {
+      "ar": "أعطي هدية",
+      "en": "This is a gift for you",
+      "fr": "C'est un cadeau pour toi",
+      "es": "Esto es un regalo para ti",
+      "de": "Das ist ein Geschenk für dich",
+      "it": "Questo è un regalo per te"
+     }
+    },
+    {
+     "ar": "أُحِبُّ النّاسَ",
+     "tr": "uḥibbu n-nās",
+     "emoji": "💚",
+     "m": {
+      "ar": "أحبّ الجميع",
+      "en": "I love people",
+      "fr": "J'aime les gens",
+      "es": "Quiero a la gente",
+      "de": "Ich liebe die Menschen",
+      "it": "Amo le persone"
+     }
+    }
+   ],
+   "hadith": {
+    "ar": "لا يُؤْمِنُ أَحَدُكُمْ حَتّى يُحِبَّ لِأَخِيهِ ما يُحِبُّ لِنَفْسِهِ",
+    "src": {
+     "ar": "رواه البخاري (13) ومسلم (45)",
+     "latin": "Sahih al-Bukhari 13, Sahih Muslim 45"
+    },
+    "m": {
+     "ar": "لا يكمل الإيمان حتى نحبّ للآخرين ما نحبّ لأنفسنا.",
+     "en": "None of you truly believes until he loves for his brother what he loves for himself.",
+     "fr": "Aucun de vous n'est vraiment croyant tant qu'il n'aime pas pour son frère ce qu'il aime pour lui-même.",
+     "es": "Ninguno de vosotros cree de verdad hasta que quiera para su hermano lo que quiere para sí mismo.",
+     "de": "Keiner von euch glaubt wirklich, bis er seinem Bruder wünscht, was er sich selbst wünscht.",
+     "it": "Nessuno di voi crede davvero finché non ama per suo fratello ciò che ama per se stesso."
+    },
+    "lesson": {
+     "ar": "نفرح عندما ينجح غيرنا، ونشاركهم ما نحب.",
+     "en": "We are happy when others succeed, and we share what we love with them.",
+     "fr": "Nous nous réjouissons du succès des autres et partageons avec eux ce que nous aimons.",
+     "es": "Nos alegramos cuando otros tienen éxito y compartimos con ellos lo que nos gusta.",
+     "de": "Wir freuen uns über den Erfolg anderer und teilen mit ihnen, was wir mögen.",
+     "it": "Siamo felici quando gli altri riescono e condividiamo con loro ciò che amiamo."
+    }
+   },
+   "story": {
+    "lines": [
+     {
+      "who": "maryam",
+      "ar": "عِنْدي حَلْوى كَثيرَةٌ!",
+      "tr": "ʿindī ḥalwā kathīra!",
+      "m": {
+       "en": "I have lots of sweets!",
+       "fr": "J'ai plein de bonbons !",
+       "es": "¡Tengo muchos dulces!",
+       "de": "Ich habe viele Süßigkeiten!",
+       "it": "Ho tanti dolci!"
+      }
+     },
+     {
+      "who": "friend",
+      "ar": "أَنا لَيْسَ عِنْدي حَلْوى.",
+      "tr": "anā laysa ʿindī ḥalwā.",
+      "m": {
+       "en": "I don't have any sweets.",
+       "fr": "Moi, je n'ai pas de bonbons.",
+       "es": "Yo no tengo dulces.",
+       "de": "Ich habe keine Süßigkeiten.",
+       "it": "Io non ho dolci."
+      }
+     },
+     {
+      "who": "maryam",
+      "ar": "تَعالَ، نَتَشارَكُ الحَلْوى.",
+      "tr": "taʿāla, natashāraku l-ḥalwā.",
+      "m": {
+       "en": "Come on, let's share the sweets.",
+       "fr": "Viens, partageons les bonbons.",
+       "es": "Ven, compartamos los dulces.",
+       "de": "Komm, wir teilen die Süßigkeiten.",
+       "it": "Vieni, condividiamo i dolci."
+      }
+     },
+     {
+      "who": "friend",
+      "ar": "شُكْرًا يا مَرْيَمُ، أَنا سَعيدٌ.",
+      "tr": "shukran yā maryam, anā saʿīd.",
+      "m": {
+       "en": "Thank you, Maryam, I'm happy.",
+       "fr": "Merci Maryam, je suis content.",
+       "es": "Gracias, Maryam, estoy feliz.",
+       "de": "Danke, Maryam, ich bin froh.",
+       "it": "Grazie, Maryam, sono felice."
+      }
+     }
+    ],
+    "q": {
+     "ar": "ماذا فعلت مريم بالحلوى؟",
+     "en": "What did Maryam do with the sweets?",
+     "fr": "Qu'a fait Maryam avec les bonbons ?",
+     "es": "¿Qué hizo Maryam con los dulces?",
+     "de": "Was machte Maryam mit den Süßigkeiten?",
+     "it": "Che cosa ha fatto Maryam con i dolci?"
+    },
+    "options": [
+     {
+      "ar": "شاركتها مع سامي",
+      "en": "She shared them with Sami",
+      "fr": "Elle les a partagés avec Sami",
+      "es": "Los compartió con Sami",
+      "de": "Sie teilte sie mit Sami",
+      "it": "Li ha condivisi con Sami"
+     },
+     {
+      "ar": "أكلتها وحدها",
+      "en": "She ate them all herself",
+      "fr": "Elle les a mangés toute seule",
+      "es": "Se los comió sola",
+      "de": "Sie aß sie allein",
+      "it": "Li ha mangiati da sola"
+     },
+     {
+      "ar": "خبّأتها",
+      "en": "She hid them",
+      "fr": "Elle les a cachés",
+      "es": "Los escondió",
+      "de": "Sie versteckte sie",
+      "it": "Li ha nascosti"
+     }
+    ]
+   },
+   "challenge": {
+    "ar": "شارك اليوم شيئًا تحبّه (لعبة أو طعامًا) مع أخيك أو صديقك.",
+    "en": "Today, share something you love (a toy or a snack) with a sibling or a friend.",
+    "fr": "Aujourd'hui, partage quelque chose que tu aimes (un jouet ou un goûter) avec ton frère, ta sœur ou un ami.",
+    "es": "Hoy comparte algo que te guste (un juguete o una merienda) con tu hermano o un amigo.",
+    "de": "Teile heute etwas, das du magst (ein Spielzeug oder einen Snack), mit Geschwistern oder einem Freund.",
+    "it": "Oggi condividi qualcosa che ami (un gioco o una merenda) con un fratello o un amico."
+   },
+   "stage": "values"
   }
  ]
 }

@@ -3,7 +3,7 @@
 /** حفظ تقدّم المتعلّم على هذا الجهاز فقط (لا يوجد خادم ولا حساب). */
 (function () {
   const KEY = "coran-progress-v1";
-  const empty = () => ({ xp: 0, streak: 0, lastDay: null, lessons: {}, verses: {} });
+  const empty = () => ({ xp: 0, streak: 0, lastDay: null, lessons: {}, verses: {}, flags: {}, daily: { day: null, lessons: 0 } });
   let data = empty();
   try {
     const raw = localStorage.getItem(KEY);
@@ -64,6 +64,9 @@
 
   function finishLesson(id, stars, xp) {
     data.lessons[id] = Math.max(data.lessons[id] || 0, stars);
+    const today = dayString(new Date());
+    if (!data.daily || data.daily.day !== today) data.daily = { day: today, lessons: 0 };
+    data.daily.lessons++;
     data.xp += xp;
     touchDay();
     persist();
@@ -78,6 +81,9 @@
   window.PlatformStore = {
     verse, setVerse, surahPercent, memorizedCount, totalMemorized, finishLesson, addXp,
     lessonStars: (id) => data.lessons[id] || 0,
+    todayLessons: () => (data.daily && data.daily.day === dayString(new Date()) ? data.daily.lessons : 0),
+    flag: (k) => !!(data.flags && data.flags[k]),
+    setFlag: (k, v) => { data.flags = data.flags || {}; if (v) data.flags[k] = 1; else delete data.flags[k]; persist(); },
     lessonsDone: () => Object.keys(data.lessons).length,
     xp: () => data.xp,
     streak: currentStreak
