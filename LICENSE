@@ -1,0 +1,20 @@
+Copyright (c) 2026 Hafedh Ben Ouhida. All rights reserved.
+جميع الحقوق محفوظة © 2026 حافظ بن وحيدة
+
+This repository and the website it publishes (source code, design, interface
+texts, lessons, exercises, stories, illustrations and the overall pedagogical
+structure) are proprietary. No license is granted. Copying, redistributing,
+modifying, republishing or using any part of this work, in whole or in part,
+for any purpose, including commercial use, is prohibited without the prior
+written permission of the copyright holder.
+
+Viewing the source code on GitHub, or forking the repository through GitHub's
+interface, does not grant any right to use, copy or deploy it.
+
+Third-party components keep their own licenses and are not covered by the
+above restrictions:
+- Quran text (data/quran/): quran-json package, based on QuranEnc, CC BY 4.0.
+- Fonts (assets/fonts/): SIL Open Font License 1.1.
+- Recitations, word timings and translations are loaded at runtime from
+  api.quran.com and api.alquran.cloud under their respective terms.
+

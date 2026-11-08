@@ -46,7 +46,8 @@
    "lessons": "درس مكتمل"
   },
   "footer": {
-   "text": "منصة القرآن واللغة العربية"
+   "text": "منصة القرآن واللغة العربية",
+   "rights": "جميع الحقوق محفوظة"
   },
   "common": {
    "loading": "جارٍ التحميل…",
@@ -224,7 +225,8 @@
    "lessons": "lessons completed"
   },
   "footer": {
-   "text": "Quran & Arabic Platform"
+   "text": "Quran & Arabic Platform",
+   "rights": "All rights reserved"
   },
   "common": {
    "loading": "Loading…",
@@ -402,7 +404,8 @@
    "lessons": "leçons terminées"
   },
   "footer": {
-   "text": "Plateforme Coran et arabe"
+   "text": "Plateforme Coran et arabe",
+   "rights": "Tous droits réservés"
   },
   "common": {
    "loading": "Chargement…",
@@ -580,7 +583,8 @@
    "lessons": "lecciones completadas"
   },
   "footer": {
-   "text": "Plataforma de Corán y árabe"
+   "text": "Plataforma de Corán y árabe",
+   "rights": "Todos los derechos reservados"
   },
   "common": {
    "loading": "Cargando…",
@@ -758,7 +762,8 @@
    "lessons": "Lektionen geschafft"
   },
   "footer": {
-   "text": "Koran- und Arabisch-Plattform"
+   "text": "Koran- und Arabisch-Plattform",
+   "rights": "Alle Rechte vorbehalten"
   },
   "common": {
    "loading": "Wird geladen…",
@@ -936,7 +941,8 @@
    "lessons": "lezioni completate"
   },
   "footer": {
-   "text": "Piattaforma Corano e arabo"
+   "text": "Piattaforma Corano e arabo",
+   "rights": "Tutti i diritti riservati"
   },
   "common": {
    "loading": "Caricamento…",
